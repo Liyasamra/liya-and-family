@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* Liya's World design tokens — carried over from the original site's
+   palette (lavender/pink/sky/cream/mint/gold) and type system
+   (Baloo 2 + Quicksand), so the new platform still feels like home. */
+:root {
+  --color-lavender: #b9a7e6;
+  --color-lavender-soft: #ede7fa;
+  --color-pink: #f4a6c1;
+  --color-pink-soft: #fdebf1;
+  --color-sky: #a8d8f0;
+  --color-sky-soft: #eaf6fc;
+  --color-cream: #fff9f1;
+  --color-gold: #e8b94a;
+  --color-gold-soft: #fbedd1;
+  --color-mint: #a7e8cb;
+  --color-mint-soft: #eafaf3;
+  --color-ink: #4a4358;
+  --color-ink-soft: #7a7288;
+  --color-red-soft: #f7dce2;
+  --color-red-ink: #c05a81;
+
+  --background: var(--color-cream);
+  --foreground: var(--color-ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-lavender: var(--color-lavender);
+  --color-lavender-soft: var(--color-lavender-soft);
+  --color-pink: var(--color-pink);
+  --color-pink-soft: var(--color-pink-soft);
+  --color-sky: var(--color-sky);
+  --color-sky-soft: var(--color-sky-soft);
+  --color-cream: var(--color-cream);
+  --color-gold: var(--color-gold);
+  --color-gold-soft: var(--color-gold-soft);
+  --color-mint: var(--color-mint);
+  --color-mint-soft: var(--color-mint-soft);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-red-soft: var(--color-red-soft);
+  --color-red-ink: var(--color-red-ink);
+  --font-display: var(--font-baloo), "Baloo 2", cursive;
+  --font-sans: var(--font-quicksand), "Quicksand", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #241f30;
+    --foreground: #f1eef7;
+    --color-ink-soft: #c4bdd6;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
