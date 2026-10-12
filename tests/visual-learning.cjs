@@ -42,6 +42,7 @@ const feedback=()=>lab().querySelector('.visual-feedback')?.textContent||'';
   }else if(a.kind==='plant'){
    click('Add light',lab());await delay();click('Add water',lab());await delay();assert.match(feedback(),/time to grow/);click('Remove water',lab());await delay();assert.match(feedback(),/Add both/);
   }else if(a.kind==='cycle'){
+   assert.equal(lab().querySelectorAll('.water-cycle-art path[marker-end]').length,3);
    click('Evaporation',lab());await delay();assert.match(feedback(),/liquid water becomes water vapor/);click('Condensation',lab());await delay();assert.match(feedback(),/tiny liquid droplets/);click('Precipitation',lab());await delay();assert.match(feedback(),/falls from clouds/);
   }
  }
