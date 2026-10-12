@@ -4,6 +4,8 @@ Live site: https://liyasamra.github.io/liya-and-family/
 
 The public learning center now includes 96 lessons across preschool through Grade 6, four ordered lessons per subject at every level, up to four local learner profiles, dated practice and reading records, and printable weekly parent reports. Learning requires no online account. Progress stays in the browser, with validated backups for moving between devices.
 
+The public pages include About & contact, a four-week practice plan for each selected level, and a printable community kit (flyer, QR code, family start guide, group-leader guide). Fonts are bundled locally under SIL Open Font Licenses. Feedback goes to public GitHub issues; never submit child information or progress files.
+
 This is a supplemental learning resource, not a complete school-year curriculum or staffed tutoring service. Every level offers four lessons each in Math, Reading, and Science.
 
 See LEARNING-CENTER.md for privacy, migration, and reporting details. Run npm run lint, npm run test:learning, npm run build, and npm run build:pages to validate and regenerate the public site.

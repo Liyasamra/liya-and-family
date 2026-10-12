@@ -9,3 +9,11 @@ next-env.d.ts
 # Local learning previews and test output
 .preview/
 .learning-test/
+
+# Keep actual environment values and downloaded learner backups out of source.
+.env
+.env.*
+!.env.example
+liya-family-backup*.json
+liya-learning-backup*.json
+liya-family-learning-backup*.json

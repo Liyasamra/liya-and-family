@@ -57,3 +57,14 @@ All lesson text and practice prompts are original. Skill selection was informed 
 - A nickname appears in downloaded backups and printed reports. Review before sharing.
 - Run `npm run build:pages` after changing public learning sources. It generates both root and docs index files from the same component, using a pinned esbuild version.
 - Validation covers legacy migration, multi-learner separation, calendar weeks, latest attempts, idempotent merges, four-profile limits, reloads, and storage failures.
+
+## Trust and community release - October 12, 2026
+
+- About & contact names Samra Ayele as founder and explains the family-led purpose and limits.
+- GitHub feedback uses a public issue form with a privacy reminder and requires a GitHub account. No private support inbox is provided.
+- Community kit includes three one-page PDFs and a QR SVG. Rebuild with `python scripts/build-community-kit.py` (ReportLab and DejaVu Sans fonts required), then `npm run build:pages`.
+- Bundled Latin Quicksand and Baloo font subsets define the CSS variables used by GitHub Pages. Their SIL OFL licenses are in `assets/font-licenses/`. No font requests go to Google.
+- `#about`, `#community`, and `#families` open the relevant tab directly. The four-week plan follows the selected learner level.
+- Source repository remains public. Progress stays local; the repository does not receive browser progress. This is not a full repository-history or deployed backend security audit.
+- Cross-device parent access remains unavailable. The connected Supabase project is Habesha Hub, not a Liya & Family service. A dedicated parent-only backend needs account ownership, child-data minimization, tested authorization, recovery/export/deletion, and an agreed hosting plan before launch.
+- Current content remains 96 lessons, not a full-year program; lesson review and longer sequences remain open.

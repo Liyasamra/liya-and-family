@@ -9,3 +9,5 @@ After editing app/learn or the imported learning modules, run `npm run build:pag
 Public learning includes 96 lessons, up to four local learner profiles, dated attempts and reading logs, weekly parent reports, and backups. It does not host the separate private family-account server routes.
 
 The complete Next.js account foundation remains in app/ and lib/. See LEARNING-CENTER.md for local-storage migration and limitations.
+
+The build also copies public/community-kit into community-kit and docs/community-kit. Commit all copies together. Fonts are embedded in the bundled CSS, with licenses in assets/font-licenses.
