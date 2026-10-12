@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:learning": "tsc lib/learning-content.ts lib/learning-storage.ts --module commonjs --target es2020 --outDir .learning-test/lib --skipLibCheck && node tests/learning-content.cjs",
-    "build:pages": "node scripts/build-pages.mjs"
+    "test:learning": "tsc lib/learning-content.ts lib/learning-storage.ts lib/visual-learning.ts --module commonjs --target es2020 --outDir .learning-test/lib --skipLibCheck && node tests/learning-content.cjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "test:visual": "npm run test:learning && npm run build:pages && node tests/visual-learning.cjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.5",
@@ -25,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.2",
+    "jsdom": "30.1.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

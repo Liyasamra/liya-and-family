@@ -68,3 +68,14 @@ All lesson text and practice prompts are original. Skill selection was informed 
 - Source repository remains public. Progress stays local; the repository does not receive browser progress. This is not a full repository-history or deployed backend security audit.
 - Cross-device parent access remains unavailable. The connected Supabase project is Habesha Hub, not a Liya & Family service. A dedicated parent-only backend needs account ownership, child-data minimization, tested authorization, recovery/export/deletion, and an agreed hosting plan before launch.
 - Current content remains 96 lessons, not a full-year program; lesson review and longer sequences remain open.
+
+## Visual learning release - October 12, 2026
+
+- All 96 lesson cards have bundled SVG illustrations. Model previews are tied to the specific picture activity; remaining cards use subject illustrations.
+- 24 interactive activities cover one Math, Reading, and Science lesson at each level. Look for Picture lab labels; the remaining 72 lessons retain text, examples, and off-screen activities.
+- Math models: three-apple counting, make-ten frame, tens and ones, regrouping 27 + 15, equal groups, equivalent fractions, adding fractions, and notebook unit prices.
+- Reading: rhyming/blending pictures, illustrated event ordering, inference, main idea, evidence, and source checking. Science: safe senses, plant needs, solids/liquids, habitats, water-cycle exploration, food-chain ordering, changes to matter, and fair tests.
+- Exploration is temporary and does not add a score, attempt, or mastery claim. Changing lessons resets its controls. Existing learner progress and reports are retained.
+- Every lesson has an optional Listen control. It uses browser speech synthesis only after a click, prefers an English local voice, offers Stop, cancels on leaving a lesson, and reports unavailable audio. Voice availability and sound quality depend on the device. Some voices may use an online service; only public lesson text is read. A grown-up should model phonics sounds, which synthetic voices may mispronounce.
+- SVG illustrations and fonts are bundled; no image service, advertising, third-party picture requests, account, or tracking is added. No autoplay or dragging is required; controls are native buttons/inputs with text labels and polite feedback.
+- `npm run test:visual` checks all 24 activities, math and science feedback, wrong/correct choices, ordering/undo, progress isolation, speech lifecycle, local-voice preference, audio errors, and unsupported browsers. jsdom is a pinned development-only dependency.
