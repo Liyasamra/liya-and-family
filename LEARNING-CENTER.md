@@ -4,13 +4,13 @@
 
 - Public learning routes at `/` and `/learn`, requiring no learner account.
 - Eight levels: preschool, kindergarten, and grades 1–6.
-- 33 original lessons: four ordered Grade 3 lessons per subject and one starter lesson per subject in each other level.
-- Each lesson includes an objective, explanation, example, off-screen activity, and three practice questions with answer explanations (99 questions total).
+- 96 lessons: four ordered lessons in Math, Reading, and Science at each of the eight levels (12 lessons per level).
+- Each lesson includes an objective, explanation, example, off-screen activity, and three practice questions with answer explanations (288 questions total).
 - Grade and subject selection, lesson search, retries, best-score and dated-attempt tracking, next-lesson navigation, printable lesson and answer guide.
 - Up to four local learner profiles, per-learner weekly routine and dated reading logs, printable weekly parent reports, and validated JSON backup/merge.
 - Family guidance, transparent local-storage notices, and links to learning references.
 
-This is a supplemental starter collection, not a complete curriculum, accreditation claim, diagnostic assessment, or staffed live tutoring service. Add lessons through `lib/learning-content.ts` as the program grows. Preschool and kindergarten activities need adult help.
+This is a supplemental collection, not a complete curriculum, accreditation claim, diagnostic assessment, or staffed live tutoring service. Add lessons through `lib/learning-content.ts` as the program grows. Preschool and kindergarten activities need adult help.
 
 ## Architecture and privacy
 
@@ -52,7 +52,7 @@ All lesson text and practice prompts are original. Skill selection was informed 
 ## Release: October 12, 2026
 
 - Grade 3 contains four ordered Math lessons (equal groups, arrays, division, area), four Reading lessons (inference, sequence, cause/effect, evidence), and four Science lessons (water cycle, weather, observation records, conservation).
-- Other levels remain starter collections. This is not a school-year curriculum.
+- All levels now have four-step sequences in every subject. This remains a supplement, not a school-year curriculum.
 - Parent reports use the selected week, most recent attempt per lesson, and dated reading totals. Labels suggest review or another check; they do not claim mastery or diagnose grade-level readiness.
 - A nickname appears in downloaded backups and printed reports. Review before sharing.
 - Run `npm run build:pages` after changing public learning sources. It generates both root and docs index files from the same component, using a pinned esbuild version.

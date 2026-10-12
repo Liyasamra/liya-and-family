@@ -2,9 +2,9 @@
 
 Live site: https://liyasamra.github.io/liya-and-family/
 
-The public learning center now includes 33 lessons across preschool through Grade 6, ordered Grade 3 sequences, up to four local learner profiles, dated practice and reading records, and printable weekly parent reports. Learning requires no online account. Progress stays in the browser, with validated backups for moving between devices.
+The public learning center now includes 96 lessons across preschool through Grade 6, four ordered lessons per subject at every level, up to four local learner profiles, dated practice and reading records, and printable weekly parent reports. Learning requires no online account. Progress stays in the browser, with validated backups for moving between devices.
 
-This is a supplemental learning resource, not a complete school-year curriculum or staffed tutoring service. Other grades retain starter collections while Grade 3 offers four lessons in each subject.
+This is a supplemental learning resource, not a complete school-year curriculum or staffed tutoring service. Every level offers four lessons each in Math, Reading, and Science.
 
 See LEARNING-CENTER.md for privacy, migration, and reporting details. Run npm run lint, npm run test:learning, npm run build, and npm run build:pages to validate and regenerate the public site.
 
