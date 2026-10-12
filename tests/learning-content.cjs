@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict');
+const {lessons,grades}=require('../.learning-test/lib/learning-content.js');
+assert.equal(grades.length,8);assert.equal(lessons.length,24);assert.equal(new Set(lessons.map(l=>l.id)).size,24);
+for(const g of grades){const group=lessons.filter(l=>l.grade===g.id);assert.equal(group.length,3);assert.deepEqual(group.map(l=>l.subject).sort(),['Math','Reading','Science']);}
+for(const l of lessons){for(const field of ['objective','explain','example','activity'])assert.ok(l[field].length>20);assert.equal(l.questions.length,3);for(const q of l.questions){assert.equal(q.options.length,3);assert.ok(q.answer>=0&&q.answer<3);assert.ok(q.explanation.length>15);}}
+const memory=new Map();global.window={};global.localStorage={getItem:k=>memory.get(k)??null,setItem:(k,v)=>memory.set(k,v)};
+const store=require('../.learning-test/lib/learning-storage.js');assert.equal(store.getSnapshot().data.minutes,0);let notified=0;const unsubscribe=store.subscribe(()=>notified++);store.updateSaved(s=>({...s,minutes:15,progress:{'3-math':{score:2,date:'2026-10-11'}}}));assert.equal(notified,1);assert.equal(JSON.parse(memory.get('liya-family-learning-v1')).minutes,15);assert.equal(store.getSnapshot().data.progress['3-math'].score,2);
+assert.equal(store.validSaved({...store.defaults,minutes:-1}),false);assert.equal(store.validSaved({...store.defaults,plan:['bad']}),false);assert.equal(store.validSaved({...store.defaults,progress:{unknown:{score:3,date:'2026-10-11'}}}),false);assert.equal(store.validSaved({...store.defaults,progress:{'3-math':{score:4,date:'2026-10-11'}}}),false);
+const before=store.getSnapshot();assert.throws(()=>store.updateSaved({...store.defaults,minutes:-9}));assert.equal(store.getSnapshot(),before);unsubscribe();
+const path=require.resolve('../.learning-test/lib/learning-storage.js');delete require.cache[path];const reloaded=require(path);assert.equal(reloaded.getSnapshot().data.minutes,15);assert.equal(reloaded.getSnapshot().data.progress['3-math'].score,2);
+global.localStorage.setItem=()=>{throw Error('Storage disabled')};reloaded.updateSaved(s=>({...s,minutes:25}));assert.match(reloaded.getSnapshot().message,/could not be saved/);assert.equal(reloaded.getSnapshot().data.minutes,25);
+console.log('Passed: 24 lessons / 72 questions, eight-grade coverage, answer validation, local persistence and reload, subscription updates, invalid data rejection, unavailable-storage recovery.');

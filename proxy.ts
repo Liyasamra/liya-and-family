@@ -1,9 +1,14 @@
-import { type NextRequest } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { updateSession } from "@/lib/supabase/middleware";
 
 // Next.js 16 renamed the `middleware` convention to `proxy` — this file
 // (not middleware.ts) is what actually runs on every matched request.
 export async function proxy(request: NextRequest) {
+  // Public learning serves only bundled educational content, with no family queries.
+  // Do not broaden this allowlist to dashboard, admin, or profile routes.
+  if (request.nextUrl.pathname === "/" || request.nextUrl.pathname === "/learn") {
+    return NextResponse.next();
+  }
   return updateSession(request);
 }
 
@@ -18,3 +23,4 @@ export const config = {
     "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
   ],
 };
+

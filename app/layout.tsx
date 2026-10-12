@@ -15,8 +15,8 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Liya's World",
-  description: "A private family keepsake and learning platform.",
+  title: "Liya & Family — Free Learning",
+  description: "Free preschool through sixth-grade learning activities, practice, and family routines.",
   robots: { index: false, follow: false },
 };
 
@@ -27,3 +27,4 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </html>
   );
 }
+

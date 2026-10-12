@@ -4,3 +4,8 @@ node_modules/
 .env*.local
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Local learning previews and test output
+.preview/
+.learning-test/
