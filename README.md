@@ -1,3 +1,17 @@
+# Liya & Family — free learning
+
+Live site: https://liyasamra.github.io/liya-and-family/
+
+The public learning center now includes 33 lessons across preschool through Grade 6, ordered Grade 3 sequences, up to four local learner profiles, dated practice and reading records, and printable weekly parent reports. Learning requires no online account. Progress stays in the browser, with validated backups for moving between devices.
+
+This is a supplemental learning resource, not a complete school-year curriculum or staffed tutoring service. Other grades retain starter collections while Grade 3 offers four lessons in each subject.
+
+See LEARNING-CENTER.md for privacy, migration, and reporting details. Run npm run lint, npm run test:learning, npm run build, and npm run build:pages to validate and regenerate the public site.
+
+The existing private family-account foundation below is separate and is not served by GitHub Pages. Its configuration and deployment requirements still apply.
+
+---
+
 # Liya's World — Phase 2 (Foundation)
 
 This is the secure foundation from the Phase 1 plan: real authentication, real
@@ -132,3 +146,4 @@ every learning module rebuilt on this real data, the full Parent/Owner
 dashboards, Security Center, audit log viewer, and notifications UI — all
 specified in the Phase 1 plan, all building on the foundation in this
 repository without changing any of it.
+

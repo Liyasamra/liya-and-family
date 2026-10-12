@@ -4,10 +4,10 @@
 
 - Public learning routes at `/` and `/learn`, requiring no learner account.
 - Eight levels: preschool, kindergarten, and grades 1–6.
-- 24 original starter lessons: one math, one reading, and one science lesson per level.
-- Each lesson includes an objective, explanation, example, off-screen activity, and three practice questions with answer explanations (72 questions total).
-- Grade and subject selection, lesson search, retries, best-score tracking, printable lesson and answer guide.
-- Weekly routine editor, reading-minute log, JSON backup and validated restore.
+- 33 original lessons: four ordered Grade 3 lessons per subject and one starter lesson per subject in each other level.
+- Each lesson includes an objective, explanation, example, off-screen activity, and three practice questions with answer explanations (99 questions total).
+- Grade and subject selection, lesson search, retries, best-score and dated-attempt tracking, next-lesson navigation, printable lesson and answer guide.
+- Up to four local learner profiles, per-learner weekly routine and dated reading logs, printable weekly parent reports, and validated JSON backup/merge.
 - Family guidance, transparent local-storage notices, and links to learning references.
 
 This is a supplemental starter collection, not a complete curriculum, accreditation claim, diagnostic assessment, or staffed live tutoring service. Add lessons through `lib/learning-content.ts` as the program grows. Preschool and kindergarten activities need adult help.
@@ -16,9 +16,9 @@ This is a supplemental starter collection, not a complete curriculum, accreditat
 
 The existing Next.js application, package lock, family-account routes, Supabase clients, database policies, and MFA implementation are retained. Only `/` and exact `/learn` bypass session initialization because they serve bundled educational content and perform no family-data queries. All other routes retain the existing proxy logic. This change does not establish that the existing authentication foundation has been audited or deployed.
 
-Learning progress is browser-local under `liya-family-learning-v1`. No names, photographs, school details, or new tracking are collected. A shared browser profile can read progress. Progress does not synchronize across devices. Backups contain scores, dates, reading minutes, and weekly plans; families should avoid personal information in plans.
+Learning progress is browser-local under `liya-family-learning-v2`. Optional nicknames and animal icons are stored locally. No photos, required child names, school details, or new tracking are collected. A shared browser profile can read progress. Progress does not synchronize across devices. Backups contain learner IDs, optional nicknames, icons, scores, attempt dates, reading entries, and weekly plans; families should avoid personal information in plans.
 
-Restore validates data, retains the higher score for each lesson, retains the larger reading-minute total, and restores the incoming weekly plan. This prevents duplicate backups from doubling reading totals.
+Restore validates data and merges matching learner IDs, keeps higher best scores, deduplicates attempt and reading records, and keeps existing plans. Importing more than four profiles is rejected without changing current data. An unused starter profile is replaced on a fresh browser so a four-profile backup can be restored. Legacy v1 progress migrates to Original learner; undated old reading minutes are excluded from weekly reports. No old browser-storage key is deleted.
 
 ## Checks
 
@@ -48,3 +48,12 @@ All lesson text and practice prompts are original. Skill selection was informed 
 - Reading Rockets, reading aloud: https://www.readingrockets.org/reading-101/pre-k-years/reading-aloud
 - Reading Rockets, phonological and phonemic awareness: https://www.readingrockets.org/reading-101/reading-and-writing-basics/phonological-and-phonemic-awareness
 - Common Core State Standards, grade 6 ratios: https://www.thecorestandards.org/Math/Content/6/RP/
+
+## Release: October 12, 2026
+
+- Grade 3 contains four ordered Math lessons (equal groups, arrays, division, area), four Reading lessons (inference, sequence, cause/effect, evidence), and four Science lessons (water cycle, weather, observation records, conservation).
+- Other levels remain starter collections. This is not a school-year curriculum.
+- Parent reports use the selected week, most recent attempt per lesson, and dated reading totals. Labels suggest review or another check; they do not claim mastery or diagnose grade-level readiness.
+- A nickname appears in downloaded backups and printed reports. Review before sharing.
+- Run `npm run build:pages` after changing public learning sources. It generates both root and docs index files from the same component, using a pinned esbuild version.
+- Validation covers legacy migration, multi-learner separation, calendar weeks, latest attempts, idempotent merges, four-profile limits, reloads, and storage failures.

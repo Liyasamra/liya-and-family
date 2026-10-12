@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:learning": "tsc lib/learning-content.ts lib/learning-storage.ts --module commonjs --target es2020 --outDir .learning-test/lib --skipLibCheck && node tests/learning-content.cjs"
+    "test:learning": "tsc lib/learning-content.ts lib/learning-storage.ts --module commonjs --target es2020 --outDir .learning-test/lib --skipLibCheck && node tests/learning-content.cjs",
+    "build:pages": "node scripts/build-pages.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.5",
