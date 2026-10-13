@@ -18,16 +18,16 @@ URL='https://liyasamra.github.io/liya-and-family/'
 INK='#39314e';PURPLE='#675090';MUTED='#655d72';CREAM='#fffaf2'
 qr=QrCodeWidget(URL);qr.qr.make();matrix=qr.qr.modules;n=len(matrix);side=n+8
 rects=''.join(f'<rect x="{x+4}" y="{y+4}" width="1" height="1"/>' for y,row in enumerate(matrix) for x,on in enumerate(row) if on)
-(OUT/'learning-qr.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {side} {side}"><title>Liya and Family learning website QR code</title><rect width="{side}" height="{side}" fill="white"/><g fill="black">{rects}</g></svg>')
+(OUT/'learning-qr.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {side} {side}"><title>Ewket Kids learning website QR code</title><rect width="{side}" height="{side}" fill="white"/><g fill="black">{rects}</g></svg>')
 
 def para(c,text,x,y,w,size=11,color=INK,leading=None):
  style=ParagraphStyle('p',fontName='KitSans',fontSize=size,leading=leading or size*1.35,textColor=HexColor(color))
  p=Paragraph(text,style);_,h=p.wrap(w,1000);p.drawOn(c,x,y-h);return y-h
 
 def page(name,kicker,title,subtitle):
- c=canvas.Canvas(str(OUT/name),pagesize=(612,792));c.setTitle(title);c.setAuthor('Liya & Family');c.setFillColor(HexColor(CREAM));c.rect(0,0,612,792,fill=1,stroke=0)
- c.setFillColor(HexColor(PURPLE));c.roundRect(42,734,32,32,9,fill=1,stroke=0);c.setFillColor(HexColor('#ffffff'));c.setFont('KitSans-Bold',20);c.drawCentredString(58,742,'L')
- c.setFillColor(HexColor(INK));c.setFont('KitSans-Bold',15);c.drawString(85,751,'Liya & Family');c.setFont('KitSans',9);c.drawString(85,737,'Free learning. Shared possibility.')
+ c=canvas.Canvas(str(OUT/name),pagesize=(612,792));c.setTitle(title);c.setAuthor('Ewket Kids');c.setFillColor(HexColor(CREAM));c.rect(0,0,612,792,fill=1,stroke=0)
+ c.setFillColor(HexColor(PURPLE));c.roundRect(42,734,32,32,9,fill=1,stroke=0);c.setFillColor(HexColor('#ffffff'));c.setFont('KitSans-Bold',20);c.drawCentredString(58,742,'E')
+ c.setFillColor(HexColor(INK));c.setFont('KitSans-Bold',15);c.drawString(85,751,'Ewket Kids');c.setFont('KitSans',9);c.drawString(85,737,'Free learning. Shared possibility.')
  y=para(c,escape(kicker.upper()),42,702,528,9,PURPLE)
  y=para(c,'<b>'+escape(title)+'</b>',42,y-13,528,24)
  y=para(c,subtitle,42,y-14,528,11,MUTED)
@@ -40,7 +40,7 @@ def block(c,y,title,text):
 
 def finish(c):
  c.setStrokeColor(HexColor('#ddd4e5'));c.line(42,54,570,54)
- para(c,'Family-led free practice. A supplement, not a complete curriculum.',42,43,528,9,MUTED)
+ para(c,'Parents: hello@ewketkids.org | Partners: partners@ewketkids.org',42,43,528,9,MUTED)
  c.save()
 
 def draw_qr(c,x,y,size=118):
@@ -57,7 +57,7 @@ y=block(c,y,'See progress on the learning device','Up to four local learner prof
 draw_qr(c,42,94,126)
 para(c,'<b>Scan to start learning</b>',190,211,380,16,PURPLE)
 para(c,'liyasamra.github.io/liya-and-family/',190,174,380,12)
-para(c,'For technical corrections, open About &amp; contact on the website. Public GitHub reports require an account; never include child information.',190,147,380,10,MUTED)
+para(c,'Parents: hello@ewketkids.org<br/>Partners: partners@ewketkids.org<br/>Please do not send child details or progress records.',190,147,380,10,MUTED)
 c.linkURL(URL,(42,94,570,224),relative=0,thickness=0);finish(c)
 
 c,y=page('family-start-guide.pdf','A gentle routine','Your first four weeks','Short, steady practice works best when the learner feels supported. Adjust the pace to your family.')

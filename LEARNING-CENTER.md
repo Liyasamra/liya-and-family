@@ -1,4 +1,4 @@
-# Liya & Family — free learning center
+# Ewket Kids — free learning center
 
 ## Included
 
@@ -66,7 +66,7 @@ All lesson text and practice prompts are original. Skill selection was informed 
 - Bundled Latin Quicksand and Baloo font subsets define the CSS variables used by GitHub Pages. Their SIL OFL licenses are in `assets/font-licenses/`. No font requests go to Google.
 - `#about`, `#community`, and `#families` open the relevant tab directly. The four-week plan follows the selected learner level.
 - Source repository remains public. Progress stays local; the repository does not receive browser progress. This is not a full repository-history or deployed backend security audit.
-- Cross-device parent access remains unavailable. The connected Supabase project is Habesha Hub, not a Liya & Family service. A dedicated parent-only backend needs account ownership, child-data minimization, tested authorization, recovery/export/deletion, and an agreed hosting plan before launch.
+- Cross-device parent access remains unavailable. The connected Supabase project is Habesha Hub, not a Ewket Kids service. A dedicated parent-only backend needs account ownership, child-data minimization, tested authorization, recovery/export/deletion, and an agreed hosting plan before launch.
 - Current content remains 96 lessons, not a full-year program; lesson review and longer sequences remain open.
 
 ## Visual learning release - October 12, 2026

@@ -1,4 +1,4 @@
-# Liya & Family fix tracker
+# Ewket Kids fix tracker
 
 Updated October 13, 2026. The site remains a four-week practice supplement. No pilot results or teacher review are claimed.
 
@@ -6,8 +6,8 @@ Updated October 13, 2026. The site remains a four-week practice supplement. No p
 |---|---|---|---|
 | 1 | Progress stays on one browser | Short-term report sharing implemented | Snapshot links work on another phone; automatic synchronization and full recovery still need parent accounts. |
 | 2 | Practice questions lack audio | Implemented | Question, letter-labelled choice, and feedback buttons are available by default. Audio needs an available device voice; phonics still needs adult modelling. |
-| 3 | No private parent contact | Pending owner setup | Project email selected; an actual inbox still needs to be created. No personal email was assumed or published. |
-| 4 | Family identity exposed | Current public copy trimmed | Owner chose to keep the brand. About and kit no longer tie a named child to a parent's job. Historical copies are not erased. |
+| 3 | No private parent contact | Published | Owner confirmed hello@ewketkids.org and partners@ewketkids.org aliases; site and kit now list them. Delivery not independently tested. |
+| 4 | Family identity exposed | Current public copy trimmed | Owner subsequently chose the neutral Ewket Kids brand. About and kit no longer tie a named child to a parent's job. Historical copies are not erased. |
 | 5 | Code repository is public | Open | Hosting/visibility migration must preserve access. Public policies are not a substitute for tested authorization; hiding policies is not a substitute either. |
 | 6 | Four lessons per subject | Phase 2 planned | Grow content after pilot level needs and review. |
 | 7 | Fixed question sets | Phase 2 planned | Varied, reviewed question pools and meaningful report interpretation. |

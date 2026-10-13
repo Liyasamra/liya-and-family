@@ -15,7 +15,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Liya & Family — Free Learning",
+  title: "Ewket Kids — Free Learning",
   description: "Free preschool through sixth-grade learning activities, practice, and family routines.",
   robots: { index: false, follow: false },
 };
