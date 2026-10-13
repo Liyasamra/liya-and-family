@@ -79,3 +79,15 @@ All lesson text and practice prompts are original. Skill selection was informed 
 - Every lesson has an optional Listen control. It uses browser speech synthesis only after a click, prefers an English local voice, offers Stop, cancels on leaving a lesson, and reports unavailable audio. Voice availability and sound quality depend on the device. Some voices may use an online service; only public lesson text is read. A grown-up should model phonics sounds, which synthetic voices may mispronounce.
 - SVG illustrations and fonts are bundled; no image service, advertising, third-party picture requests, account, or tracking is added. No autoplay or dragging is required; controls are native buttons/inputs with text labels and polite feedback.
 - `npm run test:visual` checks all 24 activities, math and science feedback, wrong/correct choices, ordering/undo, progress isolation, speech lifecycle, local-voice preference, audio errors, and unsupported browsers. jsdom is a pinned development-only dependency.
+
+## Phase 1 trust fixes - October 13, 2026
+
+- Parent report can create a URL-fragment snapshot for another phone. It contains a generic learner number, selected grade, week, latest lesson results, attempt count, and dated reading minutes. Nicknames, plans, legacy undated minutes, and complete history are excluded. Sharing uses the device share sheet or clipboard when available, otherwise manual copy.
+- Snapshot links are encoded, not encrypted; anyone holding one can read it. They are not live synchronization, cannot be revoked, and are not full backups. The viewer validates bounded payloads and never imports the summary into local progress.
+- All practice questions have read-aloud controls for prompts and letter-labelled choices; checked answers have feedback read-aloud. Controls are present by default, including Preschool and Kindergarten. No autoplay is used. Voice availability and phonics limitations remain device-dependent.
+- The family brand was retained by the owner. Current About copy and community-kit footers no longer connect a named child with a parent’s job or personal biography. Previously published copies and repository history are not erased by this change.
+- All 63 template objectives were replaced with specific skill goals.
+- Open Graph/Twitter metadata, a 1200-by-630 PNG share card, a canonical GitHub Pages URL, and no-JavaScript printable-resource guidance are included in the Pages build. Platform previews may cache older metadata.
+- Private contact remains pending: the owner selected project email but still needs to create an inbox. GitHub is now described as a technical reporting channel only.
+- Repository visibility, alternate deployments, optional parent accounts, and Phase 2/3 content work remain open. See FIX-TRACKER.md.
+- `npm run test:phase-one` checks report validation, privacy filtering, receiving-browser persistence, question/choice/feedback audio, link creation, About trimming, and share metadata.

@@ -1,5 +1,5 @@
-name: Learning feedback
-description: Suggest an improvement or report a lesson or accessibility problem.
+name: Technical report
+description: Report a website bug, lesson correction, or accessibility problem.
 title: "Learning feedback: "
 body:
   - type: markdown
@@ -7,7 +7,7 @@ body:
       value: |
         Thank you for helping improve Liya & Family. This issue will be PUBLIC.
         Do not include child names, emails, photos, schools, health information, passwords, backups, or progress reports.
-        This is a volunteer feedback channel, not private support or an emergency service.
+        This is a technical reporting channel, not private parent support or an emergency service.
   - type: dropdown
     id: kind
     attributes:
@@ -15,8 +15,8 @@ body:
       options:
         - Lesson correction
         - Website or accessibility problem
-        - Community idea
-        - General question
+        - Accessibility problem
+        - Technical question
     validations:
       required: true
   - type: input

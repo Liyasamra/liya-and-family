@@ -6,6 +6,8 @@ The public learning center now includes 96 lessons across preschool through Grad
 
 The learning library has illustrated lesson cards, 24 interactive picture activities (one per subject at each level), and optional browser read-aloud for all 96 lessons. Activities support taps and keyboard controls without dragging and keep exploration separate from scored practice. Run `npm run test:visual` to check the interactive activities and speech fallbacks.
 
+Parent reports now provide read-only sharing links for another phone; these are encoded snapshots, not encrypted links or automatic synchronization. Practice questions, answer choices, and feedback have optional read-aloud controls. Private parent contact is pending creation of a dedicated project inbox; GitHub is for technical reporting only. See `FIX-TRACKER.md` for current gaps.
+
 The public pages include About & contact, a four-week practice plan for each selected level, and a printable community kit (flyer, QR code, family start guide, group-leader guide). Fonts are bundled locally under SIL Open Font Licenses. Feedback goes to public GitHub issues; never submit child information or progress files.
 
 This is a supplemental learning resource, not a complete school-year curriculum or staffed tutoring service. Every level offers four lessons each in Math, Reading, and Science.
