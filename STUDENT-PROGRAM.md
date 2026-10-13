@@ -15,3 +15,10 @@
 6. Organizer-reviewed yearly honor certificates, stable certificate numbers, parent consent for sharing, and verification that does not expose child identity or scores. Participation certificates remain distinct.
 
 The site remains a practice supplement, not an accredited school or a full-year curriculum. No centralized registry, legal-name collection, automatic enrollment, verified honors or school credentials are live.
+
+## Required registration specification (owner update)
+Permanent registration requires an automatically allocated unique EW number and a nonblank nickname. The local learner screen now rejects blank nicknames and displays assigned IDs read-only; it cannot issue globally unique registrations. Existing local profiles and backups remain compatible. Admin authorization is not represented by this shared-browser screen.
+
+The future registry must allocate identifiers transactionally, enforce a database uniqueness constraint and immutable ID trigger, keep a retired-ID ledger, and prohibit counter resets/reuse. Failed transactions may leave numeric gaps; uniqueness and non-reuse take priority over gap-free numbering. Registration requests need idempotency protection. Nickname corrections require authenticated authorized parent/admin access and an audit record, with no ID update permission. Never authorize access by knowing an EW number alone.
+
+Blocked deployment dependency: no dedicated Ewket Kids Supabase project is connected. Only the Habesha Hub project/organization is currently available. Owner must select the organization for a separate project and review cost before provisioning. Authenticated parent registration and administrator-only nickname correction are not live.
