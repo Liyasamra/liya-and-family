@@ -2,7 +2,8 @@ import { lessons, type Grade } from "./learning-content";
 export type Progress = Record<string,{score:number;total:number;date:string}>;
 export type Attempt={id:string;lessonId:string;date:string;score:number;total:number};
 export type ReadingEntry={id:string;date:string;minutes:number};
-export type Learner={id:string;nickname:string;icon:string;grade:Grade;progress:Progress;attempts:Attempt[];reading:ReadingEntry[];legacyMinutes:number;plan:string[]};
+export type AssessmentAttempt={id:string;date:string;grade:Grade;week:number;score:number;total:number};
+export type Learner={studentId?:string;assessments?:AssessmentAttempt[];id:string;nickname:string;icon:string;grade:Grade;progress:Progress;attempts:Attempt[];reading:ReadingEntry[];legacyMinutes:number;plan:string[]};
 export type Saved={version:2;activeId:string;learners:Learner[]};
 export const icons=["🦊","🐻","🐰","🦉"];
 const plan=["Read together","Practice math","Explore science","Read and retell","Review a lesson","Create something","Rest and reflect"];
@@ -15,7 +16,8 @@ function scoreValid(p:{score:number;total:number;date:string},id:string){const l
 export function validSaved(d:unknown):d is Saved {
  if(!d||typeof d!=="object")return false;const s=d as Saved;
  if(s.version!==2||!Array.isArray(s.learners)||s.learners.length<1||s.learners.length>4||new Set(s.learners.map(p=>p?.id)).size!==s.learners.length||!s.learners.some(p=>p?.id===s.activeId))return false;
- return s.learners.every(p=>p&&typeof p.id==="string"&&p.id.length>0&&p.id.length<=100&&typeof p.nickname==="string"&&p.nickname.trim().length>0&&p.nickname.length<=24&&icons.includes(p.icon)&&["pre","k","1","2","3","4","5","6"].includes(p.grade)&&Number.isInteger(p.legacyMinutes)&&p.legacyMinutes>=0&&p.legacyMinutes<=1000000&&Array.isArray(p.plan)&&p.plan.length===7&&p.plan.every(x=>typeof x==="string"&&x.length<=300)&&p.progress&&typeof p.progress==="object"&&!Array.isArray(p.progress)&&Object.entries(p.progress).every(([id,v])=>v&&scoreValid(v,id))&&Array.isArray(p.attempts)&&p.attempts.length<=5000&&new Set(p.attempts.map(a=>a?.id)).size===p.attempts.length&&p.attempts.every(a=>a&&typeof a.id==="string"&&a.id.length>0&&a.id.length<=100&&scoreValid(a,a.lessonId))&&Array.isArray(p.reading)&&p.reading.length<=5000&&new Set(p.reading.map(a=>a?.id)).size===p.reading.length&&p.reading.every(a=>a&&typeof a.id==="string"&&a.id.length>0&&a.id.length<=100&&dateValid(a.date)&&Number.isInteger(a.minutes)&&a.minutes>=1&&a.minutes<=180));
+ const ids=s.learners.map(p=>p?.studentId).filter(Boolean);if(new Set(ids).size!==ids.length)return false;
+ return s.learners.every(p=>p&&(p.studentId===undefined||/^EW(?!0+$)[0-9]{3,9}$/.test(p.studentId))&&(p.assessments===undefined||(Array.isArray(p.assessments)&&p.assessments.length<=5000&&new Set(p.assessments.map(a=>a?.id)).size===p.assessments.length&&p.assessments.every(a=>a&&typeof a.id==="string"&&a.id.length>0&&a.id.length<=100&&dateValid(a.date)&&["pre","k","1","2","3","4","5","6"].includes(a.grade)&&Number.isInteger(a.week)&&a.week>=0&&a.week<=4&&a.total===(a.week===0?36:9)&&Number.isInteger(a.score)&&a.score>=0&&a.score<=a.total)))&&typeof p.id==="string"&&p.id.length>0&&p.id.length<=100&&typeof p.nickname==="string"&&p.nickname.trim().length>0&&p.nickname.length<=24&&icons.includes(p.icon)&&["pre","k","1","2","3","4","5","6"].includes(p.grade)&&Number.isInteger(p.legacyMinutes)&&p.legacyMinutes>=0&&p.legacyMinutes<=1000000&&Array.isArray(p.plan)&&p.plan.length===7&&p.plan.every(x=>typeof x==="string"&&x.length<=300)&&p.progress&&typeof p.progress==="object"&&!Array.isArray(p.progress)&&Object.entries(p.progress).every(([id,v])=>v&&scoreValid(v,id))&&Array.isArray(p.attempts)&&p.attempts.length<=5000&&new Set(p.attempts.map(a=>a?.id)).size===p.attempts.length&&p.attempts.every(a=>a&&typeof a.id==="string"&&a.id.length>0&&a.id.length<=100&&scoreValid(a,a.lessonId))&&Array.isArray(p.reading)&&p.reading.length<=5000&&new Set(p.reading.map(a=>a?.id)).size===p.reading.length&&p.reading.every(a=>a&&typeof a.id==="string"&&a.id.length>0&&a.id.length<=100&&dateValid(a.date)&&Number.isInteger(a.minutes)&&a.minutes>=1&&a.minutes<=180));
 }
 export function parseBackup(d:unknown):Saved|null {
  if(validSaved(d))return d;
@@ -26,9 +28,10 @@ export function parseBackup(d:unknown):Saved|null {
 }
 export function mergeBackups(current:Saved,incoming:Saved):Saved {
  const initial=current.learners[0];
- const unusedStarter=current.learners.length===1&&initial.nickname==="Learner 1"&&initial.grade==="3"&&initial.legacyMinutes===0&&Object.keys(initial.progress).length===0&&initial.attempts.length===0&&initial.reading.length===0&&JSON.stringify(initial.plan)===JSON.stringify(plan)&&!incoming.learners.some(p=>p.id===initial.id);
+ const unusedStarter=current.learners.length===1&&initial.nickname==="Learner 1"&&initial.grade==="3"&&!initial.studentId&&!(initial.assessments?.length)&&initial.legacyMinutes===0&&Object.keys(initial.progress).length===0&&initial.attempts.length===0&&initial.reading.length===0&&JSON.stringify(initial.plan)===JSON.stringify(plan)&&!incoming.learners.some(p=>p.id===initial.id);
  const merged=(unusedStarter?[]:current.learners).map(p=>({...p,progress:{...p.progress},attempts:[...p.attempts],reading:[...p.reading]}));
  for(const p of incoming.learners){const existing=merged.find(x=>x.id===p.id);if(!existing){merged.push({...p});continue;}for(const [id,v] of Object.entries(p.progress)){const old=existing.progress[id];if(!old||v.score/v.total>old.score/old.total)existing.progress[id]=v;}
+ if(existing.studentId&&p.studentId&&existing.studentId!==p.studentId)throw Error("Student IDs conflict. Current data was kept.");existing.studentId=existing.studentId||p.studentId;existing.assessments=[...new Map([...(p.assessments||[]),...(existing.assessments||[])].map(a=>[a.id,a])).values()];
  existing.attempts=[...new Map([...p.attempts,...existing.attempts].map(x=>[x.id,x])).values()];existing.reading=[...new Map([...p.reading,...existing.reading].map(x=>[x.id,x])).values()];existing.legacyMinutes=Math.max(existing.legacyMinutes,p.legacyMinutes);
  }
  const result:Saved={...current,activeId:unusedStarter?incoming.activeId:current.activeId,learners:merged};if(!validSaved(result))throw Error("The combined backup exceeds four learners or record limits. Current data was kept.");return result;
