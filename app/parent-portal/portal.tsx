@@ -11,10 +11,9 @@ export default function ParentPortal(){
  const [user,setUser]=useState<User|null>(null),[students,setStudents]=useState<Student[]>([]),[open,setOpen]=useState(false),[busy,setBusy]=useState(false),[message,setMessage]=useState("Connecting to the private registry…"),[mode,setMode]=useState("signin");
  const [email,setEmail]=useState(""),[password,setPassword]=useState(""),[name,setName]=useState(""),[nickname,setNickname]=useState(""),[grade,setGrade]=useState(""),[age,setAge]=useState(""),[acknowledged,setAcknowledged]=useState(false);
  useEffect(()=>{
-  const requested=sessionStorage.getItem("ewket-requested-student")||"";if(/^EW(?!0+$)[0-9]{3,9}$/.test(requested))setRequestedId(requested);
   const c=createClient("https://cossjxrtskwjpywbwcxk.supabase.co","sb_publishable_Nl7pxdy3XGiploiAAONesQ_zwZ5jbav",{auth:{storage:sessionStorage,storageKey:"ewket-parent-session",persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});client.current=c;
   c.rpc("ewket_registration_status").then(({data,error})=>{setOpen(!error&&data===true);setMessage(error?"The registry could not be reached. Try again later.":"Student registration is not open yet. Please do not submit real child information.");});
-  c.auth.getUser().then(({data})=>setUser(data.user));
+  c.auth.getUser().then(({data})=>{setUser(data.user);const requested=sessionStorage.getItem("ewket-requested-student")||"";if(/^EW(?!0+$)[0-9]{3,9}$/.test(requested))setRequestedId(requested);});
   const {data}=c.auth.onAuthStateChange((event,session)=>{setUser(session?.user||null);setPassword("");setName("");setNickname("");setStudents([]);setRecordsLoaded(false);if(event==="PASSWORD_RECOVERY")setMode("new-password");});
   return()=>{data.subscription.unsubscribe();client.current=null;};
  },[]);
