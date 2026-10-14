@@ -15,3 +15,5 @@ for(const target of ['community-kit','docs/community-kit'])cpSync('public/commun
 console.log('Built matching root and docs public learning websites.');
 
 for(const target of ["social-preview.png","docs/social-preview.png"])cpSync("public/social-preview.png",target);
+
+for(const target of ["ewket-kids-cover.webp","docs/ewket-kids-cover.webp"])cpSync("public/ewket-kids-cover.webp",target);
