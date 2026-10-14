@@ -1,8 +1,10 @@
 import type {Lesson} from "@/lib/learning-content";
 import {visualActivities} from "@/lib/visual-learning";
 import PictureArt from "./picture-art";
+import LessonScene from "./lesson-scene";
 export default function LessonPreview({lesson}:{lesson:Lesson}){
  const a=visualActivities[lesson.id];
+ if(!a)return <LessonScene lesson={lesson}/>;
  if(a?.kind==="choice")return <div className="lesson-cover"><PictureArt picture={a.scene[0].picture}/></div>;
  if(a?.kind==="sequence")return <div className="lesson-cover mini-scenes">{a.steps.map((s,i)=><PictureArt key={i} picture={s.picture}/>)}</div>;
  if(a&&lesson.subject==="Math"&&["k","1","2","3","4","5"].includes(lesson.grade)){
