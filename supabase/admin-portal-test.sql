@@ -1,0 +1,47 @@
+begin;
+insert into auth.users(id,email,email_confirmed_at,is_anonymous) values('11111111-1111-4111-8111-111111111111','parent-a@example.invalid',now(),false),('22222222-2222-4222-8222-222222222222','parent-b@example.invalid',now(),false);
+insert into auth.sessions(id,user_id,created_at,updated_at) values('aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa','11111111-1111-4111-8111-111111111111',now(),now()),('bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb','22222222-2222-4222-8222-222222222222',now(),now());
+select set_config('request.jwt.claims','{"sub":"11111111-1111-4111-8111-111111111111","session_id":"aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa","aal":"aal1","role":"authenticated"}',true);
+set local role authenticated;
+do $$begin begin perform public.ewket_register_student(gen_random_uuid(),'Fictional child','Fox','1',6,true);raise exception 'Gate not enforced';exception when insufficient_privilege then null;end;end;$$;
+reset role;
+update ewket_private.portal_settings set registration_open=true where singleton;
+set local role authenticated;
+do $$declare a jsonb;b jsonb;sid uuid;r uuid:=gen_random_uuid();
+begin
+ a:=public.ewket_register_student(r,'Fictional child','Fox','1',6,true);
+ b:=public.ewket_register_student(r,'Fictional child','Fox','1',6,true);
+ if a<>b or a->>'student_id'<>'EW001' then raise exception 'ID or idempotency failed';end if;
+ sid:=(a->>'student_uuid')::uuid;
+ if jsonb_array_length(public.ewket_my_students())<>1 or public.ewket_my_students()->0 ? 'real_name' then raise exception 'Parent view failed';end if;
+ if public.ewket_admin_status() then raise exception 'Ordinary parent marked admin';end if;
+ begin perform public.ewket_admin_students();raise exception 'Parent read admin records';exception when insufficient_privilege then null;end;
+ begin perform public.ewket_correct_nickname(sid,'New Fox');raise exception 'Parent admin access accepted';exception when insufficient_privilege then null;end;
+ begin perform public.ewket_register_student(gen_random_uuid(),'Fictional child','   ','1',6,true);raise exception 'Blank nickname accepted';exception when raise_exception then if sqlerrm<>'Name, nickname, grade and age are required' then raise;end if;end;
+ begin perform 1 from ewket_private.student_registration;raise exception 'Direct table access accepted';exception when insufficient_privilege then null;end;
+end;$$;
+reset role;
+select set_config('request.jwt.claims','{"sub":"22222222-2222-4222-8222-222222222222","session_id":"bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb","aal":"aal1","role":"authenticated"}',true);
+set local role authenticated;
+do $$begin if public.ewket_my_students()<>'[]'::jsonb then raise exception 'Cross-family leak';end if;end;$$;
+reset role;
+insert into ewket_private.administrators values('11111111-1111-4111-8111-111111111111');
+select set_config('request.jwt.claims','{"sub":"11111111-1111-4111-8111-111111111111","session_id":"aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa","aal":"aal2","role":"authenticated"}',true);
+set local role authenticated;
+do $$declare sid uuid;
+begin
+ sid:=(public.ewket_my_students()->0->>'student_uuid')::uuid;
+ if not public.ewket_admin_status() or jsonb_array_length(public.ewket_admin_students())<>1 or public.ewket_admin_students()->0 ? 'real_name' then raise exception 'Admin view invalid';end if;
+ perform public.ewket_correct_nickname(sid,'Corrected Fox');
+ if public.ewket_my_students()->0->>'nickname'<>'Corrected Fox' or public.ewket_my_students()->0->>'student_id'<>'EW001' then raise exception 'Admin correction failed';end if;
+end;$$;
+reset role;
+set local role anon;
+do $$begin
+ begin perform public.ewket_admin_status();raise exception 'Anonymous admin access';exception when insufficient_privilege then null;end;
+ if public.ewket_registration_status() is distinct from false then raise exception 'Status gate failed';end if;
+ begin perform public.ewket_my_students();raise exception 'Anonymous access accepted';exception when insufficient_privilege then null;end;
+end;$$;
+reset role;
+rollback;
+select (select count(*) from auth.users) as stored_users,(select count(*) from ewket_private.student_registration) as stored_children,(select next_number from ewket_private.id_counter) as next_number,(select registration_open from ewket_private.portal_settings) as registration_open;
