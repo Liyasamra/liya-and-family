@@ -58,3 +58,7 @@
 @media(max-width:700px){.home-card{margin:-28px 10px 0;padding:24px 18px 20px;border-radius:22px}.home-card .hero-copy{font-size:16px}.learn-btn.big{width:100%;font-size:17px}.home-subjects{grid-template-columns:1fr;gap:12px}.subject-tile{flex-direction:row;justify-content:flex-start;gap:14px;padding:16px 20px;text-align:left}.subject-tile span{font-size:34px}.subject-tile small{display:none}.home-hero .ewket-cover{border-radius:20px}}
 @media(prefers-reduced-motion:reduce){.learn-btn.big,.subject-tile{transition:none}}
 @media(max-width:700px){.home-nav{gap:2px}.home-nav a,.home-nav button{font-size:13px!important;padding:8px 10px!important}}
+
+/* Sunrise Peach background (warm backgrounds read fastest; white cards keep strong contrast) */
+.learning-site{--l-cream:#fff5ec;background:linear-gradient(180deg,#ffe2cc 0,#ffeedf 420px,#fff5ec 900px) #fff5ec;background-attachment:scroll}
+html,body{background:#fff5ec}
