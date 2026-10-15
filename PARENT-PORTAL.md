@@ -14,7 +14,7 @@ Project: cossjxrtskwjpywbwcxk, independent Ewket Kids organization.
 - SQL tests use two fictional parent/session fixtures inside a transaction and roll back. They check cross-family denial, anonymous denial, direct-table denial, idempotency, required nickname and MFA-protected correction. No real email delivery tested.
 
 ## Required launch configuration
-1. Supabase Authentication URL Configuration: Site URL and allowed Redirect URL both https://liyasamra.github.io/liya-and-family/parent-portal.html (update if domain changes).
+1. Supabase Authentication URL Configuration: Site URL and allowed Redirect URL both https://ewketkids.org with redirect allow list https://ewketkids.org/** and https://www.ewketkids.org/** (done 2026-10-15).
 2. Configure custom SMTP; default Supabase SMTP is team-only and unsuitable for parent enrollment. Verify sending domain records and perform owner-authorized confirmation/recovery tests. Never paste SMTP credentials into chat or public source.
 3. Owner creates and confirms their own parent account, enrolls MFA, and verifies identity before a privileged database operator assigns administrator membership. Do not trust user-editable metadata or email text alone for admin access.
 4. Finish a reviewed parent notice, verifiable consent workflow as applicable, retention policy, export/deletion process, administrator UI and cloud learning/assessment synchronization. Current checkbox is only acknowledgment, not complete consent verification.
@@ -26,3 +26,9 @@ Project: cossjxrtskwjpywbwcxk, independent Ewket Kids organization.
 - No cloud lesson/assessment synchronization, admin UI, parent data export/deletion UI, verified honors, or enrollment email delivery is live.
 - RLS-without-policy informational notices are expected for internal tables: clients have no table grants and narrowly granted private functions explicitly authorize requests. Security-definer functions are private with an empty search path; public wrappers are security-invoker.
 - Database migrations are saved as reviewed SQL source files, not falsely recorded as CLI-generated migrations. CLI unavailable in this workspace. Do not re-run foundation creation against the populated project.
+
+## Names, certificates and recognition (2026-10-15)
+- supabase/certificates-api.sql: parents see their own child's name; optional public-recognition consent per child; organizer looks up one name at a time by EW number (MFA required, each lookup audited as name_viewed_for_certificate). Admin list stays nickname-only. New registrations record parent-notice-v2.
+- supabase/certificates-test.sql: two-family allow/deny test, rolls back.
+- privacy.html: public Parent Privacy Notice v2, linked from the registration consent and portal footer.
+- Custom SMTP (Google Workspace, sender hello@ewketkids.org) is configured; owner admin account has MFA.
