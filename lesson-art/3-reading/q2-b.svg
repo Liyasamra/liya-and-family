@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A sunny beach with an umbrella and a sand bucket">
+<defs>
+<linearGradient id="beach-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc6f0"/><stop offset="1" stop-color="#cdeeff"/></linearGradient>
+<radialGradient id="beach-sun" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#fff6b0"/><stop offset=".6" stop-color="#ffd54a"/><stop offset="1" stop-color="#f5b11f"/></radialGradient>
+<radialGradient id="beach-glow"><stop offset="0" stop-color="#fff3a0" stop-opacity=".9"/><stop offset="1" stop-color="#fff3a0" stop-opacity="0"/></radialGradient>
+<linearGradient id="beach-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fb3d9"/><stop offset="1" stop-color="#2f8fbf"/></linearGradient>
+<linearGradient id="beach-sand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f9dfa8"/><stop offset="1" stop-color="#eec27a"/></linearGradient>
+<linearGradient id="beach-pail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff8a7a"/><stop offset=".5" stop-color="#ffab9c"/><stop offset="1" stop-color="#e46b5d"/></linearGradient>
+<filter id="beach-sh" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#8a5a2a" flood-opacity=".25"/></filter>
+<clipPath id="beach-r"><rect width="400" height="400" rx="36"/></clipPath>
+</defs>
+<g clip-path="url(#beach-r)">
+<rect width="400" height="400" fill="url(#beach-sky)"/>
+<circle cx="300" cy="92" r="80" fill="url(#beach-glow)"/>
+<circle cx="300" cy="92" r="44" fill="url(#beach-sun)"/>
+<g fill="#fff" opacity=".9"><circle cx="78" cy="88" r="18"/><circle cx="100" cy="80" r="22"/><circle cx="124" cy="90" r="16"/><rect x="64" y="88" width="76" height="18" rx="9"/></g>
+<rect y="196" width="400" height="80" fill="url(#beach-sea)"/>
+<path d="M0 214q25-10 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0" fill="none" stroke="#bfe9f7" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<path d="M0 246q25-10 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0" fill="none" stroke="#bfe9f7" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+<path d="M0 268q60-22 130-8t140 4t130-6v142H0z" fill="url(#beach-sand)"/>
+<g filter="url(#beach-sh)">
+<path d="M188 352l22-150" stroke="#8b6a4e" stroke-width="7" stroke-linecap="round"/>
+<path d="M110 222q100-90 200 0q-25-12-50 0q-25-12-50 0q-25-12-50 0q-25-12-50 0z" fill="#ff7c6b"/>
+<path d="M160 222q50-68 50-68q0 0 0 68q-25-12-50 0z" fill="#fff4ea"/><path d="M210 154q50 0 50 68q-25-12-50 0z" fill="#ff7c6b"/><path d="M110 222q40-74 100-68q-30 10-50 68q-25-12-50 0z" fill="#fff4ea"/><path d="M210 154q70 6 100 68q-25-12-50 0q-10-50-50-68z" fill="#fff4ea"/>
+<path d="M276 318h48l-8 46h-32z" fill="url(#beach-pail)"/><rect x="270" y="310" width="60" height="12" rx="6" fill="#ff8a7a"/><path d="M276 314q24-40 48 0" fill="none" stroke="#e46b5d" stroke-width="4"/>
+<path d="M60 360q20-22 44 0z" fill="#eec27a"/><circle cx="138" cy="372" r="8" fill="#ffd1dc"/>
+</g>
+</g>
+</svg>

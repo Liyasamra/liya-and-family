@@ -137,3 +137,13 @@ html,body{background:#fff5ec}
 .step-track li.locked{opacity:.7}
 .learn-btn.locked,.learn-btn.locked:disabled,.learn-btn.locked:hover{opacity:1;background:#f1ecf7;color:#4f3f63;border:1.5px dashed #a996c4;box-shadow:none;font-weight:700}
 .learning-site .lesson-card .learn-btn.locked,.learning-site .lesson-card .learn-btn.locked:disabled{opacity:1;background:#f1ecf7!important;color:#4f3f63!important;border:1.5px dashed #a996c4}
+/* Lesson pictures */
+.lesson-scene-pic{margin:16px 0 0;border-radius:20px;overflow:hidden;box-shadow:0 10px 24px #5b3f8622}
+.lesson-scene-pic img{display:block;width:100%;height:auto}
+.answer-grid.with-pics label{flex-wrap:wrap;justify-content:center;text-align:center;padding:12px}
+.answer-grid.with-pics .choice-pic{order:-1;flex-basis:100%;width:100%;max-width:220px;height:auto;aspect-ratio:1;object-fit:cover;border-radius:14px;margin:0 auto 4px}
+@media(max-width:1000px){.answer-grid.with-pics{grid-template-columns:repeat(3,1fr)}.answer-grid.with-pics label{font-size:14px;padding:8px}}
+@media(max-width:480px){.answer-grid.with-pics{gap:6px}.answer-grid.with-pics label{font-size:12.5px;gap:4px}}
+.answer-grid.with-pics label{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:8px 10px;text-align:left}
+.answer-grid.with-pics .choice-pic{grid-column:1/-1;max-width:none}
+@media(max-width:480px){.answer-grid.with-pics label{grid-template-columns:1fr;justify-items:center;text-align:center}.answer-grid.with-pics input{margin:0}}
