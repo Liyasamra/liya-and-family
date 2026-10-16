@@ -62,3 +62,36 @@
 /* Sunrise Peach background (warm backgrounds read fastest; white cards keep strong contrast) */
 .learning-site{--l-cream:#fff5ec;background:linear-gradient(180deg,#ffe2cc 0,#ffeedf 420px,#fff5ec 900px) #fff5ec;background-attachment:scroll}
 html,body{background:#fff5ec}
+
+/* Parent portal: friendlier layout */
+.portal{max-width:860px!important}
+.portal h1{font-size:clamp(32px,4vw,44px);margin:4px 0 6px}
+.portal-sub{color:var(--l-muted);margin:0 0 18px!important}
+.portal-nav{display:flex;align-items:center;gap:14px}
+.portal-notice{background:#fff;border:1px solid #e3d6f2;border-left:5px solid var(--l-purple);border-radius:14px;padding:14px 18px;font-weight:600;color:var(--l-ink)}
+.portal .field{display:block;margin:16px 0;font-weight:700;font-size:15px}
+.portal .field small{font-weight:500;color:var(--l-muted);font-size:13px}
+.portal .field input,.portal .field select{display:block;width:100%;margin:8px 0 0!important;font-size:16px;padding:13px 14px;border-radius:12px}
+.portal .field-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.portal fieldset{border:none;padding:0;margin:0}
+.portal legend{position:absolute;left:-9999px}
+.show-pw{display:flex;align-items:center;gap:8px;font-size:14px;margin:-4px 0 14px;cursor:pointer}
+.show-pw input{width:18px;height:18px;margin:0!important;accent-color:var(--l-purple)}
+.learn-btn.big-action{font-size:17px;padding:14px 28px;margin-top:6px}
+.link-btn{background:none;border:none;padding:0;color:var(--l-purple);font-weight:700;text-decoration:underline;cursor:pointer;font:inherit}
+.portal-switch{margin-top:18px;border-top:1px solid var(--l-border);padding-top:14px}
+.portal-switch p{margin:6px 0!important;font-size:15px;color:var(--l-ink)!important}
+.portal-steps ol{list-style:none;padding:0;margin:8px 0 6px;counter-reset:step;display:grid;gap:12px}
+.portal-steps li{counter-increment:step;display:grid;grid-template-columns:40px 1fr;column-gap:12px;align-items:start;padding:0!important}
+.portal-steps li:before{content:counter(step);grid-row:span 2;width:36px;height:36px;border-radius:50%;background:#ffd76a;color:#3c2a12;font-weight:800;display:grid;place-items:center}
+.portal-steps li strong{color:var(--l-ink)}
+.portal-steps li span{display:block!important;font-size:14px;color:var(--l-muted)}
+.child-grid{display:grid;gap:16px}
+.child-card{background:#fbf8fd;border:1px solid #e3d6f2;border-radius:20px;padding:22px}
+.child-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.child-head h3{margin:0;font-size:26px}
+.ew-badge{background:var(--l-purple);color:#fff;border-radius:20px;padding:5px 14px;font-weight:800;letter-spacing:.04em;font-size:14px}
+.child-meta{color:var(--l-muted);margin:4px 0 10px!important}
+.child-card .learn-btn.small{margin:4px 0 6px}
+@media(max-width:700px){.portal .field-row{grid-template-columns:1fr 1fr;gap:12px}.learn-btn.big-action{width:100%}.child-head h3{font-size:22px}}
+.show-pw{justify-content:flex-start}.show-pw input[type=checkbox]{display:inline-block!important;width:20px!important;min-width:20px;height:20px;flex:0 0 auto;padding:0!important}
