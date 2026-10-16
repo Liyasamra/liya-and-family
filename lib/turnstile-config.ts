@@ -2,4 +2,4 @@
 // Leave empty until the Turnstile widget exists; while empty, no check is shown
 // and sign-in works as before. The SECRET key never goes here: it goes only in
 // Supabase > Authentication > Bot and Abuse Protection.
-export const TURNSTILE_SITE_KEY = "";
+export const TURNSTILE_SITE_KEY = "0x4AAAAAAFYbe5AJ2-ZBR33k";
