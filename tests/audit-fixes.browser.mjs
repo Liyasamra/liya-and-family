@@ -35,4 +35,17 @@ const small=await p.evaluate(()=>[...document.querySelectorAll('a,button,input,s
 await p.getByLabel('Read each lesson aloud when it opens').uncheck();await p.getByRole('button',{name:'Close lesson'}).click();await p.getByRole('button',{name:/Start lesson/}).nth(1).click();await p.waitForTimeout(700);ok(await p.evaluate(()=>window.__spoken.length)===spoken,'switch off stops automatic reading');
 await p.reload();await p.getByRole('button',{name:/Start lesson/}).first().click();await p.waitForTimeout(700);ok(await p.evaluate(()=>window.__spoken.length)===0,'the off choice is remembered after reload');
 await p.getByLabel('Learning level').getByRole('button',{name:/^3/}).click();await p.getByRole('button',{name:/Start lesson/}).first().click();await p.waitForTimeout(700);ok(await p.locator('.auto-read').count()===0,'Grade 3 has no automatic reading switch');await ctx.close();}
+// 7. Save and continue with progress
+{const {p,ctx,errs}=await fresh();await p.goto(base+'?grade=3#learn');await p.waitForTimeout(300);await p.getByRole('button',{name:'Math',exact:true}).click();
+ok((await p.locator('.level-progress').textContent()).includes('0 of 12'),'level shows 0 of 12 done');
+await p.getByRole('button',{name:/Start lesson/}).first().click();ok(await p.locator('.save-continue').count()===0,'no Save button before answers are checked');ok(await p.getByRole('button',{name:'Skip for now'}).isVisible(),'Skip for now is offered');
+for(let k=0;k<4;k++){for(const fs of await p.locator('.practice-question').all())await fs.locator('input[type=radio]').first().check();await p.getByRole('button',{name:'Check my answers'}).click();
+ ok((await p.locator('.saved-note').textContent()).includes((k+1)+' of 4 Math steps'),'saved note shows '+(k+1)+' of 4');
+ ok(await p.locator('.step-track li.done').count()===k+1,'step tracker marks '+(k+1)+' done');
+ if(k<3){await p.getByRole('button',{name:/Save and continue/}).click();await p.waitForTimeout(200);ok(await p.locator('.step-track li.current .step-dot').textContent()===String(k+2),'now on step '+(k+2));}
+ else{await p.getByRole('button',{name:/Save and finish Math/}).click();await p.waitForTimeout(200);ok(await p.locator('#lesson-title').count()===0,'Save and finish closes the lesson');}}
+ok((await p.locator('.learn-status').textContent()).includes('finished every Math step'),'finish message shown');
+ok(await p.locator('.card-done').count()===4,'4 cards marked done');ok((await p.locator('.level-progress').textContent()).includes('4 of 12'),'level shows 4 of 12 done');
+await p.reload();await p.waitForTimeout(300);ok((await p.locator('.level-progress').textContent()).includes('4 of 12'),'progress kept after reload');
+ok(errs.length===0,'no page errors');await ctx.close();}
 await b.close();console.log('ALL AUDIT FIX CHECKS PASSED');

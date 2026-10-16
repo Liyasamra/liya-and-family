@@ -112,3 +112,19 @@ html,body{background:#fff5ec}
 .home-actions .continue-btn{background:#5b3f86;color:#fff}
 .home-continue-note{margin:10px 0 0;font-size:15px;color:var(--l-muted)}
 .auto-read{margin:8px 0}
+/* Save and continue, step tracker, level progress */
+.step-track{list-style:none;display:flex;gap:8px;padding:0;margin:12px 0 18px;flex-wrap:wrap}
+.step-track li{display:flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border:1px solid var(--l-border);border-radius:999px;background:#fff;font-size:14px;color:var(--l-muted)}
+.step-track .step-dot{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#efe9f6;color:#4a336c;font-weight:800}
+.step-track li.done .step-dot{background:#2f8a57;color:#fff}
+.step-track li.current{border-color:#5b3f86;border-width:2px;color:var(--l-ink);font-weight:700}
+.step-track li.current .step-dot{background:#5b3f86;color:#fff}
+.saved-note{margin:0 0 12px;padding:10px 14px;border-radius:12px;background:#e6f4ec;color:#1f5e3b;font-weight:700}
+.save-continue{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px 10px;min-height:56px;font-size:19px;background:#2f8a57;color:#fff}
+.save-continue small{flex-basis:100%;font-size:14px;font-weight:600;opacity:.92}
+.card-done{color:#1f6e43;font-weight:700}
+.level-progress{display:flex;align-items:center;gap:10px;margin-top:6px;font-weight:700;color:var(--l-ink)}
+.level-progress progress{width:160px;height:12px;accent-color:#2f8a57}
+@media(max-width:600px){.step-track small{display:none}.step-track li{padding:4px}.save-continue{width:100%;justify-content:center}}
+.step-track li.current.done .step-dot{background:#2f8a57}
+.learn-btn.save-continue,.learn-btn.save-continue:hover,.learn-btn.save-continue:focus-visible{background:#2f8a57;color:#fff;box-shadow:0 4px 0 #1f6a40}
