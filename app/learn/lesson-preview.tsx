@@ -2,7 +2,11 @@ import type {Lesson} from "@/lib/learning-content";
 import {visualActivities} from "@/lib/visual-learning";
 import PictureArt from "./picture-art";
 import LessonScene from "./lesson-scene";
+import Pic from "./picture-icons";
+// Two picture-library drawings for each Social Studies lesson card.
+const socialArt:Record<string,[string,string]>={"pre-social":["house","table"],"pre-social-2":["toys","clap"],"pre-social-3":["store","school"],"pre-social-4":["firehat","doctor"],"k-social":["school","hand"],"k-social-2":["wagon","bus"],"k-social-3":["map","globe"],"k-social-4":["apple","toys"],"1-social":["paper","book"],"1-social-2":["map","sun"],"1-social-3":["store","doctor"],"1-social-4":["hand","school"],"2-social":["house","bus"],"2-social-2":["map","globe"],"2-social-3":["coin","store"],"2-social-4":["lunch","globe"]};
 export default function LessonPreview({lesson}:{lesson:Lesson}){
+ if(lesson.subject==="Social Studies"){const [x,y]=socialArt[lesson.id]||["globe","map"];return <div className="lesson-cover social-cover"><Pic name={x}/><Pic name={y}/></div>;}
  const a=visualActivities[lesson.id];
  if(!a)return <LessonScene lesson={lesson}/>;
  if(a?.kind==="choice")return <div className="lesson-cover"><PictureArt picture={a.scene[0].picture}/></div>;

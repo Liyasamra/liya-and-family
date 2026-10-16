@@ -58,3 +58,7 @@ const bankPictures: Record<string, ChoicePictures> = {
  "k-science-4": { 3: { choices: ["shadow","sound","water"] }, 4: { choices: ["pillow","sun","shoe"] }, 9: { choices: ["sun","book","pillow"] } },
 };
 for (const [id, m] of Object.entries(bankPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
+
+// Pictures for Social Studies lessons (Preschool and Kindergarten).
+import { socialPictures } from "./social-studies";
+for (const [id, m] of Object.entries(socialPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
