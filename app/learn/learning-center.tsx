@@ -15,6 +15,7 @@ import { lessonPictures } from "@/lib/lesson-pictures";
 import { choicePictures } from "@/lib/choice-pictures";
 import Pic, { hasPicture } from "./picture-icons";
 import Link from "next/link";
+import { useAccountSync } from "@/lib/account-link";
 import { parseBackup, mergeBackups, newLearner, icons as learnerIcons, today, uid, weeklyReport, getSnapshot, getServerSnapshot, subscribe, updateSaved, updateLearner, type Learner } from "@/lib/learning-storage";
 
 const subjects:Subject[]=["Math","Reading","Science"];
@@ -28,7 +29,7 @@ export default function LearningCenter(){
  const [active,setActive]=useState<Lesson|null>(null),[answers,setAnswers]=useState<Record<number,number>>({}),[checked,setChecked]=useState(false);
  const stored=useSyncExternalStore(subscribe,getSnapshot,getServerSnapshot);
  const family=stored.data;
- const saved=family.learners.find(p=>p.id===family.activeId)!;
+ const saved=family.learners.find(p=>p.id===family.activeId)!;useAccountSync(saved);
  const grade=saved.grade;
  const mastered=(id:string)=>{const p=saved.progress[id];return !!p&&p.score===p.total;};
  const unlocked=(l:Lesson)=>{const seq=lessonSequence(l.grade,l.subject);const i=seq.findIndex(x=>x.id===l.id);return i<=0||mastered(seq[i-1].id);};

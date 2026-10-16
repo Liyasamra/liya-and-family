@@ -32,3 +32,12 @@ export function summarize(rows: SavedRow[], grade: Grade | string) {
   const recent = [...rows].sort((a, b) => (a.last_date < b.last_date ? 1 : a.last_date > b.last_date ? -1 : 0)).slice(0, 3).map(r => ({ row: r, lesson: lessons.find(l => l.id === r.lesson_id) })).filter(x => x.lesson);
   return { total: gradeLessons.length, mastered: mastered.length, practiced: practiced.length, needsPractice: needsPractice.slice(0, 3), recent, lastDate: rows.reduce((d, r) => (r.last_date > d ? r.last_date : d), "") };
 }
+
+// Finished weekly quizzes and monthly reviews, the shape saved by supabase/checks-sync.sql.
+export type CheckItem = { check_id: string; grade: string; week: number; score: number; total: number; taken_on: string };
+export function buildCheckItems(learner: Learner): CheckItem[] {
+  return (learner.assessments || [])
+    .filter(a => /^[A-Za-z0-9-]{1,100}$/.test(a.id) && a.date >= "2026-01-01")
+    .map(a => ({ check_id: a.id, grade: a.grade, week: a.week, score: a.score, total: a.total, taken_on: a.date }))
+    .slice(-200);
+}
