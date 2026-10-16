@@ -1,4 +1,5 @@
 import { sequenceLessons } from "./learning-sequences";
+import { questionBanks } from "./question-banks";
 export type Grade = "pre" | "k" | "1" | "2" | "3" | "4" | "5" | "6";
 export type Subject = "Math" | "Reading" | "Science";
 export type Lesson = {id:string;grade:Grade;subject:Subject;title:string;objective:string;explain:string;example:string;activity:string;questions:{prompt:string;options:string[];answer:number;explanation:string}[]};
@@ -1014,5 +1015,6 @@ const starterLessons:Lesson[] = [
   }
 ];
 
-export const lessons:Lesson[] = [...starterLessons,...sequenceLessons];
+// Each lesson keeps its original three questions first, then any extra bank questions.
+export const lessons:Lesson[] = [...starterLessons,...sequenceLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
 export function lessonSequence(grade:Grade,subject:Subject){return lessons.filter(l=>l.grade===grade&&l.subject===subject);}

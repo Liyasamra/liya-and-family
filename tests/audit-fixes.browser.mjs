@@ -3,7 +3,7 @@
 import {chromium} from 'playwright';
 import {createRequire} from 'node:module';
 const {lessons}=createRequire(import.meta.url)('/home/claude/liya-and-family/.learning-test/lib/learning-content.js');
-const answerAll=async(p,right=true)=>{const t=(await p.locator('#lesson-title').textContent()).trim();const l=lessons.find(x=>x.title===t);const qs=await p.locator('.practice-question').all();for(let i=0;i<qs.length;i++){const a=l.questions[i].answer;await qs[i].locator('input[type=radio]').nth(right?a:(a+1)%l.questions[i].options.length).check();}};
+const answerAll=async(p,right=true)=>{const t=(await p.locator('#lesson-title').textContent()).trim();const l=lessons.find(x=>x.title===t);const qs=await p.locator('.practice-question').all();for(let i=0;i<qs.length;i++){const lg=(await qs[i].locator('legend').textContent()).replace(/^\d+\.\s*/,'').trim();const qq=l.questions.find(x=>x.prompt.trim()===lg);if(!qq)throw Error('question not found: '+lg);const a=qq.answer;await qs[i].locator('input[type=radio]').nth(right?a:(a+1)%qq.options.length).check();}};
 const base='http://127.0.0.1:8100/index.html';
 const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 const ok=(c,m)=>{if(!c)throw Error('FAIL: '+m);console.log('pass: '+m);};
@@ -47,7 +47,7 @@ ok(await p.locator('.not-yet-note').isVisible()&&await p.locator('.save-continue
 ok(!(await p.locator('.active-lesson').textContent()).includes('The answer is'),'wrong answers do not reveal the right choice');
 await p.getByRole('button',{name:'Try again'}).click();ok(await p.locator('.practice-question input:checked').count()===0,'Try again clears the wrong answers');
 await p.getByRole('button',{name:'Close lesson'}).click();await p.waitForTimeout(200);
-ok((await p.locator('.lesson-card').nth(0).textContent()).includes('Best so far 0/3'),'card shows best so far');ok(await p.getByRole('button',{name:'Keep practicing'}).count()===1,'card says Keep practicing');
+ok((await p.locator('.lesson-card').nth(0).textContent()).includes('Best so far 0/5'),'card shows best so far');ok(await p.getByRole('button',{name:'Keep practicing'}).count()===1,'card says Keep practicing');
 ok(await p.locator('.lesson-card').nth(1).locator('.lesson-bottom button').isDisabled(),'step 2 is locked');ok((await p.locator('.lesson-card').nth(1).textContent()).includes('Finish step 1 first'),'locked card explains why');
 await p.getByRole('button',{name:'Keep practicing'}).click();
 for(let k=0;k<4;k++){await answerAll(p,true);await p.getByRole('button',{name:'Check my answers'}).click();
@@ -59,4 +59,10 @@ ok((await p.locator('.learn-status').textContent()).includes('finished every Mat
 ok(await p.locator('.card-done').count()===4,'4 cards marked done');ok(await p.getByRole('button',{name:/Practice again/}).count()===4,'done cards say Practice again');await p.getByRole('button',{name:'All subjects'}).click();ok(await p.locator('.lesson-card .learn-btn.locked').count()===6,'Reading and Science steps 2 to 4 stay locked');await p.locator('.lesson-grid').screenshot({path:'/tmp/claude-0/-home-claude/560f7a84-74bf-5a77-8a8a-aa688ab539c3/scratchpad/cards.png'});ok((await p.locator('.level-progress').textContent()).includes('4 of 12'),'level shows 4 of 12 done');
 await p.reload();await p.waitForTimeout(300);ok((await p.locator('.level-progress').textContent()).includes('4 of 12'),'progress kept after reload');
 ok(errs.length===0,'no page errors');await ctx.close();}
+// 8. Question banks: Grade 3 shows 5 of 10, and a new try draws a new mix
+{const {p,ctx}=await fresh();await p.goto(base+'?grade=3#learn');await p.waitForTimeout(300);await p.getByRole('button',{name:/Start lesson/}).first().click();
+ok(await p.locator('.practice-question').count()===5,'Grade 3 lesson shows 5 questions');const seen=new Set();for(let k=0;k<6;k++){for(const lg of await p.locator('.practice-question legend').allTextContents())seen.add(lg.replace(/^\d+\.\s*/,''));await p.getByRole('button',{name:'Close lesson'}).click();await p.waitForTimeout(100);await p.getByRole('button',{name:/Start lesson|Keep practicing|Practice again/}).first().click();await p.waitForTimeout(100);}
+ok(seen.size>5,'different tries show different questions ('+seen.size+' seen)');
+await answerAll(p,true);await p.getByRole('button',{name:'Check my answers'}).click();ok((await p.locator('.saved-note').textContent()).includes('All correct'),'5 of 5 correct counts as done');await ctx.close();}
+{const {p,ctx}=await fresh();await p.goto(base+'?grade=k#learn');await p.waitForTimeout(300);await p.getByRole('button',{name:/Start lesson/}).first().click();ok(await p.locator('.practice-question').count()===3,'levels without a bank still show their 3 questions');await ctx.close();}
 await b.close();console.log('ALL AUDIT FIX CHECKS PASSED');

@@ -7,7 +7,7 @@ const subjects:Subject[]=["Math","Reading","Science"];
 export default function Assessments({learner,onSave}:{learner:Learner;onSave:(f:(p:Learner)=>Learner)=>void}){
  const [week,setWeek]=useState(1),[started,setStarted]=useState(false),[answers,setAnswers]=useState<Record<number,number>>({}),[checked,setChecked]=useState(false),[message,setMessage]=useState("");
  const [year,setYear]=useState(String(new Date().getFullYear())),[certificate,setCertificate]=useState(false);
- const questions=subjects.flatMap(subject=>lessonSequence(learner.grade,subject).filter((_,i)=>week===0||i===week-1).flatMap(l=>l.questions.map(q=>({...q,subject,lesson:l.title}))));
+ const questions=subjects.flatMap(subject=>lessonSequence(learner.grade,subject).filter((_,i)=>week===0||i===week-1).flatMap(l=>l.questions.slice(0,3).map(q=>({...q,subject,lesson:l.title}))));
  const history=learner.assessments||[];
  const yearly=history.filter(a=>a.date.slice(0,4)===year);
  const label=learner.studentId||"Learner";
