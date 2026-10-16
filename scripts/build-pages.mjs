@@ -16,4 +16,4 @@ console.log('Built matching root and docs public learning websites.');
 
 for(const target of ["social-preview.png","docs/social-preview.png"])cpSync("public/social-preview.png",target);
 
-for(const target of ["ewket-kids-cover.webp","docs/ewket-kids-cover.webp"])cpSync("public/ewket-kids-cover.webp",target);
+for(const name of ["ewket-kids-cover.webp","ewket-kids-cover-640.webp","ewket-kids-cover-960.webp","ewket-kids-cover-1280.webp"])for(const target of [name,"docs/"+name])cpSync("public/"+name,target);
