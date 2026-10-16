@@ -165,3 +165,10 @@ html,body{background:#fff5ec}
 .progress-list small{color:var(--l-muted);font-weight:400}
 .progress-list strong{white-space:nowrap}
 .progress-list strong.done{color:#2f8a57}
+/* Level check */
+.placement-callout{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin:0 0 16px;padding:14px 18px;background:#fbf8fd;border:1px dashed #cdb8e6;border-radius:16px}
+.placement-callout p{margin:0}
+.placement{margin:0 0 18px}
+.placement .answer-grid label.selected{outline:3px solid #6b4f96;outline-offset:1px}
+.placement p.placement-result{font-size:1.35rem!important;margin:4px 0 8px!important;color:var(--l-ink)}
+.placement .placement-rounds{margin:0 0 8px;padding-left:20px}.placement .placement-rounds li{margin:2px 0}
