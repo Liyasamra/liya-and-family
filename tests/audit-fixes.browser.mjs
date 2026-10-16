@@ -1,6 +1,9 @@
 // Real-browser checks for the October 2026 audit fixes. Serve the repo on 127.0.0.1:8100 first (npx http-server -p 8100 .).
 // Needs Playwright with Chromium at /opt/pw-browsers/chromium.
 import {chromium} from 'playwright';
+import {createRequire} from 'node:module';
+const {lessons}=createRequire(import.meta.url)('/home/claude/liya-and-family/.learning-test/lib/learning-content.js');
+const answerAll=async(p,right=true)=>{const t=(await p.locator('#lesson-title').textContent()).trim();const l=lessons.find(x=>x.title===t);const qs=await p.locator('.practice-question').all();for(let i=0;i<qs.length;i++){const a=l.questions[i].answer;await qs[i].locator('input[type=radio]').nth(right?a:(a+1)%l.questions[i].options.length).check();}};
 const base='http://127.0.0.1:8100/index.html';
 const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
 const ok=(c,m)=>{if(!c)throw Error('FAIL: '+m);console.log('pass: '+m);};
@@ -14,7 +17,7 @@ await p.goForward();await p.waitForTimeout(300);ok(await p.locator('.lesson-grid
 await p.getByRole('button',{name:/Start lesson/}).first().click();await p.getByRole('button',{name:'Close lesson'}).click();await p.waitForTimeout(300);ok(await p.locator('#lesson-title').count()===0,'Close lesson closes it');await p.goBack();await p.waitForTimeout(300);ok(await p.locator('.home-hero').isVisible(),'Back after Close goes home, no ghost lesson');
 // 2. Continue
 await p.getByRole('button',{name:/Start learning/}).first().click();await p.getByRole('button',{name:/Start lesson/}).first().click();const first=await p.locator('#lesson-title').textContent();
-for(const fs of await p.locator('.practice-question').all()){await fs.locator('input[type=radio]').first().check();}
+await answerAll(p,true);
 await p.getByRole('button',{name:'Check my answers'}).click();await p.getByRole('button',{name:'Home'}).click();await p.waitForTimeout(200);
 const cont=p.locator('.continue-btn');ok(await cont.isVisible(),'Continue button appears after a lesson');const ct=await cont.textContent();ok(!ct.includes(first),'Continue points to the next unfinished lesson ('+ct.trim()+')');
 await cont.click();await p.waitForSelector('#lesson-title');ok(ct.includes(await p.locator('#lesson-title').textContent()),'Continue opens that lesson');await p.goBack();await p.waitForTimeout(200);ok(await p.locator('.lesson-grid').isVisible(),'Back from a continued lesson shows the list');
@@ -38,14 +41,22 @@ await p.getByLabel('Learning level').getByRole('button',{name:/^3/}).click();awa
 // 7. Save and continue with progress
 {const {p,ctx,errs}=await fresh();await p.goto(base+'?grade=3#learn');await p.waitForTimeout(300);await p.getByRole('button',{name:'Math',exact:true}).click();
 ok((await p.locator('.level-progress').textContent()).includes('0 of 12'),'level shows 0 of 12 done');
-await p.getByRole('button',{name:/Start lesson/}).first().click();ok(await p.locator('.save-continue').count()===0,'no Save button before answers are checked');ok(await p.getByRole('button',{name:'Skip for now'}).isVisible(),'Skip for now is offered');
-for(let k=0;k<4;k++){for(const fs of await p.locator('.practice-question').all())await fs.locator('input[type=radio]').first().check();await p.getByRole('button',{name:'Check my answers'}).click();
+await p.getByRole('button',{name:/Start lesson/}).first().click();ok(await p.locator('.save-continue').count()===0,'no Save button before answers are checked');ok(await p.getByRole('button',{name:'Skip for now'}).count()===0,'no skipping ahead');
+await answerAll(p,false);await p.getByRole('button',{name:'Check my answers'}).click();
+ok(await p.locator('.not-yet-note').isVisible()&&await p.locator('.save-continue').count()===0,'wrong answers: no Save and continue');
+ok(!(await p.locator('.active-lesson').textContent()).includes('The answer is'),'wrong answers do not reveal the right choice');
+await p.getByRole('button',{name:'Try again'}).click();ok(await p.locator('.practice-question input:checked').count()===0,'Try again clears the wrong answers');
+await p.getByRole('button',{name:'Close lesson'}).click();await p.waitForTimeout(200);
+ok((await p.locator('.lesson-card').nth(0).textContent()).includes('Best so far 0/3'),'card shows best so far');ok(await p.getByRole('button',{name:'Keep practicing'}).count()===1,'card says Keep practicing');
+ok(await p.locator('.lesson-card').nth(1).locator('.lesson-bottom button').isDisabled(),'step 2 is locked');ok((await p.locator('.lesson-card').nth(1).textContent()).includes('Finish step 1 first'),'locked card explains why');
+await p.getByRole('button',{name:'Keep practicing'}).click();
+for(let k=0;k<4;k++){await answerAll(p,true);await p.getByRole('button',{name:'Check my answers'}).click();
  ok((await p.locator('.saved-note').textContent()).includes((k+1)+' of 4 Math steps'),'saved note shows '+(k+1)+' of 4');
  ok(await p.locator('.step-track li.done').count()===k+1,'step tracker marks '+(k+1)+' done');
  if(k<3){await p.getByRole('button',{name:/Save and continue/}).click();await p.waitForTimeout(200);ok(await p.locator('.step-track li.current .step-dot').textContent()===String(k+2),'now on step '+(k+2));}
  else{await p.getByRole('button',{name:/Save and finish Math/}).click();await p.waitForTimeout(200);ok(await p.locator('#lesson-title').count()===0,'Save and finish closes the lesson');}}
 ok((await p.locator('.learn-status').textContent()).includes('finished every Math step'),'finish message shown');
-ok(await p.locator('.card-done').count()===4,'4 cards marked done');ok((await p.locator('.level-progress').textContent()).includes('4 of 12'),'level shows 4 of 12 done');
+ok(await p.locator('.card-done').count()===4,'4 cards marked done');ok(await p.getByRole('button',{name:/Practice again/}).count()===4,'done cards say Practice again');await p.getByRole('button',{name:'All subjects'}).click();ok(await p.locator('.lesson-card .learn-btn.locked').count()===6,'Reading and Science steps 2 to 4 stay locked');await p.locator('.lesson-grid').screenshot({path:'/tmp/claude-0/-home-claude/560f7a84-74bf-5a77-8a8a-aa688ab539c3/scratchpad/cards.png'});ok((await p.locator('.level-progress').textContent()).includes('4 of 12'),'level shows 4 of 12 done');
 await p.reload();await p.waitForTimeout(300);ok((await p.locator('.level-progress').textContent()).includes('4 of 12'),'progress kept after reload');
 ok(errs.length===0,'no page errors');await ctx.close();}
 await b.close();console.log('ALL AUDIT FIX CHECKS PASSED');

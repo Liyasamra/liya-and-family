@@ -128,3 +128,12 @@ html,body{background:#fff5ec}
 @media(max-width:600px){.step-track small{display:none}.step-track li{padding:4px}.save-continue{width:100%;justify-content:center}}
 .step-track li.current.done .step-dot{background:#2f8a57}
 .learn-btn.save-continue,.learn-btn.save-continue:hover,.learn-btn.save-continue:focus-visible{background:#2f8a57;color:#fff;box-shadow:0 4px 0 #1f6a40}
+/* Mastery: locked steps, not-yet feedback, practice again */
+.not-yet-note{margin:0 0 12px;padding:10px 14px;border-radius:12px;background:#fff4dc;color:#7a4b00;font-weight:600}
+.answer-feedback.not-yet strong{color:#9a5b00}
+.answer-grid label.wrong-answer{border-color:#e0a23a;background:#fff7e8}
+.card-trying{color:#9a5b00;font-weight:700}
+.learn-btn.locked,.learn-btn.locked:hover{background:#ece7f2;color:#6d5f7d;box-shadow:none;cursor:not-allowed}
+.step-track li.locked{opacity:.7}
+.learn-btn.locked,.learn-btn.locked:disabled,.learn-btn.locked:hover{opacity:1;background:#f1ecf7;color:#4f3f63;border:1.5px dashed #a996c4;box-shadow:none;font-weight:700}
+.learning-site .lesson-card .learn-btn.locked,.learning-site .lesson-card .learn-btn.locked:disabled{opacity:1;background:#f1ecf7!important;color:#4f3f63!important;border:1.5px dashed #a996c4}
