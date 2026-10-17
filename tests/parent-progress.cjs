@@ -29,7 +29,7 @@ const d=dom.window.document,delay=()=>new Promise(r=>setTimeout(r,40));
  const r=items.find(i=>i.lesson_id==='3-reading');assert.equal(r.mastered_on,undefined);assert.equal(r.attempts,1);
  assert.ok(!JSON.stringify(saved).includes('Fox')&&!JSON.stringify(saved).includes('Guest'),'no nicknames sent');
  const fox=cards[0].textContent,owl=cards[1].textContent;
- assert.match(fox,/Progress in Grade 3/);assert.match(fox,/1 of 12 lessons done/);assert.match(fox,/2 practiced/);assert.match(fox,/Done ✓/);assert.match(fox,/Could use more practice/);assert.match(fox,/best 3 of 5, 1 try/);
+ assert.match(fox,/Progress in Grade 3/);assert.match(fox,/1 of 16 lessons done/);assert.match(fox,/2 practiced/);assert.match(fox,/Done ✓/);assert.match(fox,/Could use more practice/);assert.match(fox,/best 3 of 5, 1 try/);
  assert.match(owl,/No lessons saved yet/);
  assert.equal(savedChecks.length,1);assert.deepEqual(savedChecks[0].p_items,[{check_id:'chk-1',grade:'3',week:1,score:7,total:9,taken_on:'2026-10-16'}]);
  assert.match(fox,/Practice checks/);assert.match(fox,/1 saved · Latest: Week 1 quiz, 7 of 9/);assert.ok(!/Practice checks/.test(owl));

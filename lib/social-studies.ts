@@ -1793,6 +1793,1798 @@ export const socialLessons: Lesson[] = [
     "explanation": "Traditions are an important part of a family's culture."
    }
   ]
+ },
+ {
+  "id": "3-social",
+  "grade": "3",
+  "subject": "Social Studies",
+  "title": "Primary and secondary sources",
+  "objective": "Tell primary sources from secondary sources and use them to learn about the past.",
+  "explain": "A primary source was made by someone who was there, at the time something happened: a letter, a diary, a photo, or an old map. A secondary source was made later by someone who studied the event, like a textbook or an encyclopedia article. Historians use both to learn about the past.",
+  "example": "A 1920 photo of your town's main street is a primary source. A book written in 2022 about the town's history is a secondary source.",
+  "activity": "Find one primary source in your home, such as an old photo or a letter. Tell what it shows about the past.",
+  "questions": [
+   {
+    "prompt": "Which is a primary source?",
+    "options": [
+     "A textbook about the war",
+     "A diary written by a soldier during a war",
+     "A movie made 100 years later"
+    ],
+    "answer": 1,
+    "explanation": "The diary was written by someone who was there at the time."
+   },
+   {
+    "prompt": "Which is a secondary source?",
+    "options": [
+     "A photo taken at an event",
+     "A letter written in 1850",
+     "An encyclopedia article about ancient Egypt"
+    ],
+    "answer": 2,
+    "explanation": "An encyclopedia is written later by people who studied the topic."
+   },
+   {
+    "prompt": "Why are primary sources helpful?",
+    "options": [
+     "They show what people saw and thought at the time",
+     "They are always longer",
+     "They are always correct"
+    ],
+    "answer": 0,
+    "explanation": "Primary sources give a firsthand view, though they still need to be checked."
+   },
+   {
+    "prompt": "An old map drawn when a town was first built is a…",
+    "options": [
+     "Secondary source",
+     "Primary source",
+     "Fiction story"
+    ],
+    "answer": 1,
+    "explanation": "It was made at the time the town was built."
+   },
+   {
+    "prompt": "A historian is a person who…",
+    "options": [
+     "Predicts the weather",
+     "Builds bridges",
+     "Studies the past"
+    ],
+    "answer": 2,
+    "explanation": "Historians study sources to learn what happened long ago."
+   },
+   {
+    "prompt": "Grandpa tells you about his first day of school in 1965. His story is…",
+    "options": [
+     "A primary source",
+     "A secondary source",
+     "A map"
+    ],
+    "answer": 0,
+    "explanation": "Grandpa was there, so his memory is a firsthand, primary source."
+   },
+   {
+    "prompt": "Which question helps you check a source?",
+    "options": [
+     "What color is the cover?",
+     "Who made it and when?",
+     "How heavy is it?"
+    ],
+    "answer": 1,
+    "explanation": "Knowing who made a source and when helps you judge it."
+   },
+   {
+    "prompt": "A website summary of the first moon landing, written this year, is…",
+    "options": [
+     "A primary source",
+     "An artifact",
+     "A secondary source"
+    ],
+    "answer": 2,
+    "explanation": "It was written long after the event by someone who was not there."
+   },
+   {
+    "prompt": "An artifact is…",
+    "options": [
+     "An object made and used by people long ago",
+     "A kind of weather",
+     "A math tool"
+    ],
+    "answer": 0,
+    "explanation": "Artifacts like tools, pottery, and coins teach us about the past."
+   },
+   {
+    "prompt": "Two sources tell the same story in different ways. You should…",
+    "options": [
+     "Pick the shortest one",
+     "Compare them and look for evidence",
+     "Ignore both"
+    ],
+    "answer": 1,
+    "explanation": "Comparing sources helps you find what is most likely true."
+   }
+  ]
+ },
+ {
+  "id": "3-social-2",
+  "grade": "3",
+  "subject": "Social Studies",
+  "title": "Map scale and landforms",
+  "objective": "Use a map scale and identify landforms and human features.",
+  "explain": "A map scale shows how distance on a map compares to distance on the ground, such as 1 inch = 10 miles. Physical features are made by nature, like mountains, rivers, and plains. Human features are made by people, like roads, bridges, and buildings.",
+  "example": "On a map, two towns are 3 inches apart. The scale says 1 inch = 10 miles, so the towns are about 30 miles apart.",
+  "activity": "Look at a map of Ohio. Find one river, one city, and one highway. Sort them into physical and human features.",
+  "questions": [
+   {
+    "prompt": "A map scale helps you find…",
+    "options": [
+     "The temperature",
+     "The time of day",
+     "Real distance between places"
+    ],
+    "answer": 2,
+    "explanation": "A scale compares map distance to real distance."
+   },
+   {
+    "prompt": "The scale is 1 inch = 10 miles. Two towns are 2 inches apart. How far apart are they?",
+    "options": [
+     "20 miles",
+     "12 miles",
+     "5 miles"
+    ],
+    "answer": 0,
+    "explanation": "2 inches × 10 miles per inch = 20 miles."
+   },
+   {
+    "prompt": "Which is a physical feature?",
+    "options": [
+     "A highway",
+     "A river",
+     "A shopping mall"
+    ],
+    "answer": 1,
+    "explanation": "Rivers are made by nature, so they are physical features."
+   },
+   {
+    "prompt": "Which is a human feature?",
+    "options": [
+     "A mountain",
+     "A lake",
+     "A bridge"
+    ],
+    "answer": 2,
+    "explanation": "People build bridges, so a bridge is a human feature."
+   },
+   {
+    "prompt": "Flat, wide land is called a…",
+    "options": [
+     "Plain",
+     "Peninsula",
+     "Valley"
+    ],
+    "answer": 0,
+    "explanation": "A plain is a large, flat area of land."
+   },
+   {
+    "prompt": "Land with water on three sides is a…",
+    "options": [
+     "Island",
+     "Peninsula",
+     "Plateau"
+    ],
+    "answer": 1,
+    "explanation": "A peninsula is surrounded by water on three sides."
+   },
+   {
+    "prompt": "Land with water on all sides is an…",
+    "options": [
+     "Isthmus",
+     "Plain",
+     "Island"
+    ],
+    "answer": 2,
+    "explanation": "An island is surrounded by water on every side."
+   },
+   {
+    "prompt": "Low land between hills or mountains is a…",
+    "options": [
+     "Valley",
+     "Mountain",
+     "Plateau"
+    ],
+    "answer": 0,
+    "explanation": "A valley is low land between higher land."
+   },
+   {
+    "prompt": "The scale is 1 inch = 50 miles. A trip is 4 inches on the map. How long is the trip?",
+    "options": [
+     "54 miles",
+     "200 miles",
+     "100 miles"
+    ],
+    "answer": 1,
+    "explanation": "4 × 50 = 200 miles."
+   },
+   {
+    "prompt": "Which river forms Ohio's southern border?",
+    "options": [
+     "The Mississippi River",
+     "The Nile River",
+     "The Ohio River"
+    ],
+    "answer": 2,
+    "explanation": "The Ohio River runs along Ohio's southern border."
+   }
+  ]
+ },
+ {
+  "id": "3-social-3",
+  "grade": "3",
+  "subject": "Social Studies",
+  "title": "How local government works",
+  "objective": "Describe what local government does and how it is paid for.",
+  "explain": "Local government makes decisions for a city or town. Many cities have a mayor and a city council. The council makes local laws, and the mayor helps carry them out. Taxes collected from people and businesses pay for services like police, firefighters, parks, and roads.",
+  "example": "A town council votes to build a new playground. Tax money pays for the equipment, and city workers put it in.",
+  "activity": "Name three services in your community that are paid for by taxes. Explain how each helps people.",
+  "questions": [
+   {
+    "prompt": "Who often leads a city's government?",
+    "options": [
+     "A mayor",
+     "A principal",
+     "A coach"
+    ],
+    "answer": 0,
+    "explanation": "A mayor is often the leader of a city or town."
+   },
+   {
+    "prompt": "A city council…",
+    "options": [
+     "Grows food for the city",
+     "Makes local laws",
+     "Delivers the mail"
+    ],
+    "answer": 1,
+    "explanation": "City councils make and vote on local laws."
+   },
+   {
+    "prompt": "Taxes are…",
+    "options": [
+     "Gifts for birthdays",
+     "Money a store pays its workers",
+     "Money people pay to the government for public services"
+    ],
+    "answer": 2,
+    "explanation": "Taxes fund services that everyone shares."
+   },
+   {
+    "prompt": "Which service is usually paid for by local taxes?",
+    "options": [
+     "Fire departments",
+     "Video games",
+     "Movie tickets"
+    ],
+    "answer": 0,
+    "explanation": "Local taxes help pay for firefighters and fire trucks."
+   },
+   {
+    "prompt": "A law is…",
+    "options": [
+     "A suggestion you can ignore",
+     "A rule that everyone in a place must follow",
+     "A kind of tax"
+    ],
+    "answer": 1,
+    "explanation": "Laws are official rules made by government."
+   },
+   {
+    "prompt": "Why do communities need government?",
+    "options": [
+     "To choose everyone's lunch",
+     "To stop people from voting",
+     "To keep order and provide services"
+    ],
+    "answer": 2,
+    "explanation": "Government keeps people safe and provides shared services."
+   },
+   {
+    "prompt": "How do citizens choose a mayor?",
+    "options": [
+     "They vote in an election",
+     "The mayor picks themself",
+     "By drawing a name from a hat"
+    ],
+    "answer": 0,
+    "explanation": "In the United States, citizens elect leaders by voting."
+   },
+   {
+    "prompt": "Which is a public service?",
+    "options": [
+     "A private toy store",
+     "A public library",
+     "A family's car"
+    ],
+    "answer": 1,
+    "explanation": "Public libraries are run by the government for everyone."
+   },
+   {
+    "prompt": "If people want a new crosswalk near school, they can…",
+    "options": [
+     "Paint one themselves",
+     "Close the road",
+     "Speak at a city council meeting"
+    ],
+    "answer": 2,
+    "explanation": "Citizens can share ideas with leaders at public meetings."
+   },
+   {
+    "prompt": "The capital of Ohio, where the state government meets, is…",
+    "options": [
+     "Columbus",
+     "Cleveland",
+     "Cincinnati"
+    ],
+    "answer": 0,
+    "explanation": "Columbus is the capital of Ohio."
+   }
+  ]
+ },
+ {
+  "id": "3-social-4",
+  "grade": "3",
+  "subject": "Social Studies",
+  "title": "Choices and opportunity cost",
+  "objective": "Explain scarcity, opportunity cost, and specialization.",
+  "explain": "Because of scarcity, people cannot have everything they want, so they make choices. The opportunity cost is the next best thing you give up when you choose. Specialization means people focus on one kind of work, which helps them do it well and trade with others.",
+  "example": "Ana has $5. She can buy a book or a kite. She buys the book. The kite is her opportunity cost.",
+  "activity": "Think of a choice you made today. Name what you chose and what you gave up.",
+  "questions": [
+   {
+    "prompt": "Opportunity cost is…",
+    "options": [
+     "The price tag on an item",
+     "The next best choice you give up",
+     "Money you find"
+    ],
+    "answer": 1,
+    "explanation": "When you choose one thing, the next best option you did not pick is the opportunity cost."
+   },
+   {
+    "prompt": "Ben can play soccer or go swimming. He picks soccer. His opportunity cost is…",
+    "options": [
+     "Soccer",
+     "Nothing",
+     "Swimming"
+    ],
+    "answer": 2,
+    "explanation": "Swimming is what Ben gave up by choosing soccer."
+   },
+   {
+    "prompt": "Scarcity means…",
+    "options": [
+     "Wants are greater than what is available",
+     "There is plenty for everyone",
+     "Things are free"
+    ],
+    "answer": 0,
+    "explanation": "Scarcity forces people to make choices."
+   },
+   {
+    "prompt": "Specialization means…",
+    "options": [
+     "Doing every job yourself",
+     "Focusing on one kind of work",
+     "Never working"
+    ],
+    "answer": 1,
+    "explanation": "Specialized workers focus on one skill, like baking or teaching."
+   },
+   {
+    "prompt": "A bakery that only makes bread is an example of…",
+    "options": [
+     "Scarcity",
+     "Saving",
+     "Specialization"
+    ],
+    "answer": 2,
+    "explanation": "The bakery focuses on one kind of product."
+   },
+   {
+    "prompt": "Why do people trade?",
+    "options": [
+     "To get things they do not make themselves",
+     "To lose money",
+     "Because trading is a law"
+    ],
+    "answer": 0,
+    "explanation": "Trading lets people get goods and services from others."
+   },
+   {
+    "prompt": "Resources used to make goods include…",
+    "options": [
+     "Only money",
+     "Workers, tools, and raw materials",
+     "Only weather"
+    ],
+    "answer": 1,
+    "explanation": "Producers need human, capital, and natural resources."
+   },
+   {
+    "prompt": "A tree used to make paper is a…",
+    "options": [
+     "Human resource",
+     "Service",
+     "Natural resource"
+    ],
+    "answer": 2,
+    "explanation": "Natural resources come from nature."
+   },
+   {
+    "prompt": "A hammer used by a builder is a…",
+    "options": [
+     "Capital resource",
+     "Natural resource",
+     "Consumer"
+    ],
+    "answer": 0,
+    "explanation": "Tools and machines used to make things are capital resources."
+   },
+   {
+    "prompt": "Mia saves $3 a week for 4 weeks instead of buying candy. She will have…",
+    "options": [
+     "$7",
+     "$12",
+     "$34"
+    ],
+    "answer": 1,
+    "explanation": "3 × 4 = 12 dollars."
+   }
+  ]
+ },
+ {
+  "id": "4-social",
+  "grade": "4",
+  "subject": "Social Studies",
+  "title": "Ohio's early history",
+  "objective": "Describe the first peoples of Ohio and how Ohio became a state.",
+  "explain": "American Indian peoples lived in Ohio for thousands of years. Ancient groups built earthworks and mounds, such as the Great Serpent Mound. Later nations, including the Shawnee, Miami, Delaware, and Wyandot, lived here. After the American Revolution, Ohio was part of the Northwest Territory. Ohio became the 17th state on March 1, 1803.",
+  "example": "The Northwest Ordinance of 1787 set rules for the territory, including how new states could join the United States. Ohio was the first state made from the Northwest Territory.",
+  "activity": "Make a timeline with three events: ancient mound builders, the Northwest Ordinance (1787), and Ohio statehood (1803).",
+  "questions": [
+   {
+    "prompt": "Ohio became a state in…",
+    "options": [
+     "1776",
+     "1903",
+     "1803"
+    ],
+    "answer": 2,
+    "explanation": "Ohio became the 17th state on March 1, 1803."
+   },
+   {
+    "prompt": "Before statehood, Ohio was part of the…",
+    "options": [
+     "Northwest Territory",
+     "Louisiana Purchase",
+     "Oregon Territory"
+    ],
+    "answer": 0,
+    "explanation": "Ohio was the first state formed from the Northwest Territory."
+   },
+   {
+    "prompt": "The Great Serpent Mound was built by…",
+    "options": [
+     "European settlers in 1900",
+     "Ancient American Indian peoples",
+     "The U.S. Army"
+    ],
+    "answer": 1,
+    "explanation": "Ancient American Indian peoples built the Serpent Mound long ago."
+   },
+   {
+    "prompt": "Which American Indian nation lived in Ohio?",
+    "options": [
+     "The Maya",
+     "The Inca",
+     "The Shawnee"
+    ],
+    "answer": 2,
+    "explanation": "The Shawnee were one of several nations in Ohio, along with the Miami, Delaware, and Wyandot."
+   },
+   {
+    "prompt": "Ohio was the ___ state to join the United States.",
+    "options": [
+     "17th",
+     "1st",
+     "50th"
+    ],
+    "answer": 0,
+    "explanation": "Ohio was the seventeenth state."
+   },
+   {
+    "prompt": "The Northwest Ordinance of 1787 explained…",
+    "options": [
+     "How to build pyramids",
+     "How new states could join the United States",
+     "The rules of baseball"
+    ],
+    "answer": 1,
+    "explanation": "It set a path for territories to become states."
+   },
+   {
+    "prompt": "Mounds and earthworks teach us about…",
+    "options": [
+     "Modern cars",
+     "Ocean tides",
+     "How ancient peoples lived and what they believed"
+    ],
+    "answer": 2,
+    "explanation": "Archaeologists study earthworks to learn about ancient cultures."
+   },
+   {
+    "prompt": "Ohio's nickname is the…",
+    "options": [
+     "Buckeye State",
+     "Sunshine State",
+     "Lone Star State"
+    ],
+    "answer": 0,
+    "explanation": "Ohio is called the Buckeye State after the buckeye tree."
+   },
+   {
+    "prompt": "Ohio's state capital moved to Columbus in…",
+    "options": [
+     "1803",
+     "1816",
+     "1950"
+    ],
+    "answer": 1,
+    "explanation": "Columbus became Ohio's capital in 1816."
+   },
+   {
+    "prompt": "People who study artifacts and old sites are called…",
+    "options": [
+     "Astronauts",
+     "Architects",
+     "Archaeologists"
+    ],
+    "answer": 2,
+    "explanation": "Archaeologists study objects and places left by people long ago."
+   }
+  ]
+ },
+ {
+  "id": "4-social-2",
+  "grade": "4",
+  "subject": "Social Studies",
+  "title": "Ohio's geography",
+  "objective": "Locate Ohio's major water features and use latitude and longitude.",
+  "explain": "Ohio is in the Midwest region of the United States. Lake Erie forms much of its northern border and the Ohio River forms its southern border. Lines of latitude run east and west and measure distance north or south of the equator. Lines of longitude run north and south and measure distance east or west of the Prime Meridian.",
+  "example": "Cleveland is on Lake Erie in the north. Cincinnati is on the Ohio River in the southwest. Columbus is near the center of the state.",
+  "activity": "On a map of Ohio, mark Lake Erie, the Ohio River, Columbus, Cleveland, and Cincinnati.",
+  "questions": [
+   {
+    "prompt": "Which Great Lake is on Ohio's northern border?",
+    "options": [
+     "Lake Erie",
+     "Lake Superior",
+     "Lake Michigan"
+    ],
+    "answer": 0,
+    "explanation": "Lake Erie forms much of Ohio's northern border."
+   },
+   {
+    "prompt": "Ohio is in which region of the United States?",
+    "options": [
+     "The Southwest",
+     "The Midwest",
+     "New England"
+    ],
+    "answer": 1,
+    "explanation": "Ohio is part of the Midwest."
+   },
+   {
+    "prompt": "Lines of latitude measure distance…",
+    "options": [
+     "East or west of the Prime Meridian",
+     "Above sea level",
+     "North or south of the equator"
+    ],
+    "answer": 2,
+    "explanation": "Latitude tells how far north or south a place is."
+   },
+   {
+    "prompt": "Lines of longitude measure distance…",
+    "options": [
+     "East or west of the Prime Meridian",
+     "North or south of the equator",
+     "Under the ocean"
+    ],
+    "answer": 0,
+    "explanation": "Longitude tells how far east or west a place is."
+   },
+   {
+    "prompt": "Which city is on Lake Erie?",
+    "options": [
+     "Cincinnati",
+     "Cleveland",
+     "Columbus"
+    ],
+    "answer": 1,
+    "explanation": "Cleveland sits on the shore of Lake Erie."
+   },
+   {
+    "prompt": "Which city is on the Ohio River?",
+    "options": [
+     "Toledo",
+     "Cleveland",
+     "Cincinnati"
+    ],
+    "answer": 2,
+    "explanation": "Cincinnati is on the Ohio River in southwestern Ohio."
+   },
+   {
+    "prompt": "Which state borders Ohio to the west?",
+    "options": [
+     "Indiana",
+     "New York",
+     "Florida"
+    ],
+    "answer": 0,
+    "explanation": "Indiana is Ohio's western neighbor."
+   },
+   {
+    "prompt": "The equator is at…",
+    "options": [
+     "90 degrees latitude",
+     "0 degrees latitude",
+     "0 degrees longitude"
+    ],
+    "answer": 1,
+    "explanation": "The equator is the starting line for latitude, 0 degrees."
+   },
+   {
+    "prompt": "Why did many early Ohio cities grow along rivers and lakes?",
+    "options": [
+     "Rivers kept cities warm",
+     "Lakes made roads unnecessary forever",
+     "Water helped with travel, trade, and drinking water"
+    ],
+    "answer": 2,
+    "explanation": "Water routes moved people and goods before highways and railroads."
+   },
+   {
+    "prompt": "Columbus is located near Ohio's…",
+    "options": [
+     "Center",
+     "Northern border",
+     "Southern border"
+    ],
+    "answer": 0,
+    "explanation": "Columbus is in central Ohio."
+   }
+  ]
+ },
+ {
+  "id": "4-social-3",
+  "grade": "4",
+  "subject": "Social Studies",
+  "title": "Three branches of government",
+  "objective": "Explain the three branches of government in the United States and Ohio.",
+  "explain": "The U.S. Constitution divides government into three branches so no one part has too much power. The legislative branch makes laws. The executive branch carries out laws. The judicial branch decides what laws mean. In Ohio, the General Assembly makes laws, the governor leads the executive branch, and courts, including the Ohio Supreme Court, make up the judicial branch.",
+  "example": "Congress passes a bill. The President signs it into law. Later, a court decides whether the law follows the Constitution. That is checks and balances.",
+  "activity": "Draw three boxes labeled Make laws, Carry out laws, and Interpret laws. Write who does each job in the U.S. and in Ohio.",
+  "questions": [
+   {
+    "prompt": "Which branch makes laws?",
+    "options": [
+     "Executive",
+     "Legislative",
+     "Judicial"
+    ],
+    "answer": 1,
+    "explanation": "The legislative branch, like Congress, writes and passes laws."
+   },
+   {
+    "prompt": "Which branch carries out laws?",
+    "options": [
+     "Legislative",
+     "Judicial",
+     "Executive"
+    ],
+    "answer": 2,
+    "explanation": "The executive branch, led by the President, enforces laws."
+   },
+   {
+    "prompt": "Which branch decides what laws mean?",
+    "options": [
+     "Judicial",
+     "Executive",
+     "Legislative"
+    ],
+    "answer": 0,
+    "explanation": "Courts interpret laws and decide if they follow the Constitution."
+   },
+   {
+    "prompt": "The leader of Ohio's executive branch is the…",
+    "options": [
+     "Mayor",
+     "Governor",
+     "Chief Justice"
+    ],
+    "answer": 1,
+    "explanation": "The governor heads Ohio's executive branch."
+   },
+   {
+    "prompt": "Ohio's lawmaking body is called the…",
+    "options": [
+     "Supreme Court",
+     "Cabinet",
+     "General Assembly"
+    ],
+    "answer": 2,
+    "explanation": "The Ohio General Assembly has a Senate and a House of Representatives."
+   },
+   {
+    "prompt": "Checks and balances means…",
+    "options": [
+     "Each branch can limit the others",
+     "One branch rules alone",
+     "Laws never change"
+    ],
+    "answer": 0,
+    "explanation": "Each branch can check the power of the others."
+   },
+   {
+    "prompt": "The U.S. Congress has two parts: the Senate and the…",
+    "options": [
+     "Supreme Court",
+     "House of Representatives",
+     "Governor's office"
+    ],
+    "answer": 1,
+    "explanation": "Congress is made of the Senate and the House of Representatives."
+   },
+   {
+    "prompt": "The plan for the U.S. government is the…",
+    "options": [
+     "Declaration of Independence only",
+     "Northwest Ordinance",
+     "Constitution"
+    ],
+    "answer": 2,
+    "explanation": "The U.S. Constitution sets up the federal government."
+   },
+   {
+    "prompt": "Why divide government into three branches?",
+    "options": [
+     "So no single part has too much power",
+     "To make government slower on purpose",
+     "Because there are three colors on the flag"
+    ],
+    "answer": 0,
+    "explanation": "Splitting power protects people's rights."
+   },
+   {
+    "prompt": "The highest court in the United States is the…",
+    "options": [
+     "City council",
+     "U.S. Supreme Court",
+     "General Assembly"
+    ],
+    "answer": 1,
+    "explanation": "The U.S. Supreme Court is the top court in the country."
+   }
+  ]
+ },
+ {
+  "id": "4-social-4",
+  "grade": "4",
+  "subject": "Social Studies",
+  "title": "Ohio inventors and the Underground Railroad",
+  "objective": "Describe Ohio's role in invention and in the Underground Railroad.",
+  "explain": "Many inventors came from Ohio. Orville and Wilbur Wright of Dayton built the first successful powered airplane, which flew in 1903. Thomas Edison was born in Milan, Ohio. Before the Civil War, Ohio was a free state, and many Ohioans helped people escaping slavery travel north on the Underground Railroad, a secret network of routes and safe houses.",
+  "example": "The Rankin House in Ripley, Ohio, sat on a hill above the Ohio River. Its lantern signaled that it was safe for freedom seekers to cross.",
+  "activity": "Choose one Ohio inventor or one Underground Railroad helper. Write three facts about how that person made a difference.",
+  "questions": [
+   {
+    "prompt": "The Wright brothers were from…",
+    "options": [
+     "Boston, Massachusetts",
+     "Paris, France",
+     "Dayton, Ohio"
+    ],
+    "answer": 2,
+    "explanation": "Orville and Wilbur Wright ran a bicycle shop in Dayton."
+   },
+   {
+    "prompt": "The Wright brothers are famous for…",
+    "options": [
+     "The first successful powered airplane flight",
+     "Inventing the telephone",
+     "Building the first car"
+    ],
+    "answer": 0,
+    "explanation": "Their airplane flew at Kitty Hawk, North Carolina, in 1903."
+   },
+   {
+    "prompt": "Thomas Edison was born in…",
+    "options": [
+     "Dayton, Ohio",
+     "Milan, Ohio",
+     "London, England"
+    ],
+    "answer": 1,
+    "explanation": "Edison was born in Milan, Ohio, in 1847."
+   },
+   {
+    "prompt": "The Underground Railroad was…",
+    "options": [
+     "A train under the ground",
+     "A subway in Cleveland",
+     "A secret network that helped people escape slavery"
+    ],
+    "answer": 2,
+    "explanation": "It was a network of routes and safe houses, not a real railroad."
+   },
+   {
+    "prompt": "Ohio was important to the Underground Railroad because…",
+    "options": [
+     "It was a free state across the river from slave states",
+     "It had no rivers",
+     "It was part of Mexico"
+    ],
+    "answer": 0,
+    "explanation": "The Ohio River separated Ohio from states where slavery was legal."
+   },
+   {
+    "prompt": "People escaping slavery often traveled toward…",
+    "options": [
+     "The far South",
+     "The North and Canada",
+     "The ocean floor"
+    ],
+    "answer": 1,
+    "explanation": "Freedom seekers traveled north, many all the way to Canada."
+   },
+   {
+    "prompt": "The Rankin House in Ripley, Ohio, was…",
+    "options": [
+     "A factory for airplanes",
+     "The first school in Ohio",
+     "A station on the Underground Railroad"
+    ],
+    "answer": 2,
+    "explanation": "John Rankin's family helped many freedom seekers."
+   },
+   {
+    "prompt": "An inventor is a person who…",
+    "options": [
+     "Creates something new",
+     "Only sells things",
+     "Writes laws"
+    ],
+    "answer": 0,
+    "explanation": "Inventors create new tools, machines, or ideas."
+   },
+   {
+    "prompt": "An entrepreneur is a person who…",
+    "options": [
+     "Leads a country",
+     "Starts and runs a business",
+     "Studies rocks"
+    ],
+    "answer": 1,
+    "explanation": "Entrepreneurs take risks to start businesses."
+   },
+   {
+    "prompt": "Many astronauts came from Ohio, including Neil Armstrong, who…",
+    "options": [
+     "Invented the light bulb",
+     "Founded Columbus",
+     "Was the first person to walk on the Moon"
+    ],
+    "answer": 2,
+    "explanation": "Neil Armstrong, from Wapakoneta, Ohio, walked on the Moon in 1969."
+   }
+  ]
+ },
+ {
+  "id": "5-social",
+  "grade": "5",
+  "subject": "Social Studies",
+  "title": "Early civilizations of the Americas",
+  "objective": "Compare the Maya, Aztec, and Inca civilizations.",
+  "explain": "The Maya lived in southern Mexico and Central America. They built cities with pyramids, used a writing system, and made accurate calendars. The Aztec built their capital, Tenochtitlan, on an island in a lake, where Mexico City is today. The Inca ruled a large empire in the Andes Mountains of South America and built thousands of miles of roads.",
+  "example": "The Inca used knotted strings called quipu to keep records. The Aztec grew crops on floating gardens called chinampas.",
+  "activity": "Make a chart with three columns, Maya, Aztec, and Inca. List where each lived and one achievement.",
+  "questions": [
+   {
+    "prompt": "The Aztec capital was…",
+    "options": [
+     "Tenochtitlan",
+     "Cusco",
+     "Rome"
+    ],
+    "answer": 0,
+    "explanation": "Tenochtitlan was built on an island in a lake, where Mexico City is now."
+   },
+   {
+    "prompt": "The Inca Empire was in the…",
+    "options": [
+     "Rocky Mountains",
+     "Andes Mountains of South America",
+     "Sahara Desert"
+    ],
+    "answer": 1,
+    "explanation": "The Inca ruled along the Andes in South America."
+   },
+   {
+    "prompt": "The Maya are known for…",
+    "options": [
+     "Building the Great Wall",
+     "Inventing the airplane",
+     "Writing, calendars, and pyramid cities"
+    ],
+    "answer": 2,
+    "explanation": "The Maya developed writing, math, and calendars."
+   },
+   {
+    "prompt": "Quipu were…",
+    "options": [
+     "Knotted strings the Inca used to keep records",
+     "Aztec boats",
+     "Maya pyramids"
+    ],
+    "answer": 0,
+    "explanation": "The Inca recorded numbers with knotted cords."
+   },
+   {
+    "prompt": "Chinampas were…",
+    "options": [
+     "Inca roads",
+     "Floating gardens built by the Aztec",
+     "Maya books"
+    ],
+    "answer": 1,
+    "explanation": "Chinampas let the Aztec grow food on the lake."
+   },
+   {
+    "prompt": "Machu Picchu is a famous site built by the…",
+    "options": [
+     "Aztec",
+     "Maya",
+     "Inca"
+    ],
+    "answer": 2,
+    "explanation": "Machu Picchu is an Inca site high in the Andes."
+   },
+   {
+    "prompt": "Today, the site of Tenochtitlan is…",
+    "options": [
+     "Mexico City",
+     "Lima",
+     "Havana"
+    ],
+    "answer": 0,
+    "explanation": "Mexico City was built on the ruins of Tenochtitlan."
+   },
+   {
+    "prompt": "Why did the Inca build so many roads?",
+    "options": [
+     "To race horses",
+     "To connect and run their large empire",
+     "Because they had no mountains"
+    ],
+    "answer": 1,
+    "explanation": "Roads helped messengers, armies, and goods move across the empire."
+   },
+   {
+    "prompt": "The Maya lived mainly in…",
+    "options": [
+     "Canada",
+     "Brazil's Amazon only",
+     "Southern Mexico and Central America"
+    ],
+    "answer": 2,
+    "explanation": "Maya cities were in the Yucatán and Central America."
+   },
+   {
+    "prompt": "Which crop was important to all three civilizations?",
+    "options": [
+     "Corn (maize)",
+     "Wheat",
+     "Rice"
+    ],
+    "answer": 0,
+    "explanation": "Corn, also called maize, was a key food across the Americas."
+   }
+  ]
+ },
+ {
+  "id": "5-social-2",
+  "grade": "5",
+  "subject": "Social Studies",
+  "title": "Regions of the Western Hemisphere",
+  "objective": "Use latitude, longitude, and climate to describe regions of the Americas.",
+  "explain": "The Western Hemisphere includes North America, Central America, the Caribbean, and South America. Places near the equator are usually warm all year. Places far north or south are colder. Geographers group places into regions by shared features, such as climate, landforms, or language.",
+  "example": "The Amazon Rainforest is near the equator, so it is hot and rainy. Northern Canada is far from the equator, so it has long, cold winters.",
+  "activity": "On a map of the Americas, find the equator. Name one country near it and one country far from it, and compare their climates.",
+  "questions": [
+   {
+    "prompt": "The Western Hemisphere includes…",
+    "options": [
+     "Africa and Europe",
+     "North and South America",
+     "Asia and Australia"
+    ],
+    "answer": 1,
+    "explanation": "The Western Hemisphere is west of the Prime Meridian and includes the Americas."
+   },
+   {
+    "prompt": "Places near the equator are usually…",
+    "options": [
+     "Frozen all year",
+     "Covered in glaciers",
+     "Warm all year"
+    ],
+    "answer": 2,
+    "explanation": "Places near the equator get strong sunlight all year."
+   },
+   {
+    "prompt": "The Amazon Rainforest is in…",
+    "options": [
+     "South America",
+     "North America",
+     "Europe"
+    ],
+    "answer": 0,
+    "explanation": "The Amazon is mostly in Brazil and nearby South American countries."
+   },
+   {
+    "prompt": "A region is…",
+    "options": [
+     "One single house",
+     "An area with shared features",
+     "A type of map key"
+    ],
+    "answer": 1,
+    "explanation": "Regions are grouped by things like climate, landforms, or language."
+   },
+   {
+    "prompt": "The Andes Mountains run along the western side of…",
+    "options": [
+     "Africa",
+     "Greenland",
+     "South America"
+    ],
+    "answer": 2,
+    "explanation": "The Andes stretch along South America's west coast."
+   },
+   {
+    "prompt": "The largest country in South America is…",
+    "options": [
+     "Brazil",
+     "Peru",
+     "Chile"
+    ],
+    "answer": 0,
+    "explanation": "Brazil is the largest country in South America by area."
+   },
+   {
+    "prompt": "Spanish is spoken in much of Latin America. In Brazil, most people speak…",
+    "options": [
+     "French",
+     "Portuguese",
+     "Chinese"
+    ],
+    "answer": 1,
+    "explanation": "Brazil was colonized by Portugal, so Portuguese is its main language."
+   },
+   {
+    "prompt": "The Rocky Mountains are in…",
+    "options": [
+     "Eastern South America",
+     "Central Africa",
+     "Western North America"
+    ],
+    "answer": 2,
+    "explanation": "The Rockies run through the western United States and Canada."
+   },
+   {
+    "prompt": "Lines of latitude are also called…",
+    "options": [
+     "Parallels",
+     "Meridians",
+     "Equators"
+    ],
+    "answer": 0,
+    "explanation": "Latitude lines run parallel to the equator, so they are called parallels."
+   },
+   {
+    "prompt": "Lines of longitude are also called…",
+    "options": [
+     "Parallels",
+     "Meridians",
+     "Tropics"
+    ],
+    "answer": 1,
+    "explanation": "Longitude lines are called meridians and meet at the poles."
+   }
+  ]
+ },
+ {
+  "id": "5-social-3",
+  "grade": "5",
+  "subject": "Social Studies",
+  "title": "European exploration and its effects",
+  "objective": "Explain why Europeans explored the Americas and how it changed people's lives.",
+  "explain": "In the 1400s and 1500s, European countries sent explorers to find new trade routes, gold, and land. In 1492, Christopher Columbus reached the Caribbean. The exchange of plants, animals, and diseases between the Americas and Europe is called the Columbian Exchange. European diseases like smallpox caused many deaths among American Indian peoples, who had no immunity.",
+  "example": "Horses came to the Americas from Europe. Potatoes, corn, and tomatoes went from the Americas to Europe.",
+  "activity": "Make a two-column list: things that went from the Americas to Europe, and things that went from Europe to the Americas.",
+  "questions": [
+   {
+    "prompt": "Christopher Columbus first reached the Caribbean in…",
+    "options": [
+     "1776",
+     "1607",
+     "1492"
+    ],
+    "answer": 2,
+    "explanation": "Columbus landed in the Caribbean in 1492."
+   },
+   {
+    "prompt": "One reason Europeans explored was to find…",
+    "options": [
+     "New trade routes to Asia",
+     "New planets",
+     "A way to the Moon"
+    ],
+    "answer": 0,
+    "explanation": "Europeans wanted faster routes to trade for spices and silk."
+   },
+   {
+    "prompt": "The Columbian Exchange was…",
+    "options": [
+     "A trading card game",
+     "The movement of plants, animals, and diseases between the Americas and Europe",
+     "A peace treaty"
+    ],
+    "answer": 1,
+    "explanation": "Goods, living things, and diseases moved across the Atlantic."
+   },
+   {
+    "prompt": "Which came to the Americas from Europe?",
+    "options": [
+     "Potatoes",
+     "Corn",
+     "Horses"
+    ],
+    "answer": 2,
+    "explanation": "Horses were brought by Europeans to the Americas."
+   },
+   {
+    "prompt": "Which went from the Americas to Europe?",
+    "options": [
+     "Potatoes",
+     "Horses",
+     "Cattle"
+    ],
+    "answer": 0,
+    "explanation": "Potatoes first grew in South America."
+   },
+   {
+    "prompt": "Why did diseases like smallpox harm so many American Indian peoples?",
+    "options": [
+     "They lived too close to the equator",
+     "They had no immunity to the new diseases",
+     "They ate too much corn"
+    ],
+    "answer": 1,
+    "explanation": "People who had never been exposed had no protection from the diseases."
+   },
+   {
+    "prompt": "A colony is…",
+    "options": [
+     "A kind of crop",
+     "A group of mountains",
+     "A place ruled by a faraway country"
+    ],
+    "answer": 2,
+    "explanation": "European countries set up colonies in the Americas."
+   },
+   {
+    "prompt": "Spanish explorers who conquered the Aztec and Inca were called…",
+    "options": [
+     "Conquistadors",
+     "Pharaohs",
+     "Senators"
+    ],
+    "answer": 0,
+    "explanation": "Conquistadors were Spanish soldiers and explorers."
+   },
+   {
+    "prompt": "Which question best checks a historical source about exploration?",
+    "options": [
+     "How many pages does it have?",
+     "Whose point of view does it show?",
+     "Is the cover colorful?"
+    ],
+    "answer": 1,
+    "explanation": "Explorers and American Indian peoples saw these events very differently."
+   },
+   {
+    "prompt": "Tomatoes and chocolate first came from…",
+    "options": [
+     "Europe",
+     "Antarctica",
+     "The Americas"
+    ],
+    "answer": 2,
+    "explanation": "Both were grown in the Americas before Europeans arrived."
+   }
+  ]
+ },
+ {
+  "id": "5-social-4",
+  "grade": "5",
+  "subject": "Social Studies",
+  "title": "Trade, interdependence, and budgets",
+  "objective": "Explain why regions trade and how to make a simple budget.",
+  "explain": "Regions and countries specialize in what they produce well, then trade. This makes them interdependent, which means they depend on each other. A budget is a plan for using money. It lists income, the money you get, and expenses, the money you spend, so you can save for goals.",
+  "example": "Ohio farms grow soybeans and corn, which can be sold to other states and countries. Ohio buys bananas from Central America, where the climate is warm.",
+  "activity": "Make a one-week budget with $20 of pretend income. List what you would spend and how much you would save.",
+  "questions": [
+   {
+    "prompt": "Interdependence means…",
+    "options": [
+     "Depending on each other for goods and services",
+     "Never trading",
+     "Living alone on an island"
+    ],
+    "answer": 0,
+    "explanation": "Regions rely on each other for things they do not produce."
+   },
+   {
+    "prompt": "Why does the United States import bananas?",
+    "options": [
+     "Bananas are illegal to grow",
+     "They grow best in warm climates",
+     "Ohio has too many bananas"
+    ],
+    "answer": 1,
+    "explanation": "Bananas grow in tropical places, so the U.S. trades for them."
+   },
+   {
+    "prompt": "Income is…",
+    "options": [
+     "Money you spend",
+     "A type of tax",
+     "Money you receive"
+    ],
+    "answer": 2,
+    "explanation": "Income is money you earn or receive."
+   },
+   {
+    "prompt": "Expenses are…",
+    "options": [
+     "Money you spend",
+     "Money you save",
+     "Gifts you receive"
+    ],
+    "answer": 0,
+    "explanation": "Expenses are what you pay for goods and services."
+   },
+   {
+    "prompt": "A budget helps you…",
+    "options": [
+     "Get free money",
+     "Plan how to spend and save money",
+     "Stop all spending forever"
+    ],
+    "answer": 1,
+    "explanation": "A budget is a plan for using money wisely."
+   },
+   {
+    "prompt": "Leo earns $20 and spends $12. How much can he save?",
+    "options": [
+     "$32",
+     "$12",
+     "$8"
+    ],
+    "answer": 2,
+    "explanation": "20 − 12 = 8 dollars left to save."
+   },
+   {
+    "prompt": "Goods bought from another country are…",
+    "options": [
+     "Imports",
+     "Exports",
+     "Taxes"
+    ],
+    "answer": 0,
+    "explanation": "Imports come into a country from somewhere else."
+   },
+   {
+    "prompt": "Goods sold to another country are…",
+    "options": [
+     "Imports",
+     "Exports",
+     "Loans"
+    ],
+    "answer": 1,
+    "explanation": "Exports leave a country to be sold elsewhere."
+   },
+   {
+    "prompt": "Which crop is a major product of Ohio farms?",
+    "options": [
+     "Coffee",
+     "Bananas",
+     "Soybeans"
+    ],
+    "answer": 2,
+    "explanation": "Soybeans and corn are among Ohio's top crops."
+   },
+   {
+    "prompt": "Saving part of your income helps you…",
+    "options": [
+     "Reach a future goal",
+     "Spend more today",
+     "Owe more money"
+    ],
+    "answer": 0,
+    "explanation": "Saving builds money for things you want or need later."
+   }
+  ]
+ },
+ {
+  "id": "6-social",
+  "grade": "6",
+  "subject": "Social Studies",
+  "title": "Early river civilizations",
+  "objective": "Compare early civilizations of the Eastern Hemisphere, including Aksum.",
+  "explain": "Many early civilizations grew along rivers, which provided water, fertile soil, and transportation. Mesopotamia grew between the Tigris and Euphrates rivers and developed cuneiform writing. Egypt grew along the Nile and built pyramids. The Indus Valley and ancient China grew along their own great rivers. In East Africa, the Kingdom of Aksum, in what is now Ethiopia and Eritrea, became a powerful trading empire known for its tall stone stelae and its own coins.",
+  "example": "Every year the Nile flooded and left rich soil behind, so Egyptian farmers could grow wheat and barley.",
+  "activity": "Make a chart of four early civilizations. List each one's river or region and one achievement.",
+  "questions": [
+   {
+    "prompt": "Why did many early civilizations grow near rivers?",
+    "options": [
+     "Rivers kept enemies happy",
+     "Rivers gave water, fertile soil, and transportation",
+     "Rivers made the weather cold"
+    ],
+    "answer": 1,
+    "explanation": "Rivers supported farming and trade."
+   },
+   {
+    "prompt": "Mesopotamia was between which two rivers?",
+    "options": [
+     "The Nile and Amazon",
+     "The Ohio and Mississippi",
+     "The Tigris and Euphrates"
+    ],
+    "answer": 2,
+    "explanation": "Mesopotamia means land between the rivers."
+   },
+   {
+    "prompt": "Cuneiform was…",
+    "options": [
+     "A writing system from Mesopotamia",
+     "An Egyptian tomb",
+     "A Chinese wall"
+    ],
+    "answer": 0,
+    "explanation": "Sumerians pressed wedge-shaped marks into clay tablets."
+   },
+   {
+    "prompt": "Ancient Egypt grew along the…",
+    "options": [
+     "Yellow River",
+     "Nile River",
+     "Indus River"
+    ],
+    "answer": 1,
+    "explanation": "The Nile's floods made Egypt's farmland rich."
+   },
+   {
+    "prompt": "Hieroglyphics were…",
+    "options": [
+     "Inca roads",
+     "Greek plays",
+     "Egyptian picture writing"
+    ],
+    "answer": 2,
+    "explanation": "Egyptians wrote with picture symbols called hieroglyphs."
+   },
+   {
+    "prompt": "The Kingdom of Aksum was located in what is now…",
+    "options": [
+     "Ethiopia and Eritrea",
+     "Spain",
+     "Japan"
+    ],
+    "answer": 0,
+    "explanation": "Aksum was a powerful kingdom in the Horn of Africa."
+   },
+   {
+    "prompt": "Aksum was known for…",
+    "options": [
+     "Building Machu Picchu",
+     "Tall stone stelae and minting its own coins",
+     "Inventing paper"
+    ],
+    "answer": 1,
+    "explanation": "Aksum's giant stelae and coins show its wealth from trade."
+   },
+   {
+    "prompt": "Ancient Chinese civilization began along the…",
+    "options": [
+     "Thames River",
+     "Amazon River",
+     "Huang He (Yellow River)"
+    ],
+    "answer": 2,
+    "explanation": "Early Chinese settlements grew along the Huang He."
+   },
+   {
+    "prompt": "Harappa and Mohenjo-daro were cities of the…",
+    "options": [
+     "Indus Valley civilization",
+     "Aztec Empire",
+     "Roman Empire"
+    ],
+    "answer": 0,
+    "explanation": "These planned cities grew along the Indus River."
+   },
+   {
+    "prompt": "A civilization usually has…",
+    "options": [
+     "Only one family",
+     "Cities, government, and a way to keep records",
+     "No food supply"
+    ],
+    "answer": 1,
+    "explanation": "Civilizations have organized cities, leaders, and often writing."
+   }
+  ]
+ },
+ {
+  "id": "6-social-2",
+  "grade": "6",
+  "subject": "Social Studies",
+  "title": "Latitude, longitude, and the Eastern Hemisphere",
+  "objective": "Use coordinates to locate places and describe regions of the Eastern Hemisphere.",
+  "explain": "Coordinates give a place's exact location using latitude and longitude, such as 30° N, 31° E for Cairo, Egypt. The Prime Meridian at 0° longitude divides the Eastern and Western Hemispheres. The Eastern Hemisphere includes most of Europe, Africa, Asia, and Australia. Different map projections show the round Earth on flat paper, and each one stretches something.",
+  "example": "Addis Ababa, Ethiopia, is at about 9° N, 39° E. It is north of the equator and east of the Prime Meridian.",
+  "activity": "Use a globe or online map to find the coordinates of two cities. Tell which hemispheres each city is in.",
+  "questions": [
+   {
+    "prompt": "The Prime Meridian is at…",
+    "options": [
+     "0° latitude",
+     "90° north",
+     "0° longitude"
+    ],
+    "answer": 2,
+    "explanation": "The Prime Meridian is the starting line for longitude."
+   },
+   {
+    "prompt": "Which continent is entirely in the Eastern Hemisphere?",
+    "options": [
+     "Australia",
+     "South America",
+     "North America"
+    ],
+    "answer": 0,
+    "explanation": "Australia lies east of the Prime Meridian."
+   },
+   {
+    "prompt": "Cairo is at about 30° N, 31° E. It is…",
+    "options": [
+     "South of the equator",
+     "North of the equator and east of the Prime Meridian",
+     "West of the Prime Meridian"
+    ],
+    "answer": 1,
+    "explanation": "N means north of the equator and E means east of the Prime Meridian."
+   },
+   {
+    "prompt": "Addis Ababa, the capital of Ethiopia, is on which continent?",
+    "options": [
+     "Asia",
+     "Europe",
+     "Africa"
+    ],
+    "answer": 2,
+    "explanation": "Addis Ababa is in East Africa."
+   },
+   {
+    "prompt": "Why do flat maps distort the Earth?",
+    "options": [
+     "A round surface cannot be shown flat without stretching",
+     "Mapmakers make mistakes on purpose",
+     "The Earth is flat"
+    ],
+    "answer": 0,
+    "explanation": "Every map projection stretches size, shape, or distance somewhere."
+   },
+   {
+    "prompt": "The largest continent by area is…",
+    "options": [
+     "Europe",
+     "Asia",
+     "Australia"
+    ],
+    "answer": 1,
+    "explanation": "Asia is the largest continent."
+   },
+   {
+    "prompt": "The Sahara is a large desert in…",
+    "options": [
+     "South America",
+     "Southern Europe",
+     "Northern Africa"
+    ],
+    "answer": 2,
+    "explanation": "The Sahara covers much of northern Africa."
+   },
+   {
+    "prompt": "The equator divides the Earth into…",
+    "options": [
+     "Northern and Southern Hemispheres",
+     "Eastern and Western Hemispheres",
+     "Day and night"
+    ],
+    "answer": 0,
+    "explanation": "North of the equator is the Northern Hemisphere and south is the Southern Hemisphere."
+   },
+   {
+    "prompt": "A location at 10° S is…",
+    "options": [
+     "North of the equator",
+     "South of the equator",
+     "On the Prime Meridian"
+    ],
+    "answer": 1,
+    "explanation": "S means south of the equator."
+   },
+   {
+    "prompt": "The Himalayas, the world's highest mountains, are in…",
+    "options": [
+     "Africa",
+     "Australia",
+     "Asia"
+    ],
+    "answer": 2,
+    "explanation": "Mount Everest in the Himalayas is the highest peak on Earth."
+   }
+  ]
+ },
+ {
+  "id": "6-social-3",
+  "grade": "6",
+  "subject": "Social Studies",
+  "title": "Forms of government",
+  "objective": "Compare democracy, monarchy, and dictatorship, and explain citizens' roles.",
+  "explain": "In a democracy, citizens hold power and vote for leaders or laws. In a monarchy, a king or queen rules, often by birth; some monarchies today share power with elected leaders. In a dictatorship, one person or small group holds power without fair elections. Citizens in a democracy have rights, like free speech, and responsibilities, like obeying laws and voting.",
+  "example": "The United States is a representative democracy: citizens elect people to make laws for them. The United Kingdom has a king and an elected Parliament.",
+  "activity": "Make a chart comparing democracy, monarchy, and dictatorship: who holds power and how leaders are chosen.",
+  "questions": [
+   {
+    "prompt": "In a democracy, power belongs to…",
+    "options": [
+     "The citizens",
+     "One ruler alone",
+     "A single family by birth"
+    ],
+    "answer": 0,
+    "explanation": "Democracy means rule by the people."
+   },
+   {
+    "prompt": "In a monarchy, the ruler is usually…",
+    "options": [
+     "Elected every two years",
+     "A king or queen who inherits the role",
+     "Chosen by lottery"
+    ],
+    "answer": 1,
+    "explanation": "Monarchs usually inherit power through their family."
+   },
+   {
+    "prompt": "A dictatorship is when…",
+    "options": [
+     "Everyone votes on every law",
+     "Power is shared by three branches",
+     "One person or small group holds power without fair elections"
+    ],
+    "answer": 2,
+    "explanation": "Dictators rule without being chosen freely by citizens."
+   },
+   {
+    "prompt": "The United States is a…",
+    "options": [
+     "Representative democracy",
+     "Absolute monarchy",
+     "Dictatorship"
+    ],
+    "answer": 0,
+    "explanation": "U.S. citizens elect representatives to make laws."
+   },
+   {
+    "prompt": "Which is a responsibility of citizens in a democracy?",
+    "options": [
+     "Ignoring elections",
+     "Obeying laws",
+     "Silencing others"
+    ],
+    "answer": 1,
+    "explanation": "Citizens have duties like obeying laws, serving on juries, and voting."
+   },
+   {
+    "prompt": "Freedom of speech is an example of a…",
+    "options": [
+     "Tax",
+     "Punishment",
+     "Right"
+    ],
+    "answer": 2,
+    "explanation": "Free speech is a right protected by the First Amendment."
+   },
+   {
+    "prompt": "Ancient Athens, in Greece, is known for…",
+    "options": [
+     "An early form of democracy",
+     "The first monarchy in Africa",
+     "Building the pyramids"
+    ],
+    "answer": 0,
+    "explanation": "Athenian citizens voted directly on laws."
+   },
+   {
+    "prompt": "In a direct democracy, citizens…",
+    "options": [
+     "Never vote",
+     "Vote on laws themselves",
+     "Only vote for a king"
+    ],
+    "answer": 1,
+    "explanation": "In direct democracy, people vote on each law."
+   },
+   {
+    "prompt": "The first ten amendments to the U.S. Constitution are called the…",
+    "options": [
+     "Magna Carta",
+     "Northwest Ordinance",
+     "Bill of Rights"
+    ],
+    "answer": 2,
+    "explanation": "The Bill of Rights protects freedoms like speech and religion."
+   },
+   {
+    "prompt": "Why is voting important in a democracy?",
+    "options": [
+     "It lets citizens choose leaders and shape laws",
+     "It decides the weather",
+     "It is only for show"
+    ],
+    "answer": 0,
+    "explanation": "Voting gives people a voice in their government."
+   }
+  ]
+ },
+ {
+  "id": "6-social-4",
+  "grade": "6",
+  "subject": "Social Studies",
+  "title": "Markets, supply, and demand",
+  "objective": "Explain how supply and demand affect prices.",
+  "explain": "In a market, buyers and sellers trade goods and services. Demand is how much of something buyers want. Supply is how much sellers have to sell. When demand rises and supply stays the same, prices usually go up. When supply rises and demand stays the same, prices usually go down. Money and banks make trade and saving easier.",
+  "example": "In winter, many people want snow shovels. If stores have few shovels, the price rises. In summer, demand falls and shovels go on sale.",
+  "activity": "Pick a product, like umbrellas or sunscreen. Explain how its price might change by season and why.",
+  "questions": [
+   {
+    "prompt": "Demand is…",
+    "options": [
+     "How much sellers have",
+     "How much of something buyers want",
+     "The cost of making a product"
+    ],
+    "answer": 1,
+    "explanation": "Demand describes buyers' wants and willingness to pay."
+   },
+   {
+    "prompt": "Supply is…",
+    "options": [
+     "How much buyers want",
+     "A kind of tax",
+     "How much of something sellers have to sell"
+    ],
+    "answer": 2,
+    "explanation": "Supply is the amount available for sale."
+   },
+   {
+    "prompt": "Demand for a new toy rises, but supply stays the same. The price will likely…",
+    "options": [
+     "Go up",
+     "Go down",
+     "Stay at zero"
+    ],
+    "answer": 0,
+    "explanation": "More buyers competing for the same amount pushes prices up."
+   },
+   {
+    "prompt": "A farm grows a huge apple crop, but demand stays the same. Apple prices will likely…",
+    "options": [
+     "Go up",
+     "Go down",
+     "Disappear"
+    ],
+    "answer": 1,
+    "explanation": "More supply than buyers want usually lowers the price."
+   },
+   {
+    "prompt": "Snow shovels usually cost more in…",
+    "options": [
+     "Summer",
+     "Spring",
+     "Winter"
+    ],
+    "answer": 2,
+    "explanation": "Demand for shovels is highest in winter."
+   },
+   {
+    "prompt": "Why is money easier than bartering?",
+    "options": [
+     "Everyone accepts it, so you do not need a direct swap",
+     "Money never loses value",
+     "Bartering is illegal"
+    ],
+    "answer": 0,
+    "explanation": "Money works as a common exchange instead of trading goods for goods."
+   },
+   {
+    "prompt": "A bank pays you interest because…",
+    "options": [
+     "It feels generous",
+     "It uses your saved money to make loans",
+     "Interest is a tax"
+    ],
+    "answer": 1,
+    "explanation": "Banks lend saved money and share some of the earnings as interest."
+   },
+   {
+    "prompt": "Competition between sellers often leads to…",
+    "options": [
+     "Higher prices only",
+     "Fewer choices",
+     "Lower prices and better products"
+    ],
+    "answer": 2,
+    "explanation": "Sellers try to attract buyers with better deals."
+   },
+   {
+    "prompt": "A market is…",
+    "options": [
+     "Any place where buyers and sellers trade",
+     "Only a grocery store",
+     "A kind of government"
+    ],
+    "answer": 0,
+    "explanation": "Markets can be stores, websites, or trading floors."
+   },
+   {
+    "prompt": "Trade along the Silk Road connected…",
+    "options": [
+     "North and South America",
+     "China with Southwest Asia and Europe",
+     "Australia and Antarctica"
+    ],
+    "answer": 1,
+    "explanation": "The Silk Road linked China to lands as far as the Mediterranean."
+   }
+  ]
  }
 ];
 export const socialPictures: Record<string, Record<number, { prompt?: string; choices?: string[] }>> = {"pre-social":{"1":{"choices":["lunch","toys","shoes"]},"4":{"choices":["ball","table","shoes"]},"9":{"choices":["bed","letter","bus"]}},"pre-social-2":{"7":{"choices":["bed","rock","cup"]},"8":{"choices":["ear","clap","run"]}},"pre-social-3":{"0":{"choices":["tree","book","store"]},"1":{"choices":["school","store","house"]},"2":{"choices":["coin","tree","spoon"]},"3":{"choices":["bus","rain","house"]},"4":{"choices":["book","water","ball"]},"6":{"choices":["toys","ball","doctor"]},"7":{"choices":["bus","feathers","water"]},"8":{"choices":["cup","firehat","cat"]},"9":{"choices":["store","letter","run"]}},"pre-social-4":{"0":{"choices":["firehat","cup","feathers"]},"1":{"choices":["doctor","letter","plant"]},"2":{"choices":["bus","paint","doctor"]},"3":{"choices":["book","spoon","firehat"]},"4":{"choices":["doctor","bus","book"]},"5":{"choices":["letter","feathers","apple"]}},"k-social":{"1":{"choices":["bell","jump","hand"]},"2":{"choices":["sit","run","jump"]},"7":{"choices":["dog","sand","hand"]}},"k-social-2":{"5":{"choices":["window","letter","ball"]},"8":{"choices":["wagon","bus","water"]}},"k-social-3":{"0":{"choices":["map","rock","toys"]},"1":{"choices":["square","ball","triangle"]},"2":{"choices":["sand","mountain","water"]},"3":{"choices":["globe","moon","school"]},"4":{"choices":["spoon","map","pillow"]},"8":{"choices":["sand","rain","water"]}},"k-social-4":{"0":{"choices":["toys","water","ball"]},"2":{"choices":["house","toys","ball"]},"3":{"choices":["toys","apple","paper"]},"6":{"choices":["toys","lunch","ball"]},"9":{"choices":["toys","lunch","paper"]}},"1-social-2":{"0":{"choices":["map","rain","paint"]}}};
