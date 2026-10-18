@@ -137,7 +137,7 @@ function Counters({ n, g }: { n: number; g: Paint }) {
 // Letter block for phonics answers.
 function Letter({ ch, g }: { ch: string; g: Paint }) {
   const c = ({ s: "#5b8fd6", m: "#ff8a7a", t: "#6dbb6a" } as Record<string, string>)[ch] || "#a995d6";
-  return <g><rect x="18" y="18" width="64" height="64" rx="14" fill={g(c)} /><rect x="24" y="24" width="52" height="52" rx="10" fill="none" stroke="#fff" strokeWidth="2" opacity=".5" /><text x="50" y="66" fontSize="46" fontWeight="800" fill="#fff" textAnchor="middle" fontFamily="system-ui,sans-serif">{ch}</text></g>;
+  return <g><rect x="18" y="18" width="64" height="64" rx="14" fill={g(c)} /><rect x="24" y="24" width="52" height="52" rx="10" fill="none" stroke="#fff" strokeWidth="2" opacity=".5" /><text x="50" y="66" fontSize="46" fontWeight="800" fill="#fff" textAnchor="middle" fontFamily='"Ewket Ethiopic",system-ui,sans-serif'>{ch}</text></g>;
 }
 
 // Colour pattern pictures, e.g. "dots:red,blue".

@@ -67,6 +67,8 @@ for (const [id, m] of Object.entries(writingPictures)) choicePictures[id] = { ..
 
 import { scienceOhioPictures } from "./science-ohio";
 for (const [id, m] of Object.entries(scienceOhioPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
+import { amharicFidelPictures } from "./amharic-fidel";
+for (const [id, m] of Object.entries(amharicFidelPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
 
 // Pictures for Grades 1 and 2 (2026-10-17). Keys follow each question's answer order as shown.
 const grade12Pictures: Record<string, ChoicePictures> = {

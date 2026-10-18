@@ -1,4 +1,5 @@
 "use client";
+import { t } from "@/lib/i18n";
 import { useState } from "react";
 import { grades, type Grade } from "@/lib/learning-content";
 import { choicePictures } from "@/lib/choice-pictures";
@@ -6,7 +7,7 @@ import { placementQuestions, nextStep, type PlacementStep } from "@/lib/placemen
 import Pic, { hasPicture } from "./picture-icons";
 import ReadAloud from "./read-aloud";
 
-const label = (g: Grade) => grades.find(x => x.id === g)?.label || g;
+const label = (g: Grade) => t(grades.find(x => x.id === g)?.label || g);
 
 // A short level check: four questions per level, moving up after a strong round and down after a hard one.
 export default function Placement({ grade, onUse }: { grade: Grade; onUse: (g: Grade) => void }) {
@@ -20,7 +21,7 @@ export default function Placement({ grade, onUse }: { grade: Grade; onUse: (g: G
 
   function start() { setOpen(true); setSteps([]); setLevel(grade); setAnswers({}); setResult(null); setNote(""); }
   function submit() {
-    if (qs.some((_, i) => answers[i] === undefined)) { setNote("Choose an answer for every question first."); return; }
+    if (qs.some((_, i) => answers[i] === undefined)) { setNote(t("Choose an answer for every question first.")); return; }
     const correct = qs.filter((q, i) => answers[i] === q.answer).length;
     const all = [...steps, { grade: level, correct, total: qs.length }];
     const next = nextStep(all);
@@ -28,25 +29,25 @@ export default function Placement({ grade, onUse }: { grade: Grade; onUse: (g: G
     if (next.done) setResult(next.suggest); else { setLevel(next.level); window.scrollTo({ top: (document.getElementById("placement")?.offsetTop || 0) - 80 }); }
   }
 
-  if (!open) return <div className="placement-callout" id="placement"><p><strong>Not sure which level fits?</strong> Take a short level check. It takes about 5 minutes.</p><button type="button" className="learn-btn" onClick={start}>Find my level</button></div>;
+  if (!open) return <div className="placement-callout" id="placement"><p><strong>{t("Not sure which level fits?")}</strong>{' '}{t("Take a short level check. It takes about 5 minutes.")}</p><button type="button" className="learn-btn" onClick={start}>{t("Find my level")}</button></div>;
 
   return <section className="placement family-resource" id="placement" aria-live="polite">
-    <div className="section-title"><div><p className="learn-eyebrow">LEVEL CHECK</p><h3>{result ? "Your suggested starting level" : `Round ${steps.length + 1}: ${label(level)} questions`}</h3></div><button type="button" className="link-btn" onClick={() => setOpen(false)}>Close</button></div>
+    <div className="section-title"><div><p className="learn-eyebrow">{t("LEVEL CHECK")}</p><h3>{result ? t("Your suggested starting level") : t("Round {0}: {1} questions",steps.length + 1,label(level))}</h3></div><button type="button" className="link-btn" onClick={() => setOpen(false)}>{t("Close")}</button></div>
     {result ? <>
-      <p className="placement-result">Start with <strong>{label(result)}</strong>.</p>
-      <ul className="placement-rounds">{steps.map((s, i) => <li key={i}>{label(s.grade)}: {s.correct} of {s.total} correct</li>)}</ul>
-      <p className="fine-print">This is a quick practice check, not a test or a school placement. If the lessons feel too easy or too hard, switch levels anytime.</p>
-      <div className="hero-actions">{result !== grade ? <><button type="button" className="learn-btn" onClick={() => { onUse(result); setOpen(false); }}>Use {label(result)}</button><button type="button" className="link-btn" onClick={() => setOpen(false)}>Keep {label(grade)}</button></> : <button type="button" className="learn-btn" onClick={() => setOpen(false)}>Keep {label(grade)}</button>}<button type="button" className="link-btn" onClick={start}>Take it again</button></div>
+      <p className="placement-result">{t("Start with {0}.",label(result))}</p>
+      <ul className="placement-rounds">{steps.map((s, i) => <li key={i}>{label(s.grade)}: {t("{0} of {1} correct",s.correct,s.total)}</li>)}</ul>
+      <p className="fine-print">{t("This is a quick practice check, not a test or a school placement. If the lessons feel too easy or too hard, switch levels anytime.")}</p>
+      <div className="hero-actions">{result !== grade ? <><button type="button" className="learn-btn" onClick={() => { onUse(result); setOpen(false); }}>{t("Use {0}",label(result))}</button><button type="button" className="link-btn" onClick={() => setOpen(false)}>{t("Keep {0}",label(grade))}</button></> : <button type="button" className="learn-btn" onClick={() => setOpen(false)}>{t("Keep {0}",label(grade))}</button>}<button type="button" className="link-btn" onClick={start}>{t("Take it again")}</button></div>
     </> : <form onSubmit={e => { e.preventDefault(); submit(); }}>
-      <p className="fine-print">{level === "pre" || level === "k" ? "A grown-up can read each question aloud or tap Listen. " : ""}Answer what you can. It is fine to guess. The next round gets easier or harder based on your answers.</p>
+      <p className="fine-print">{level === "pre" || level === "k" ? t("A grown-up can read each question aloud or tap Listen. ") : ""}{t("Answer what you can. It is fine to guess. The next round gets easier or harder based on your answers.")}</p>
       {qs.map((q, i) => { const pics = choicePictures[q.lessonId]?.[q.index]; const usePics = pics?.choices?.length === q.options.length && pics.choices.every(hasPicture);
         return <fieldset className="practice-question" key={`${level}-${i}`}><legend>{i + 1}. {q.prompt}</legend>
           {pics?.prompt && hasPicture(pics.prompt) && <Pic name={pics.prompt} className="prompt-pic" />}
-          <ReadAloud compact label={`Listen to question ${i + 1}`} text={`${q.prompt.replace(/●/g, " dot ")}. ${q.options.map((s, n) => `${String.fromCharCode(65 + n)}. ${s}`).join(". ")}`} />
+          <ReadAloud compact label={t("Listen to question {0}",i + 1)} text={`${q.prompt.replace(/●/g, " dot ")}. ${q.options.map((s, n) => `${String.fromCharCode(65 + n)}. ${s}`).join(". ")}`} />
           <div className={`answer-grid ${usePics ? "with-pics" : ""}`}>{q.options.map((o, n) => <label key={n} className={answers[i] === n ? "selected" : ""}><input type="radio" name={`placement-${i}`} checked={answers[i] === n} onChange={() => setAnswers(a => ({ ...a, [i]: n }))} />{usePics ? <Pic name={pics!.choices![n]} /> : null}<span>{o}</span></label>)}</div>
         </fieldset>; })}
       {note && <p className="auth-error" role="alert">{note}</p>}
-      <button className="learn-btn big-action">{steps.length ? "Next" : "Check my answers"}</button>
+      <button className="learn-btn big-action">{steps.length ? t("Next") : t("Check my answers")}</button>
     </form>}
   </section>;
 }

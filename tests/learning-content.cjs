@@ -22,9 +22,9 @@ const p=st.newLearner(1,'old');p.progress={'3-science':{score:3,total:3,date:'20
 assert.ok(st.validSaved({version:2,activeId:'old',learners:[p]}),'old Grade 3 science progress still loads');
 const {phoneReport,validPhoneReport}=require('../.learning-test/lib/report-link.js');assert.ok(validPhoneReport(phoneReport(p,'2026-10-12',1)),'report with a retired lesson is still valid');
 console.log('Passed: retired Grade 3 science lessons are hidden but earlier progress and reports still load.');}
-{const {standards}=require('../.learning-test/lib/standards-map.js');const missing=lessons.filter(l=>!standards[l.id]).map(l=>l.id);assert.deepEqual(missing,[],'every lesson names its Ohio standard');
+{const {standards}=require('../.learning-test/lib/standards-map.js');const missing=lessons.filter(l=>l.subject!=='Amharic'&&!standards[l.id]).map(l=>l.id);assert.deepEqual(missing,[],'every lesson names its Ohio standard');
 for(const l of lessons.filter(l=>l.subject==='Science'&&l.grade!=='pre'))assert.match(standards[l.id],new RegExp('^'+(l.grade==='k'?'K':l.grade)+'\\.(ESS|LS|PS)'),l.id+' maps to its own grade');
-console.log('Passed: all '+lessons.length+' lessons name an Ohio standard; every K-6 science lesson maps to its own grade\'s science standards.');}
+console.log('Passed: all '+lessons.filter(l=>l.subject!=='Amharic').length+' school lessons name an Ohio standard ('+lessons.filter(l=>l.subject==='Amharic').length+' Amharic heritage lessons are outside Ohio standards); every K-6 science lesson maps to its own grade\'s science standards.');}
 {const src=require('fs').readFileSync(__dirname+'/../app/learn/picture-icons.tsx','utf8');const have=new Set([...src.matchAll(/^  "?([a-z0-9-]+)"?: g/gm)].map(m=>m[1]));const ok=k=>/^(n:([0-9]|10)|l:.|dots:[a-z,]+)$/.test(k)||have.has(k);
 const {choicePictures}=require('../.learning-test/lib/choice-pictures.js');const bad=[];let n=0;const by={};
 for(const l of lessons)for(const [i,v] of Object.entries(choicePictures[l.id]||{})){const q=l.questions[i];if(!q){bad.push(l.id+'#'+i);continue;}n++;by[l.grade]=(by[l.grade]||0)+1;if(v.choices&&v.choices.length!==q.options.length)bad.push(l.id+'#'+i+' length');for(const k of [...(v.choices||[]),...(v.prompt?[v.prompt]:[])])if(!ok(k))bad.push(l.id+'#'+i+' '+k);}

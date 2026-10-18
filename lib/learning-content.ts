@@ -3,8 +3,11 @@ import { questionBanks } from "./question-banks";
 import { socialLessons } from "./social-studies";
 import { writingLessons } from "./writing-lessons";
 import { scienceOhioLessons } from "./science-ohio";
+import { amharicFidelLessons } from "./amharic-fidel";
 export type Grade = "pre" | "k" | "1" | "2" | "3" | "4" | "5" | "6";
-export type Subject = "Math" | "Reading" | "Writing" | "Science" | "Social Studies";
+export type Subject = "Math" | "Reading" | "Writing" | "Science" | "Social Studies" | "Amharic";
+/** The five school subjects. Amharic (Preschool to Grade 2) is an optional heritage-language subject outside quizzes and placement. */
+export const coreSubjects: Subject[] = ["Math", "Reading", "Writing", "Science", "Social Studies"];
 export type Lesson = {id:string;grade:Grade;subject:Subject;title:string;objective:string;explain:string;example:string;activity:string;questions:{prompt:string;options:string[];answer:number;explanation:string}[]};
 export const grades: {id:Grade;label:string;focus:string}[] = [{"id": "pre", "label": "Preschool", "focus": "Play, notice, and explore"}, {"id": "k", "label": "Kindergarten", "focus": "Build a strong beginning"}, {"id": "1", "label": "Grade 1", "focus": "Read and count with confidence"}, {"id": "2", "label": "Grade 2", "focus": "Connect ideas"}, {"id": "3", "label": "Grade 3", "focus": "Grow independent thinking"}, {"id": "4", "label": "Grade 4", "focus": "Explain how and why"}, {"id": "5", "label": "Grade 5", "focus": "Reason and support ideas"}, {"id": "6", "label": "Grade 6", "focus": "Prepare for the next chapter"}];
 const starterLessons:Lesson[] = [
@@ -1021,7 +1024,7 @@ const starterLessons:Lesson[] = [
 // Each lesson keeps its original three questions first, then any extra bank questions.
 // Every lesson that has ever been published. Saved progress and reports may still name a retired lesson,
 // so validation and title lookups use allLessons; everything children browse uses lessons.
-export const allLessons:Lesson[] = [...starterLessons,...sequenceLessons,...writingLessons,...socialLessons,...scienceOhioLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
+export const allLessons:Lesson[] = [...starterLessons,...sequenceLessons,...writingLessons,...socialLessons,...scienceOhioLessons,...amharicFidelLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
 // Science was rebuilt around Ohio's Learning Standards for Science (2026-10-17): Grade 3 first, then K, 1, 2, 4, 5 and 6.
 // The lessons it replaced stay in allLessons so earlier progress and reports still load.
 export const retiredLessons=new Set(["3-science","3-science-2","3-science-3","3-science-4","k-science-2","k-science-4","1-science-2","1-science-4","2-science","2-science-2","2-science-3","2-science-4","4-science","4-science-2","4-science-3","5-science","5-science-2","5-science-4","6-science","6-science-2","6-science-3","6-science-4"]);
