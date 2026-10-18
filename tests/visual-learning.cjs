@@ -3,7 +3,7 @@ const fs=require('node:fs');
 const {JSDOM}=require('jsdom');
 const {lessons,grades}=require('../.learning-test/lib/learning-content.js');
 const {visualActivities}=require('../.learning-test/lib/visual-learning.js');
-const html=fs.readFileSync('index.html','utf8');
+const html=require('./page-html.cjs')();
 assert.equal(Object.keys(visualActivities).length,24);
 for(const grade of grades)for(const subject of ['Math','Reading','Science'])assert.equal(lessons.filter(l=>l.grade===grade.id&&l.subject===subject&&visualActivities[l.id]).length,1);
 for(const [id,a] of Object.entries(visualActivities)){assert.ok(lessons.some(l=>l.id===id));if(a.kind==='choice'){assert.equal(a.options.length,3);assert.ok(a.answer>=0&&a.answer<3);}if(a.kind==='sequence')assert.equal(a.steps.length,3);}

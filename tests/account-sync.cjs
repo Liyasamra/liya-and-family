@@ -5,7 +5,7 @@ const user={id:'11111111-1111-4111-8111-111111111111'};
 const session={access_token:'test-token',refresh_token:'r',token_type:'bearer',expires_in:3600,expires_at:Math.floor(Date.now()/1000)+3600,user};
 const learner={id:'l1',studentId:'EW001',nickname:'Fox',icon:'🦊',grade:'3',progress:{'3-math':{score:5,total:5,date:'2026-10-15'}},attempts:[{id:'a1',lessonId:'3-math',date:'2026-10-15',score:5,total:5}],reading:[],assessments:[{id:'chk-local',date:'2026-10-16',grade:'3',week:1,score:7,total:9}],legacyMinutes:0,plan:['a','b','c','d','e','f','g']};
 const json=v=>new Response(JSON.stringify(v),{status:200,headers:{'Content-Type':'application/json'}});
-function load(withSession){const calls=[];const dom=new JSDOM(fs.readFileSync('index.html','utf8'),{url:'https://example.test/index.html#assessments',runScripts:'dangerously',pretendToBeVisual:true,beforeParse(w){
+function load(withSession){const calls=[];const dom=new JSDOM(require('./page-html.cjs')(),{url:'https://example.test/index.html#assessments',runScripts:'dangerously',pretendToBeVisual:true,beforeParse(w){
  if(withSession)w.sessionStorage.setItem('ewket-parent-session',JSON.stringify(session));
  w.localStorage.setItem('liya-family-learning-v2',JSON.stringify({version:2,activeId:'l1',learners:[learner]}));w.localStorage.setItem('ewket-auto-read','off');
  w.fetch=async(url,init={})=>{const u=String(url);const body=init.body?JSON.parse(init.body):{};calls.push({u,body,auth:init.headers&&init.headers.Authorization});

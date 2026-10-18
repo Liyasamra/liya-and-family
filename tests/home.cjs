@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),{JSDOM}=require('jsdom');
-const dom=new JSDOM(fs.readFileSync('index.html','utf8'),{url:'https://home.test/',runScripts:'dangerously',pretendToBeVisual:true,beforeParse(w){w.HTMLElement.prototype.scrollIntoView=function(){};w.scrollTo=()=>{};}});
+const dom=new JSDOM(require('./page-html.cjs')(),{url:'https://home.test/',runScripts:'dangerously',pretendToBeVisual:true,beforeParse(w){w.HTMLElement.prototype.scrollIntoView=function(){};w.scrollTo=()=>{};}});
 const d=dom.window.document,delay=()=>new Promise(r=>setTimeout(r,40));
 (async()=>{for(let i=0;i<100&&!d.querySelector('.home-card');i++)await delay();
 assert.ok(d.querySelector('.home-card'),'home card shown');

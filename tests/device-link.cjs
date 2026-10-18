@@ -3,7 +3,7 @@ const fs=require('fs'),assert=require('node:assert/strict'),{JSDOM,VirtualConsol
 const learner={id:'l1',studentId:'EW001',nickname:'Fox',icon:'🦊',grade:'3',progress:{'3-math':{score:5,total:5,date:'2026-10-15'}},attempts:[{id:'a1',lessonId:'3-math',date:'2026-10-15',score:5,total:5}],reading:[],assessments:[{id:'chk1',date:'2026-10-16',grade:'3',week:1,score:12,total:15}],legacyMinutes:0,plan:['a','b','c','d','e','f','g']};
 const json=(v,status=200)=>new Response(JSON.stringify(v),{status,headers:{'Content-Type':'application/json'}});
 const vc=new VirtualConsole();vc.on('jsdomError',()=>{});
-function load({keys,linkedLearner,syncStatus=200}){const calls=[];const dom=new JSDOM(fs.readFileSync('index.html','utf8'),{url:'https://example.test/index.html#learn',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){
+function load({keys,linkedLearner,syncStatus=200}){const calls=[];const dom=new JSDOM(require('./page-html.cjs')(),{url:'https://example.test/index.html#learn',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){
  if(keys)w.localStorage.setItem('ewket-device-keys',JSON.stringify(keys));
  w.localStorage.setItem('liya-family-learning-v2',JSON.stringify({version:2,activeId:'l1',learners:[linkedLearner?learner:{...learner,studentId:undefined,progress:{},attempts:[],assessments:[]}]}));w.localStorage.setItem('ewket-auto-read','off');
  w.fetch=async(url,init={})=>{const u=String(url);const body=init.body?JSON.parse(init.body):{};calls.push({u,body,headers:init.headers||{}});
