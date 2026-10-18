@@ -15,6 +15,8 @@ const dom=new JSDOM(fs.readFileSync('parent-portal.html','utf8'),{url:'https://e
   if(u.includes('rpc/ewket_registration_status'))return json(true);
   if(u.includes('rpc/ewket_my_students'))return json(students);
   if(u.includes('rpc/ewket_sync_progress')){saved.push(body);return json(body.p_items.length);}
+  if(u.includes('rpc/ewket_student_devices'))return json(body.p_student===students[0].student_uuid?[{id:'dddd0000-0000-4000-8000-000000000001',created_at:'2026-10-16T12:00:00Z',last_used_at:'2026-10-17T09:00:00Z'}]:[]);
+  if(u.includes('rpc/ewket_create_device_code'))return json('ABCD-EFGH');
   if(u.includes('rpc/ewket_sync_checks')){savedChecks.push(body);return json(body.p_items.length);}
   if(u.includes('rpc/ewket_student_checks'))return json(body.p_student===students[0].student_uuid?[{check_id:'chk-1',grade:'3',week:1,score:7,total:9,taken_on:'2026-10-16'}]:[]);
   if(u.includes('rpc/ewket_student_progress')){if(body.p_student===students[0].student_uuid)return json([{lesson_id:'3-math',best_score:5,best_total:5,last_score:5,last_total:5,last_date:'2026-10-15',attempts:2,mastered_on:'2026-10-15'},{lesson_id:'3-reading',best_score:3,best_total:5,last_score:3,last_total:5,last_date:'2026-10-14',attempts:1,mastered_on:null}]);return json([]);}
@@ -33,6 +35,8 @@ const d=dom.window.document,delay=()=>new Promise(r=>setTimeout(r,40));
  assert.match(owl,/No lessons saved yet/);
  assert.equal(savedChecks.length,1);assert.deepEqual(savedChecks[0].p_items,[{check_id:'chk-1',grade:'3',week:1,score:7,total:9,taken_on:'2026-10-16'}]);
  assert.match(fox,/Practice checks/);assert.match(fox,/1 saved · Latest: Week 1 quiz, 7 of 9/);assert.ok(!/Practice checks/.test(owl));
+ assert.match(fox,/Linked devices/);assert.match(fox,/last saved/);assert.match(owl,/No devices linked/);
+ {const b=[...cards[1].querySelectorAll('button')].find(b=>b.textContent==='Link a device');assert.ok(b);b.click();for(let i=0;i<40&&!cards[1].querySelector('.code-big');i++)await delay();assert.equal(cards[1].querySelector('.code-big').textContent,'ABCD-EFGH');}
  assert.match(d.body.textContent,/Progress from this device was saved to your account for 1 child/);
- dom.window.close();console.log('Passed: signed-in sync sends only linked children, merges best/latest/tries/mastered dates, sends no names, and the progress card shows account progress.');
+ dom.window.close();console.log('Passed: signed-in sync sends only linked children, merges best/latest/tries/mastered dates, sends no names, the progress card shows account progress, and parents see linked devices and can make a link code.');
 })().catch(e=>{console.error(e);dom.window.close();process.exitCode=1});

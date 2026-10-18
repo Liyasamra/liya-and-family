@@ -176,3 +176,10 @@ html,body{background:#fff5ec}
 .placement .placement-rounds{margin:0 0 8px;padding-left:20px}.placement .placement-rounds li{margin:2px 0}
 .lesson-cover.social-cover{display:flex;justify-content:center;align-items:center;gap:6%;padding:10px 0;background:linear-gradient(180deg,#f4f9fd,#fff);border-radius:18px}
 .lesson-cover.social-cover svg{width:34%;max-width:120px;height:auto}
+/* Device linking */
+.device-box{margin-top:12px;border-top:1px solid #f0e8f7;padding-top:8px}
+.device-box .progress-list li{align-items:center}
+.link-code{background:#fbf8fd;border:1px dashed #cdb8e6;border-radius:12px;padding:10px 12px;margin-top:6px}
+.link-code p{margin:4px 0}
+.code-big{font-size:1.8rem;font-weight:800;letter-spacing:.14em;color:var(--l-ink);font-family:ui-monospace,Menlo,Consolas,monospace}
+.device-link{margin:0 0 18px}
