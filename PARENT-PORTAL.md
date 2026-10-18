@@ -39,3 +39,8 @@ Project: cossjxrtskwjpywbwcxk, independent Ewket Kids organization.
 - Parent portal: on sign-in, results stored on this device for learners linked to an EW number are saved to the account, then a progress card shows lessons done at the child's grade, recent lessons and what needs more practice. Learners not linked to an EW number are never sent.
 - The learning page also saves a linked learner's lessons and practice checks right away when a parent signed in to the portal in the same tab (lib/account-link.ts reuses that session; nothing new is stored). An expired session does nothing, and the portal catches up at the next sign-in on that device.
 - supabase/checks-sync.sql + checks-sync-test.sql: practice checks (weekly quizzes, monthly reviews) saved per child (level, week, score, date), insert-only by check id, same ownership rules. The Practice checks page and yearly certificate show account checks from every device.
+
+## Quiz sizes and device links (2026-10-17)
+- supabase/quiz-and-device-links.sql: weekly quizzes now 15 questions (all five subjects), monthly 40; 9 and 36 stay valid. Shared merge functions for parent and device paths.
+- Device links: a parent makes a one-time 8-character code (15 minutes) on a child's card; the child's device trades it for a 64-character device key kept in that browser. The key can only add results for that one child (ewket_device_sync returns counts only). Codes and keys are stored as SHA-256 hashes. Failed code attempts are counted and slow down guessing. Parents see linked devices and can unlink them.
+- supabase/quiz-and-device-links-test.sql: two-family test (codes, one-time use, write-only key, unlink, other family and signed-out denial, quiz sizes). Verified locally with PGlite.

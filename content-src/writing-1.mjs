@@ -42,7 +42,7 @@ export const lessons = [
  ["Which word do the letters s, u, n make?","sun",["cup","bed"],"s-u-n spells sun.",["sun","cup","bed"]],
  ["What do we leave between words?","A space",["A dot","A picture"],"Spaces between words make writing easy to read."],
  ["How many letters are in the word dog?","3",["2","5"],"d-o-g has three letters.",["n:3","n:2","n:5"]],
- ["Which word do the letters h, a, t make?","hat",["cat","bat"],"h-a-t spells hat.",["hat","cat","ball"]],
+ ["Which word do the letters h, a, t make?","hat",["cat","bat"],"h-a-t spells hat."],
  ["Which one is a word?","bee",["5","+"],"bee is a word made of letters. 5 is a number and + is a math sign."],
  ["Which first letter does the word moon start with?","m",["s","t"],"moon starts with m.",["l:m","l:s","l:t"],"moon"],
  ["How many letters are in the word up?","2",["3","4"],"u-p has two letters.",["n:2","n:3","n:4"]],

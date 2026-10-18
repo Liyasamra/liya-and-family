@@ -67,3 +67,26 @@ for (const [id, m] of Object.entries(writingPictures)) choicePictures[id] = { ..
 
 import { scienceOhioPictures } from "./science-ohio";
 for (const [id, m] of Object.entries(scienceOhioPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
+
+// Pictures for Grades 1 and 2 (2026-10-17). Keys follow each question's answer order as shown.
+const grade12Pictures: Record<string, ChoicePictures> = {
+ "1-reading": { 0: { choices: ["dots:blue", "dots:red", "dots:green"] }, 1: { choices: ["tree", "store", "school"] }, 2: { choices: ["rain", "car", "wind"] }, 3: { prompt: "dog" }, 4: { choices: ["dots:red", "dots:yellow", "dots:blue"] }, 6: { prompt: "cat" }, 9: { choices: ["n:3", "n:2", "n:5"] } },
+ "1-reading-3": { 3: { prompt: "kite" }, 4: { prompt: "towel" } },
+ "1-science": { 0: { choices: ["toys", "water", "cup"] }, 3: { choices: ["spoon", "cup", "rock"] }, 6: { prompt: "water" }, 8: { choices: ["rain", "cup", "spoon"] } },
+ "1-science-3": { 6: { prompt: "rabbit" }, 8: { choices: ["car", "water", "tree"] }, 9: { prompt: "goldfish" } },
+ "1-science-sun": { 1: { choices: ["tree", "sun", "dark"] }, 2: { choices: ["globe", "rain", "sun"] }, 9: { choices: ["sun", "window", "moon"] } },
+ "1-science-motion": { 6: { choices: ["eye", "ball", "sound"] }, 8: { choices: ["hand", "clap", "eye"] } },
+ "1-social-2": { 4: { choices: ["water", "tree", "store"] }, 7: { prompt: "sun" } },
+ "1-social-3": { 1: { choices: ["shoes", "apple", "car"] }, 4: { prompt: "plant" }, 7: { prompt: "toys" }, 8: { prompt: "bus" } },
+ "1-writing": { 2: { choices: ["jump", "school", "run"] }, 3: { choices: ["sound", "dots:blue", "grownup"] }, 4: { prompt: "cat" }, 8: { choices: ["apple", "jump", "grownup"] }, 9: { choices: ["eye", "run", "book"] } },
+ "1-writing-2": { 0: { choices: ["water", "goldfish", "dots:blue"] } },
+ "1-writing-3": { 9: { choices: ["n:1", "n:3", "n:5"] } },
+ "1-math-2": { 1: { prompt: "n:8", choices: ["n:3", "n:5", "n:2"] }, 4: { prompt: "n:7", choices: ["n:2", "n:3", "n:4"] } },
+ "2-math": { 2: { choices: ["n:10", "n:0", "n:1"] } },
+ "2-math-3": { 1: { prompt: "coin" }, 3: { prompt: "coin" }, 4: { prompt: "coin" } },
+ "2-math-4": { 3: { prompt: "apple", choices: ["n:5", "n:1", "n:10"] }, 4: { prompt: "dog", choices: ["n:8", "n:4", "n:3"] }, 5: { choices: ["dots:red", "dots:green", "dots:blue"] }, 6: { choices: ["n:6", "n:3", "n:5"] } },
+ "2-reading-4": { 3: { prompt: "dog" }, 4: { prompt: "rain" }, 5: { prompt: "plant" }, 6: { prompt: "sleep" }, 7: { prompt: "sun" } },
+ "2-social": { 5: { prompt: "bus" } },
+ "2-social-2": { 8: { prompt: "water" } },
+};
+for (const [id, m] of Object.entries(grade12Pictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };

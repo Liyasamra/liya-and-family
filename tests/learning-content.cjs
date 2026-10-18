@@ -25,3 +25,8 @@ console.log('Passed: retired Grade 3 science lessons are hidden but earlier prog
 {const {standards}=require('../.learning-test/lib/standards-map.js');const missing=lessons.filter(l=>!standards[l.id]).map(l=>l.id);assert.deepEqual(missing,[],'every lesson names its Ohio standard');
 for(const l of lessons.filter(l=>l.subject==='Science'&&l.grade!=='pre'))assert.match(standards[l.id],new RegExp('^'+(l.grade==='k'?'K':l.grade)+'\\.(ESS|LS|PS)'),l.id+' maps to its own grade');
 console.log('Passed: all '+lessons.length+' lessons name an Ohio standard; every K-6 science lesson maps to its own grade\'s science standards.');}
+{const src=require('fs').readFileSync(__dirname+'/../app/learn/picture-icons.tsx','utf8');const have=new Set([...src.matchAll(/^  "?([a-z0-9-]+)"?: g/gm)].map(m=>m[1]));const ok=k=>/^(n:([0-9]|10)|l:.|dots:[a-z,]+)$/.test(k)||have.has(k);
+const {choicePictures}=require('../.learning-test/lib/choice-pictures.js');const bad=[];let n=0;const by={};
+for(const l of lessons)for(const [i,v] of Object.entries(choicePictures[l.id]||{})){const q=l.questions[i];if(!q){bad.push(l.id+'#'+i);continue;}n++;by[l.grade]=(by[l.grade]||0)+1;if(v.choices&&v.choices.length!==q.options.length)bad.push(l.id+'#'+i+' length');for(const k of [...(v.choices||[]),...(v.prompt?[v.prompt]:[])])if(!ok(k))bad.push(l.id+'#'+i+' '+k);}
+assert.deepEqual(bad,[],'every picture exists and matches its answers');assert.ok(by['1']>=25&&by['2']>=20,'Grades 1 and 2 have pictures');
+console.log('Passed: '+n+' questions with pictures, all drawings exist ('+Object.entries(by).map(([g,c])=>g+': '+c).join(', ')+').');}
