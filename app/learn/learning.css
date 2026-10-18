@@ -188,3 +188,7 @@ html,body{background:#fff5ec}
 @media(max-width:700px){.brand-row{width:100%;justify-content:space-between}}
 :lang(am) .learning-site,.learning-site:lang(am){line-height:1.8}
 .amharic-help{margin:10px 0 14px}.amharic-box{margin-top:10px;padding:16px 18px;border-radius:18px;background:#fff7e8;border:1px solid #f0d9a8;line-height:1.85;font-family:"Ewket Ethiopic",var(--font-quicksand),system-ui,sans-serif}.amharic-box p{margin:0 0 10px}
+/* Privacy v3 notice and deletion (2026-10-18) */
+.notice-update{border:2px solid #c9a7f0}.notice-update ul{margin:8px 0 12px;padding-left:20px;display:grid;gap:4px}
+.danger-zone{margin-top:12px;border-top:1px solid #eadfe6;padding-top:10px}.danger-zone summary{cursor:pointer;color:#8a2d3b;font-weight:600;min-height:44px;display:flex;align-items:center}.danger-zone[open]{display:grid;gap:10px}
+.learn-btn.danger{background:#a3283b;border-color:#a3283b;color:#fff}.learn-btn.danger:disabled{opacity:.45;cursor:not-allowed}

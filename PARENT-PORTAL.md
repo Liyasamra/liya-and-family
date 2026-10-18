@@ -44,3 +44,11 @@ Project: cossjxrtskwjpywbwcxk, independent Ewket Kids organization.
 - supabase/quiz-and-device-links.sql: weekly quizzes now 15 questions (all five subjects), monthly 40; 9 and 36 stay valid. Shared merge functions for parent and device paths.
 - Device links: a parent makes a one-time 8-character code (15 minutes) on a child's card; the child's device trades it for a 64-character device key kept in that browser. The key can only add results for that one child (ewket_device_sync returns counts only). Codes and keys are stored as SHA-256 hashes. Failed code attempts are counted and slow down guessing. Parents see linked devices and can unlink them.
 - supabase/quiz-and-device-links-test.sql: two-family test (codes, one-time use, write-only key, unlink, other family and signed-out denial, quiz sizes). Verified locally with PGlite.
+
+## Privacy Notice version 3 and deletion (2026-10-18)
+- Run `supabase/privacy-v3.sql`, then `privacy-v3-test.sql` (expect `test_users_left = 0`), then `retention-schedule.sql` (daily clean-up with pg_cron).
+- Parents who registered before version 3 see an "I agree to version 3" banner. Until they agree, saving progress and linking devices wait (`require_current_notice`).
+- Each child card has "Delete this child's information" (type the EW number). "Delete my account" needs the email typed. The EW number is retired, never reused.
+- `purge_expired()` deletes families with no sign-in and no saved progress for 24 months, expired codes, old unlinked devices, failed attempts, and audit rows older than 3 years.
+- The written security program and retention policy are in the Claude doc "Ewket Kids Privacy and Security Program."
+- Before publishing `privacy.html`, fill in the mailing address, phone, and email provider (marked with brackets).

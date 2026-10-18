@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 // Lists every Amharic text for the review page (claude.ai artifact "Ewket Kids Amharic Review"). Run after npm run test:learning and npm run build:pages:
 // node scripts/amharic-review-items.cjs out.json
 // Builds the review list: [id, section, where, english, amharic]. Ids are stable hashes of the English, so corrections survive rebuilds.
