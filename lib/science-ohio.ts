@@ -448,6 +448,2022 @@ export const scienceOhioLessons: Lesson[] = [
     "explanation": "Life cycles show stages from birth to adult."
    }
   ]
+ },
+ {
+  "id": "k-science-sky",
+  "grade": "k",
+  "subject": "Science",
+  "title": "Weather and the sky",
+  "objective": "Describe daily and seasonal weather and what we see in the day and night sky.",
+  "explain": "Weather can change in a few hours, like a sunny morning turning into a rainy afternoon. Weather also changes over seasons: winter is cold and summer is warm. In the daytime sky we can see the Sun. At night we can often see the Moon and stars. Sometimes we can see the Moon during the day too. Never look straight at the Sun.",
+  "example": "In Ohio, January is often snowy and cold. July is often hot and sunny.",
+  "activity": "For five days, draw the weather each morning. On one clear night, look outside with a grown-up and draw what you see in the sky.",
+  "questions": [
+   {
+    "prompt": "Which do we see in the daytime sky?",
+    "options": [
+     "Stars only",
+     "The Sun",
+     "Fireflies"
+    ],
+    "answer": 1,
+    "explanation": "The Sun lights the daytime sky."
+   },
+   {
+    "prompt": "What can we often see in the night sky?",
+    "options": [
+     "The Sun",
+     "A rainbow",
+     "The Moon and stars"
+    ],
+    "answer": 2,
+    "explanation": "At night, the Moon and stars are easier to see."
+   },
+   {
+    "prompt": "Which season is usually the coldest in Ohio?",
+    "options": [
+     "Winter",
+     "Summer",
+     "Spring"
+    ],
+    "answer": 0,
+    "explanation": "Winter brings cold weather and sometimes snow."
+   },
+   {
+    "prompt": "What should you wear on a rainy day?",
+    "options": [
+     "A swimsuit",
+     "A raincoat",
+     "Sunglasses only"
+    ],
+    "answer": 1,
+    "explanation": "A raincoat keeps you dry in the rain."
+   },
+   {
+    "prompt": "Weather can change…",
+    "options": [
+     "Never",
+     "Only on birthdays",
+     "In a few hours or over a season"
+    ],
+    "answer": 2,
+    "explanation": "Weather changes from hour to hour and season to season."
+   },
+   {
+    "prompt": "You should never look straight at the…",
+    "options": [
+     "Sun",
+     "Moon",
+     "Clouds"
+    ],
+    "answer": 0,
+    "explanation": "Looking straight at the Sun can hurt your eyes."
+   },
+   {
+    "prompt": "Which season is usually the warmest?",
+    "options": [
+     "Winter",
+     "Summer",
+     "Fall"
+    ],
+    "answer": 1,
+    "explanation": "Summer has the warmest weather in Ohio."
+   },
+   {
+    "prompt": "Dark clouds in the sky can mean…",
+    "options": [
+     "It is nighttime",
+     "The Sun is gone forever",
+     "Rain might come soon"
+    ],
+    "answer": 2,
+    "explanation": "Dark clouds often bring rain."
+   },
+   {
+    "prompt": "What makes the wind?",
+    "options": [
+     "Moving air",
+     "Moving rocks",
+     "The Moon"
+    ],
+    "answer": 0,
+    "explanation": "Wind is air that moves."
+   },
+   {
+    "prompt": "Can you sometimes see the Moon in the daytime?",
+    "options": [
+     "No, never",
+     "Yes, sometimes",
+     "Only in winter"
+    ],
+    "answer": 1,
+    "explanation": "The Moon is sometimes visible during the day."
+   }
+  ]
+ },
+ {
+  "id": "k-science-props",
+  "grade": "k",
+  "subject": "Science",
+  "title": "Sort materials and make sounds",
+  "objective": "Sort objects by their properties and show that vibrating objects make sound.",
+  "explain": "Properties tell what something is like: its color, shape, size, weight, and texture, like rough or smooth. We can sort objects by their properties. Some objects make sound when they vibrate, or shake back and forth quickly, like a drum when you tap it or a rubber band when you pluck it.",
+  "example": "Sort these into soft and hard: a pillow, a rock, a sock, a spoon. Tap a drum and touch it gently. You can feel it shake.",
+  "activity": "Collect five safe objects. Sort them by one property, like soft or hard. Then pluck a rubber band stretched over a box and listen.",
+  "questions": [
+   {
+    "prompt": "Which object is soft?",
+    "options": [
+     "A rock",
+     "A spoon",
+     "A pillow"
+    ],
+    "answer": 2,
+    "explanation": "A pillow is soft to touch."
+   },
+   {
+    "prompt": "Which object is hard?",
+    "options": [
+     "A rock",
+     "A sock",
+     "A feather"
+    ],
+    "answer": 0,
+    "explanation": "A rock is hard and does not bend."
+   },
+   {
+    "prompt": "A drum makes sound when you tap it because it…",
+    "options": [
+     "Gets wet",
+     "Vibrates",
+     "Changes color"
+    ],
+    "answer": 1,
+    "explanation": "Tapping makes the drum shake quickly, which makes sound."
+   },
+   {
+    "prompt": "Which shape is round?",
+    "options": [
+     "A book",
+     "A table",
+     "A ball"
+    ],
+    "answer": 2,
+    "explanation": "A ball is round."
+   },
+   {
+    "prompt": "Sorting means…",
+    "options": [
+     "Putting things into groups that are alike",
+     "Throwing things away",
+     "Painting things"
+    ],
+    "answer": 0,
+    "explanation": "We sort by putting similar things together."
+   },
+   {
+    "prompt": "Which object would float in water?",
+    "options": [
+     "A rock",
+     "A rubber duck",
+     "A metal key"
+    ],
+    "answer": 1,
+    "explanation": "Light, hollow objects like a rubber duck often float."
+   },
+   {
+    "prompt": "What happens when you pluck a rubber band?",
+    "options": [
+     "It turns into water",
+     "It gets heavier",
+     "It vibrates and makes a sound"
+    ],
+    "answer": 2,
+    "explanation": "A plucked rubber band shakes back and forth and makes sound."
+   },
+   {
+    "prompt": "Which object is heavier?",
+    "options": [
+     "A bowling ball",
+     "A feather",
+     "A tissue"
+    ],
+    "answer": 0,
+    "explanation": "A bowling ball weighs much more than a feather."
+   },
+   {
+    "prompt": "Which word tells about texture?",
+    "options": [
+     "Red",
+     "Rough",
+     "Tall"
+    ],
+    "answer": 1,
+    "explanation": "Texture is how something feels, like rough or smooth."
+   },
+   {
+    "prompt": "A bell rings because it…",
+    "options": [
+     "Melts",
+     "Grows",
+     "Vibrates"
+    ],
+    "answer": 2,
+    "explanation": "When a bell is struck, it vibrates and makes sound."
+   }
+  ]
+ },
+ {
+  "id": "1-science-sun",
+  "grade": "1",
+  "subject": "Science",
+  "title": "The Sun warms and lights Earth",
+  "objective": "Explain that the Sun is Earth's main source of heat and light.",
+  "explain": "The Sun is a star. It is Earth's main source of light and heat. Sunlight warms the land, water, and air. Places in the sunshine feel warmer than places in the shade. Plants need sunlight to grow. The Sun seems to move across the sky because Earth turns.",
+  "example": "A sidewalk in the sunshine feels warm in the afternoon. The same sidewalk in the shade of a tree feels cooler.",
+  "activity": "Put one cup of water in the sun and one in the shade for an hour. Feel which one is warmer.",
+  "questions": [
+   {
+    "prompt": "What is Earth's main source of light and heat?",
+    "options": [
+     "The Sun",
+     "The Moon",
+     "A lamp"
+    ],
+    "answer": 0,
+    "explanation": "The Sun gives Earth light and heat."
+   },
+   {
+    "prompt": "Where will a rock feel warmer on a sunny day?",
+    "options": [
+     "In the shade",
+     "In the sunshine",
+     "In a dark cave"
+    ],
+    "answer": 1,
+    "explanation": "Sunlight warms the rock."
+   },
+   {
+    "prompt": "The Sun is a…",
+    "options": [
+     "Planet",
+     "Cloud",
+     "Star"
+    ],
+    "answer": 2,
+    "explanation": "The Sun is the star closest to Earth."
+   },
+   {
+    "prompt": "Why do plants need the Sun?",
+    "options": [
+     "To get light to grow",
+     "To stay cold",
+     "To make noise"
+    ],
+    "answer": 0,
+    "explanation": "Plants use sunlight to make food and grow."
+   },
+   {
+    "prompt": "Which feels warmer at noon?",
+    "options": [
+     "A shady spot under a tree",
+     "A sunny sidewalk",
+     "Inside a freezer"
+    ],
+    "answer": 1,
+    "explanation": "Sunlight warms surfaces it shines on."
+   },
+   {
+    "prompt": "Why does the Sun seem to move across the sky?",
+    "options": [
+     "The Sun walks",
+     "Clouds push it",
+     "Earth turns"
+    ],
+    "answer": 2,
+    "explanation": "Earth spins, so the Sun appears to move from east to west."
+   },
+   {
+    "prompt": "Sunlight warms…",
+    "options": [
+     "Land, water, and air",
+     "Only rocks",
+     "Nothing at all"
+    ],
+    "answer": 0,
+    "explanation": "The Sun warms everything it shines on."
+   },
+   {
+    "prompt": "What protects your skin from strong sunlight?",
+    "options": [
+     "Ice cubes",
+     "Sunscreen and a hat",
+     "A flashlight"
+    ],
+    "answer": 1,
+    "explanation": "Sunscreen and hats protect skin from too much sun."
+   },
+   {
+    "prompt": "When the Sun goes down, the air usually gets…",
+    "options": [
+     "Hotter",
+     "Brighter",
+     "Cooler"
+    ],
+    "answer": 2,
+    "explanation": "Without sunlight, the air cools."
+   },
+   {
+    "prompt": "Which gives heat AND light?",
+    "options": [
+     "The Sun",
+     "A mirror",
+     "The Moon"
+    ],
+    "answer": 0,
+    "explanation": "The Moon only reflects sunlight; the Sun makes its own light and heat."
+   }
+  ]
+ },
+ {
+  "id": "1-science-motion",
+  "grade": "1",
+  "subject": "Science",
+  "title": "Ways things move",
+  "objective": "Describe straight, zigzag, round, and back-and-forth motion.",
+  "explain": "Objects can move in many ways. A ball rolling down a hallway moves in a straight line. A rabbit running from side to side moves in a zigzag. A merry-go-round moves in a circle. A swing moves back and forth. A push or a pull can start, stop, or change how something moves.",
+  "example": "Kick a ball and it rolls straight. Push a swing and it goes back and forth.",
+  "activity": "Move like four things: a rolling ball (straight), a running rabbit (zigzag), a spinning top (circle), and a swing (back and forth).",
+  "questions": [
+   {
+    "prompt": "A swing moves…",
+    "options": [
+     "In a zigzag",
+     "Back and forth",
+     "Only up"
+    ],
+    "answer": 1,
+    "explanation": "A swing goes back and forth."
+   },
+   {
+    "prompt": "A merry-go-round moves in a…",
+    "options": [
+     "Straight line",
+     "Zigzag",
+     "Circle"
+    ],
+    "answer": 2,
+    "explanation": "It spins around in a circle."
+   },
+   {
+    "prompt": "A ball rolling down a long hallway moves…",
+    "options": [
+     "In a straight line",
+     "In a circle",
+     "Back and forth"
+    ],
+    "answer": 0,
+    "explanation": "With nothing in the way, it rolls straight."
+   },
+   {
+    "prompt": "A rabbit running side to side moves in a…",
+    "options": [
+     "Circle",
+     "Zigzag",
+     "Straight line"
+    ],
+    "answer": 1,
+    "explanation": "Changing direction again and again makes a zigzag."
+   },
+   {
+    "prompt": "What can start a toy car moving?",
+    "options": [
+     "A song",
+     "A color",
+     "A push"
+    ],
+    "answer": 2,
+    "explanation": "A push or a pull makes things move."
+   },
+   {
+    "prompt": "Opening a drawer is a…",
+    "options": [
+     "Pull",
+     "Push",
+     "Spin"
+    ],
+    "answer": 0,
+    "explanation": "You pull a drawer toward you."
+   },
+   {
+    "prompt": "What can change the direction of a rolling ball?",
+    "options": [
+     "Looking at it",
+     "Kicking it",
+     "Singing to it"
+    ],
+    "answer": 1,
+    "explanation": "A kick is a push that changes the ball's direction."
+   },
+   {
+    "prompt": "A spinning top moves…",
+    "options": [
+     "In a zigzag",
+     "Back and forth only",
+     "Around in a circle"
+    ],
+    "answer": 2,
+    "explanation": "A top spins around in place."
+   },
+   {
+    "prompt": "To stop a rolling ball, you can…",
+    "options": [
+     "Block it with your hand",
+     "Clap",
+     "Blink"
+    ],
+    "answer": 0,
+    "explanation": "A push in the opposite direction stops it."
+   },
+   {
+    "prompt": "Which moves back and forth?",
+    "options": [
+     "A thrown ball going straight",
+     "A rocking chair",
+     "A spinning wheel"
+    ],
+    "answer": 1,
+    "explanation": "A rocking chair rocks back and forth."
+   }
+  ]
+ },
+ {
+  "id": "2-science-air",
+  "grade": "2",
+  "subject": "Science",
+  "title": "Air, water, and weather",
+  "objective": "Describe air, water in the air, and how the Sun's energy changes the weather.",
+  "explain": "Air is all around Earth. We cannot see air, but we can feel it as wind. Air holds water you cannot see, called water vapor. When water vapor cools, it forms clouds, and water can fall as rain, snow, or hail. The Sun's energy warms the air and water, which causes weather to change. Thermometers measure temperature and rain gauges measure rain.",
+  "example": "After rain, puddles dry up because the Sun's warmth turns the water into water vapor in the air.",
+  "activity": "Use a thermometer outside each morning for a week. Record the temperature and the weather in a chart.",
+  "questions": [
+   {
+    "prompt": "Earth is surrounded by…",
+    "options": [
+     "Sand",
+     "Metal",
+     "Air"
+    ],
+    "answer": 2,
+    "explanation": "A layer of air surrounds Earth."
+   },
+   {
+    "prompt": "Wind is…",
+    "options": [
+     "Moving air",
+     "Moving water",
+     "Moving rocks"
+    ],
+    "answer": 0,
+    "explanation": "Wind is air in motion."
+   },
+   {
+    "prompt": "Clouds are made of…",
+    "options": [
+     "Cotton",
+     "Tiny drops of water or ice",
+     "Smoke only"
+    ],
+    "answer": 1,
+    "explanation": "Water vapor cools and forms tiny drops that make clouds."
+   },
+   {
+    "prompt": "Rain, snow, and hail all fall from…",
+    "options": [
+     "Trees",
+     "The ground",
+     "Clouds"
+    ],
+    "answer": 2,
+    "explanation": "These are forms of water that fall from clouds."
+   },
+   {
+    "prompt": "What tool measures temperature?",
+    "options": [
+     "A thermometer",
+     "A ruler",
+     "A scale"
+    ],
+    "answer": 0,
+    "explanation": "A thermometer shows how hot or cold it is."
+   },
+   {
+    "prompt": "What makes a puddle dry up on a sunny day?",
+    "options": [
+     "The puddle sinks into space",
+     "The Sun's energy turns the water into water vapor",
+     "A cloud drinks it"
+    ],
+    "answer": 1,
+    "explanation": "Sunlight warms the water until it evaporates."
+   },
+   {
+    "prompt": "Water vapor is…",
+    "options": [
+     "A kind of ice",
+     "Dirty water",
+     "Water as a gas in the air"
+    ],
+    "answer": 2,
+    "explanation": "Water vapor is water you cannot see in the air."
+   },
+   {
+    "prompt": "Which tool measures how much rain fell?",
+    "options": [
+     "A rain gauge",
+     "A thermometer",
+     "A compass"
+    ],
+    "answer": 0,
+    "explanation": "A rain gauge collects and measures rainfall."
+   },
+   {
+    "prompt": "What gives energy that changes the weather?",
+    "options": [
+     "The Moon",
+     "The Sun",
+     "Stars at night"
+    ],
+    "answer": 1,
+    "explanation": "The Sun warms air and water, which drives weather."
+   },
+   {
+    "prompt": "Can you feel air even though you cannot see it?",
+    "options": [
+     "No, never",
+     "Only in winter",
+     "Yes, as wind"
+    ],
+    "answer": 2,
+    "explanation": "Wind lets us feel air moving."
+   }
+  ]
+ },
+ {
+  "id": "2-science-earthchange",
+  "grade": "2",
+  "subject": "Science",
+  "title": "Living things change the land",
+  "objective": "Give examples of how plants, animals, and people change their surroundings.",
+  "explain": "Living things change the places where they live. Beavers cut trees and build dams that make ponds. Plant roots can crack sidewalks and hold soil in place. Earthworms dig tunnels that loosen soil. People build roads, plant gardens, and cut forests. Some changes help other living things, and some harm them.",
+  "example": "A beaver dam slows a stream and floods land, which makes a new pond for fish and frogs.",
+  "activity": "Walk around your neighborhood. Find two changes made by plants or animals and two made by people.",
+  "questions": [
+   {
+    "prompt": "Beavers change the land by…",
+    "options": [
+     "Building dams that make ponds",
+     "Digging deep caves for bats",
+     "Planting corn"
+    ],
+    "answer": 0,
+    "explanation": "Beaver dams block streams and form ponds."
+   },
+   {
+    "prompt": "How can tree roots change a sidewalk?",
+    "options": [
+     "They paint it",
+     "They can crack it as they grow",
+     "They make it melt"
+    ],
+    "answer": 1,
+    "explanation": "Growing roots push and crack hard surfaces."
+   },
+   {
+    "prompt": "Earthworms help soil by…",
+    "options": [
+     "Turning it into rock",
+     "Making it freeze",
+     "Digging tunnels that loosen it"
+    ],
+    "answer": 2,
+    "explanation": "Worm tunnels let air and water into soil."
+   },
+   {
+    "prompt": "Which is a change made by people?",
+    "options": [
+     "Building a road",
+     "A river flooding",
+     "A volcano erupting"
+    ],
+    "answer": 0,
+    "explanation": "People build roads, houses, and bridges."
+   },
+   {
+    "prompt": "Plant roots can help…",
+    "options": [
+     "Make rain",
+     "Hold soil in place",
+     "Melt snow"
+    ],
+    "answer": 1,
+    "explanation": "Roots grip soil so wind and water carry less away."
+   },
+   {
+    "prompt": "Cutting down a forest can harm…",
+    "options": [
+     "The Moon",
+     "Rocks in space",
+     "Animals that live there"
+    ],
+    "answer": 2,
+    "explanation": "Animals lose their homes and food."
+   },
+   {
+    "prompt": "A beaver pond becomes a new home for…",
+    "options": [
+     "Fish and frogs",
+     "Camels",
+     "Penguins"
+    ],
+    "answer": 0,
+    "explanation": "Ponds provide habitat for water animals."
+   },
+   {
+    "prompt": "Which change helps living things?",
+    "options": [
+     "Littering in a stream",
+     "Planting trees in a park",
+     "Paving over a garden"
+    ],
+    "answer": 1,
+    "explanation": "New trees give shade, homes, and clean air."
+   },
+   {
+    "prompt": "Ants building an anthill are…",
+    "options": [
+     "Making it rain",
+     "Melting rocks",
+     "Changing the land"
+    ],
+    "answer": 2,
+    "explanation": "Ants move soil to build their homes."
+   },
+   {
+    "prompt": "Can people's changes be helpful AND harmful?",
+    "options": [
+     "Yes, it depends on the change",
+     "No, people never change land",
+     "Only harmful"
+    ],
+    "answer": 0,
+    "explanation": "Some changes help living things and others harm them."
+   }
+  ]
+ },
+ {
+  "id": "2-science-fossils",
+  "grade": "2",
+  "subject": "Science",
+  "title": "Fossils and animals of long ago",
+  "objective": "Explain that fossils show us living things from the past, including some that are extinct.",
+  "explain": "A fossil is the remains or trace of a living thing from long ago, such as a bone, a shell, or a footprint in rock. Fossils show us plants and animals that lived long ago. Some, like dinosaurs, are extinct, which means none are alive today. Others have relatives living today, like ancient sharks and modern sharks.",
+  "example": "Ohio's state fossil is the trilobite, a sea animal that lived hundreds of millions of years ago, when the land that is now Ohio was covered by a shallow sea.",
+  "activity": "Press a shell or a leaf into playdough, then remove it. The print you see is like a fossil.",
+  "questions": [
+   {
+    "prompt": "A fossil is…",
+    "options": [
+     "A new toy",
+     "The remains or trace of a living thing from long ago",
+     "A kind of cloud"
+    ],
+    "answer": 1,
+    "explanation": "Fossils preserve bones, shells, or prints from the past."
+   },
+   {
+    "prompt": "Extinct means…",
+    "options": [
+     "They live only at night",
+     "They are very small",
+     "None are alive anymore"
+    ],
+    "answer": 2,
+    "explanation": "An extinct kind of animal no longer lives anywhere on Earth."
+   },
+   {
+    "prompt": "Which animal is extinct?",
+    "options": [
+     "Dinosaurs like T. rex",
+     "Dogs",
+     "Robins"
+    ],
+    "answer": 0,
+    "explanation": "Dinosaurs like T. rex died out long ago."
+   },
+   {
+    "prompt": "Ohio's state fossil is the…",
+    "options": [
+     "T. rex",
+     "Trilobite",
+     "Mammoth tooth"
+    ],
+    "answer": 1,
+    "explanation": "Trilobites were sea animals that lived when a sea covered Ohio."
+   },
+   {
+    "prompt": "A footprint pressed into rock long ago is a…",
+    "options": [
+     "Map",
+     "Shadow",
+     "Fossil"
+    ],
+    "answer": 2,
+    "explanation": "Footprints and tracks can become fossils."
+   },
+   {
+    "prompt": "Fossils of sea animals found in Ohio show that…",
+    "options": [
+     "Ohio was once covered by water",
+     "Ohio was always a desert",
+     "Fish lived in trees"
+    ],
+    "answer": 0,
+    "explanation": "Sea fossils mean the land was once under water."
+   },
+   {
+    "prompt": "Which animal living today is related to animals in ancient fossils?",
+    "options": [
+     "Robots",
+     "Sharks",
+     "Unicorns"
+    ],
+    "answer": 1,
+    "explanation": "Sharks have relatives in very old fossils."
+   },
+   {
+    "prompt": "Scientists who study fossils are called…",
+    "options": [
+     "Astronauts",
+     "Chefs",
+     "Paleontologists"
+    ],
+    "answer": 2,
+    "explanation": "Paleontologists study ancient life."
+   },
+   {
+    "prompt": "Fossils are usually found in…",
+    "options": [
+     "Rock",
+     "Clouds",
+     "Ice cream"
+    ],
+    "answer": 0,
+    "explanation": "Most fossils form in layers of rock."
+   },
+   {
+    "prompt": "Pressing a shell into playdough makes a model of a…",
+    "options": [
+     "Volcano",
+     "Fossil",
+     "Rainbow"
+    ],
+    "answer": 1,
+    "explanation": "The print is like a fossil left in mud that hardened."
+   }
+  ]
+ },
+ {
+  "id": "2-science-forces",
+  "grade": "2",
+  "subject": "Science",
+  "title": "Forces change motion",
+  "objective": "Explain how pushes and pulls start, stop, and change the motion of objects.",
+  "explain": "A force is a push or a pull. Forces can start something moving, stop it, speed it up, slow it down, or change its direction. A bigger force makes a bigger change. Gravity is a force that pulls things down toward Earth. Friction is a force that slows things down when surfaces rub together.",
+  "example": "A gentle kick makes a ball roll slowly. A hard kick makes it roll fast. Grass slows the ball more than a smooth floor because of friction.",
+  "activity": "Roll a toy car on carpet and on a smooth floor with the same push. Measure which goes farther.",
+  "questions": [
+   {
+    "prompt": "A force is a…",
+    "options": [
+     "Color",
+     "Sound",
+     "Push or a pull"
+    ],
+    "answer": 2,
+    "explanation": "Forces are pushes and pulls."
+   },
+   {
+    "prompt": "A harder push makes a ball…",
+    "options": [
+     "Move faster or farther",
+     "Stop right away",
+     "Turn into water"
+    ],
+    "answer": 0,
+    "explanation": "A bigger force makes a bigger change in motion."
+   },
+   {
+    "prompt": "What force pulls a dropped apple to the ground?",
+    "options": [
+     "Friction",
+     "Gravity",
+     "Magnetism"
+    ],
+    "answer": 1,
+    "explanation": "Gravity pulls objects toward Earth."
+   },
+   {
+    "prompt": "Friction makes moving things…",
+    "options": [
+     "Speed up forever",
+     "Float away",
+     "Slow down"
+    ],
+    "answer": 2,
+    "explanation": "Rubbing surfaces create friction, which slows motion."
+   },
+   {
+    "prompt": "Where will a toy car roll farther with the same push?",
+    "options": [
+     "On a smooth floor",
+     "On thick carpet",
+     "In sand"
+    ],
+    "answer": 0,
+    "explanation": "Smooth floors have less friction."
+   },
+   {
+    "prompt": "Which can change the direction of a moving ball?",
+    "options": [
+     "Looking at it",
+     "A kick from the side",
+     "A quiet whisper"
+    ],
+    "answer": 1,
+    "explanation": "A push from a new direction changes its path."
+   },
+   {
+    "prompt": "Pulling a wagon is a…",
+    "options": [
+     "Shadow",
+     "Sound",
+     "Force"
+    ],
+    "answer": 2,
+    "explanation": "A pull is a force."
+   },
+   {
+    "prompt": "Why does a ball rolling on grass stop?",
+    "options": [
+     "Friction slows it down",
+     "It gets tired",
+     "Gravity pushes it up"
+    ],
+    "answer": 0,
+    "explanation": "Grass rubs against the ball and slows it."
+   },
+   {
+    "prompt": "To stop a moving swing, you can…",
+    "options": [
+     "Clap your hands",
+     "Push against it gently",
+     "Close your eyes"
+    ],
+    "answer": 1,
+    "explanation": "A force in the opposite direction stops motion."
+   },
+   {
+    "prompt": "Which needs the biggest push to move?",
+    "options": [
+     "An empty box",
+     "A feather",
+     "A heavy box of books"
+    ],
+    "answer": 2,
+    "explanation": "Heavier objects need a bigger force to move."
+   }
+  ]
+ },
+ {
+  "id": "4-science-landforms",
+  "grade": "4",
+  "subject": "Science",
+  "title": "Landforms of Earth's surface",
+  "objective": "Identify landforms and read them on maps.",
+  "explain": "Earth's surface has many landforms. Mountains are very high land. Hills are lower and rounded. Valleys are low land between hills or mountains. Plains are wide, flat land. Plateaus are high, flat land. Water features include rivers, lakes, and deltas. Maps and models help us identify landforms. Much of western Ohio is flat plains, and southeastern Ohio has hills.",
+  "example": "Glaciers flattened much of northern and western Ohio into plains, but the glaciers did not reach southeastern Ohio, which is hilly.",
+  "activity": "Use clay or sand to build a model with a mountain, a valley, a plain, and a river.",
+  "questions": [
+   {
+    "prompt": "Wide, flat land is called a…",
+    "options": [
+     "Plain",
+     "Mountain",
+     "Canyon"
+    ],
+    "answer": 0,
+    "explanation": "Plains are large, flat areas."
+   },
+   {
+    "prompt": "High land that is flat on top is a…",
+    "options": [
+     "Valley",
+     "Plateau",
+     "Delta"
+    ],
+    "answer": 1,
+    "explanation": "A plateau is raised and flat."
+   },
+   {
+    "prompt": "Low land between mountains is a…",
+    "options": [
+     "Peak",
+     "Plateau",
+     "Valley"
+    ],
+    "answer": 2,
+    "explanation": "Valleys sit between higher land."
+   },
+   {
+    "prompt": "A delta forms where a river…",
+    "options": [
+     "Drops sand and mud as it enters a larger body of water",
+     "Begins on a mountain",
+     "Freezes in winter"
+    ],
+    "answer": 0,
+    "explanation": "Rivers slow down and deposit sediment at their mouths."
+   },
+   {
+    "prompt": "Which part of Ohio is mostly hilly?",
+    "options": [
+     "Northwestern Ohio",
+     "Southeastern Ohio",
+     "Along Lake Erie's flat shore"
+    ],
+    "answer": 1,
+    "explanation": "Glaciers did not flatten southeastern Ohio."
+   },
+   {
+    "prompt": "What flattened much of northern and western Ohio long ago?",
+    "options": [
+     "Volcanoes",
+     "Earthquakes",
+     "Glaciers"
+    ],
+    "answer": 2,
+    "explanation": "Huge sheets of ice scraped and flattened the land."
+   },
+   {
+    "prompt": "A deep, narrow valley with steep sides carved by a river is a…",
+    "options": [
+     "Canyon",
+     "Plain",
+     "Island"
+    ],
+    "answer": 0,
+    "explanation": "Rivers can carve canyons over a very long time."
+   },
+   {
+    "prompt": "Which landform is the highest?",
+    "options": [
+     "Hill",
+     "Mountain",
+     "Plain"
+    ],
+    "answer": 1,
+    "explanation": "Mountains rise much higher than hills."
+   },
+   {
+    "prompt": "Which tool shows landforms as bumps and colors from above?",
+    "options": [
+     "A thermometer",
+     "A calendar",
+     "A relief or topographic map"
+    ],
+    "answer": 2,
+    "explanation": "These maps show the shape and height of land."
+   },
+   {
+    "prompt": "A large body of fresh water surrounded by land is a…",
+    "options": [
+     "Lake",
+     "Ocean",
+     "Delta"
+    ],
+    "answer": 0,
+    "explanation": "Lake Erie is a large freshwater lake."
+   }
+  ]
+ },
+ {
+  "id": "4-science-fossils",
+  "grade": "4",
+  "subject": "Science",
+  "title": "Fossils and changing environments",
+  "objective": "Compare fossils with living things and explain how environmental changes help or harm organisms.",
+  "explain": "Fossils can be compared with each other and with living things to learn how life has changed. When an environment changes, some living things are helped and others are harmed. A drought can kill plants, and animals that eat them may move or die. A flood can create new wetlands for frogs. If changes are too big or too fast, some kinds of living things become extinct.",
+  "example": "Mammoth fossils look like modern elephants, with long tusks and a trunk, but mammoths had thick fur for the cold Ice Age climate.",
+  "activity": "Draw a pond during a wet year and during a dry year. List which animals are helped and which are harmed.",
+  "questions": [
+   {
+    "prompt": "Mammoth fossils are most like which living animal?",
+    "options": [
+     "Horse",
+     "Elephant",
+     "Shark"
+    ],
+    "answer": 1,
+    "explanation": "Mammoths had trunks and tusks like elephants."
+   },
+   {
+    "prompt": "Why compare fossils with living things?",
+    "options": [
+     "To find gold",
+     "To predict tomorrow's weather",
+     "To learn how life has changed over time"
+    ],
+    "answer": 2,
+    "explanation": "Similarities and differences show how life changed."
+   },
+   {
+    "prompt": "A long drought would most likely harm…",
+    "options": [
+     "Plants that need lots of water",
+     "Cactuses that store water",
+     "Rocks"
+    ],
+    "answer": 0,
+    "explanation": "Without water, many plants die."
+   },
+   {
+    "prompt": "A flood that creates a new wetland can help…",
+    "options": [
+     "Desert lizards",
+     "Frogs",
+     "Camels"
+    ],
+    "answer": 1,
+    "explanation": "Frogs live and breed in wetlands."
+   },
+   {
+    "prompt": "If an environment changes too quickly, a kind of animal might…",
+    "options": [
+     "Turn into a plant",
+     "Grow wings right away",
+     "Become extinct"
+    ],
+    "answer": 2,
+    "explanation": "Large, fast changes can wipe out a species."
+   },
+   {
+    "prompt": "Fossil seashells found on a mountain show that…",
+    "options": [
+     "The area was once under water",
+     "Fish climbed mountains",
+     "Shells grow on trees"
+    ],
+    "answer": 0,
+    "explanation": "Sea fossils mean the land was once covered by ocean."
+   },
+   {
+    "prompt": "Mammoths had thick fur because…",
+    "options": [
+     "They lived in deserts",
+     "They lived in a cold Ice Age climate",
+     "Fur helped them swim"
+    ],
+    "answer": 1,
+    "explanation": "Thick fur kept them warm in the cold."
+   },
+   {
+    "prompt": "When a forest is cut down, deer may…",
+    "options": [
+     "Become fish",
+     "Stop needing food",
+     "Move to a new area to find food"
+    ],
+    "answer": 2,
+    "explanation": "Animals often move when their habitat changes."
+   },
+   {
+    "prompt": "Which change could help some animals?",
+    "options": [
+     "A new pond forming after heavy rain",
+     "A wildfire destroying their homes",
+     "A long drought"
+    ],
+    "answer": 0,
+    "explanation": "A new pond gives water and habitat."
+   },
+   {
+    "prompt": "Fossils are most often found in which type of rock?",
+    "options": [
+     "Lava as it erupts",
+     "Sedimentary rock",
+     "Ice cubes"
+    ],
+    "answer": 1,
+    "explanation": "Sedimentary rock forms in layers that can preserve remains."
+   }
+  ]
+ },
+ {
+  "id": "4-science-energy",
+  "grade": "4",
+  "subject": "Science",
+  "title": "Matter stays and energy moves",
+  "objective": "Show that matter is conserved and that energy can move and change form.",
+  "explain": "When objects break, dissolve, or change state, the total amount of matter stays the same. If you melt 100 grams of ice, you get 100 grams of water. If you dissolve sugar in water, the sugar is still there, and the total mass stays the same. Energy can move from place to place, like heat flowing from a hot pan to your hand, and it can change form, like electrical energy becoming light in a bulb.",
+  "example": "Break a cracker into pieces and weigh them. The pieces together weigh the same as the whole cracker.",
+  "activity": "Weigh a cup of water and a spoon of salt separately. Stir the salt in and weigh again. Is the total the same?",
+  "questions": [
+   {
+    "prompt": "You melt 100 grams of ice. How much water do you get?",
+    "options": [
+     "50 grams",
+     "200 grams",
+     "100 grams"
+    ],
+    "answer": 2,
+    "explanation": "Melting does not change the amount of matter."
+   },
+   {
+    "prompt": "When sugar dissolves in water, the sugar…",
+    "options": [
+     "Is still there, mixed in the water",
+     "Disappears completely",
+     "Turns into air"
+    ],
+    "answer": 0,
+    "explanation": "The sugar spreads out, but its matter remains."
+   },
+   {
+    "prompt": "A cracker broken into pieces weighs…",
+    "options": [
+     "Less than the whole cracker",
+     "The same as the whole cracker",
+     "Nothing"
+    ],
+    "answer": 1,
+    "explanation": "Breaking something does not change its total mass."
+   },
+   {
+    "prompt": "Heat moving from a hot cup to your hand shows that energy can…",
+    "options": [
+     "Disappear",
+     "Turn into water",
+     "Move from one place to another"
+    ],
+    "answer": 2,
+    "explanation": "Energy transfers from warmer to cooler things."
+   },
+   {
+    "prompt": "A light bulb changes electrical energy into…",
+    "options": [
+     "Light and heat",
+     "Sound only",
+     "Matter"
+    ],
+    "answer": 0,
+    "explanation": "Bulbs transform electricity into light and some heat."
+   },
+   {
+    "prompt": "Rubbing your hands together changes motion energy into…",
+    "options": [
+     "Light",
+     "Heat",
+     "Matter"
+    ],
+    "answer": 1,
+    "explanation": "Friction turns motion into heat."
+   },
+   {
+    "prompt": "A battery stores energy in a form called…",
+    "options": [
+     "Sound energy",
+     "Wind energy",
+     "Chemical energy"
+    ],
+    "answer": 2,
+    "explanation": "Batteries store chemical energy that becomes electrical energy."
+   },
+   {
+    "prompt": "Water freezes into ice. The mass…",
+    "options": [
+     "Stays the same",
+     "Doubles",
+     "Becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "Changing state does not change mass."
+   },
+   {
+    "prompt": "A moving ball hits a still ball and it starts to roll. This shows energy…",
+    "options": [
+     "Being destroyed",
+     "Transferring from one object to another",
+     "Turning into ice"
+    ],
+    "answer": 1,
+    "explanation": "The first ball's motion energy moves to the second ball."
+   },
+   {
+    "prompt": "Which change keeps the total amount of matter the same?",
+    "options": [
+     "Only breaking",
+     "Only melting",
+     "All of them: breaking, dissolving, and melting"
+    ],
+    "answer": 2,
+    "explanation": "Matter is conserved in all of these changes."
+   }
+  ]
+ },
+ {
+  "id": "5-science-space",
+  "grade": "5",
+  "subject": "Science",
+  "title": "The solar system and stars",
+  "objective": "Describe the Sun, the planets, and the Sun as one of many stars.",
+  "explain": "The solar system includes the Sun and everything that orbits it: eight planets, their moons, dwarf planets, asteroids, and comets. The inner planets, Mercury, Venus, Earth, and Mars, are small and rocky. The outer planets, Jupiter, Saturn, Uranus, and Neptune, are large and made mostly of gas and ice. The Sun is a star, one of billions in our galaxy. It looks bigger and brighter than other stars because it is much closer to us.",
+  "example": "Jupiter is the largest planet. Mercury is closest to the Sun. Saturn has the most famous rings.",
+  "activity": "Make a model of the solar system with eight paper circles in order from the Sun. Label each planet.",
+  "questions": [
+   {
+    "prompt": "How many planets are in our solar system?",
+    "options": [
+     "8",
+     "9",
+     "12"
+    ],
+    "answer": 0,
+    "explanation": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
+   },
+   {
+    "prompt": "Which planet is closest to the Sun?",
+    "options": [
+     "Earth",
+     "Mercury",
+     "Neptune"
+    ],
+    "answer": 1,
+    "explanation": "Mercury orbits closest to the Sun."
+   },
+   {
+    "prompt": "Which is the largest planet?",
+    "options": [
+     "Earth",
+     "Mars",
+     "Jupiter"
+    ],
+    "answer": 2,
+    "explanation": "Jupiter is the biggest planet in our solar system."
+   },
+   {
+    "prompt": "The Sun is a…",
+    "options": [
+     "Star",
+     "Planet",
+     "Moon"
+    ],
+    "answer": 0,
+    "explanation": "The Sun is a medium-sized star."
+   },
+   {
+    "prompt": "Why does the Sun look bigger and brighter than other stars?",
+    "options": [
+     "It is the only real star",
+     "It is much closer to Earth",
+     "Other stars are turned off"
+    ],
+    "answer": 1,
+    "explanation": "Other stars are much farther away."
+   },
+   {
+    "prompt": "The inner planets are mostly…",
+    "options": [
+     "Made of gas",
+     "Covered by rings",
+     "Small and rocky"
+    ],
+    "answer": 2,
+    "explanation": "Mercury, Venus, Earth, and Mars are rocky."
+   },
+   {
+    "prompt": "Which planet is known for its large, bright rings?",
+    "options": [
+     "Saturn",
+     "Mercury",
+     "Mars"
+    ],
+    "answer": 0,
+    "explanation": "Saturn's rings are made of ice and rock."
+   },
+   {
+    "prompt": "Mars is often called the Red Planet because…",
+    "options": [
+     "It is very hot like fire",
+     "Its soil has rusty iron dust",
+     "It is covered in red water"
+    ],
+    "answer": 1,
+    "explanation": "Iron oxide, like rust, gives Mars its color."
+   },
+   {
+    "prompt": "Planets move around the Sun in paths called…",
+    "options": [
+     "Rotations",
+     "Meridians",
+     "Orbits"
+    ],
+    "answer": 2,
+    "explanation": "An orbit is the path one object takes around another."
+   },
+   {
+    "prompt": "Our galaxy, which has billions of stars, is called the…",
+    "options": [
+     "Milky Way",
+     "Big Dipper",
+     "Solar Wind"
+    ],
+    "answer": 0,
+    "explanation": "The Sun is one of billions of stars in the Milky Way."
+   }
+  ]
+ },
+ {
+  "id": "5-science-cycles",
+  "grade": "5",
+  "subject": "Science",
+  "title": "Earth and Sun patterns",
+  "objective": "Explain day and night, seasons, and Moon phases as predictable patterns.",
+  "explain": "Earth spins on its axis once about every 24 hours, which causes day and night. Earth orbits the Sun once about every 365 days, which is one year. Earth's axis is tilted, so different parts of Earth get more direct sunlight at different times of year, causing seasons. The Moon orbits Earth about once a month, and we see different phases as different amounts of its sunlit side face us.",
+  "example": "In June, the Northern Hemisphere, including Ohio, tilts toward the Sun, so days are long and warm. In December it tilts away, so days are short and cold.",
+  "activity": "For two weeks, draw the Moon's shape each evening you can see it. What pattern do you notice?",
+  "questions": [
+   {
+    "prompt": "What causes day and night?",
+    "options": [
+     "The Sun turning off",
+     "Earth spinning on its axis",
+     "The Moon blocking the Sun"
+    ],
+    "answer": 1,
+    "explanation": "As Earth spins, each side faces the Sun, then faces away."
+   },
+   {
+    "prompt": "How long does Earth take to orbit the Sun?",
+    "options": [
+     "About 24 hours",
+     "About 30 days",
+     "About 365 days"
+    ],
+    "answer": 2,
+    "explanation": "One trip around the Sun is one year."
+   },
+   {
+    "prompt": "What causes Earth's seasons?",
+    "options": [
+     "The tilt of Earth's axis",
+     "Earth getting much closer to the Sun",
+     "The Moon's phases"
+    ],
+    "answer": 0,
+    "explanation": "The tilt changes how directly sunlight hits each part of Earth."
+   },
+   {
+    "prompt": "Earth spins once about every…",
+    "options": [
+     "365 days",
+     "24 hours",
+     "7 days"
+    ],
+    "answer": 1,
+    "explanation": "One full spin is one day."
+   },
+   {
+    "prompt": "Why does the Moon seem to change shape?",
+    "options": [
+     "It shrinks and grows",
+     "Clouds cover parts of it",
+     "We see different amounts of its sunlit side"
+    ],
+    "answer": 2,
+    "explanation": "The phases depend on the positions of the Sun, Earth, and Moon."
+   },
+   {
+    "prompt": "The Moon orbits Earth about once every…",
+    "options": [
+     "Month",
+     "Day",
+     "Year"
+    ],
+    "answer": 0,
+    "explanation": "A full cycle of Moon phases takes about 29.5 days."
+   },
+   {
+    "prompt": "In Ohio, why are summer days longer?",
+    "options": [
+     "The Sun moves closer to Ohio",
+     "The Northern Hemisphere tilts toward the Sun",
+     "Clouds trap daylight"
+    ],
+    "answer": 1,
+    "explanation": "Tilting toward the Sun gives longer, warmer days."
+   },
+   {
+    "prompt": "The Sun appears to rise in the…",
+    "options": [
+     "West",
+     "North",
+     "East"
+    ],
+    "answer": 2,
+    "explanation": "Because Earth spins toward the east, the Sun appears to rise in the east."
+   },
+   {
+    "prompt": "Which phase shows the Moon's full sunlit side?",
+    "options": [
+     "Full moon",
+     "New moon",
+     "Crescent moon"
+    ],
+    "answer": 0,
+    "explanation": "At full moon, we see the whole lit side."
+   },
+   {
+    "prompt": "Why can scientists predict sunrise times and Moon phases?",
+    "options": [
+     "They guess randomly",
+     "These patterns repeat regularly",
+     "The Sun tells them"
+    ],
+    "answer": 1,
+    "explanation": "Earth and Moon motions follow regular, predictable cycles."
+   }
+  ]
+ },
+ {
+  "id": "5-science-forces",
+  "grade": "5",
+  "subject": "Science",
+  "title": "Force, mass, light, and sound",
+  "objective": "Relate force and mass to changes in motion, and describe how light and sound behave.",
+  "explain": "The change in an object's motion depends on its mass and on the force acting on it. A bigger force causes a bigger change. A heavier object needs more force to change its motion the same amount. Light travels in straight lines and can be reflected by mirrors, refracted when it bends through water or glass, or absorbed. Sound is made by vibrations and travels through air, water, and solids.",
+  "example": "Kicking a soccer ball moves it farther than kicking a bowling ball with the same force, because the bowling ball has more mass.",
+  "activity": "Put a pencil in a glass of water and look from the side. Why does the pencil seem to bend?",
+  "questions": [
+   {
+    "prompt": "The same push will move which object faster?",
+    "options": [
+     "A cart full of bricks",
+     "A parked car",
+     "An empty cart"
+    ],
+    "answer": 2,
+    "explanation": "Less mass means a bigger change in motion for the same force."
+   },
+   {
+    "prompt": "To move a heavy object the same way as a light one, you need…",
+    "options": [
+     "More force",
+     "Less force",
+     "No force"
+    ],
+    "answer": 0,
+    "explanation": "Greater mass needs greater force."
+   },
+   {
+    "prompt": "Light bouncing off a mirror is called…",
+    "options": [
+     "Refraction",
+     "Reflection",
+     "Absorption"
+    ],
+    "answer": 1,
+    "explanation": "Mirrors reflect light."
+   },
+   {
+    "prompt": "A pencil looks bent in a glass of water because light…",
+    "options": [
+     "Breaks the pencil",
+     "Stops moving",
+     "Bends as it passes from water to air"
+    ],
+    "answer": 2,
+    "explanation": "Light bending is called refraction."
+   },
+   {
+    "prompt": "Light travels in…",
+    "options": [
+     "Straight lines",
+     "Circles",
+     "Zigzags only"
+    ],
+    "answer": 0,
+    "explanation": "That is why shadows form behind objects that block light."
+   },
+   {
+    "prompt": "Sound is made by…",
+    "options": [
+     "Light",
+     "Vibrations",
+     "Shadows"
+    ],
+    "answer": 1,
+    "explanation": "Vibrating objects make sound waves."
+   },
+   {
+    "prompt": "Sound can travel through…",
+    "options": [
+     "Only air",
+     "Empty space",
+     "Air, water, and solids"
+    ],
+    "answer": 2,
+    "explanation": "Sound needs matter to travel through."
+   },
+   {
+    "prompt": "A dark shirt gets warmer in sunlight than a white shirt because dark colors…",
+    "options": [
+     "Absorb more light",
+     "Reflect all light",
+     "Make their own light"
+    ],
+    "answer": 0,
+    "explanation": "Dark surfaces absorb more light energy."
+   },
+   {
+    "prompt": "A harder kick makes a ball travel…",
+    "options": [
+     "Slower",
+     "Farther and faster",
+     "Backward"
+    ],
+    "answer": 1,
+    "explanation": "More force causes a bigger change in motion."
+   },
+   {
+    "prompt": "Why can't sound travel in outer space?",
+    "options": [
+     "It is too bright",
+     "Space is too cold for sound",
+     "There is no air or matter to carry it"
+    ],
+    "answer": 2,
+    "explanation": "Sound needs particles of matter to travel."
+   }
+  ]
+ },
+ {
+  "id": "6-science-rocks",
+  "grade": "6",
+  "subject": "Science",
+  "title": "Minerals, rocks, and soil",
+  "objective": "Identify minerals by properties, compare rock types, and describe soil and its uses.",
+  "explain": "Minerals are natural solids with specific properties, such as hardness, luster, color, streak, and cleavage. Rocks are made of minerals. Igneous rocks form when melted rock cools. Sedimentary rocks form when layers of sediment are pressed and cemented together. Metamorphic rocks form when heat and pressure change existing rock. Soil is a mix of weathered rock, minerals, water, air, and decayed organic matter. People use rocks, minerals, and soil for building, farming, and making products.",
+  "example": "Ohio's limestone, a sedimentary rock, is used to make cement and gravel. Granite, an igneous rock, is used for countertops.",
+  "activity": "Scratch a few rocks with a steel nail and a penny to compare their hardness. Record the results.",
+  "questions": [
+   {
+    "prompt": "Rocks that form when melted rock cools are…",
+    "options": [
+     "Igneous",
+     "Sedimentary",
+     "Metamorphic"
+    ],
+    "answer": 0,
+    "explanation": "Igneous rocks form from cooled magma or lava."
+   },
+   {
+    "prompt": "Rocks formed from layers of sediment pressed together are…",
+    "options": [
+     "Igneous",
+     "Sedimentary",
+     "Metamorphic"
+    ],
+    "answer": 1,
+    "explanation": "Sediment is compacted and cemented into rock."
+   },
+   {
+    "prompt": "Heat and pressure change rock into…",
+    "options": [
+     "Igneous rock only",
+     "Soil",
+     "Metamorphic rock"
+    ],
+    "answer": 2,
+    "explanation": "Metamorphic means changed form."
+   },
+   {
+    "prompt": "Which property describes how a mineral shines?",
+    "options": [
+     "Luster",
+     "Streak",
+     "Mass"
+    ],
+    "answer": 0,
+    "explanation": "Luster describes how light reflects from a mineral."
+   },
+   {
+    "prompt": "The color of a mineral's powder on a white tile is its…",
+    "options": [
+     "Luster",
+     "Streak",
+     "Cleavage"
+    ],
+    "answer": 1,
+    "explanation": "Streak is often more reliable than surface color."
+   },
+   {
+    "prompt": "The Mohs scale measures a mineral's…",
+    "options": [
+     "Weight",
+     "Age",
+     "Hardness"
+    ],
+    "answer": 2,
+    "explanation": "Talc is softest (1) and diamond is hardest (10)."
+   },
+   {
+    "prompt": "Soil contains weathered rock, water, air, and…",
+    "options": [
+     "Decayed organic matter",
+     "Only metal",
+     "Only salt"
+    ],
+    "answer": 0,
+    "explanation": "Humus from dead plants and animals adds nutrients."
+   },
+   {
+    "prompt": "Limestone, common in Ohio, is used to make…",
+    "options": [
+     "Glass windows only",
+     "Cement",
+     "Plastic bottles"
+    ],
+    "answer": 1,
+    "explanation": "Limestone is crushed and heated to make cement."
+   },
+   {
+    "prompt": "Fossils are most likely found in which rock type?",
+    "options": [
+     "Igneous",
+     "Metamorphic",
+     "Sedimentary"
+    ],
+    "answer": 2,
+    "explanation": "Sediment layers can bury and preserve remains."
+   },
+   {
+    "prompt": "Which is the hardest mineral?",
+    "options": [
+     "Diamond",
+     "Talc",
+     "Gypsum"
+    ],
+    "answer": 0,
+    "explanation": "Diamond is 10 on the Mohs scale."
+   }
+  ]
+ },
+ {
+  "id": "6-science-cells",
+  "grade": "6",
+  "subject": "Science",
+  "title": "Cells, the units of life",
+  "objective": "Explain that all living things are made of cells that come from other cells and carry out life functions.",
+  "explain": "Cells are the smallest units of life. Some living things, like bacteria, are made of one cell. Others, like people and trees, are made of trillions of cells. All cells come from cells that already existed, through cell division. Cells have parts with jobs: the cell membrane controls what goes in and out, the nucleus holds genetic instructions, and mitochondria release energy from food. Plant cells also have a cell wall and chloroplasts for making food from sunlight.",
+  "example": "A skin cut heals because skin cells divide to make new cells that fill the gap.",
+  "activity": "Draw a plant cell and an animal cell. Label the parts both have and the parts only plant cells have.",
+  "questions": [
+   {
+    "prompt": "The smallest unit of life is the…",
+    "options": [
+     "Atom",
+     "Cell",
+     "Organ"
+    ],
+    "answer": 1,
+    "explanation": "Every living thing is made of one or more cells."
+   },
+   {
+    "prompt": "New cells come from…",
+    "options": [
+     "Rocks",
+     "Sunlight alone",
+     "Existing cells dividing"
+    ],
+    "answer": 2,
+    "explanation": "All cells come from pre-existing cells."
+   },
+   {
+    "prompt": "Which part controls what enters and leaves a cell?",
+    "options": [
+     "Cell membrane",
+     "Nucleus",
+     "Chloroplast"
+    ],
+    "answer": 0,
+    "explanation": "The membrane surrounds the cell and controls traffic in and out."
+   },
+   {
+    "prompt": "Which part holds the cell's genetic instructions?",
+    "options": [
+     "Cell wall",
+     "Nucleus",
+     "Vacuole"
+    ],
+    "answer": 1,
+    "explanation": "The nucleus contains DNA."
+   },
+   {
+    "prompt": "Which parts are found in plant cells but not animal cells?",
+    "options": [
+     "Nucleus and membrane",
+     "Mitochondria",
+     "Cell wall and chloroplasts"
+    ],
+    "answer": 2,
+    "explanation": "Plant cells have a rigid wall and chloroplasts for photosynthesis."
+   },
+   {
+    "prompt": "Mitochondria are important because they…",
+    "options": [
+     "Release energy from food",
+     "Make the cell green",
+     "Store water only"
+    ],
+    "answer": 0,
+    "explanation": "Mitochondria power the cell."
+   },
+   {
+    "prompt": "A living thing made of just one cell is…",
+    "options": [
+     "Multicellular",
+     "Unicellular",
+     "Extinct"
+    ],
+    "answer": 1,
+    "explanation": "Bacteria are unicellular."
+   },
+   {
+    "prompt": "Groups of similar cells working together form…",
+    "options": [
+     "Atoms",
+     "Planets",
+     "Tissues"
+    ],
+    "answer": 2,
+    "explanation": "Cells form tissues, tissues form organs."
+   },
+   {
+    "prompt": "Which tool lets scientists see cells?",
+    "options": [
+     "A microscope",
+     "A telescope",
+     "A thermometer"
+    ],
+    "answer": 0,
+    "explanation": "Most cells are too small to see without a microscope."
+   },
+   {
+    "prompt": "How does a cut on your skin heal?",
+    "options": [
+     "Bones fill the cut",
+     "Skin cells divide to make new cells",
+     "Air hardens into skin"
+    ],
+    "answer": 1,
+    "explanation": "Cell division replaces damaged cells."
+   }
+  ]
+ },
+ {
+  "id": "6-science-atoms",
+  "grade": "6",
+  "subject": "Science",
+  "title": "Atoms and particles in motion",
+  "objective": "Describe matter as atoms and explain states of matter with moving particles.",
+  "explain": "All matter is made of tiny particles called atoms, far too small to see. Atoms can join to form molecules, like water, H2O. Particles are always moving. In a solid, particles are packed tightly and vibrate in place. In a liquid, they slide past each other. In a gas, they move fast and spread far apart. Adding heat makes particles move faster, which can change a solid to a liquid or a liquid to a gas.",
+  "example": "Ice melts when heat makes its water molecules vibrate fast enough to slide past each other.",
+  "activity": "Put a drop of food coloring in cold water and one in hot water. Which spreads faster, and why?",
+  "questions": [
+   {
+    "prompt": "All matter is made of tiny particles called…",
+    "options": [
+     "Cells",
+     "Seeds",
+     "Atoms"
+    ],
+    "answer": 2,
+    "explanation": "Atoms are the building blocks of matter."
+   },
+   {
+    "prompt": "In which state do particles move the fastest?",
+    "options": [
+     "Gas",
+     "Solid",
+     "Liquid"
+    ],
+    "answer": 0,
+    "explanation": "Gas particles move quickly and spread out."
+   },
+   {
+    "prompt": "In a solid, particles…",
+    "options": [
+     "Fly far apart",
+     "Vibrate in place, packed closely",
+     "Disappear"
+    ],
+    "answer": 1,
+    "explanation": "Solid particles are held tightly in place."
+   },
+   {
+    "prompt": "Adding heat makes particles…",
+    "options": [
+     "Stop moving",
+     "Get smaller",
+     "Move faster"
+    ],
+    "answer": 2,
+    "explanation": "Heat gives particles more energy."
+   },
+   {
+    "prompt": "A water molecule (H2O) has…",
+    "options": [
+     "Two hydrogen atoms and one oxygen atom",
+     "One hydrogen and two oxygen atoms",
+     "Only oxygen"
+    ],
+    "answer": 0,
+    "explanation": "H2O means 2 hydrogen and 1 oxygen."
+   },
+   {
+    "prompt": "Food coloring spreads faster in hot water because…",
+    "options": [
+     "Hot water is heavier",
+     "Hot water particles move faster",
+     "Cold water has no particles"
+    ],
+    "answer": 1,
+    "explanation": "Faster particles mix the color more quickly."
+   },
+   {
+    "prompt": "In a liquid, particles…",
+    "options": [
+     "Stay locked in place",
+     "Are always far apart",
+     "Slide past each other"
+    ],
+    "answer": 2,
+    "explanation": "That is why liquids flow."
+   },
+   {
+    "prompt": "Ice melts when…",
+    "options": [
+     "Heat makes its particles move enough to slide past each other",
+     "Its atoms vanish",
+     "It gets colder"
+    ],
+    "answer": 0,
+    "explanation": "Melting happens when particles gain energy."
+   },
+   {
+    "prompt": "Can you see a single atom with your eyes?",
+    "options": [
+     "Yes, easily",
+     "No, atoms are far too small",
+     "Only in sunlight"
+    ],
+    "answer": 1,
+    "explanation": "Atoms are much smaller than anything we can see."
+   },
+   {
+    "prompt": "When steam cools and becomes water, its particles…",
+    "options": [
+     "Speed up",
+     "Turn into rock",
+     "Slow down and move closer together"
+    ],
+    "answer": 2,
+    "explanation": "Cooling removes energy, so particles slow down."
+   }
+  ]
+ },
+ {
+  "id": "6-science-motion",
+  "grade": "6",
+  "subject": "Science",
+  "title": "Kinetic and potential energy, speed and direction",
+  "objective": "Compare kinetic and potential energy and describe motion by speed and direction.",
+  "explain": "Energy comes in two categories. Kinetic energy is the energy of motion. Potential energy is stored energy, such as a book on a high shelf or a stretched rubber band. Potential energy can change into kinetic energy. Motion is described by speed, how far something travels in a certain time, and its direction. Speed equals distance divided by time.",
+  "example": "A roller coaster at the top of a hill has lots of potential energy. As it rushes down, that energy becomes kinetic energy.",
+  "activity": "Time how long a toy car takes to roll 2 meters. Divide 2 by the time to find its speed in meters per second.",
+  "questions": [
+   {
+    "prompt": "Kinetic energy is the energy of…",
+    "options": [
+     "Motion",
+     "Storage",
+     "Color"
+    ],
+    "answer": 0,
+    "explanation": "Moving objects have kinetic energy."
+   },
+   {
+    "prompt": "A book on a high shelf has…",
+    "options": [
+     "Only kinetic energy",
+     "Potential energy",
+     "No energy"
+    ],
+    "answer": 1,
+    "explanation": "Its position gives it stored energy."
+   },
+   {
+    "prompt": "A roller coaster has the most potential energy…",
+    "options": [
+     "At the bottom",
+     "When it is moving fastest",
+     "At the top of the highest hill"
+    ],
+    "answer": 2,
+    "explanation": "Height gives stored energy."
+   },
+   {
+    "prompt": "A stretched rubber band stores…",
+    "options": [
+     "Potential energy",
+     "Sound energy",
+     "No energy"
+    ],
+    "answer": 0,
+    "explanation": "Stretching stores elastic potential energy."
+   },
+   {
+    "prompt": "A car travels 100 miles in 2 hours. Its speed is…",
+    "options": [
+     "200 miles per hour",
+     "50 miles per hour",
+     "102 miles per hour"
+    ],
+    "answer": 1,
+    "explanation": "Speed = distance ÷ time = 100 ÷ 2."
+   },
+   {
+    "prompt": "Speed tells…",
+    "options": [
+     "Only the direction",
+     "How heavy something is",
+     "How far something moves in a certain time"
+    ],
+    "answer": 2,
+    "explanation": "Speed is distance per unit of time."
+   },
+   {
+    "prompt": "To fully describe motion, you need speed and…",
+    "options": [
+     "Direction",
+     "Color",
+     "Temperature"
+    ],
+    "answer": 0,
+    "explanation": "Direction tells where the object is going."
+   },
+   {
+    "prompt": "As a ball falls, its potential energy…",
+    "options": [
+     "Disappears forever",
+     "Changes into kinetic energy",
+     "Grows larger"
+    ],
+    "answer": 1,
+    "explanation": "Stored energy becomes energy of motion."
+   },
+   {
+    "prompt": "A runner goes 400 meters in 80 seconds. What is the speed?",
+    "options": [
+     "320 meters per second",
+     "480 meters per second",
+     "5 meters per second"
+    ],
+    "answer": 2,
+    "explanation": "Speed = distance ÷ time = 400 ÷ 80 = 5."
+   },
+   {
+    "prompt": "Which has more kinetic energy?",
+    "options": [
+     "A truck moving fast",
+     "The same truck parked",
+     "A parked bicycle"
+    ],
+    "answer": 0,
+    "explanation": "Moving objects have kinetic energy; faster and heavier means more."
+   }
+  ]
  }
 ];
-export const scienceOhioPictures: Record<string, Record<number, { prompt?: string; choices?: string[] }>> = {};
+export const scienceOhioPictures: Record<string, Record<number, { prompt?: string; choices?: string[] }>> = {"k-science-sky":{"0":{"choices":["moon","sun","bee"]},"1":{"choices":["sun","rain","moon"]},"3":{"choices":["beach","rain","sun"]},"7":{"choices":["sun","moon","rain"]},"8":{"choices":["wind","rock","moon"]}},"k-science-props":{"0":{"choices":["rock","spoon","pillow"]},"1":{"choices":["rock","sock","feathers"]},"3":{"choices":["book","table","ball"]}},"1-science-sun":{"0":{"choices":["sun","moon","flashlight"]},"3":{"choices":["plant","ice","bell"]}},"1-science-motion":{"2":{"choices":["ball","circle","jump"]},"3":{"choices":["circle","rabbit","run"]},"4":{"choices":["bell","paint","push"]},"5":{"choices":["pull","push","jump"]}},"2-science-air":{"1":{"choices":["wind","water","rock"]},"3":{"choices":["tree","sand","rain"]}},"2-science-earthchange":{"1":{"choices":["paint","roots","ice"]}},"2-science-forces":{"0":{"choices":["paint","bell","push"]},"2":{"choices":["flashlight","apple","bell"]},"6":{"choices":["sound","moon","wagon"]}}};

@@ -16,9 +16,12 @@ const path=require.resolve('../.learning-test/lib/learning-storage.js');delete r
 console.log('Passed: '+lessons.length+' lessons/'+lessons.reduce((n,l)=>n+l.questions.length,0)+' questions; all eight levels have four-step subject sequences; legacy migration; sibling isolation; weekly dates and latest scores; reading totals; idempotent backup merge; capacity/invalid-data checks; reload persistence; storage failure handling.');
 // Retired Grade 3 science lessons: hidden from children, but saved progress that names them still loads.
 {const {retiredLessons,allLessons}=require('../.learning-test/lib/learning-content.js');const st=require('../.learning-test/lib/learning-storage.js');
-assert.deepEqual(lessonSequence('3','Science').map(l=>l.id),['3-science-matter','3-science-energy','3-science-earth','3-science-life']);
+assert.deepEqual(lessonSequence('3','Science').map(l=>l.id),['3-science-matter','3-science-energy','3-science-earth','3-science-life']);assert.deepEqual(lessonSequence('4','Science').map(l=>l.id),['4-science-landforms','4-science-4','4-science-fossils','4-science-energy']);assert.deepEqual(lessonSequence('5','Science').map(l=>l.id),['5-science-space','5-science-cycles','5-science-3','5-science-forces']);
 for(const id of retiredLessons){assert.ok(allLessons.some(l=>l.id===id));assert.ok(!lessons.some(l=>l.id===id));}
 const p=st.newLearner(1,'old');p.progress={'3-science':{score:3,total:3,date:'2026-10-10'}};p.attempts=[{id:'x',lessonId:'3-science-2',date:'2026-10-11',score:2,total:3}];
 assert.ok(st.validSaved({version:2,activeId:'old',learners:[p]}),'old Grade 3 science progress still loads');
 const {phoneReport,validPhoneReport}=require('../.learning-test/lib/report-link.js');assert.ok(validPhoneReport(phoneReport(p,'2026-10-12',1)),'report with a retired lesson is still valid');
 console.log('Passed: retired Grade 3 science lessons are hidden but earlier progress and reports still load.');}
+{const {standards}=require('../.learning-test/lib/standards-map.js');const missing=lessons.filter(l=>!standards[l.id]).map(l=>l.id);assert.deepEqual(missing,[],'every lesson names its Ohio standard');
+for(const l of lessons.filter(l=>l.subject==='Science'&&l.grade!=='pre'))assert.match(standards[l.id],new RegExp('^'+(l.grade==='k'?'K':l.grade)+'\\.(ESS|LS|PS)'),l.id+' maps to its own grade');
+console.log('Passed: all '+lessons.length+' lessons name an Ohio standard; every K-6 science lesson maps to its own grade\'s science standards.');}

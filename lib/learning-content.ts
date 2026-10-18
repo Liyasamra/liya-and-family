@@ -1022,8 +1022,13 @@ const starterLessons:Lesson[] = [
 // Every lesson that has ever been published. Saved progress and reports may still name a retired lesson,
 // so validation and title lookups use allLessons; everything children browse uses lessons.
 export const allLessons:Lesson[] = [...starterLessons,...sequenceLessons,...writingLessons,...socialLessons,...scienceOhioLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
-// Grade 3 science was rebuilt around Ohio's Grade 3 science standards (2026-10-17). The water and weather
-// lessons it replaced stay in allLessons so earlier progress still loads.
-export const retiredLessons=new Set(["3-science","3-science-2","3-science-3","3-science-4"]);
-export const lessons:Lesson[] = allLessons.filter(l=>!retiredLessons.has(l.id));
+// Science was rebuilt around Ohio's Learning Standards for Science (2026-10-17): Grade 3 first, then K, 1, 2, 4, 5 and 6.
+// The lessons it replaced stay in allLessons so earlier progress and reports still load.
+export const retiredLessons=new Set(["3-science","3-science-2","3-science-3","3-science-4","k-science-2","k-science-4","1-science-2","1-science-4","2-science","2-science-2","2-science-3","2-science-4","4-science","4-science-2","4-science-3","5-science","5-science-2","5-science-4","6-science","6-science-2","6-science-3","6-science-4"]);
+// Step order where kept and new lessons mix.
+const stepOrder:Record<string,number>={"4-science-landforms":1,"4-science-4":2,"4-science-fossils":3,"4-science-energy":4,"5-science-space":1,"5-science-cycles":2,"5-science-3":3,"5-science-forces":4,"6-science-atoms":1,"6-science-motion":2,"6-science-rocks":3,"6-science-cells":4};
+const active=allLessons.filter(l=>!retiredLessons.has(l.id));
+const slots=active.map((l,i)=>stepOrder[l.id]?i:-1).filter(i=>i>=0);
+const ordered=slots.map(i=>active[i]).sort((x,y)=>x.grade===y.grade?stepOrder[x.id]-stepOrder[y.id]:x.grade<y.grade?-1:1);
+export const lessons:Lesson[] = active.map((l,i)=>slots.includes(i)?ordered[slots.indexOf(i)]:l);
 export function lessonSequence(grade:Grade,subject:Subject){return lessons.filter(l=>l.grade===grade&&l.subject===subject);}

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:learning": "tsc lib/learning-content.ts lib/learning-storage.ts lib/visual-learning.ts lib/report-link.ts lib/placement.ts lib/social-studies.ts lib/writing-lessons.ts lib/science-ohio.ts --module commonjs --target es2020 --outDir .learning-test/lib --skipLibCheck && node tests/learning-content.cjs",
+    "test:learning": "tsc lib/learning-content.ts lib/learning-storage.ts lib/visual-learning.ts lib/report-link.ts lib/placement.ts lib/social-studies.ts lib/writing-lessons.ts lib/science-ohio.ts lib/standards-map.ts --module commonjs --target es2020 --outDir .learning-test/lib --skipLibCheck && node tests/learning-content.cjs",
     "build:pages": "node scripts/build-pages.mjs",
     "test:visual": "npm run test:learning && npm run build:pages && node tests/visual-learning.cjs",
     "test:phase-one": "npm run test:learning && npm run build:pages && node tests/phase-one.cjs"

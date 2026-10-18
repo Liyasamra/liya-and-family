@@ -64,3 +64,6 @@ import { socialPictures } from "./social-studies";
 for (const [id, m] of Object.entries(socialPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
 import { writingPictures } from "./writing-lessons";
 for (const [id, m] of Object.entries(writingPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
+
+import { scienceOhioPictures } from "./science-ohio";
+for (const [id, m] of Object.entries(scienceOhioPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
