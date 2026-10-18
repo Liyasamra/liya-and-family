@@ -1,6 +1,6 @@
 "use client";
 import {useState} from "react";
-import {grades,lessons} from "@/lib/learning-content";
+import {grades,allLessons as lessons} from "@/lib/learning-content";
 import {phoneReport,encodePhoneReport,type PhoneReport} from "@/lib/report-link";
 import type {Learner} from "@/lib/learning-storage";
 export function SendReport({learner,day,number}:{learner:Learner;day:string;number:number}){

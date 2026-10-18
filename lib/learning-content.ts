@@ -2,6 +2,7 @@ import { sequenceLessons } from "./learning-sequences";
 import { questionBanks } from "./question-banks";
 import { socialLessons } from "./social-studies";
 import { writingLessons } from "./writing-lessons";
+import { scienceOhioLessons } from "./science-ohio";
 export type Grade = "pre" | "k" | "1" | "2" | "3" | "4" | "5" | "6";
 export type Subject = "Math" | "Reading" | "Writing" | "Science" | "Social Studies";
 export type Lesson = {id:string;grade:Grade;subject:Subject;title:string;objective:string;explain:string;example:string;activity:string;questions:{prompt:string;options:string[];answer:number;explanation:string}[]};
@@ -1018,5 +1019,11 @@ const starterLessons:Lesson[] = [
 ];
 
 // Each lesson keeps its original three questions first, then any extra bank questions.
-export const lessons:Lesson[] = [...starterLessons,...sequenceLessons,...writingLessons,...socialLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
+// Every lesson that has ever been published. Saved progress and reports may still name a retired lesson,
+// so validation and title lookups use allLessons; everything children browse uses lessons.
+export const allLessons:Lesson[] = [...starterLessons,...sequenceLessons,...writingLessons,...socialLessons,...scienceOhioLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
+// Grade 3 science was rebuilt around Ohio's Grade 3 science standards (2026-10-17). The water and weather
+// lessons it replaced stay in allLessons so earlier progress still loads.
+export const retiredLessons=new Set(["3-science","3-science-2","3-science-3","3-science-4"]);
+export const lessons:Lesson[] = allLessons.filter(l=>!retiredLessons.has(l.id));
 export function lessonSequence(grade:Grade,subject:Subject){return lessons.filter(l=>l.grade===grade&&l.subject===subject);}

@@ -1,4 +1,4 @@
-import {lessons,type Grade} from "./learning-content";
+import {allLessons as lessons,type Grade} from "./learning-content";
 import {weeklyReport,type Learner} from "./learning-storage";
 export type PhoneReport={version:1;learner:number;grade:Grade;start:string;end:string;minutes:number;attempts:number;skills:[string,number,number,string][]};
 const date=(v:unknown)=>typeof v==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&!isNaN(Date.parse(v+"T12:00:00Z"))&&new Date(v+"T12:00:00Z").toISOString().slice(0,10)===v;

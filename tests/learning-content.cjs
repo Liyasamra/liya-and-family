@@ -14,3 +14,11 @@ assert.equal(store.parseBackup({...legacy,progress:{'3-math':{score:4,date:'2026
 const before=store.getSnapshot();assert.throws(()=>store.updateSaved({...data,activeId:'unknown'}));assert.equal(store.getSnapshot(),before);unsubscribe();assert.equal(notified,2);
 const path=require.resolve('../.learning-test/lib/learning-storage.js');delete require.cache[path];const reloaded=require(path);assert.equal(reloaded.getSnapshot().data.learners.length,2);assert.equal(reloaded.getSnapshot().data.activeId,'second');global.localStorage.setItem=()=>{throw Error('Storage disabled')};reloaded.updateLearner('second',p=>({...p,nickname:'Fox'}));assert.match(reloaded.getSnapshot().message,/Could not save/);assert.equal(reloaded.getSnapshot().data.learners[1].nickname,'Fox');
 console.log('Passed: '+lessons.length+' lessons/'+lessons.reduce((n,l)=>n+l.questions.length,0)+' questions; all eight levels have four-step subject sequences; legacy migration; sibling isolation; weekly dates and latest scores; reading totals; idempotent backup merge; capacity/invalid-data checks; reload persistence; storage failure handling.');
+// Retired Grade 3 science lessons: hidden from children, but saved progress that names them still loads.
+{const {retiredLessons,allLessons}=require('../.learning-test/lib/learning-content.js');const st=require('../.learning-test/lib/learning-storage.js');
+assert.deepEqual(lessonSequence('3','Science').map(l=>l.id),['3-science-matter','3-science-energy','3-science-earth','3-science-life']);
+for(const id of retiredLessons){assert.ok(allLessons.some(l=>l.id===id));assert.ok(!lessons.some(l=>l.id===id));}
+const p=st.newLearner(1,'old');p.progress={'3-science':{score:3,total:3,date:'2026-10-10'}};p.attempts=[{id:'x',lessonId:'3-science-2',date:'2026-10-11',score:2,total:3}];
+assert.ok(st.validSaved({version:2,activeId:'old',learners:[p]}),'old Grade 3 science progress still loads');
+const {phoneReport,validPhoneReport}=require('../.learning-test/lib/report-link.js');assert.ok(validPhoneReport(phoneReport(p,'2026-10-12',1)),'report with a retired lesson is still valid');
+console.log('Passed: retired Grade 3 science lessons are hidden but earlier progress and reports still load.');}

@@ -1,4 +1,4 @@
-import { lessons, type Grade } from "./learning-content";
+import { allLessons as lessons, type Grade } from "./learning-content";
 export type Progress = Record<string,{score:number;total:number;date:string}>;
 export type Attempt={id:string;lessonId:string;date:string;score:number;total:number};
 export type ReadingEntry={id:string;date:string;minutes:number};

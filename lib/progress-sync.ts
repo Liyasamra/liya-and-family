@@ -1,4 +1,4 @@
-import { lessons, type Grade } from "./learning-content";
+import { allLessons, lessons, type Grade } from "./learning-content";
 import type { Learner } from "./learning-storage";
 
 // One summary per lesson, the shape saved by supabase/progress-sync.sql. No names or answers.
@@ -9,7 +9,7 @@ export function buildSyncItems(learner: Learner): SyncItem[] {
   const ids = new Set([...Object.keys(learner.progress), ...learner.attempts.map(a => a.lessonId)]);
   const items: SyncItem[] = [];
   for (const id of ids) {
-    if (!lessons.some(l => l.id === id)) continue;
+    if (!allLessons.some(l => l.id === id)) continue;
     const tries = learner.attempts.filter(a => a.lessonId === id);
     let last = tries[tries.length - 1];
     for (const t of tries) if (!last || t.date > last.date) last = t;
@@ -29,7 +29,7 @@ export function summarize(rows: SavedRow[], grade: Grade | string) {
   const mastered = gradeLessons.filter(l => byId.get(l.id)?.mastered_on);
   const practiced = gradeLessons.filter(l => byId.has(l.id));
   const needsPractice = practiced.filter(l => !byId.get(l.id)?.mastered_on).map(l => ({ lesson: l, row: byId.get(l.id)! }));
-  const recent = [...rows].sort((a, b) => (a.last_date < b.last_date ? 1 : a.last_date > b.last_date ? -1 : 0)).slice(0, 3).map(r => ({ row: r, lesson: lessons.find(l => l.id === r.lesson_id) })).filter(x => x.lesson);
+  const recent = [...rows].sort((a, b) => (a.last_date < b.last_date ? 1 : a.last_date > b.last_date ? -1 : 0)).slice(0, 3).map(r => ({ row: r, lesson: allLessons.find(l => l.id === r.lesson_id) })).filter(x => x.lesson);
   return { total: gradeLessons.length, mastered: mastered.length, practiced: practiced.length, needsPractice: needsPractice.slice(0, 3), recent, lastDate: rows.reduce((d, r) => (r.last_date > d ? r.last_date : d), "") };
 }
 
