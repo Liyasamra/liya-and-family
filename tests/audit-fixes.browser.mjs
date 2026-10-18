@@ -40,7 +40,7 @@ await p.reload();await p.getByRole('button',{name:/Start lesson/}).first().click
 await p.getByLabel('Learning level').getByRole('button',{name:/^3/}).click();await p.getByRole('button',{name:/Start lesson/}).first().click();await p.waitForTimeout(700);ok(await p.locator('.auto-read').count()===0,'Grade 3 has no automatic reading switch');await ctx.close();}
 // 7. Save and continue with progress
 {const {p,ctx,errs}=await fresh();await p.goto(base+'?grade=3#learn');await p.waitForTimeout(300);await p.getByRole('button',{name:'Math',exact:true}).click();
-ok((await p.locator('.level-progress').textContent()).includes('0 of 16'),'level shows 0 of 16 done');
+ok((await p.locator('.level-progress').textContent()).includes('0 of 20'),'level shows 0 of 20 done');
 await p.getByRole('button',{name:/Start lesson/}).first().click();ok(await p.locator('.save-continue').count()===0,'no Save button before answers are checked');ok(await p.getByRole('button',{name:'Skip for now'}).count()===0,'no skipping ahead');
 await answerAll(p,false);await p.getByRole('button',{name:'Check my answers'}).click();
 ok(await p.locator('.not-yet-note').isVisible()&&await p.locator('.save-continue').count()===0,'wrong answers: no Save and continue');
@@ -56,8 +56,8 @@ for(let k=0;k<4;k++){await answerAll(p,true);await p.getByRole('button',{name:'C
  if(k<3){await p.getByRole('button',{name:/Save and continue/}).click();await p.waitForTimeout(200);ok(await p.locator('.step-track li.current .step-dot').textContent()===String(k+2),'now on step '+(k+2));}
  else{await p.getByRole('button',{name:/Save and finish Math/}).click();await p.waitForTimeout(200);ok(await p.locator('#lesson-title').count()===0,'Save and finish closes the lesson');}}
 ok((await p.locator('.learn-status').textContent()).includes('finished every Math step'),'finish message shown');
-ok(await p.locator('.card-done').count()===4,'4 cards marked done');ok(await p.getByRole('button',{name:/Practice again/}).count()===4,'done cards say Practice again');await p.getByRole('button',{name:'All subjects'}).click();ok(await p.locator('.lesson-card .learn-btn.locked').count()===9,'Reading, Science and Social Studies steps 2 to 4 stay locked');await p.locator('.lesson-grid').screenshot({path:'/tmp/claude-0/-home-claude/560f7a84-74bf-5a77-8a8a-aa688ab539c3/scratchpad/cards.png'});ok((await p.locator('.level-progress').textContent()).includes('4 of 16'),'level shows 4 of 16 done');
-await p.reload();await p.waitForTimeout(300);ok((await p.locator('.level-progress').textContent()).includes('4 of 16'),'progress kept after reload');
+ok(await p.locator('.card-done').count()===4,'4 cards marked done');ok(await p.getByRole('button',{name:/Practice again/}).count()===4,'done cards say Practice again');await p.getByRole('button',{name:'All subjects'}).click();ok(await p.locator('.lesson-card .learn-btn.locked').count()===12,'Reading, Writing, Science and Social Studies steps 2 to 4 stay locked');await p.locator('.lesson-grid').screenshot({path:'/tmp/claude-0/-home-claude/560f7a84-74bf-5a77-8a8a-aa688ab539c3/scratchpad/cards.png'});ok((await p.locator('.level-progress').textContent()).includes('4 of 20'),'level shows 4 of 16 done');
+await p.reload();await p.waitForTimeout(300);ok((await p.locator('.level-progress').textContent()).includes('4 of 20'),'progress kept after reload');
 ok(errs.length===0,'no page errors');await ctx.close();}
 // 8. Question banks: Grade 3 shows 5 of 10, and a new try draws a new mix
 {const {p,ctx}=await fresh();await p.goto(base+'?grade=3#learn');await p.waitForTimeout(300);await p.getByRole('button',{name:/Start lesson/}).first().click();

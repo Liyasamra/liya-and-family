@@ -62,3 +62,5 @@ for (const [id, m] of Object.entries(bankPictures)) choicePictures[id] = { ...(c
 // Pictures for Social Studies lessons (Preschool and Kindergarten).
 import { socialPictures } from "./social-studies";
 for (const [id, m] of Object.entries(socialPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
+import { writingPictures } from "./writing-lessons";
+for (const [id, m] of Object.entries(writingPictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };

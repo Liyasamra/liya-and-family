@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict');
 const {lessons,grades,lessonSequence}=require('../.learning-test/lib/learning-content.js');
 assert.equal(grades.length,8);assert.ok(lessons.length>=96);assert.equal(new Set(lessons.map(l=>l.id)).size,lessons.length);
-for(const g of grades){for(const subject of ['Math','Reading','Science'])assert.equal(lessonSequence(g.id,subject).length,4);{const ss=lessonSequence(g.id,'Social Studies').length;assert.ok(ss===0||ss===4,g.id+' social studies steps');}}
+for(const g of grades){for(const subject of ['Math','Reading','Science'])assert.equal(lessonSequence(g.id,subject).length,4);for(const sub of ['Social Studies','Writing']){const ss=lessonSequence(g.id,sub).length;assert.ok(ss===0||ss===4,g.id+' '+sub+' steps');}}
 for(const l of lessons){for(const field of ['objective','explain','example','activity'])assert.ok(l[field].length>20);assert.ok(l.questions.length>=3&&l.questions.length<=12,l.id+" question count");for(const q of l.questions){assert.equal(q.options.length,3);assert.ok(q.answer>=0&&q.answer<3);assert.ok(q.explanation.length>15);assert.equal(new Set(q.options).size,3,l.id+' duplicate option: '+q.prompt);}assert.equal(new Set(l.questions.map(q=>q.prompt)).size,l.questions.length,l.id+' duplicate prompt');}
 const pos=[0,0,0];for(const l of lessons)for(const q of l.questions)pos[q.answer]++;const tot=pos[0]+pos[1]+pos[2];for(const p of pos)assert.ok(p/tot>0.28,'answer positions unbalanced: '+pos);
 const memory=new Map();global.window={};global.localStorage={getItem:k=>memory.get(k)??null,setItem:(k,v)=>memory.set(k,v)};

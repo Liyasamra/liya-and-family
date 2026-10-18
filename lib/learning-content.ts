@@ -1,8 +1,9 @@
 import { sequenceLessons } from "./learning-sequences";
 import { questionBanks } from "./question-banks";
 import { socialLessons } from "./social-studies";
+import { writingLessons } from "./writing-lessons";
 export type Grade = "pre" | "k" | "1" | "2" | "3" | "4" | "5" | "6";
-export type Subject = "Math" | "Reading" | "Science" | "Social Studies";
+export type Subject = "Math" | "Reading" | "Writing" | "Science" | "Social Studies";
 export type Lesson = {id:string;grade:Grade;subject:Subject;title:string;objective:string;explain:string;example:string;activity:string;questions:{prompt:string;options:string[];answer:number;explanation:string}[]};
 export const grades: {id:Grade;label:string;focus:string}[] = [{"id": "pre", "label": "Preschool", "focus": "Play, notice, and explore"}, {"id": "k", "label": "Kindergarten", "focus": "Build a strong beginning"}, {"id": "1", "label": "Grade 1", "focus": "Read and count with confidence"}, {"id": "2", "label": "Grade 2", "focus": "Connect ideas"}, {"id": "3", "label": "Grade 3", "focus": "Grow independent thinking"}, {"id": "4", "label": "Grade 4", "focus": "Explain how and why"}, {"id": "5", "label": "Grade 5", "focus": "Reason and support ideas"}, {"id": "6", "label": "Grade 6", "focus": "Prepare for the next chapter"}];
 const starterLessons:Lesson[] = [
@@ -1017,5 +1018,5 @@ const starterLessons:Lesson[] = [
 ];
 
 // Each lesson keeps its original three questions first, then any extra bank questions.
-export const lessons:Lesson[] = [...starterLessons,...sequenceLessons,...socialLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
+export const lessons:Lesson[] = [...starterLessons,...sequenceLessons,...writingLessons,...socialLessons].map(l=>({...l,questions:[...l.questions,...(questionBanks[l.id]||[])]}));
 export function lessonSequence(grade:Grade,subject:Subject){return lessons.filter(l=>l.grade===grade&&l.subject===subject);}
