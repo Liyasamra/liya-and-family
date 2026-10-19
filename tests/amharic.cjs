@@ -5,7 +5,7 @@ const {am}=require('../.learning-test/lib/amharic.js');const i18n=require('../.l
 const {lessons}=require('../.learning-test/lib/learning-content.js');
 // Texts that stay as written in both languages: addresses, codes, and example IDs.
 const same=new Set(['hello@ewketkids.org','partners@ewketkids.org','liyasamra.github.io/liya-and-family/','ABCD-EFGH','ewketkids.org','EW001']);
-const files=['app/learn/learning-center.tsx','app/learn/family-trust.tsx','app/learn/assessments.tsx','app/learn/placement.tsx','app/learn/device-link.tsx','app/learn/read-aloud.tsx','app/learn/phone-report.tsx','app/learn/amharic-help.tsx','app/parent-portal/portal.tsx'];
+const files=['app/learn/welcome.tsx','app/learn/learning-overview.tsx','app/learn/learning-center.tsx','app/learn/family-trust.tsx','app/learn/assessments.tsx','app/learn/placement.tsx','app/learn/device-link.tsx','app/learn/read-aloud.tsx','app/learn/phone-report.tsx','app/learn/amharic-help.tsx','app/parent-portal/portal.tsx'];
 const missing=[];
 for(const f of files){const sf=ts.createSourceFile(f,fs.readFileSync(f,'utf8'),99,true,4);(function v(n){if(ts.isCallExpression(n)&&ts.isIdentifier(n.expression)&&n.expression.text==='t'&&n.arguments[0]&&ts.isStringLiteral(n.arguments[0])){const k=n.arguments[0].text;if(!am[k]&&!same.has(k))missing.push(f+': '+k);}ts.forEachChild(n,v);})(sf);}
 assert.deepEqual(missing,[],'every visible text has Amharic');

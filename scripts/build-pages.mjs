@@ -39,3 +39,5 @@ for(const target of ["social-preview.png","docs/social-preview.png"])cpSync("pub
 
 for(const target of ["lesson-art","docs/lesson-art"])cpSync("public/lesson-art",target,{recursive:true});
 for(const name of ["ewket-kids-cover.webp","ewket-kids-cover-640.webp","ewket-kids-cover-960.webp","ewket-kids-cover-1280.webp"])for(const target of [name,"docs/"+name])cpSync("public/"+name,target);
+
+for(const target of ["learning-together.webp","docs/learning-together.webp"])cpSync("public/learning-together.webp",target);
