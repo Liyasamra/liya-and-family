@@ -36,7 +36,12 @@ export const am: Record<string, string> = {
  "Continue:": "ቀጥል፦", "Pick a lesson": "ትምህርት ምረጥ", "Start learning": "መማር ጀምር", "Register your little ones": "ልጆችዎን ያስመዝግቡ", "{0}, Step {1} of {2}": "{0}፣ እርምጃ {1} ከ{2}",
  "Already registered?": "ተመዝግበዋል?", "Parent sign-in": "የወላጅ መግቢያ", "Choose a subject": "የትምህርት ዓይነት ይምረጡ",
  "Count, add, and solve": "ቁጠር፣ ደምር፣ ፍታ", "Sounds, words, and stories": "ድምፆች፣ ቃላትና ታሪኮች", "Look, wonder, and discover": "ተመልከት፣ ተገረም፣ እወቅ",
- "✓ Always free": "✓ ሁልጊዜ ነፃ", "✓ No learner account needed": "✓ ለልጁ መለያ አያስፈልግም", "✓ Read-aloud on every lesson": "✓ በእያንዳንዱ ትምህርት ጮክ ብሎ ማንበብ", "✓ Certificates for registered students": "✓ ለተመዘገቡ ተማሪዎች የምስክር ወረቀት",
+ // Amharic lesson pictures (word cards keep the English meaning so learners see both)
+ "Picture words": "የሥዕል ቃላት",
+ "Coffee ceremony. How many cups can you count in Amharic?": "የቡና ሥነ ሥርዓት። በአማርኛ ስንት ስኒዎችን መቁጠር ትችላለህ/ትችያለሽ?",
+ "A family around the mesob. Who is the mother, father, grandmother, brother and sister?": "ቤተሰብ በመሶብ ዙሪያ። እናት፣ አባት፣ አያት፣ ወንድም እና እህት የትኞቹ ናቸው?",
+ "Meskel bonfire, celebrated in the month of Meskerem.": "የመስቀል ደመራ፣ በመስከረም ወር የሚከበር።",
+ "✓ Always free": "✓ ሁልጊዜ ነፃ", "✓ Register free to save progress": "✓ እድገትን ለማስቀመጥ በነፃ ይመዝገቡ", "✓ Read-aloud on every lesson": "✓ በእያንዳንዱ ትምህርት ጮክ ብሎ ማንበብ", "✓ Certificates for registered students": "✓ ለተመዘገቡ ተማሪዎች የምስክር ወረቀት",
 
  // Lesson library
  "START WHERE YOU ARE": "ካሉበት ይጀምሩ", "Pick your learning level": "የትምህርት ደረጃህን ምረጥ", "Levels are starting points.": "ደረጃዎቹ መነሻዎች ብቻ ናቸው።", "Move up or revisit a skill anytime.": "በማንኛውም ጊዜ ወደ ላይ ውጣ ወይም ክህሎትን ደግመህ ተለማመድ።",
@@ -112,7 +117,7 @@ export const am: Record<string, string> = {
  "A FAMILY IDEA, SHARED WITH THE COMMUNITY": "ለማኅበረሰቡ የተጋራ የቤተሰብ ሐሳብ", "About Ewket Kids": "ስለ Ewket Kids", "FOUNDER": "መሥራች", "Samra Ayele": "ሳምራ አየለ",
  "This family-led project offers free practice for children and practical tools for the grown-ups supporting them. It aims to make learning support easier to access when paid tutoring is out of reach.": "ይህ በቤተሰብ የሚመራ ፕሮጀክት ለልጆች ነፃ ልምምድ፣ ለሚረዷቸው አዋቂዎችም ተግባራዊ መሣሪያዎችን ያቀርባል። የሚከፈልበት አስጠኚ ማግኘት ሲከብድ የትምህርት ድጋፍ በቀላሉ እንዲገኝ ማድረግ ዓላማው ነው።",
  "This is a volunteer project, not an accredited school or staffed tutoring service.": "ይህ የበጎ ፈቃድ ፕሮጀክት ነው፤ ዕውቅና ያለው ትምህርት ቤት ወይም ተቀጣሪ ሠራተኞች ያሉት የአስጠኚ አገልግሎት አይደለም።",
- "What families can expect": "ቤተሰቦች የሚያገኙት", "Free access without a learner account.": "ለልጁ መለያ ሳያስፈልግ ነፃ አገልግሎት።", "Preschool through Grade 6, with 20 lessons per level in five subjects.": "ከቅድመ መደበኛ እስከ 6ኛ ክፍል፣ በእያንዳንዱ ደረጃ በአምስት የትምህርት ዓይነቶች 20 ትምህርቶች።",
+ "What families can expect": "ቤተሰቦች የሚያገኙት", "Free lessons for everyone. Register your children for certificates and saved progress.": "ለሁሉም ነፃ ትምህርቶች። ልጆችዎን ያስመዝግቡ፤ የምስክር ወረቀት ያገኛሉ፣ እድገታቸውም ይቀመጣል።", "Preschool through Grade 6, with 20 lessons per level in five subjects.": "ከቅድመ መደበኛ እስከ 6ኛ ክፍል፣ በእያንዳንዱ ደረጃ በአምስት የትምህርት ዓይነቶች 20 ትምህርቶች።",
  "Activities, practice feedback, and printable pages.": "እንቅስቃሴዎች፣ የልምምድ ማብራሪያና የሚታተሙ ገጾች።", "Separate local progress for up to four learners.": "እስከ አራት ለሚደርሱ ተማሪዎች የተለየ እድገት።",
  "A short practice score does not diagnose ability or establish grade-level readiness. Younger learners need a grown-up to read and help.": "አጭር የልምምድ ውጤት ችሎታን አይመረምርም፤ ለክፍል ደረጃ ዝግጁነትንም አያረጋግጥም። ትናንሽ ተማሪዎች የሚያነብላቸውና የሚረዳቸው አዋቂ ያስፈልጋቸዋል።",
  "Contact Ewket Kids": "Ewket Kidsን ያግኙ", "For parent questions or help using the website, email": "ለወላጆች ጥያቄ ወይም ድረ-ገጹን ለመጠቀም እርዳታ በዚህ ኢሜይል ይጻፉ፦",
