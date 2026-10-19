@@ -1,0 +1,32 @@
+fidel-237020c279		Name the days of the week in Amharic and describe the Ethiopian calendar.
+fidel-fe3f505cee		The days are ሰኞ (Monday), ማክሰኞ (Tuesday), ረቡዕ (Wednesday), ሐሙስ (Thursday), ዓርብ (Friday), ቅዳሜ (Saturday), and እሑድ (Sunday). The Ethiopian calendar has 13 months: 12 months of 30 days and a short month, ጳጉሜ (Pagume), of 5 or 6 days. Ethiopian New Year, እንቁጣጣሽ (Enkutatash), is on መስከረም 1 (Meskerem 1), in September.
+fidel-9be5c82a29		Saturday and Sunday are ቅዳሜና እሑድ.
+fidel-adbe023e6e		Make a week chart. Write each day in English and in Amharic, and draw one thing you do that day.
+fidel-c0710ca63e		What day is ሰኞ (segno)? ✓ Monday ✗ Sunday ✗ Friday ሰኞ (segno) is Monday.
+fidel-cd9d6148eb		What day is እሑድ (ehud)? ✓ Sunday ✗ Saturday ✗ Monday እሑድ (ehud) is Sunday.
+fidel-27046caa21		How many months does the Ethiopian calendar have? ✓ 13 ✗ 12 ✗ 10 It has 13 months: twelve of 30 days and ጳጉሜ.
+fidel-5a4bee99fa		The short 13th month is called… ✓ ጳጉሜ (Pagume) ✗ መስከረም (Meskerem) ✗ ጥር (Tir) ጳጉሜ (Pagume) has 5 days, or 6 in a leap year.
+fidel-a7329db262		Ethiopian New Year, እንቁጣጣሽ, comes in… ✓ September ✗ January ✗ June እንቁጣጣሽ is on መስከረም 1, around September 11.
+fidel-a20a4f07ed		What day is ቅዳሜ (kidame)? ✓ Saturday ✗ Thursday ✗ Tuesday ቅዳሜ (kidame) is Saturday.
+fidel-cabd4f0789		Amharic punctuation
+fidel-99df7033eb		Use ። ፣ and ? in Amharic sentences.
+fidel-f0659c3e1c		Amharic has its own punctuation marks. ። (arat netib, “four dots”) ends a sentence, like a period. ፣ (netela serez) separates words in a list, like a comma. A question ends with ? in modern writing. Old writing put ፡ (two dots) between every word instead of a space.
+fidel-97bbb1f93d		ሰላም ነህ? (selam neh?) means “Are you well?” ቤቱ ትልቅ ነው። means “The house is big.”
+fidel-dea9c53e18		Write two Amharic sentences with a grown-up. End one with ። and one with ?.
+fidel-17a678476f		Which mark ends a telling sentence in Amharic? ✓ ። ✗ ፣ ✗ ? ። (four dots) ends a telling sentence.
+fidel-22e5a611df		Which mark works like a comma in a list? ✓ ፣ ✗ ። ✗ ፡ ፣ separates items in a list.
+fidel-9fcb8dcc3e		How does ሰላም ነህ? end? ✓ With a question mark ✗ With ። ✗ With ፣ It is a question, so it ends with ?.
+fidel-8668b691b9		In old Amharic writing, what went between words? ✓ ፡ (two dots) ✗ A space ✗ A period Old writing used ፡ between words.
+fidel-4d24b7a3b6		What is the name of ።? ✓ አራት ነጥብ (arat netib) ✗ ነጠላ ሰረዝ (netela serez) ✗ ጥያቄ (tiyake) አራት ነጥብ means “four dots.”
+fidel-3380514e36		Which sentence is punctuated correctly? ✓ ቤቱ ትልቅ ነው። ✗ ቤቱ ትልቅ ነው፣ ✗ ቤቱ፣ ትልቅ፣ ነው፣ A telling sentence ends with ።.
+fidel-f670a57b24		Opposites in Amharic
+fidel-06e93a97c2		Read pairs of opposite describing words.
+fidel-2b33d1100e		Describing words tell what something is like. Many come in opposite pairs: ትልቅ (tilik) big and ትንሽ (tinish) small; ሙቅ (muk) hot and ቀዝቃዛ (kezkaza) cold; ረጅም (rejim) tall or long and አጭር (achir) short; አዲስ (addis) new and አሮጌ (aroge) old.
+fidel-951f96f1ce		Addis Ababa, አዲስ አበባ, means “new flower.”
+fidel-7801d43ac5		Find one big and one small thing at home. Say ትልቅ and ትንሽ as you point to them.
+fidel-6f5bc9a0e0		What is the opposite of ትልቅ (tilik), big? ✓ ትንሽ (tinish) ✗ ረጅም (rejim) ✗ አዲስ (addis) ትልቅ is big and ትንሽ is small.
+fidel-0b567733a5		What does ቀዝቃዛ (kezkaza) mean? ✓ Cold ✗ Hot ✗ New ቀዝቃዛ (kezkaza) means cold. Its opposite is ሙቅ (muk), hot.
+fidel-738be2a111		What is the opposite of ረጅም (rejim), tall? ✓ አጭር (achir) ✗ ትልቅ (tilik) ✗ ሙቅ (muk) ረጅም is tall or long and አጭር is short.
+fidel-09c3920e09		What does አዲስ (addis) mean? ✓ New ✗ Old ✗ Small አዲስ (addis) means new.
+fidel-0676c2c1b8		አዲስ አበባ (Addis Ababa) means… ✓ New flower ✗ Old city ✗ Big river አዲስ means new and አበባ means flower.
+fidel-068a4787cd		What is the opposite of አዲስ (addis)? ✓ አሮጌ (aroge) ✗ አጭር (achir) ✗ ትንሽ (tinish) አዲስ is new and አሮጌ is old.

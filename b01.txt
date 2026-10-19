@@ -1,0 +1,87 @@
+ui-ebb95e7862	For rhyming and sound blending, ask a grown-up to model the sounds. Automated voices may read letter names instead of individual sounds.	ለቃላት ቤት መምታትና ድምፆችን ለማጣመር አዋቂ ሰው ድምፆቹን እንዲያሳይዎ ይጠይቁ። የመሣሪያው ድምፅ ከድምፆቹ ይልቅ የፊደላትን ስም ሊያነብ ይችላል።
+ui-e2e861dc4f	Let's learn	እንማር
+ui-daee884cec	See an example	ምሳሌ ተመልከት
+ui-5be5bd60ac	OFF-SCREEN EXPLORATION	ከስክሪን ውጭ ዳሰሳ
+ui-bf0b81dae9	Try it together	አብራችሁ ሞክሩ
+ui-f046167d70	Preschool and kindergarten learners: ask a grown-up to read and help. Go at your own pace.	የቅድመ መደበኛና የኬጂ ተማሪዎች፦ አዋቂ ሰው እንዲያነብላችሁና እንዲረዳችሁ ጠይቁ። በራሳችሁ ፍጥነት ሂዱ።
+ui-559380acbe	Practice, with a little help	ልምምድ፣ በትንሽ እገዛ
+ui-683ce6fec1	Choose one answer for each question. Your attempts and best score are saved for the selected learner in this browser.	ለእያንዳንዱ ጥያቄ አንድ መልስ ምረጥ። ሙከራዎችህና ምርጥ ውጤትህ ለተመረጠው ተማሪ በዚህ አሳሽ ይቀመጣሉ።
+ui-e1ed0c713a	Listen to question {0} and choices	ጥያቄ {0}ንና ምርጫዎቹን አዳምጥ
+ui-a299173ee0	You got it!	ትክክል ነህ!
+ui-2b6db5864f	Not yet. Think again.	ገና ነው። እንደገና አስብ።
+ui-7de196b1b0	Hint:	ፍንጭ፦
+ui-cfe270bca1	Listen to feedback for question {0}	ስለ ጥያቄ {0} ያለውን ማብራሪያ አዳምጥ
+ui-e5eac9002c	Check my answers	መልሶቼን አረጋግጥ
+ui-042c862e44	Try again	እንደገና ሞክር
+ui-3f0fd7fc7f	Effort matters. Use the explanations to keep learning.	ጥረት ዋጋ አለው። ማብራሪያዎቹን ተጠቅመህ መማርህን ቀጥል።
+ui-74af347d11	Choose an answer for each question first.	መጀመሪያ ለእያንዳንዱ ጥያቄ መልስ ምረጥ።
+ui-fc23a2b729	{0} of {1} correct. Read the explanations and try again whenever you like.	ከ{1} {0} ትክክል። ማብራሪያዎቹን አንብብና በፈለግህ ጊዜ እንደገና ሞክር።
+ui-f04cf9e1c3	Your try is saved: {0} of {1} correct.	ሙከራህ ተቀምጧል፦ ከ{1} {0} ትክክል።
+ui-1bf7db886d	Get every answer right to unlock the next step.	ቀጣዩን እርምጃ ለመክፈት ሁሉንም በትክክል መልስ።
+ui-1b721f3fde	Get every answer right to finish.	ለመጨረስ ሁሉንም በትክክል መልስ።
+ui-bf17c18010	Press Try again and use the hints.	«እንደገና ሞክር»ን ተጫንና ፍንጮቹን ተጠቀም።
+ui-96fcfdc283	All correct! Your work is saved. {0} of {1} {2} steps done at this level.	ሁሉም ትክክል! ሥራህ ተቀምጧል። በዚህ ደረጃ ከ{1} የ{2} እርምጃዎች {0} ተጠናቀዋል።
+ui-3b033f4c0b	Save and continue	አስቀምጥና ቀጥል
+ui-69a52c6de6	Next:	ቀጣይ፦
+ui-cea4695b89	Save and finish {0}	አስቀምጥና {0}ን ጨርስ
+ui-e008c652a0	Get every answer right to save this step and unlock the next one.	ይህን እርምጃ ለማስቀመጥና ቀጣዩን ለመክፈት ሁሉንም በትክክል መልስ።
+ui-779d6140cb	Saved! You finished every {0} step at this level. Try another subject or practice a lesson again.	ተቀምጧል! በዚህ ደረጃ ሁሉንም የ{0} እርምጃዎች ጨርሰሃል። ሌላ የትምህርት ዓይነት ሞክር ወይም አንድ ትምህርት እንደገና ተለማመድ።
+ui-85c2f977c7	Paper practice	የወረቀት ልምምድ
+ui-f5d4486cb3	Grown-up answer guide	ለአዋቂ የመልስ መመሪያ
+ui-f3f42f73a8	Knowledge grows here. Open to every learner.	እውቀት እዚህ ያድጋል። ለሁሉም ተማሪ ክፍት ነው።
+ui-84c1e07dae	What began as a family learning idea is growing into a free resource for children and the grown-ups who support them. This growing collection supplements school learning; it is not a complete curriculum or a live tutoring service.	በቤተሰብ የትምህርት ሐሳብነት የጀመረው ይህ ሥራ ለልጆችና ለሚረዷቸው አዋቂዎች ወደ ነፃ ምንጭነት እያደገ ነው። ይህ ስብስብ የትምህርት ቤትን ትምህርት ያግዛል እንጂ የተሟላ ሥርዓተ ትምህርት ወይም የቀጥታ አስጠኚ አገልግሎት አይደለም።
+ui-d15f1d038f	A LITTLE EACH DAY	በየቀኑ ትንሽ
+ui-eb1a4cde0a	Build a gentle learning routine	ቀላል የትምህርት ልማድ ይገንቡ
+ui-885f679a95	Print routine	ፕሮግራሙን አትም
+ui-b8a637380e	My week	የእኔ ሳምንት
+ui-dcd75f74e2	Keep plans short and flexible. No child's name is needed.	ዕቅዶችን አጭርና ተለዋዋጭ ያድርጉ። የልጁ ስም አያስፈልግም።
+ui-7e6028823e	READ TOGETHER	አብረን እናንብብ
+ui-6273aa0b1f	Reading time adds up	የንባብ ጊዜ ይደመራል
+ui-588e9e2e88	minutes recorded in this browser	በዚህ አሳሽ የተመዘገቡ ደቂቃዎች
+ui-9760cdf942	{0} reading minutes added. Nice work making time for a book.	{0} የንባብ ደቂቃዎች ተጨምረዋል። ለመጽሐፍ ጊዜ በመስጠትዎ ጎበዝ!
+ui-1d75bcbd86	Minutes read today	ዛሬ የተነበቡ ደቂቃዎች
+ui-a296aa132e	Add reading time	የንባብ ጊዜ አክል
+ui-0a48d55a7d	This week: {0} reading minutes.	በዚህ ሳምንት፦ {0} የንባብ ደቂቃዎች።
+ui-a45ae5255b	{0} older minutes have no date and are excluded from weekly totals.	{0} የቆዩ ደቂቃዎች ቀን ስለሌላቸው በሳምንቱ ድምር ውስጥ አልተካተቱም።
+ui-e23b472e4f	Learning progress	የትምህርት እድገት
+ui-25baaace1a	{0} of {1} lessons practiced.	ከ{1} ትምህርቶች {0} ተለማምደዋል።
+ui-8573c6145e	Lessons practiced	የተለማመዷቸው ትምህርቶች
+ui-ed60cbd4a4	Keep a copy of your progress	የእድገትዎን ቅጂ ያስቀምጡ
+ui-5caff08876	The backup includes every learner on this browser. Restore merges matching learner IDs, keeps existing plans, and avoids duplicate reading or attempt records. It cannot combine more than four profiles. There is no automatic device sync.	ምትኬው በዚህ አሳሽ ያሉትን ሁሉንም ተማሪዎች ይይዛል። መመለስ ተመሳሳይ የተማሪ መለያዎችን ያዋህዳል፣ ያሉትን ዕቅዶች ይጠብቃል፣ የንባብና የሙከራ መዝገቦችንም አይደግምም። ከአራት በላይ መገለጫዎችን ማዋሃድ አይችልም። በራሱ የሚሠራ የመሣሪያ ማመሳሰል የለውም።
+ui-feddb3106c	Download backup	ምትኬ አውርድ
+ui-a65eaa8807	Restore backup	ምትኬ መልስ
+ui-8b4fc7df7d	Backup download started.	ምትኬው መውረድ ጀምሯል።
+ui-6c92599915	This backup is too large.	ይህ ምትኬ በጣም ትልቅ ነው።
+ui-98bdb02d72	That backup is invalid. Current progress was kept.	ያ ምትኬ ትክክል አይደለም። ያለው እድገት ተይዟል።
+ui-be19793ff5	Backup merged. Existing profiles and plans were kept; duplicate records were not counted twice.	ምትኬው ተዋህዷል። ያሉት መገለጫዎችና ዕቅዶች ተይዘዋል፤ የተደጋገሙ መዝገቦች ሁለት ጊዜ አልተቆጠሩም።
+ui-93feb1c651	Could not restore backup.	ምትኬውን መመለስ አልተቻለም።
+ui-e07e8dd591	A CLEAR WEEKLY CHECK-IN	ግልጽ ሳምንታዊ ክትትል
+ui-39561cc3c9	{0}: weekly learning report	{0}፦ ሳምንታዊ የትምህርት ሪፖርት
+ui-1133ad137b	Print / save report as PDF	ሪፖርቱን አትም / በPDF አስቀምጥ
+ui-a80328be81	Pick a day in the week	በሳምንቱ ውስጥ አንድ ቀን ይምረጡ
+ui-140dfef11e	Week of {0} through {1}. Only records on this browser or restored from a backup are included.	ከ{0} እስከ {1} ያለው ሳምንት። በዚህ አሳሽ ያሉ ወይም ከምትኬ የተመለሱ መዝገቦች ብቻ ተካተዋል።
+ui-e193a48f9c	different lessons practiced	የተለማመዷቸው የተለያዩ ትምህርቶች
+ui-fe6b90f754	practice attempts	የልምምድ ሙከራዎች
+ui-ae6cfd54a4	reading minutes this week	በዚህ ሳምንት የንባብ ደቂቃዎች
+ui-d08ffa2c73	Skills practiced this week · most recent attempt per lesson	በዚህ ሳምንት የተለማመዷቸው ክህሎቶች · ለእያንዳንዱ ትምህርት የመጨረሻው ሙከራ
+ui-fa6d11bd5b	Lesson / skill	ትምህርት / ክህሎት
+ui-eb9a4bc1c0	Date	ቀን
+ui-b58f380eba	Latest score	የመጨረሻ ውጤት
+ui-5500eef9fd	Next step	ቀጣይ እርምጃ
+ui-871c70e6bd	Suggested review: revisit the example, explain aloud, and try again.	የሚመከር ክለሳ፦ ምሳሌውን ደግመው ይመልከቱ፣ ጮክ ብለው ያስረዱ፣ እንደገናም ይሞክሩ።
+ui-9630dc7842	Ready for another check: explain without answer choices, then revisit on another day.	ለሌላ ፈተና ዝግጁ፦ ያለ መልስ ምርጫዎች ያስረዱ፣ ከዚያም በሌላ ቀን ይከልሱ።
+ui-703b451ec2	No practice attempts recorded for this week. Start a lesson or choose another week.	በዚህ ሳምንት የተመዘገበ የልምምድ ሙከራ የለም። ትምህርት ይጀምሩ ወይም ሌላ ሳምንት ይምረጡ።
+ui-ac7d5cc7ec	What this report can tell you	ይህ ሪፖርት የሚነግርዎት
+ui-172da10ce9	It records practice and suggests review. It does not diagnose a learning difficulty, establish mastery, or decide whether a child is on grade level. Repeated attempts use the same questions, so a higher score can also reflect familiarity.	ልምምድን ይመዘግባል፣ ክለሳንም ይጠቁማል። የትምህርት ችግርን አይመረምርም፣ ብቃትን አያረጋግጥም፣ ልጁ በክፍል ደረጃው ላይ መሆኑንም አይወስንም። ተደጋጋሚ ሙከራዎች ተመሳሳይ ጥያቄዎችን ስለሚጠቀሙ ከፍ ያለ ውጤት የመላመድ ውጤትም ሊሆን ይችላል።
+ui-dfc3e84d2f	{0} reading minutes from the previous version have no date and are not assigned to this week.	ከቀድሞው ስሪት የመጡ {0} የንባብ ደቂቃዎች ቀን ስለሌላቸው ለዚህ ሳምንት አልተመደቡም።
+ui-b1204716e7	Older imported best scores remain in My routine, but are not counted as new attempts. Reports contain the nickname; review before sharing. Use your browser's print dialog to save as PDF.	የቆዩ ምርጥ ውጤቶች በ«የእኔ ፕሮግራም» ውስጥ ይቆያሉ፤ እንደ አዲስ ሙከራ ግን አይቆጠሩም። ሪፖርቶች ቅጽል ስሙን ይይዛሉ፤ ከማጋራትዎ በፊት ይመልከቱ። በPDF ለማስቀመጥ የአሳሽዎን የማተሚያ መስኮት ይጠቀሙ።
+ui-472dc03cdd	YOU DON'T NEED TO BE A TEACHER	አስተማሪ መሆን አያስፈልግዎትም
+ui-cb48f0e720	A grown-up's guide to learning together	አብሮ ለመማር የአዋቂዎች መመሪያ
+ui-f9b9874dbb	A four-week practice path, not a full-year program	የአራት ሳምንት የልምምድ መንገድ እንጂ የዓመት ሙሉ ፕሮግራም አይደለም
+ui-133d91d571	Every level has 20 lessons: four in each of five subjects. Try short sessions a few times a week, one subject at a time. Repeat or slow down whenever helpful. Choose a level in Learn; this plan follows that learner's selected level.	እያንዳንዱ ደረጃ 20 ትምህርቶች አሉት፤ በአምስቱ የትምህርት ዓይነቶች እያንዳንዳቸው አራት። በሳምንት ጥቂት ጊዜ፣ አንድ የትምህርት ዓይነት በአንድ ጊዜ፣ አጫጭር ክፍለ ጊዜዎችን ይሞክሩ። ሲያስፈልግ ይድገሙ ወይም ፍጥነቱን ይቀንሱ። በ«ተማር» ውስጥ ደረጃ ይምረጡ፤ ይህ ዕቅድ የተማሪውን የተመረጠ ደረጃ ይከተላል።
+ui-caf9201a9a	{0}: one lesson per subject each week	{0}፦ በየሳምንቱ ለእያንዳንዱ የትምህርት ዓይነት አንድ ትምህርት
+ui-f82be68a7f	Week	ሳምንት
+ui-0f3ca3e670	After these four steps, use library books, school guidance, and the resources below to continue. More lessons require writing and review; no release date or complete curriculum is promised.	ከእነዚህ አራት እርምጃዎች በኋላ ለመቀጠል የቤተ መጻሕፍት መጻሕፍትን፣ የትምህርት ቤት መመሪያንና ከታች ያሉትን ምንጮች ይጠቀሙ። ተጨማሪ ትምህርቶች መጻፍና መገምገም ያስፈልጋቸዋል፤ የሚወጡበት ቀን ወይም የተሟላ ሥርዓተ ትምህርት ቃል አልተገባም።
+ui-941114c7f0	1. Choose a comfortable starting point	1. የሚመችዎትን መነሻ ይምረጡ
+ui-f408315524	Age and grade help with navigation, but children grow at different rates. Start where your learner feels comfortable. Preschool learning should be playful and supported by an adult.	ዕድሜና ክፍል መንገዱን ለመምረጥ ይረዳሉ፤ ልጆች ግን በተለያየ ፍጥነት ያድጋሉ። ተማሪዎ በሚመቸው ቦታ ይጀምሩ። የቅድመ መደበኛ ትምህርት በጨዋታ የተሞላና በአዋቂ የሚታገዝ መሆን አለበት።
+ui-09d72e434c	2. Explain, try, then talk	2. አስረዱ፣ ሞክሩ፣ ከዚያም ተነጋገሩ

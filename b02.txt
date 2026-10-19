@@ -1,0 +1,48 @@
+ui-754f198a43	Read the explanation together, try the activity, and ask: “How did you work that out?” Let children use drawings or objects to explain their thinking.	ማብራሪያውን አብራችሁ አንብቡ፣ እንቅስቃሴውን ሞክሩ፣ ከዚያም «እንዴት አገኘኸው?» ብለው ይጠይቁ። ልጆች አስተሳሰባቸውን ለማስረዳት ሥዕሎችን ወይም ዕቃዎችን ይጠቀሙ።
+ui-3baa1453f3	3. Celebrate effort and revisit	3. ጥረትን ያክብሩ፣ ደግመውም ይከልሱ
+ui-98f5a51568	Use practice feedback to find what needs another try. A short practice score is a check, not a diagnostic test or a school grade.	ሌላ ሙከራ የሚያስፈልገውን ለማወቅ የልምምድ ማብራሪያውን ይጠቀሙ። አጭር የልምምድ ውጤት መፈተሻ ብቻ ነው እንጂ የምርመራ ፈተና ወይም የትምህርት ቤት ውጤት አይደለም።
+ui-0a66888e9e	Trusted starting points for grown-ups	ለአዋቂዎች የታመኑ መነሻዎች
+ui-6479efcada	These external resources have their own content and privacy practices. Open them together with a grown-up.	እነዚህ የውጭ ምንጮች የራሳቸው ይዘትና የግላዊነት አሠራር አላቸው። ከአዋቂ ጋር አብራችሁ ክፈቷቸው።
+ui-58d7fb0552	Reading Rockets: reading aloud ↗	Reading Rockets፦ ጮክ ብሎ ማንበብ ↗ (በእንግሊዝኛ)
+ui-0d680237be	Ideas for shared reading and conversation.	ለአብሮ ንባብና ለውይይት ሐሳቦች።
+ui-8f7a50b62d	Common Core mathematics standards ↗	የCommon Core የሒሳብ መለኪያዎች ↗ (በእንግሊዝኛ)
+ui-3589e143bb	A reference for skill progression; this supplemental collection is not a full standards-aligned curriculum.	የክህሎት ቅደም ተከተል ማጣቀሻ፤ ይህ ተጨማሪ ስብስብ ሙሉ ሥርዓተ ትምህርት አይደለም።
+ui-acdc955edd	Privacy, simply explained	ግላዊነት፣ በቀላሉ ሲብራራ
+ui-f8bd66145d	The public lessons require no learner account. This learning center adds no advertising, chat, analytics, photo uploads, or required child names. Nicknames, animal icons, practice attempts, plans, and reading minutes stay in this browser and are visible to anyone using its profile. They do not sync automatically. A downloaded or shared report can contain the nickname you choose.	የሕዝብ ትምህርቶቹ ለልጁ መለያ አያስፈልጋቸውም። ይህ የትምህርት ማዕከል ማስታወቂያ፣ ውይይት፣ የአጠቃቀም ክትትል፣ የፎቶ መጫን ወይም የግዴታ የልጅ ስም የለውም። ቅጽል ስሞች፣ የእንስሳ ምልክቶች፣ የልምምድ ሙከራዎች፣ ዕቅዶችና የንባብ ደቂቃዎች በዚህ አሳሽ ውስጥ ይቀራሉ፤ አሳሹን የሚጠቀም ማንኛውም ሰውም ያያቸዋል። ያለ ወላጅ መለያ በራሳቸው አይመሳሰሉም። የወረደ ወይም የተጋራ ሪፖርት የመረጡትን ቅጽል ስም ሊይዝ ይችላል።
+ui-d8f1d6ddac	Use generic learning plans, avoid personal information, and store downloaded backups somewhere you trust. GitHub receives ordinary web requests. Fonts and picture activities are bundled with the page; loading these lessons does not contact Google Fonts. Optional Listen uses your browser’s speech service, which may use an online voice depending on the device. It reads only public lesson text, not learner profiles or progress.	አጠቃላይ የትምህርት ዕቅዶችን ይጠቀሙ፣ የግል መረጃ አያስገቡ፣ የወረዱ ምትኬዎችንም በሚያምኑት ቦታ ያስቀምጡ። GitHub መደበኛ የድረ-ገጽ ጥያቄዎችን ይቀበላል። ፊደላትና የሥዕል እንቅስቃሴዎች ከገጹ ጋር ተካትተዋል፤ ትምህርቶቹን መክፈት Google Fontsን አያገኝም። «አዳምጥ» የአሳሽዎን የንግግር አገልግሎት ይጠቀማል፤ እንደ መሣሪያው የኢንተርኔት ድምፅ ሊጠቀም ይችላል። የሕዝብ የትምህርት ጽሑፍን ብቻ ያነባል እንጂ የተማሪ መገለጫዎችን ወይም እድገትን አያነብም።
+ui-c9d3c37fad	The source repository is public. Anyone can read its code and bundled lessons. Browser progress is not uploaded to that repository; sharing a backup or report is a separate action. Public source code does not by itself grant access to a Google Drive or private database.	የምንጭ ኮዱ ለሕዝብ ክፍት ነው። ማንኛውም ሰው ኮዱንና ትምህርቶቹን ማንበብ ይችላል። የአሳሽ እድገት ወደዚያ አይጫንም፤ ምትኬ ወይም ሪፖርት ማጋራት የተለየ ተግባር ነው። ክፍት የምንጭ ኮድ በራሱ ወደ Google Drive ወይም ወደ የግል የመረጃ ቋት መግቢያ አይሰጥም።
+ui-37f9a0a093	The repository's separate family-account features remain separate from these public lessons and require their own setup. Public learning does not grant access to private family records.	የቤተሰብ መለያ አገልግሎቶች ከእነዚህ የሕዝብ ትምህርቶች የተለዩ ናቸው፤ የራሳቸውም አዘገጃጀት አላቸው። የሕዝብ ትምህርት ወደ የግል የቤተሰብ መዝገቦች መግቢያ አይሰጥም።
+ui-07b5382ad4	A FAMILY IDEA, SHARED WITH THE COMMUNITY	ለማኅበረሰቡ የተጋራ የቤተሰብ ሐሳብ
+ui-72309c87fc	About Ewket Kids	ስለ Ewket Kids
+ui-33d82b8e62	FOUNDER	መሥራች
+ui-36acdddb7d	Samra Ayele	ሳምራ አየለ
+ui-3745734fbb	This family-led project offers free practice for children and practical tools for the grown-ups supporting them. It aims to make learning support easier to access when paid tutoring is out of reach.	ይህ በቤተሰብ የሚመራ ፕሮጀክት ለልጆች ነፃ ልምምድ፣ ለሚረዷቸው አዋቂዎችም ተግባራዊ መሣሪያዎችን ያቀርባል። የሚከፈልበት አስጠኚ ማግኘት ሲከብድ የትምህርት ድጋፍ በቀላሉ እንዲገኝ ማድረግ ዓላማው ነው።
+ui-24585418cd	This is a volunteer project, not an accredited school or staffed tutoring service.	ይህ የበጎ ፈቃድ ፕሮጀክት ነው፤ ዕውቅና ያለው ትምህርት ቤት ወይም ተቀጣሪ ሠራተኞች ያሉት የአስጠኚ አገልግሎት አይደለም።
+ui-6b7da13d2f	What families can expect	ቤተሰቦች የሚያገኙት
+ui-10b8b477d7	Free lessons for everyone. Register your children for certificates and saved progress.	ለሁሉም ነፃ ትምህርቶች። ልጆችዎን ያስመዝግቡ፤ የምስክር ወረቀት ያገኛሉ፣ እድገታቸውም ይቀመጣል።
+ui-26edac92da	Preschool through Grade 6, with 20 lessons per level in five subjects.	ከቅድመ መደበኛ እስከ 6ኛ ክፍል፣ በእያንዳንዱ ደረጃ በአምስት የትምህርት ዓይነቶች 20 ትምህርቶች።
+ui-4f1fe6a4e1	Activities, practice feedback, and printable pages.	እንቅስቃሴዎች፣ የልምምድ ማብራሪያና የሚታተሙ ገጾች።
+ui-3240926a4a	Separate local progress for up to four learners.	እስከ አራት ለሚደርሱ ተማሪዎች የተለየ እድገት።
+ui-d438c9a968	A short practice score does not diagnose ability or establish grade-level readiness. Younger learners need a grown-up to read and help.	አጭር የልምምድ ውጤት ችሎታን አይመረምርም፤ ለክፍል ደረጃ ዝግጁነትንም አያረጋግጥም። ትናንሽ ተማሪዎች የሚያነብላቸውና የሚረዳቸው አዋቂ ያስፈልጋቸዋል።
+ui-085e9fb441	Contact Ewket Kids	Ewket Kidsን ያግኙ
+ui-237953e438	For parent questions or help using the website, email	ለወላጆች ጥያቄ ወይም ድረ-ገጹን ለመጠቀም እርዳታ በዚህ ኢሜይል ይጻፉ፦
+ui-c556c12e1b	. For volunteer teaching, guest sessions, or community partnerships, email	። ለበጎ ፈቃድ ማስተማር፣ ለእንግዳ ክፍለ ጊዜዎች ወይም ለማኅበረሰብ አጋርነት በዚህ ኢሜይል ይጻፉ፦
+ui-f6d1afbd64	Start with a general question. Please do not send children's names, photos, health information, passwords, backups, or progress reports. These inboxes are handled by the project volunteer; replies may take time. Email is not an emergency service.	በአጠቃላይ ጥያቄ ይጀምሩ። እባክዎ የልጆችን ስም፣ ፎቶ፣ የጤና መረጃ፣ የይለፍ ቃል፣ ምትኬ ወይም የእድገት ሪፖርት አይላኩ። እነዚህን ኢሜይሎች የሚያስተናግደው የፕሮጀክቱ በጎ ፈቃደኛ ስለሆነ መልሱ ጊዜ ሊወስድ ይችላል። ኢሜይል የአደጋ ጊዜ አገልግሎት አይደለም።
+ui-0385c6f496	Technical bug reports	የቴክኒክ ችግር ሪፖርቶች
+ui-6df08e872a	Website bugs, lesson corrections, and accessibility problems can be reported through the project's public GitHub form. Parent questions and personal matters should not be posted there. You need a GitHub account to submit. This is an asynchronous volunteer project; response times are not guaranteed.	የድረ-ገጽ ችግሮች፣ የትምህርት እርማቶችና የተደራሽነት ችግሮች በፕሮጀክቱ የሕዝብ GitHub ቅጽ ሊገለጹ ይችላሉ። የወላጅ ጥያቄዎችና የግል ጉዳዮች እዚያ መለጠፍ የለባቸውም። ለማስገባት የGitHub መለያ ያስፈልጋል። ይህ የበጎ ፈቃድ ፕሮጀክት ስለሆነ የመልስ ጊዜ ዋስትና የለውም።
+ui-167aa9e84a	Open feedback form ↗	የአስተያየት ቅጹን ክፈት ↗
+ui-a466b843dc	Your submission will be public. Include the lesson title, level, and the problem. Do not include a child's name, email, photo, school, health information, passwords, backup file, or progress report. This channel is not an emergency or private support service.	የሚያስገቡት ለሕዝብ ይታያል። የትምህርቱን ርዕስ፣ ደረጃውንና ችግሩን ይጥቀሱ። የልጅ ስም፣ ኢሜይል፣ ፎቶ፣ ትምህርት ቤት፣ የጤና መረጃ፣ የይለፍ ቃል፣ ምትኬ ወይም የእድገት ሪፖርት አያካትቱ። ይህ መንገድ የአደጋ ጊዜ ወይም የግል ድጋፍ አገልግሎት አይደለም።
+ui-de3def3a3a	Our limits, stated clearly	ገደቦቻችን፣ በግልጽ
+ui-052a2897be	The current collection is a four-week practice supplement when used for one lesson in each subject weekly. It does not cover a school year or replace a teacher, school curriculum, assessment, or tutor. Lessons have not been independently reviewed as a complete curriculum.	አሁን ያለው ስብስብ በየሳምንቱ ከእያንዳንዱ የትምህርት ዓይነት አንድ ትምህርት ሲወሰድ ለአራት ሳምንት የሚሆን ተጨማሪ ልምምድ ነው። የትምህርት ዓመትን አይሸፍንም፤ አስተማሪን፣ የትምህርት ቤት ሥርዓተ ትምህርትን፣ ፈተናን ወይም አስጠኚን አይተካም። ትምህርቶቹ እንደ ሙሉ ሥርዓተ ትምህርት በገለልተኛ አካል አልተገመገሙም።
+ui-297929adec	Progress is saved in the browser used for learning. Registered families can also save it to a parent account: sign in on that device, or link the device with a one-time code from the Parent portal. Weekly report links are read-only snapshots for another phone, not full backups.	እድገት ለመማር በተጠቀሙበት አሳሽ ውስጥ ይቀመጣል። የተመዘገቡ ቤተሰቦች በወላጅ መለያም ማስቀመጥ ይችላሉ፦ በዚያ መሣሪያ ላይ ይግቡ፣ ወይም ከወላጅ መግቢያው በሚገኝ የአንድ ጊዜ ኮድ መሣሪያውን ያገናኙ። ሳምንታዊ የሪፖርት ሊንኮች ለሌላ ስልክ የሚላኩ የንባብ-ብቻ ቅጽበታዊ ምስሎች ናቸው እንጂ ሙሉ ምትኬዎች አይደሉም።
+ui-aafa8e8a24	FOR LIBRARIES, CHURCHES, AND COMMUNITY CENTERS	ለቤተ መጻሕፍት፣ ለአብያተ ክርስቲያናትና ለማኅበረሰብ ማዕከላት
+ui-e9d9a3541d	A small learning group can start here	ትንሽ የትምህርት ቡድን እዚህ መጀመር ይችላል
+ui-376f3ca7d7	Share the link, print a handout, and begin with a short supported session. These materials describe the current free supplement; they do not promise a full-year program.	ሊንኩን ያጋሩ፣ በራሪ ወረቀት ያትሙ፣ በአጭርና በሚታገዝ ክፍለ ጊዜም ይጀምሩ። እነዚህ ጽሑፎች አሁን ያለውን ነፃ ተጨማሪ ትምህርት ይገልጻሉ እንጂ የዓመት ሙሉ ፕሮግራም ቃል አይገቡም።
+ui-ea4cb174a9	Family flyer ↗	የቤተሰብ በራሪ ወረቀት ↗
+ui-6a07b33f9f	One printable page with a QR code, the site address, and what families receive.	የQR ኮድ፣ የድረ-ገጹ አድራሻና ቤተሰቦች የሚያገኙትን የያዘ አንድ የሚታተም ገጽ።
+ui-98e5ef062b	Download PDF	PDF አውርድ
+ui-a8e54fadd7	Family start guide ↗	የቤተሰብ መጀመሪያ መመሪያ ↗
+ui-70900aeae0	A gentle routine, learner profiles, progress guidance, and safe backups.	ቀላል ልማድ፣ የተማሪ መገለጫዎች፣ የእድገት መመሪያና ደኅንነቱ የተጠበቀ ምትኬ።
+ui-fcb92e6d8f	Group-leader guide ↗	የቡድን መሪ መመሪያ ↗
+ui-7cd4040b4d	A 30-minute session plan, shared-device guidance, and a four-week pilot.	የ30 ደቂቃ ክፍለ ጊዜ ዕቅድ፣ የጋራ መሣሪያ መመሪያና የአራት ሳምንት ሙከራ።
+ui-27fbca1ea2	Run a 30-minute session	የ30 ደቂቃ ክፍለ ጊዜ ያካሂዱ

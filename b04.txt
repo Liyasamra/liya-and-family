@@ -1,0 +1,102 @@
+ui-7dfdad8651	Every thoughtful step is worth celebrating.	እያንዳንዱ በአሳቢነት የተወሰደ እርምጃ ሊከበር ይገባዋል።
+ui-4f3b5cc148	Family-generated from Ewket Kids practice records. Participation only; not a verified academic award.	ከEwket Kids የልምምድ መዝገቦች በቤተሰብ የተዘጋጀ። ለተሳትፎ ብቻ ነው፤ የተረጋገጠ የትምህርት ሽልማት አይደለም።
+ui-3181e290dc	Print / save certificate as PDF	የምስክር ወረቀቱን አትም / በPDF አስቀምጥ
+ui-df91fcc2c6	Link created. It is a snapshot of this week, not a live account.	ሊንኩ ተፈጥሯል። የዚህ ሳምንት ቅጽበታዊ ምስል ነው እንጂ የቀጥታ መለያ አይደለም።
+ui-a36125d178	Link copied. Send it privately to the parent’s phone.	ሊንኩ ተቀድቷል። ለወላጁ ስልክ በግል ይላኩት።
+ui-5f799da0ad	Select and copy the link below, then send it privately.	ከታች ያለውን ሊንክ መርጠው ይቅዱ፣ ከዚያም በግል ይላኩት።
+ui-87c34f3c5b	Sharing was unavailable. Select and copy the link below.	ማጋራት አልተቻለም። ከታች ያለውን ሊንክ መርጠው ይቅዱ።
+ui-80dcc5df98	Send this week’s report to a phone	የዚህን ሳምንት ሪፖርት ወደ ስልክ ይላኩ
+ui-a4e06607bf	Create a read-only link with the week’s scores, reading minutes, and a generic learner number. Nicknames, plans, and full attempt history are excluded. Anyone holding the link can read it. The data is encoded in the link, not encrypted or stored on our server.	የሳምንቱን ውጤቶች፣ የንባብ ደቂቃዎችንና አጠቃላይ የተማሪ ቁጥርን የያዘ የንባብ-ብቻ ሊንክ ይፍጠሩ። ቅጽል ስሞች፣ ዕቅዶችና ሙሉ የሙከራ ታሪክ አይካተቱም። ሊንኩ ያለው ማንኛውም ሰው ሊያነበው ይችላል። መረጃው በሊንኩ ውስጥ ተቀምጧል እንጂ የተመሰጠረ ወይም በአገልጋያችን ላይ የተቀመጠ አይደለም።
+ui-f203b75615	Create report link	የሪፖርት ሊንክ ፍጠር
+ui-a13a19dac8	Private report link	የግል የሪፖርት ሊንክ
+ui-a08b089aee	Share or copy link	ሊንኩን አጋራ ወይም ቅዳ
+ui-1a88187ee0	The link does not update automatically, cannot be revoked, and is not a full backup. Send only to someone you trust. Create a new link after more practice.	ሊንኩ በራሱ አይዘምንም፣ ሊሰረዝ አይችልም፣ ሙሉ ምትኬም አይደለም። ለሚያምኑት ሰው ብቻ ይላኩ። ተጨማሪ ልምምድ ካደረጉ በኋላ አዲስ ሊንክ ይፍጠሩ።
+ui-c76c25aa77	READ-ONLY WEEKLY SNAPSHOT	የንባብ-ብቻ ሳምንታዊ ቅጽበታዊ ምስል
+ui-051d553eb8	Learner {0}: learning report	ተማሪ {0}፦ የትምህርት ሪፖርት
+ui-b6dd5a4963	This report link could not be read	ይህ የሪፖርት ሊንክ ሊነበብ አልቻለም
+ui-2e60267011	{0} to {1}	ከ{0} እስከ {1}
+ui-ed93b9902a	lessons practiced	የተለማመዷቸው ትምህርቶች
+ui-45fe68eeec	attempts this week	በዚህ ሳምንት ሙከራዎች
+ui-d7468ba170	reading minutes	የንባብ ደቂቃዎች
+ui-5a9d53c75e	Latest practice results in the selected week	በተመረጠው ሳምንት የቅርብ ጊዜ የልምምድ ውጤቶች
+ui-188ecdea21	Lesson	ትምህርት
+ui-1231a75e26	Revisit with support	በእገዛ ደግመው ይከልሱ
+ui-9da61ab728	Discuss and try again later	ተወያዩበትና በኋላ እንደገና ሞክሩ
+ui-5cfc68d4ad	No lesson attempts were recorded for this week.	በዚህ ሳምንት የተመዘገበ የትምህርት ሙከራ የለም።
+ui-9b978c56c1	This snapshot was created on a learning device. It does not synchronize, verify who created it, diagnose ability, or prove mastery. Anyone with this link can read it. Opening it does not import or replace progress on this browser.	ይህ ቅጽበታዊ ምስል በትምህርት መሣሪያ ላይ የተፈጠረ ነው። አይመሳሰልም፣ ማን እንደፈጠረው አያረጋግጥም፣ ችሎታን አይመረምርም፣ ብቃትንም አያረጋግጥም። ሊንኩ ያለው ማንኛውም ሰው ሊያነበው ይችላል። መክፈቱ በዚህ አሳሽ ያለውን እድገት አያስገባም ወይም አይተካም።
+ui-4751830dfb	Print this report	ይህን ሪፖርት አትም
+ui-fa7e7555a6	The link may be incomplete or invalid. Ask the sender to create another report link.	ሊንኩ ያልተሟላ ወይም ትክክል ያልሆነ ሊሆን ይችላል። ላኪው ሌላ የሪፖርት ሊንክ እንዲፈጥር ይጠይቁ።
+ui-bf8f5191c9	Open the learning center	የትምህርት ማዕከሉን ክፈት
+ui-90c21b3db9	That email and password do not match. Check for typos, or use Forgot password below.	ያ ኢሜይልና የይለፍ ቃል አይጣጣሙም። የፊደል ስህተት ካለ ይመልከቱ፣ ወይም ከታች «የይለፍ ቃል ረሳሁ»ን ይጠቀሙ።
+ui-b080a33f74	Please confirm your email first. Look for the email from hello@ewketkids.org (check Spam), click the link, then sign in.	እባክዎ መጀመሪያ ኢሜይልዎን ያረጋግጡ። ከhello@ewketkids.org የመጣውን ኢሜይል ይፈልጉ (Spamንም ይመልከቱ)፣ ሊንኩን ይጫኑ፣ ከዚያም ይግቡ።
+ui-1044f72f40	Too many tries in a short time. Please wait a few minutes and try again.	በአጭር ጊዜ ውስጥ ብዙ ሙከራዎች ተደርገዋል። እባክዎ ጥቂት ደቂቃዎች ጠብቀው እንደገና ይሞክሩ።
+ui-2b10622f1b	We could not reach the sign-in service. Check your internet connection and try again.	የመግቢያ አገልግሎቱን ማግኘት አልቻልንም። የኢንተርኔት ግንኙነትዎን አረጋግጠው እንደገና ይሞክሩ።
+ui-6c5bb85e66	That email already has an account. Use Sign in, or Forgot password if you do not remember it.	ያ ኢሜይል ቀድሞውኑ መለያ አለው። «ግባ»ን ይጠቀሙ፣ ካላስታወሱት ደግሞ «የይለፍ ቃል ረሳሁ»ን ይጠቀሙ።
+ui-48f496ee15	Please choose a longer password with at least 12 characters.	እባክዎ ቢያንስ 12 ፊደላት ያሉት ረዘም ያለ የይለፍ ቃል ይምረጡ።
+ui-58176b199f	Sign-in is taking too long	መግባቱ ብዙ ጊዜ እየወሰደ ነው
+ui-1fe720cf14	The registry could not be reached. Try again later.	የምዝገባ አገልግሎቱን ማግኘት አልተቻለም። ቆይተው እንደገና ይሞክሩ።
+ui-bbe952de45	Student registration is closed right now. Please do not submit real child information.	የተማሪ ምዝገባ አሁን ዝግ ነው። እባክዎ የልጅ እውነተኛ መረጃ አያስገቡ።
+ui-029454ebba	Almost done! Check your email for a message from hello@ewketkids.org and click the link to confirm your account. Not there after a few minutes? Check your Spam folder. Then come back here and sign in.	ሊጠናቀቅ ተቃርቧል! ከhello@ewketkids.org የመጣ መልእክት ኢሜይልዎ ውስጥ ፈልገው መለያዎን ለማረጋገጥ ሊንኩን ይጫኑ። ከጥቂት ደቂቃዎች በኋላም ካልመጣ የSpam ማህደርዎን ይመልከቱ። ከዚያም ወደዚህ ተመልሰው ይግቡ።
+ui-352f19db14	If that email has an account, we sent a link to reset your password. Check your inbox and Spam folder.	ያ ኢሜይል መለያ ካለው የይለፍ ቃልዎን የሚቀይሩበት ሊንክ ልከናል። የገቢ መልእክት ሳጥንዎንና የSpam ማህደርዎን ይመልከቱ።
+ui-238ff90340	Your password is updated. You are signed in.	የይለፍ ቃልዎ ተቀይሯል። ገብተዋል።
+ui-257ee652f9	{0} is registered! Their student number is {1}.	{0} ተመዝግቧል! የተማሪ ቁጥሩ {1} ነው።
+ui-f39700a0d5	Registration failed. Retry without changing the details.	ምዝገባው አልተሳካም። መረጃውን ሳይቀይሩ እንደገና ይሞክሩ።
+ui-dcf7b7291a	Could not save your choice. Try again.	ምርጫዎን ማስቀመጥ አልተቻለም። እንደገና ይሞክሩ።
+ui-fac3e48782	Loading progress…	እድገቱ በመጫን ላይ…
+ui-1211dafa44	Saved progress is not available right now. Please try again later.	የተቀመጠው እድገት አሁን አይገኝም። እባክዎ ቆይተው እንደገና ይሞክሩ።
+ui-b44f095d06	Progress in	እድገት በ
+ui-4bbb7f2fb4	{0} of {1} lessons done	ከ{1} ትምህርቶች {0} ተጠናቀዋል
+ui-7cc5f8f7f4	Lessons done in {0}	በ{0} የተጠናቀቁ ትምህርቶች
+ui-fdeb068808	{0} practiced	{0} ተለማምደዋል
+ui-bc34ec2251	 · Last practice {0}	 · የመጨረሻ ልምምድ {0}
+ui-e8d5e627f8	Recent lessons	የቅርብ ጊዜ ትምህርቶች
+ui-a821d15321	Done ✓	ተጠናቋል ✓
+ui-7388d66750	{0} of {1}	{0}/{1}
+ui-9f7fe9342d	Could use more practice	ተጨማሪ ልምምድ ቢያደርግ ይጠቅማል
+ui-af547f0d7d	· best {0} of {1}, {2} try	· ምርጥ {0}/{1}፣ {2} ሙከራ
+ui-c4b4810c36	· best {0} of {1}, {2} tries	· ምርጥ {0}/{1}፣ {2} ሙከራዎች
+ui-9a5dc7ffa6	No lessons saved yet. Use	እስካሁን የተቀመጠ ትምህርት የለም። በልጅዎ መሣሪያ ላይ ከላይ ያለውን
+ui-3cd7b83d47	above on your child’s device. Each time you open this page on that device, their progress is saved to your account.	ይጠቀሙ። ይህን ገጽ በዚያ መሣሪያ በከፈቱ ቁጥር እድገቱ በመለያዎ ላይ ይቀመጣል።
+ui-392bcacd27	Could not make a code. Try again.	ኮድ መፍጠር አልተቻለም። እንደገና ይሞክሩ።
+ui-d21473eac8	Device unlinked. It can no longer save to your account.	የመሣሪያው ግንኙነት ተቋርጧል። ከአሁን በኋላ በመለያዎ ላይ ማስቀመጥ አይችልም።
+ui-3b77b39843	Could not unlink. Try again.	ግንኙነቱን ማቋረጥ አልተቻለም። እንደገና ይሞክሩ።
+ui-7141ed1355	Linked devices	የተገናኙ መሣሪያዎች
+ui-d56e2646ca	Device linked	መሣሪያ ተገናኝቷል
+ui-80c112d094	 · last saved {0}	 · በመጨረሻ የተቀመጠው {0}
+ui-61827fb574	 · not used yet	 · ገና ጥቅም ላይ አልዋለም
+ui-0dc2913c6e	Unlink	ግንኙነቱን አቋርጥ
+ui-6bc6779c32	No devices linked. Link your child’s tablet or computer so lessons save to your account without you signing in there.	የተገናኘ መሣሪያ የለም። እዚያ መግባት ሳያስፈልግዎ ትምህርቶች በመለያዎ ላይ እንዲቀመጡ የልጅዎን ታብሌት ወይም ኮምፒውተር ያገናኙ።
+ui-3da2670144	On your child’s device, open	በልጅዎ መሣሪያ ላይ
+ui-e3c21f8740	, tap	ን ይክፈቱ፣
+ui-e189049326	, then	ን ይጫኑ፣ ከዚያም
+ui-9d3e089791	, and type:	ን ተጭነው ይህን ይጻፉ፦
+ui-b616bd13b2	Works once, until	አንድ ጊዜ ብቻ ይሠራል፣ እስከ፦
+ui-6499c7afe8	New code	አዲስ ኮድ
+ui-56e29d5713	Practice checks	የልምምድ ፈተናዎች
+ui-cf63128441	{0} saved · Latest:	{0} ተቀምጠዋል · የመጨረሻው፦
+ui-db3d405b10	on	፣ ቀን
+ui-689dc9248e	Sign-out failed. Close this tab to finish signing out.	መውጣት አልተሳካም። ለመውጣት ይህን ትር ይዝጉ።
+ui-c2dccb6c0e	You are signed out.	ወጥተዋል።
+ui-ba1b03341a	Free lessons	ነፃ ትምህርቶች
+ui-dc1649a16c	Sign out	ውጣ
+ui-99dd63a158	FOR PARENTS AND GUARDIANS	ለወላጆችና ለአሳዳጊዎች
+ui-30b45088b0	{0}’s page	የ{0} ገጽ
+ui-b807833efc	Welcome back	እንኳን ደህና መጡ
+ui-a02107c35f	Signed in as	የገቡት በዚህ ኢሜይል ነው፦
+ui-f3a0a15da0	Register your child and keep your family’s Ewket Kids details in one place.	ልጅዎን ያስመዝግቡ፤ የቤተሰብዎን የEwket Kids መረጃ በአንድ ቦታ ያስቀምጡ።
+ui-8be9849e03	Sign in to open the student page for	የዚህን ተማሪ ገጽ ለመክፈት ይግቡ፦
+ui-aaa16a5216	Create a parent account	የወላጅ መለያ ይፍጠሩ
+ui-bf8804f077	Reset your password	የይለፍ ቃልዎን ይቀይሩ
+ui-3f657f29e6	Choose a new password	አዲስ የይለፍ ቃል ይምረጡ
+ui-ada2e9e96f	Sign in	ግባ
+ui-21cc771042	Use your own email address, not your child’s. We will send you a link to confirm it.	የልጅዎን ሳይሆን የራስዎን ኢሜይል ይጠቀሙ። ለማረጋገጥ ሊንክ እንልክልዎታለን።
+ui-efeeb9af91	Enter your email and we will send you a link to choose a new password.	ኢሜይልዎን ያስገቡ፤ አዲስ የይለፍ ቃል የሚመርጡበት ሊንክ እንልክልዎታለን።
+ui-0244a7e81f	Pick a new password with at least 12 characters.	ቢያንስ 12 ፊደላት ያሉት አዲስ የይለፍ ቃል ይምረጡ።
+ui-ba5501e227	Welcome! Sign in to see and register your children.	እንኳን ደህና መጡ! ልጆችዎን ለማየትና ለማስመዝገብ ይግቡ።
+ui-84add5b295	Email	ኢሜይል
+ui-8be3c943b1	Password	የይለፍ ቃል
+ui-a165153779	(at least 12 characters)	(ቢያንስ 12 ፊደላት)
+ui-044b852f30	Show password	የይለፍ ቃሉን አሳይ
+ui-5afeca73be	Please wait…	እባክዎ ይጠብቁ…
+ui-00c3d37fbf	Create my account	መለያዬን ፍጠር
+ui-b8ec554332	Send reset link	የመቀየሪያ ሊንክ ላክ

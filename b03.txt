@@ -1,0 +1,87 @@
+ui-a7b39096dc	5 minutes:	5 ደቂቃ፦
+ui-a1fe825617	welcome learners, choose a comfortable level, and explain the goal.	ተማሪዎችን ይቀበሉ፣ የሚመች ደረጃ ይምረጡ፣ ግቡንም ያስረዱ።
+ui-486e2edd8c	10 minutes:	10 ደቂቃ፦
+ui-47b4bc8ea8	read the explanation and work through the example.	ማብራሪያውን ያንብቡ፣ ምሳሌውንም አብረው ይሥሩ።
+ui-164246cfad	try the activity, then practice with feedback.	እንቅስቃሴውን ይሞክሩ፣ ከዚያም ከማብራሪያ ጋር ይለማመዱ።
+ui-20b4cdce49	ask what helped and send a printed lesson or report home.	ምን እንደረዳ ይጠይቁ፤ የታተመ ትምህርት ወይም ሪፖርትም ወደ ቤት ይላኩ።
+ui-d84d5ccdd2	Preschool and kindergarten groups need hands-on adult support. Use school or organization safeguarding rules, approved adults, and age-appropriate supervision.	የቅድመ መደበኛና የኬጂ ቡድኖች የአዋቂ ቀጥተኛ ድጋፍ ያስፈልጋቸዋል። የትምህርት ቤቱን ወይም የድርጅቱን የልጆች ጥበቃ ደንቦች፣ የተፈቀደላቸውን አዋቂዎችና ለዕድሜ የሚመጥን ክትትል ይጠቀሙ።
+ui-896c64981f	Use shared devices thoughtfully	የጋራ መሣሪያዎችን በጥንቃቄ ይጠቀሙ
+ui-f8df8e50f4	One browser supports up to four learner profiles, not a 20-child roster. Use generic labels such as Learner 1. Keep each learner on the same approved browser, or use paper activities. Anyone using that browser can see its records.	አንድ አሳሽ እስከ አራት የተማሪ መገለጫዎችን ይይዛል እንጂ የ20 ልጆች ዝርዝር አይደለም። እንደ «ተማሪ 1» ያሉ አጠቃላይ ስሞችን ይጠቀሙ። እያንዳንዱን ተማሪ በተመሳሳይ የተፈቀደ አሳሽ ያቆዩ፣ ወይም የወረቀት እንቅስቃሴዎችን ይጠቀሙ። ያንን አሳሽ የሚጠቀም ማንኛውም ሰው መዝገቦቹን ማየት ይችላል።
+ui-89166b60e9	There is no group dashboard or automatic parent access from another phone. Do not upload children's records to public feedback. Get guardian permission under your organization's rules before keeping or sharing progress reports.	የቡድን ዳሽቦርድ ወይም ወላጆች ከሌላ ስልክ በራሳቸው የሚያዩበት መንገድ የለም። የልጆችን መዝገቦች ወደ ሕዝብ አስተያየት አይጫኑ። የእድገት ሪፖርቶችን ከማስቀመጥዎ ወይም ከማጋራትዎ በፊት በድርጅትዎ ደንብ መሠረት የአሳዳጊ ፈቃድ ያግኙ።
+ui-37c8eeae71	One link, no enrollment form	አንድ ሊንክ፣ የምዝገባ ቅጽ የለም
+ui-3fde6fb1f3	Try a four-week pilot with 5–10 families. Ask which levels they used, what was missing, and whether the report was useful. Collect general feedback without identifying children.	ከ5–10 ቤተሰቦች ጋር የአራት ሳምንት ሙከራ ያድርጉ። የትኞቹን ደረጃዎች እንደተጠቀሙ፣ ምን እንደጎደለና ሪፖርቱ ጠቃሚ እንደነበር ይጠይቁ። ልጆችን ሳይለዩ አጠቃላይ አስተያየት ይሰብስቡ።
+ui-75c4d60637	Open printable QR code ↗	የሚታተመውን QR ኮድ ክፈት ↗
+ui-90ef997827	QR code linking to the Ewket Kids public learning website	ወደ Ewket Kids የሕዝብ ትምህርት ድረ-ገጽ የሚወስድ QR ኮድ
+ui-9a3ea0598e	Something went wrong. Please try again.	የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።
+ui-da085e7c35	Link this device to a parent account	ይህን መሣሪያ ከወላጅ መለያ ጋር ያገናኙ
+ui-bbfa773e5a	Close	ዝጋ
+ui-01248a8484	A parent makes a code in the	ወላጅ ኮዱን የሚያወጣው በ
+ui-3044c1847c	: open the child’s card and tap	 ውስጥ ነው፦ የልጁን ካርድ ከፍተው ይህን ይጫኑ፦
+ui-e716356061	Link a device	መሣሪያ አገናኝ
+ui-70135c0fe6	. Type the code here within 15 minutes.	። ኮዱን በ15 ደቂቃ ውስጥ እዚህ ይጻፉ።
+ui-da1298b00b	Link code	የማገናኛ ኮድ
+ui-6f640897f8	Linking…	በማገናኘት ላይ…
+ui-bf5e5ccbdc	Link this device	ይህን መሣሪያ አገናኝ
+ui-274966d211	After linking, finished lessons and quizzes save to the parent account automatically. This device can only add results. It cannot see the account, names, or other children. A parent can unlink it anytime.	ከተገናኘ በኋላ የተጠናቀቁ ትምህርቶችና ፈተናዎች በራሳቸው በወላጅ መለያ ላይ ይቀመጣሉ። ይህ መሣሪያ ውጤቶችን መጨመር ብቻ ይችላል። መለያውን፣ ስሞችን ወይም ሌሎች ልጆችን ማየት አይችልም። ወላጅ በማንኛውም ጊዜ ግንኙነቱን ማቋረጥ ይችላል።
+ui-7eca91b148	Reading stopped.	ንባቡ ቆሟል።
+ui-ae52fa9124	Finished reading.	ንባቡ ተጠናቋል።
+ui-f364a32678	Audio is unavailable on this device. A grown-up can read the lesson aloud.	በዚህ መሣሪያ ድምፅ አይሠራም። አዋቂ ሰው ትምህርቱን ጮክ ብሎ ሊያነብ ይችላል።
+ui-fbbeb3c38d	Reading the lesson. Use Stop reading whenever you like.	ትምህርቱ እየተነበበ ነው። በፈለጉ ጊዜ «ንባብ አቁም»ን ይጫኑ።
+ui-24fc8907a4	Stop reading	ንባብ አቁም
+ui-600d927f26	Audio needs browser speech support.	ድምፅ የአሳሽ የንግግር ድጋፍ ያስፈልገዋል።
+ui-192ad74d6b	Optional read-aloud uses your browser’s voices. A local voice is preferred; some devices use an online voice service.	ጮክ ብሎ ማንበብ የአሳሽዎን ድምፆች ይጠቀማል። በመሣሪያው ላይ ያለ ድምፅ ይመረጣል፤ አንዳንድ መሣሪያዎች የኢንተርኔት ድምፅ ይጠቀማሉ።
+ui-c54d4309fe	Read-aloud needs browser speech support. A grown-up can read the lesson with you.	ጮክ ብሎ ማንበብ የአሳሽ የንግግር ድጋፍ ያስፈልገዋል። አዋቂ ሰው ትምህርቱን ከአንተ ጋር ሊያነብ ይችላል።
+ui-ddf2daf098	Choose an answer for every question first.	መጀመሪያ ለሁሉም ጥያቄዎች መልስ ምረጥ።
+ui-980d435869	Not sure which level fits?	የትኛው ደረጃ እንደሚስማማ እርግጠኛ አይደሉም?
+ui-4edecd1a0a	Take a short level check. It takes about 5 minutes.	አጭር የደረጃ መፈተሻ ይውሰዱ። 5 ደቂቃ ያህል ይወስዳል።
+ui-b02af00913	Find my level	ደረጃዬን ፈልግ
+ui-c9be56ef78	LEVEL CHECK	የደረጃ መፈተሻ
+ui-25e93f40bf	Your suggested starting level	የሚመከርልህ መነሻ ደረጃ
+ui-3402c52a56	Round {0}: {1} questions	ዙር {0}፦ የ{1} ጥያቄዎች
+ui-66b461ac8e	Start with {0}.	በ{0} ጀምር።
+ui-e050b9b8c1	{0} of {1} correct	ከ{1} {0} ትክክል
+ui-4090b24449	This is a quick practice check, not a test or a school placement. If the lessons feel too easy or too hard, switch levels anytime.	ይህ ፈጣን የልምምድ መፈተሻ ነው እንጂ ፈተና ወይም የትምህርት ቤት ምደባ አይደለም። ትምህርቶቹ በጣም ቀላል ወይም በጣም ከባድ ከሆኑ በማንኛውም ጊዜ ደረጃ ይቀይሩ።
+ui-1763761d9f	Use {0}	{0}ን ተጠቀም
+ui-df2f1e44d4	Keep {0}	{0} ይቆይ
+ui-f7609863de	Take it again	እንደገና ውሰድ
+ui-8f7a312f82	A grown-up can read each question aloud or tap Listen. 	አዋቂ ሰው እያንዳንዱን ጥያቄ ጮክ ብሎ ሊያነብ ወይም «አዳምጥ»ን ሊጫን ይችላል። 
+ui-70e2a03c6e	Answer what you can. It is fine to guess. The next round gets easier or harder based on your answers.	የቻልከውን መልስ። መገመት ችግር የለውም። ቀጣዩ ዙር እንደ መልሶችህ ይቀልላል ወይም ይከብዳል።
+ui-45ae743c35	Listen to question {0}	ጥያቄ {0}ን አዳምጥ
+ui-bc981983e7	Next	ቀጣይ
+ui-95a0b7105e	Choose an answer to each question first.	መጀመሪያ ለእያንዳንዱ ጥያቄ መልስ ምረጥ።
+ui-19fd66dd89	{0} of {1} correct. Talk about the feedback together.	ከ{1} {0} ትክክል። ስለ ማብራሪያው አብራችሁ ተነጋገሩ።
+ui-9520fb7c5b	PRACTICE, REFLECT, AND GROW	ተለማመድ፣ አሰላስል፣ እደግ
+ui-aaf89dfefc	Quizzes & celebrations	ፈተናዎችና ክብረ በዓላት
+ui-13a58a7762	Four weekly quizzes have 15 questions each, three from every subject: Math, Reading, Writing, Science, and Social Studies. The monthly review has 40 questions covering all four weeks. Take breaks and return to lessons whenever needed.	አራቱ ሳምንታዊ ፈተናዎች እያንዳንዳቸው 15 ጥያቄዎች አሏቸው፤ ከእያንዳንዱ የትምህርት ዓይነት ሦስት፦ ሒሳብ፣ ንባብ፣ ጽሕፈት፣ ሳይንስና ማኅበራዊ ጥናት። ወርሃዊው ክለሳ አራቱንም ሳምንታት የሚሸፍኑ 40 ጥያቄዎች አሉት። እረፍት ይውሰዱ፤ ሲያስፈልግም ወደ ትምህርቶቹ ይመለሱ።
+ui-58c88069a5	These reuse lesson questions. Results reflect practice and familiarity, not independent mastery, placement, or verified exam performance. Preschool and kindergarten need an adult; listening is available for every question. There is no timer or public ranking.	እነዚህ የትምህርቶቹን ጥያቄዎች ይጠቀማሉ። ውጤቶቹ ልምምድንና መላመድን ያሳያሉ እንጂ ራሱን የቻለ ብቃትን፣ ምደባን ወይም የተረጋገጠ የፈተና ውጤትን አይደለም። ቅድመ መደበኛና ኬጂ አዋቂ ያስፈልጋቸዋል፤ ለእያንዳንዱ ጥያቄ ማዳመጥ ይቻላል። የጊዜ ገደብ ወይም የሕዝብ ደረጃ አወጣጥ የለም።
+ui-4d40b5836a	Choose a practice check	የልምምድ ፈተና ምረጥ
+ui-11fa1ee25f	Week {0} quiz	የሳምንት {0} ፈተና
+ui-2542f99fe1	Monthly review	ወርሃዊ ክለሳ
+ui-952f375412	Start	ጀምር
+ui-06c0bdc6c6	week {0} quiz	የሳምንት {0} ፈተና
+ui-6636161c34	monthly review	ወርሃዊ ክለሳ
+ui-12f35c6660	Choose every answer, then check once. Restart for another practice attempt.	ሁሉንም መልሶች ምረጥ፣ ከዚያ አንድ ጊዜ አረጋግጥ። ለሌላ ሙከራ እንደገና ጀምር።
+ui-4e2038eae2	Listen to assessment question {0}	የፈተና ጥያቄ {0}ን አዳምጥ
+ui-7bd010045a	Correct. 	ትክክል። 
+ui-2bdbe0c9a3	Try this idea: 	ይህን ሐሳብ ሞክር፦ 
+ui-596ea02399	Listen to assessment feedback {0}	የፈተና ማብራሪያ {0}ን አዳምጥ
+ui-8b3a8579a8	Check and save results	አረጋግጥና ውጤቱን አስቀምጥ
+ui-06e4e29ff1	Saved practice checks	የተቀመጡ የልምምድ ፈተናዎች
+ui-e4419810b9	Saved on this device and to your parent account, so checks from every device appear here.	በዚህ መሣሪያና በወላጅ መለያዎ ላይ ተቀምጠዋል፤ ስለዚህ ከሁሉም መሣሪያዎች የተወሰዱ ፈተናዎች እዚህ ይታያሉ።
+ui-7be19264f9	Saved on this device. Sign in to the Parent portal on this device to also save them to your parent account.	በዚህ መሣሪያ ላይ ተቀምጠዋል። በወላጅ መለያዎም ለማስቀመጥ በዚህ መሣሪያ ወደ ወላጅ መግቢያው ይግቡ።
+ui-c17c0f4e2a	Saved on this device. Link this learner to a student number in the Parent portal to save them to your account.	በዚህ መሣሪያ ላይ ተቀምጠዋል። በመለያዎ ላይ ለማስቀመጥ ይህን ተማሪ በወላጅ መግቢያው ከተማሪ ቁጥር ጋር ያገናኙ።
+ui-792296c5f7	Practice check history	የልምምድ ፈተና ታሪክ
+ui-7c7f5d049f	Level	ደረጃ
+ui-4b5e84be0e	Check	ፈተና
+ui-489f487724	Score	ውጤት
+ui-d01b3e6052	Week {0}	ሳምንት {0}
+ui-2b2bb69d0b	No saved assessments yet.	እስካሁን የተቀመጠ ፈተና የለም።
+ui-ec987c9513	Yearly learning celebration	የዓመቱ የትምህርት በዓል
+ui-f277d8f8d4	Print an ID-only participation certificate after at least one recorded practice check in the selected calendar year. It is a family celebration from saved practice records, not a verified honor award, accreditation, or school credential. Official annual honors require organizer review and published criteria.	በተመረጠው ዓመት ቢያንስ አንድ የተመዘገበ የልምምድ ፈተና ካለ፣ የተማሪ ቁጥር ብቻ የያዘ የተሳትፎ የምስክር ወረቀት ያትሙ። ይህ ከተቀመጡ የልምምድ መዝገቦች የሚዘጋጅ የቤተሰብ በዓል ነው እንጂ የተረጋገጠ የክብር ሽልማት፣ ዕውቅና ወይም የትምህርት ቤት ማስረጃ አይደለም። ይፋዊ ዓመታዊ ሽልማቶች የአዘጋጁን ግምገማና የታወቁ መስፈርቶችን ይጠይቃሉ።
+ui-a49700a678	Calendar year	ዓመት
+ui-87c58ec486	Preview participation certificate	የተሳትፎ የምስክር ወረቀቱን ተመልከት
+ui-789596731f	EWKET KIDS	EWKET KIDS
+ui-2bb64545e5	Certificate of Learning Participation	የትምህርት ተሳትፎ የምስክር ወረቀት
+ui-0c6c759713	Celebrating learning practice during {0}	በ{0} ዓመት የነበረውን የትምህርት ልምምድ በማክበር
+ui-8f2e8a607b	{0} recorded practice check	{0} የተመዘገበ የልምምድ ፈተና
+ui-8f2d42056a	{0} recorded practice checks	{0} የተመዘገቡ የልምምድ ፈተናዎች

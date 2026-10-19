@@ -1,0 +1,141 @@
+ui-3edf0df499	Math	ሒሳብ
+ui-cffa2af0a3	Reading	ንባብ
+ui-2dabb8334b	Writing	ጽሕፈት
+ui-d2d0663714	Science	ሳይንስ
+ui-8f1aae655e	Social Studies	ማኅበራዊ ጥናት
+ui-13bf461c74	Amharic	አማርኛ
+ui-0bb99ae1ed	Preschool	ቅድመ መደበኛ
+ui-b4c860050a	Kindergarten	ኬጂ
+ui-cf24a199e5	Grade 1	1ኛ ክፍል
+ui-a2d56303a3	Grade 2	2ኛ ክፍል
+ui-f5741c4ad6	Grade 3	3ኛ ክፍል
+ui-ab7b117e93	Grade 4	4ኛ ክፍል
+ui-75fd665a6b	Grade 5	5ኛ ክፍል
+ui-71b1180e08	Grade 6	6ኛ ክፍል
+ui-b790ef0068	Pre-K	ቅድመ
+ui-a7ee38bb7b	K	ኬጂ
+ui-b77ee2b2b1	Play, notice, and explore	ተጫወት፣ አስተውል፣ አስስ
+ui-c374a5f09e	Build a strong beginning	ጠንካራ ጅምር ገንባ
+ui-7b18d95827	Read and count with confidence	በልበ ሙሉነት አንብብ፣ ቁጠር
+ui-34ed03b31d	Connect ideas	ሐሳቦችን አገናኝ
+ui-1ba15438ba	Grow independent thinking	ራስህን ችለህ ማሰብ አዳብር
+ui-5b913c26c1	Explain how and why	እንዴትና ለምን እንደሆነ አስረዳ
+ui-bff973f93b	Reason and support ideas	አመዛዝን፣ ሐሳብህን በማስረጃ አስደግፍ
+ui-776e4fc296	Prepare for the next chapter	ለሚቀጥለው ምዕራፍ ተዘጋጅ
+ui-932eeb1076	Monday	ሰኞ
+ui-42e43b612a	Tuesday	ማክሰኞ
+ui-5656b9b79b	Wednesday	ረቡዕ
+ui-76031ddf92	Thursday	ሐሙስ
+ui-d166e844a3	Friday	ዓርብ
+ui-17063c506b	Saturday	ቅዳሜ
+ui-bc5dd045b8	Sunday	እሑድ
+ui-ce87ce7fc4	Skip to learning	ወደ ትምህርቱ ዝለል
+ui-870d084754	A little learning. A world of possibility.	ትንሽ ትምህርት፣ ትልቅ ዕድል።
+ui-efd197f3fc	Main navigation	ዋና ማውጫ
+ui-cb9ce97bfc	Lessons	ትምህርቶች
+ui-689ab3492a	Quizzes & awards	ፈተናዎችና ሽልማቶች
+ui-2317ee1df9	For parents	ለወላጆች
+ui-6b21fb791a	About	ስለ እኛ
+ui-57f5f5efbc	Menu	ማውጫ
+ui-70f8bb9a8a	Home	መነሻ
+ui-b048378ee8	Learn	ተማር
+ui-6fa339b217	My routine	የእኔ ፕሮግራም
+ui-3471c40415	Parent report	የወላጅ ሪፖርት
+ui-8cd3c8dd2d	For families	ለቤተሰቦች
+ui-5d3dc59a21	About & contact	ስለ እኛና አድራሻ
+ui-d3efad3314	Community kit	የማኅበረሰብ መሣሪያዎች
+ui-1639d8bdd1	Free learning. Shared possibility.	ነፃ ትምህርት፣ የጋራ ዕድል።
+ui-5d36cb4cfb	{0} lessons · 8 learning levels	{0} ትምህርቶች · 8 የትምህርት ደረጃዎች
+ui-cd7c7feb31	Four-step sequences for every level · Built for growing minds ·	ለእያንዳንዱ ደረጃ አራት እርምጃዎች · ለሚያድጉ አእምሮዎች የተሠራ ·
+ui-a82ff53d1e	Admin sign-in	የአስተዳዳሪ መግቢያ
+ui-4756e8320d	Learner profiles	የተማሪ መገለጫዎች
+ui-2bfee843b1	Learning as	ተማሪ፦
+ui-aeb3246a96	Saved on this device and to your parent account.	በዚህ መሣሪያና በወላጅ መለያዎ ላይ ተቀምጧል።
+ui-eda2d8bfd7	Learning progress is saved on this device.	የትምህርት እድገት በዚህ መሣሪያ ላይ ብቻ ይቀመጣል።
+ui-95f3f89323	Link to parent account	ከወላጅ መለያ ጋር አገናኝ
+ui-5fdced2dd2	Edit learners on this device	በዚህ መሣሪያ ያሉ ተማሪዎችን አስተካክል
+ui-21ee99eff2	Parent portal	የወላጅ መግቢያ
+ui-98b68609ea	My family's learners	የቤተሰቤ ተማሪዎች
+ui-56f5a545bd	Choose your learner	ተማሪዎን ይምረጡ
+ui-9bb25c3fd9	A nickname is required for each new learner. Use an animal icon as well. Avoid full names, school details, or other personal information. Anyone using this browser profile can see these records.	ለእያንዳንዱ አዲስ ተማሪ ቅጽል ስም ያስፈልጋል። የእንስሳ ምልክትም ይምረጡ። ሙሉ ስም፣ የትምህርት ቤት መረጃ ወይም ሌላ የግል መረጃ አያስገቡ። ይህን አሳሽ የሚጠቀም ማንኛውም ሰው እነዚህን መዝገቦች ማየት ይችላል።
+ui-1d5b4eabde	Permanent EW numbers come from registering in the	ቋሚ የEW ቁጥሮች የሚሰጡት በ
+ui-1269a11390	parent portal	የወላጅ መግቢያው
+ui-886736aa50	. Adding a learner on this device is not registration and does not issue an EW number. IDs are labels, not passwords. Keep real names out of this browser.	 በመመዝገብ ነው። በዚህ መሣሪያ ላይ ተማሪ ማከል ምዝገባ አይደለም፤ የEW ቁጥርም አይሰጥም። ቁጥሮቹ መለያ ምልክቶች ናቸው እንጂ የይለፍ ቃሎች አይደሉም። እውነተኛ ስሞችን በዚህ አሳሽ ውስጥ አያስቀምጡ።
+ui-f01463a9f3	Student ID (assigned by registration service)	የተማሪ ቁጥር (በምዝገባ የሚሰጥ)
+ui-40d2323439	Student nickname (required)	የተማሪው ቅጽል ስም (ግዴታ)
+ui-16d693290c	A nickname is required. The previous nickname was kept.	ቅጽል ስም ያስፈልጋል። የቀድሞው ቅጽል ስም ተይዟል።
+ui-19f8e42585	Animal icon	የእንስሳ ምልክት
+ui-7315b20133	New learner's nickname (required)	የአዲሱ ተማሪ ቅጽል ስም (ግዴታ)
+ui-75359998d0	Enter a nickname	ቅጽል ስም ያስገቡ
+ui-b1297b582f	Add learner	ተማሪ አክል
+ui-326a3c6dcb	{0} of 4 profiles used.	ከ4 መገለጫዎች {0} ጥቅም ላይ ውለዋል።
+ui-3924ac9fb3	Remove this learner and their local progress? Download a backup first if you want to keep it.	ይህን ተማሪና በዚህ መሣሪያ ያለውን እድገቱን ላስወግድ? ማቆየት ከፈለጉ መጀመሪያ ምትኬ ያውርዱ።
+ui-c15855a56c	Learner removed from this browser.	ተማሪው ከዚህ አሳሽ ተወግዷል።
+ui-e87619a2ec	Remove selected learner	የተመረጠውን ተማሪ አስወግድ
+ui-e68050104c	Learning as {0}. This child's progress is kept separately on this device.	ተማሪ፦ {0}። የዚህ ልጅ እድገት በዚህ መሣሪያ ላይ ለብቻው ይቀመጣል።
+ui-aba42076a5	Level set from the parent portal.	ደረጃው ከወላጅ መግቢያው ተመርጧል።
+ui-b2b5d76e09	Could not switch learner.	ተማሪውን መቀየር አልተቻለም።
+ui-479b611ae2	Learner switched. Progress and reports are separate.	ተማሪው ተቀይሯል። እድገትና ሪፖርቶች ለየብቻ ናቸው።
+ui-98f800187f	Enter a nickname before adding a learner.	ተማሪ ከማከልዎ በፊት ቅጽል ስም ያስገቡ።
+ui-6dfddef1b9	New learner added on this browser only.	አዲስ ተማሪ በዚህ አሳሽ ላይ ብቻ ተጨምሯል።
+ui-cc5ad361e8	Could not update progress.	እድገቱን ማዘመን አልተቻለም።
+ui-96780b2711	Ewket Kids. Learn, Explore, Grow. Children discover reading, numbers, and science in a colorful world unfolding from an open book.	እውቀት ልጆች። ተማር፣ አስስ፣ እደግ። ልጆች ከተከፈተ መጽሐፍ በሚዘረጋ ባለቀለም ዓለም ውስጥ ንባብን፣ ቁጥሮችንና ሳይንስን ያገኛሉ።
+ui-a57fabd9dd	FREE LEARNING · PRESCHOOL TO GRADE 6	ነፃ ትምህርት · ከቅድመ መደበኛ እስከ 6ኛ ክፍል
+ui-68cc6a475f	Small steps. Bright futures.	ትንሽ እርምጃ፣ ብሩህ ነገ።
+ui-2c8de06b20	Short, playful lessons in Math, Reading, Writing, Science, and Social Studies. Pick a level and start in seconds.	በሒሳብ፣ በንባብ፣ በጽሕፈት፣ በሳይንስና በማኅበራዊ ጥናት አጫጭርና አዝናኝ ትምህርቶች። ደረጃ ይምረጡና ወዲያውኑ ይጀምሩ።
+ui-2ed22bbc9d	Continue:	ቀጥል፦
+ui-f431f43331	Pick a lesson	ትምህርት ምረጥ
+ui-02d279ce2f	Start learning	መማር ጀምር
+ui-570709fa25	Register your little ones	ልጆችዎን ያስመዝግቡ
+ui-7df72815ed	{0}, Step {1} of {2}	{0}፣ እርምጃ {1} ከ{2}
+ui-b35d2dcd56	Already registered?	ተመዝግበዋል?
+ui-decf005a3d	Parent sign-in	የወላጅ መግቢያ
+ui-554b9c3649	Choose a subject	የትምህርት ዓይነት ይምረጡ
+ui-1c0c9cd263	Count, add, and solve	ቁጠር፣ ደምር፣ ፍታ
+ui-42003b0d20	Sounds, words, and stories	ድምፆች፣ ቃላትና ታሪኮች
+ui-9705200cf4	Look, wonder, and discover	ተመልከት፣ ተገረም፣ እወቅ
+ui-3725279d81	Picture words	የሥዕል ቃላት
+ui-570e7064f1	Coffee ceremony. How many cups can you count in Amharic?	የቡና ሥነ ሥርዓት። በአማርኛ ስንት ስኒዎችን መቁጠር ትችላለህ/ትችያለሽ?
+ui-73d239cfa0	A family around the mesob. Who is the mother, father, grandmother, brother and sister?	ቤተሰብ በመሶብ ዙሪያ። እናት፣ አባት፣ አያት፣ ወንድም እና እህት የትኞቹ ናቸው?
+ui-4632407289	Meskel bonfire, celebrated in the month of Meskerem.	የመስቀል ደመራ፣ በመስከረም ወር የሚከበር።
+ui-6815c02c15	✓ Always free	✓ ሁልጊዜ ነፃ
+ui-074f7984b2	✓ Register free to save progress	✓ እድገትን ለማስቀመጥ በነፃ ይመዝገቡ
+ui-223c429db4	✓ Read-aloud on every lesson	✓ በእያንዳንዱ ትምህርት ጮክ ብሎ ማንበብ
+ui-4c436e773b	✓ Certificates for registered students	✓ ለተመዘገቡ ተማሪዎች የምስክር ወረቀት
+ui-4dab41e82e	START WHERE YOU ARE	ካሉበት ይጀምሩ
+ui-d53cb3489b	Pick your learning level	የትምህርት ደረጃህን ምረጥ
+ui-dff6950717	Levels are starting points.	ደረጃዎቹ መነሻዎች ብቻ ናቸው።
+ui-cb330272ce	Move up or revisit a skill anytime.	በማንኛውም ጊዜ ወደ ላይ ውጣ ወይም ክህሎትን ደግመህ ተለማመድ።
+ui-dce9b3cca8	Learning level	የትምህርት ደረጃ
+ui-4dc99d2f61	{0} lessons. Follow four steps in each subject.	{0} ትምህርቶች። በእያንዳንዱ የትምህርት ዓይነት አራት እርምጃዎችን ተከተል።
+ui-70403a4d67	{0} of {1} done	ከ{1} {0} ተጠናቀዋል
+ui-e34289a43f	Lessons done at this level	በዚህ ደረጃ የተጠናቀቁ ትምህርቶች
+ui-67a1157ac0	Find a lesson	ትምህርት ፈልግ
+ui-2c621b364d	Search this level	በዚህ ደረጃ ፈልግ
+ui-d72c4f598d	Explore 24 picture activities across all eight levels. Look for the Picture lab label. Every lesson also has optional read-aloud on supported browsers.	በስምንቱ ደረጃዎች 24 የሥዕል እንቅስቃሴዎችን ያስሱ። «የሥዕል ቤተ ሙከራ» የሚለውን ምልክት ይፈልጉ። በሚደግፉ አሳሾች እያንዳንዱ ትምህርት ጮክ ብሎ የማንበብ አማራጭ አለው።
+ui-8d183dbdce	Subject	የትምህርት ዓይነት
+ui-18d2ddf170	All subjects	ሁሉም የትምህርት ዓይነቶች
+ui-4f5037b7d5	{0} · Step {1} of {2}	{0} · እርምጃ {1} ከ{2}
+ui-de2fdb10d3	Picture lab · tap and explore	የሥዕል ቤተ ሙከራ · ነካ አድርገህ አስስ
+ui-391ea4bb1f	✓ Done · all {0} correct	✓ ተጠናቋል · ሁሉም {0} ትክክል
+ui-4bf1a399b1	Best so far {0}/{1} · keep going	እስካሁን ምርጥ {0}/{1} · ቀጥል
+ui-e1740bb97c	Explain · Try · Practice	ማብራሪያ · ሙከራ · ልምምድ
+ui-1fe08986bd	🔒 Locked	🔒 ተቆልፏል
+ui-bd604d8bed	Get every answer right on the step before to unlock this one	ይህን ለመክፈት የቀደመውን እርምጃ ሁሉንም ጥያቄዎች በትክክል መልስ
+ui-71748df0a0	Finish step {0} first	መጀመሪያ እርምጃ {0}ን ጨርስ
+ui-cbbbf5d1aa	Practice again	እንደገና ተለማመድ
+ui-069c0d5be9	Keep practicing	ልምምድ ቀጥል
+ui-143cb95045	Start lesson	ትምህርቱን ጀምር
+ui-2207a6f463	No matching lessons at this level.	በዚህ ደረጃ የሚመሳሰል ትምህርት የለም።
+ui-412226715c	Clear filters	ምርጫዎቹን አጽዳ
+ui-f4447f0c6d	Finish the step before this one first. Get every answer right to unlock the next step.	መጀመሪያ ከዚህ በፊት ያለውን እርምጃ ጨርስ። ቀጣዩን እርምጃ ለመክፈት ሁሉንም ጥያቄዎች በትክክል መልስ።
+ui-d866948b13	Print lesson	ትምህርቱን አትም
+ui-f816925e28	Close lesson	ትምህርቱን ዝጋ
+ui-35adf46b7c	Step {0} of {1} · {2} learning sequence. Take your time; revisiting earlier steps is welcome.	እርምጃ {0} ከ{1} · የ{2} ትምህርት ቅደም ተከተል። ጊዜህን ውሰድ፤ የቀደሙትን እርምጃዎች መከለስ ይቻላል።
+ui-9057eef5a5	Your {0} steps at this level	በዚህ ደረጃ ያሉ የ{0} እርምጃዎችህ
+ui-95f02bd20b	 (done)	 (ተጠናቋል)
+ui-221ed57a9e	 (now)	 (አሁን)
+ui-88f4a99451	 (locked)	 (ተቆልፏል)
+ui-78f6fef86e	Our goal:	ግባችን፦
+ui-3cafb4a3e8	Ohio standard:	የኦሃዮ መለኪያ፦
+ui-f33b8e1028	Read each lesson aloud when it opens	እያንዳንዱ ትምህርት ሲከፈት ጮክ ብለህ አንብብልኝ

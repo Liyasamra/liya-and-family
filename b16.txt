@@ -1,0 +1,83 @@
+fidel-fbf21b1061		Which fidel says “mu”? ✓ ሙ ✗ ማ ✗ ሞ ሙ says “mu.” It is the second form of the መ family.
+fidel-5bf4928cec		Which fidel says “mi”? ✓ ሚ ✗ ሙ ✗ ም ሚ says “mi.” It is the third form of the መ family.
+fidel-3c72bfc5a4		What sound does ማ make? ✓ ma ✗ mo ✗ me This is ማ. It says “ma.”
+fidel-2c12db1d8d		Which fidel says “lo”? ✓ ሎ ✗ ሉ ✗ ሌ ሎ says “lo.” It is the seventh form of the ለ family.
+fidel-24099b6225		What sound does ም make? ✓ m ✗ mu ✗ mo This is ም, the sixth form. It says a short “m.”
+fidel-642ae379cf		The በ and ሰ families
+fidel-ee4d0023c7		Read the seven forms of በ and ሰ.
+fidel-b4e880dbf8		The በ family is በ (be), ቡ (bu), ቢ (bi), ባ (ba), ቤ (bé), ብ (b), ቦ (bo). The ሰ family is ሰ (se), ሱ (su), ሲ (si), ሳ (sa), ሴ (sé), ስ (s), ሶ (so). The vowel marks work the same way in every family.
+fidel-0d38d93143		ቡና (buna) means coffee. It starts with ቡ, “bu.”
+fidel-79a6ff909c		Find ቤ and ቡ in these words with a grown-up: ቤት (house) and ቡና (coffee).
+fidel-9ec1746185		Which fidel says “ba”? ✓ ባ ✗ ቡ ✗ ቦ ባ says “ba.” It is the fourth form of the በ family.
+fidel-ab7f752824		ቤት (house) starts with “bé.” Which fidel says “bé”? ✓ ቤ ✗ ባ ✗ ቢ ቤ says “bé,” the start of ቤት (bet).
+fidel-7dfe1d88c8		Which fidel says “sa”? ✓ ሳ ✗ ሱ ✗ ሶ ሳ says “sa.” It is the fourth form of the ሰ family.
+fidel-37a06ee934		ቡና (coffee) starts with ቡ. What does ቡ say? ✓ bu ✗ ba ✗ bi ቡ says “bu,” so ቡና says “bu-na.”
+fidel-c49a9701bf		Which fidel says “si”? ✓ ሲ ✗ ሳ ✗ ስ ሲ says “si.” It is the third form of the ሰ family.
+fidel-b77a92e6b5		What sound does ሶ make? ✓ so ✗ su ✗ sa This is ሶ. It says “so.”
+fidel-08d8d26c7f		Read short Amharic words
+fidel-69c7de76fa		Blend two fidel to read words such as ቤት, ላም, and ቡና.
+fidel-bdf97b8a3d		Put fidel sounds together to read a word. ቤ (bé) + ት (t) makes ቤት (bet), house. ላ (la) + ም (m) makes ላም (lam), cow. Say each sound, then say them faster until they become one word.
+fidel-629145c30a		ዳ (da) + ቦ (bo) = ዳቦ (dabo), bread.
+fidel-a6c81a8f66		Write ቤት on a card and put it on your front door. Read it every time you come home.
+fidel-8366eb8ac1		What does ቤት (bet) mean? ✓ House ✗ Cow ✗ Sheep ቤ + ት = ቤት (bet), house.
+fidel-d37f850b6c		Which word means coffee? ✓ ቡና (buna) ✗ ዳቦ (dabo) ✗ ላም (lam) ቡ + ና = ቡና (buna), coffee.
+fidel-28b2ed17e9		What does ዳቦ (dabo) mean? ✓ Bread ✗ Milk ✗ Water ዳ + ቦ = ዳቦ (dabo), bread.
+fidel-a9982530f4		What does ልጅ (lij) mean? ✓ Child ✗ Cow ✗ House ልጅ (lij) means child.
+fidel-0e9cca0899		How many fidel are in ላም (lam)? ✓ Two: ላ and ም ✗ One ✗ Three ላም has two fidel: ላ (la) and ም (m).
+fidel-cea64744f1		Which word means cow? ✓ ላም (lam) ✗ ልጅ (lij) ✗ በግ (beg) ላም (lam) means cow. በግ (beg) means sheep.
+fidel-8276b02f59		Picture words in Amharic
+fidel-f23dac845a		Read Amharic words for everyday things and match them to pictures.
+fidel-ce728c8991		Reading a word means turning fidel into sounds and then into meaning. ውሻ (wusha) is dog, መኪና (mekina) is car, መጽሐፍ (metsihaf) is book, and ጨረቃ (chereka) is moon. Read each fidel, then the whole word.
+fidel-86ca809372		መ (me) + ኪ (ki) + ና (na) = መኪና (mekina), car.
+fidel-a50c0cd319		Make three picture cards: a dog, a car, and a book. Write the Amharic word under each one.
+fidel-d985667d47		Which picture is ውሻ (wusha)? ✓ Dog ✗ Cat ✗ Tree ውሻ (wusha) means dog.
+fidel-38c27d7cff		Which picture is መኪና (mekina)? ✓ Car ✗ Bus ✗ House መኪና (mekina) means car.
+fidel-d247c94ab5		Which picture is መጽሐፍ (metsihaf)? ✓ Book ✗ Cup ✗ Ball መጽሐፍ (metsihaf) means book.
+fidel-8d0328261a		Which picture is ጨረቃ (chereka)? ✓ Moon ✗ Sun ✗ Flower ጨረቃ (chereka) means moon.
+fidel-0291f40b3a		Which picture is አበባ (abeba)? ✓ Flower ✗ Tree ✗ Apple አበባ (abeba) means flower.
+fidel-07f4ac0d7c		Which picture is ውሃ (wuha)? ✓ Water ✗ Sand ✗ Rock ውሃ (wuha) means water.
+fidel-99e9839a06		Numbers one to ten
+fidel-56a34501a5		Say Amharic numbers to ten and read Ge'ez numerals ፩ to ፲.
+fidel-594ab030a7		The Amharic numbers to ten are አንድ, ሁለት, ሦስት, አራት, አምስት, ስድስት (sidist), ሰባት (sebat), ስምንት (siment), ዘጠኝ (zeteny), and አሥር (asir). Ethiopia also has its own number signs, the Ge'ez numerals: ፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲.
+fidel-bccd9a06e2		፫ means 3, ሦስት (sost). ፲ means 10, አሥር (asir).
+fidel-516dba316b		Write ፩ to ፲ on cards. Mix them up, then put them back in order while counting in Amharic.
+fidel-59bf7dfc79		How do you say seven in Amharic? ✓ ሰባት (sebat) ✗ ስድስት (sidist) ✗ ስምንት (siment) Seven: ሰባት (sebat).
+fidel-bd8dfa287d		What does ዘጠኝ (zeteny) mean? ✓ 9 ✗ 7 ✗ 10 ዘጠኝ (zeteny) means nine.
+fidel-520f14599c		Which Ge'ez numeral means 3? ✓ ፫ ✗ ፪ ✗ ፭ ፫ is the Ge'ez numeral for three.
+fidel-6af5c675ad		What does አሥር (asir) mean? ✓ 10 ✗ 2 ✗ 8 አሥር (asir) means ten.
+fidel-5949cf6227		What comes after ሦስት (sost)? ✓ አራት (arat) ✗ ሁለት (hulet) ✗ አምስት (amist) Three, four: ሦስት, አራት.
+fidel-e200a93396		What number is ፭? ✓ 5 ✗ 4 ✗ 6 ፭ is five, አምስት (amist).
+fidel-5bb42787b1		Family words
+fidel-5a02fde49c		Read Amharic words for family members.
+fidel-9936f5f350		Family words are some of the first words children learn. እናት (enat) is mother, አባት (abat) is father, እህት (ehit) is sister, ወንድም (wendim) is brother, አያት (ayat) is grandparent, and ልጅ (lij) is child. Many families also say እማዬ (emaye) for Mom and አባዬ (abaye) for Dad.
+fidel-214e0c13a9		እናት and አባት both end with ት.
+fidel-7bc89e1c09		Draw your family. Write the Amharic family word next to each person.
+fidel-aee37f1da4		What does እናት (enat) mean? ✓ Mother ✗ Sister ✗ Father እናት (enat) means mother.
+fidel-d66b59c14b		Which word means father? ✓ አባት (abat) ✗ አያት (ayat) ✗ ልጅ (lij) አባት (abat) means father.
+fidel-25fd32d8ff		What does እህት (ehit) mean? ✓ Sister ✗ Brother ✗ Mother እህት (ehit) means sister.
+fidel-043a7a7325		Which word means brother? ✓ ወንድም (wendim) ✗ እህት (ehit) ✗ እናት (enat) ወንድም (wendim) means brother.
+fidel-2316058717		What does አያት (ayat) mean? ✓ Grandparent ✗ Child ✗ Friend አያት (ayat) means grandparent.
+fidel-e576864610		A loving way to say “Mom” in Amharic is… ✓ እማዬ (emaye) ✗ አባዬ (abaye) ✗ ልጅ (lij) እማዬ (emaye) is like “Mommy.” አባዬ (abaye) is like “Daddy.”
+fidel-f1e35ac817		Greetings and kind words
+fidel-c7d9eea7a7		Use Amharic greetings and polite words.
+fidel-725efc1f7c		ሰላም (selam) means hello and peace. አመሰግናለሁ (ameseginalehu) means thank you. ይቅርታ (yikirta) means sorry or excuse me. Some Amharic words change for a boy or a girl: እባክህ (ebakih) is please to a boy, and እባክሽ (ebakish) is please to a girl.
+fidel-a6cf2532e7		To greet a grown-up in the morning, say እንደምን አደሩ? (endemin aderu?), good morning, said with respect.
+fidel-b45a9b954f		Greet each person at home in Amharic today. Say አመሰግናለሁ when someone helps you.
+fidel-3486c5f1e9		What does ሰላም (selam) mean? ✓ Hello, or peace ✗ Goodbye ✗ Thank you ሰላም (selam) is a greeting. It also means peace.
+fidel-8f33655d03		How do you say “thank you” in Amharic? ✓ አመሰግናለሁ (ameseginalehu) ✗ ይቅርታ (yikirta) ✗ ሰላም (selam) አመሰግናለሁ (ameseginalehu) means thank you.
+fidel-12d4f30925		What does ይቅርታ (yikirta) mean? ✓ Sorry, or excuse me ✗ Please ✗ Hello Say ይቅርታ (yikirta) to say sorry or excuse me.
+fidel-2f2ddaf102		You ask a girl, “please.” Which word fits? ✓ እባክሽ (ebakish) ✗ እባክህ (ebakih) ✗ አመሰግናለሁ (ameseginalehu) እባክሽ (ebakish) is please to a girl. እባክህ (ebakih) is please to a boy.
+fidel-d7d514f350		Which greeting shows respect to a grown-up in the morning? ✓ እንደምን አደሩ? (endemin aderu?) ✗ ደህና ሁን (dehna hun) ✗ ይቅርታ (yikirta) እንደምን አደሩ? asks “how was your night?” with respect.
+fidel-7751f834e5		ደህና ሁን (dehna hun) is said when you… ✓ Leave ✗ Arrive ✗ Eat ደህና ሁን (dehna hun) means “stay well,” a way to say goodbye to a boy or man.
+fidel-f2aa85f65d		Read short Amharic sentences
+fidel-09a8e52d99		Read simple sentences and notice that the verb comes last.
+fidel-cb01ec171f		In English we say “This is a house.” In Amharic we say ይህ ቤት ነው። (yih bet new), word by word “this house is.” The verb, ነው (new), meaning “is,” usually comes at the end. When talking about a girl or a woman, ናት (nat) is used instead of ነው.
+fidel-dbdcfda189		ይህ ኳስ ነው። (yih kwas new) means “This is a ball.”
+fidel-912efb1bb2		Point to five things at home and say an Amharic sentence for each: ይህ ___ ነው።
+fidel-8f9db34b0d		What does ይህ ኳስ ነው። mean? ✓ This is a ball. ✗ This is a book. ✗ This is a car. ኳስ (kwas) is ball, so ይህ ኳስ ነው። means “This is a ball.”
+fidel-2a7c9c5d41		In Amharic, where does the verb usually go? ✓ At the end of the sentence ✗ At the start ✗ Before the noun, like English Amharic usually puts the verb last: ይህ ቤት ነው።
+fidel-bca6d9806b		What does ነው (new) mean in these sentences? ✓ is ✗ not ✗ and ነው (new) means “is.”
+fidel-de9d996b92		Which sentence means “This is a book.”? ✓ ይህ መጽሐፍ ነው። ✗ ይህ ቤት ነው። ✗ ይህ ዛፍ ነው። መጽሐፍ (metsihaf) is book.
+fidel-ee59f2a3db		What does ውሻው ትልቅ ነው። mean? ✓ The dog is big. ✗ The dog is small. ✗ The cat is big. ውሻው is “the dog” and ትልቅ (tilik) is big.
+fidel-a307005cd5		Which mark ends an Amharic sentence? ✓ ። ✗ ? ✗ ፣ Amharic sentences end with ። (arat netib, “four dots”).
+fidel-9172252509		Days and the Ethiopian calendar

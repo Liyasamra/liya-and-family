@@ -1,0 +1,110 @@
+ui-2a76cbea1f	Save new password	አዲሱን የይለፍ ቃል አስቀምጥ
+ui-2b379fb108	New to Ewket Kids?	ለEwket Kids አዲስ ነዎት?
+ui-aaf3744797	Create account	መለያ ፍጠር
+ui-5ed1174bc8	Forgot password	የይለፍ ቃል ረሳሁ
+ui-8559034a07	Already have an account?	መለያ አለዎት?
+ui-cf57794bcd	Remembered it?	አስታወሱት?
+ui-1dd6a17cb4	How it works	እንዴት እንደሚሠራ
+ui-8ecdbe816a	Registration is paused	ምዝገባው ለጊዜው ቆሟል
+ui-4046b58182	Create your account	መለያዎን ይፍጠሩ
+ui-f0bfc9194f	and confirm it from your email.	፣ ከዚያም ከኢሜይልዎ ያረጋግጡ።
+ui-56910888d6	Register your child	ልጅዎን ያስመዝግቡ
+ui-4f41a07b56	with their name, a nickname, grade, and age. Up to four children.	በስሙ፣ በቅጽል ስም፣ በክፍልና በዕድሜ። እስከ አራት ልጆች።
+ui-54597d509e	Get a student number	የተማሪ ቁጥር ያግኙ
+ui-73d485e65c	like EW001, used for certificates. Only you and the organizer see your child’s name.	እንደ EW001 ያለ፣ ለምስክር ወረቀቶች የሚያገለግል። የልጅዎን ስም የሚያዩት እርስዎና አዘጋጁ ብቻ ናችሁ።
+ui-e24d16358b	Student registration is closed right now. Creating a parent account does not enroll a child.	የተማሪ ምዝገባ አሁን ዝግ ነው። የወላጅ መለያ መፍጠር ልጅን አያስመዘግብም።
+ui-6da6ecf1c9	Read the	ይህን ያንብቡ፦
+ui-08aa954788	Parent Privacy Notice	የወላጆች የግላዊነት ማስታወቂያ
+ui-cff0fcf44a	. On a shared computer, sign out when you finish.	። በጋራ ኮምፒውተር ላይ ሲጨርሱ ይውጡ።
+ui-c5d76816b2	My child	ልጄ
+ui-6b340770e2	My children	ልጆቼ
+ui-2407f9f2a9	+ Add a child	+ ልጅ አክል
+ui-3a27bc261b	· Age {0}	· ዕድሜ {0}
+ui-4cf92e2bc1	Name on certificates:	በምስክር ወረቀቶች ላይ የሚጻፈው ስም፦
+ui-95d27bd427	Start learning →	መማር ጀምር →
+ui-e9b7457123	Ewket Kids may show this name if my child earns public recognition, such as a library honor display. Optional, and you can change it anytime.	ልጄ እንደ ቤተ መጻሕፍት የክብር ማሳያ ያለ የሕዝብ ዕውቅና ካገኘ Ewket Kids ይህን ስም ሊያሳይ ይችላል። አማራጭ ነው፤ በማንኛውም ጊዜ መቀየር ይችላሉ።
+ui-4b6656724e	Need to fix the name, grade, or age? Email	ስሙን፣ ክፍሉን ወይም ዕድሜውን ማስተካከል ይፈልጋሉ? ከዚህ መለያ ኢሜይል ይጻፉ፦
+ui-10dae06bb0	from this account.	።
+ui-236dff6736	Loading your children…	ልጆችዎ በመጫን ላይ…
+ui-550e898e81	This student page is not linked to your account. Check the EW number or email hello@ewketkids.org.	ይህ የተማሪ ገጽ ከመለያዎ ጋር አልተገናኘም። የEW ቁጥሩን ያረጋግጡ ወይም ለhello@ewketkids.org ኢሜይል ይጻፉ።
+ui-c53f9eba59	No children registered yet. Add your first child below.	እስካሁን የተመዘገበ ልጅ የለም። የመጀመሪያ ልጅዎን ከታች ያክሉ።
+ui-afe1546470	You have registered four children, the most one account can hold.	አራት ልጆችን አስመዝግበዋል፤ አንድ መለያ የሚይዘው ይህን ያህል ነው።
+ui-3f838b0c0f	Go to one child’s page	ወደ አንድ ልጅ ገጽ ይሂዱ
+ui-241c26aae7	Enter a student number, such as EW001.	እንደ EW001 ያለ የተማሪ ቁጥር ያስገቡ።
+ui-bbb0ce5cde	Student number	የተማሪ ቁጥር
+ui-9ee309dced	Open page	ገጹን ክፈት
+ui-d065ca1d1a	Show all my children	ሁሉንም ልጆቼን አሳይ
+ui-b05f7f4d12	Register a child	ልጅ ያስመዝግቡ
+ui-73f8a4225e	Your child gets a student number right away. Every field is required except the last checkbox.	ልጅዎ ወዲያውኑ የተማሪ ቁጥር ያገኛል። ከመጨረሻው ሳጥን በስተቀር ሁሉም መስኮች ግዴታ ናቸው።
+ui-c04a9616cb	Child details	የልጁ መረጃ
+ui-ffe4563413	Child’s full name	የልጁ ሙሉ ስም
+ui-bc76c8db11	as it should appear on certificates. Kept private.	በምስክር ወረቀቶች ላይ እንደሚጻፈው። በምስጢር ይያዛል።
+ui-ce2bd99c47	Nickname	ቅጽል ስም
+ui-679b62d05e	shown on the site instead of the name, such as “Princess” or “Star Reader”	በድረ-ገጹ ላይ ከስሙ ይልቅ የሚታይ፣ ለምሳሌ «ልዕልት» ወይም «ኮከብ አንባቢ»
+ui-aecc49c153	Grade	ክፍል
+ui-2932d0f926	Choose a grade	ክፍል ይምረጡ
+ui-ff9f1ff321	Age	ዕድሜ
+ui-82c69b1551	I am this child’s parent or legal guardian and I am 18 or older. I have read the	እኔ የዚህ ልጅ ወላጅ ወይም ሕጋዊ አሳዳጊ ነኝ፤ ዕድሜዬም 18 ወይም ከዚያ በላይ ነው። ይህን አንብቤአለሁ፦
+ui-7fe57a9166	Ewket Kids Parent Privacy Notice	የEwket Kids የወላጆች የግላዊነት ማስታወቂያ
+ui-7f86acb89b	(version 3). I agree that Ewket Kids may store my child’s name, nickname, grade, and age to run this free learning program and prepare certificates. I understand I can ask to see, correct, or delete this information at any time by writing to hello@ewketkids.org.	(ስሪት 3)። ይህን ነፃ የትምህርት ፕሮግራም ለማካሄድና የምስክር ወረቀቶችን ለማዘጋጀት Ewket Kids የልጄን ስም፣ ቅጽል ስም፣ ክፍልና ዕድሜ እንዲያስቀምጥ እስማማለሁ። ለhello@ewketkids.org በመጻፍ ይህን መረጃ በማንኛውም ጊዜ ለማየት፣ ለማስተካከል ወይም ለማስሰረዝ መጠየቅ እንደምችል ተረድቻለሁ።
+ui-d30d407a5a	Optional: Ewket Kids may show my child’s name if they earn public recognition, such as a library honor display. I can change this later.	አማራጭ፦ ልጄ እንደ ቤተ መጻሕፍት የክብር ማሳያ ያለ የሕዝብ ዕውቅና ካገኘ Ewket Kids ስሙን ሊያሳይ ይችላል። ይህን በኋላ መቀየር እችላለሁ።
+ui-a40efbe5b4	Register my child	ልጄን አስመዝግብ
+ui-77dfd2135f	Cancel	ሰርዝ
+ui-a01e9dcec4	The button turns on once every required field is filled in and the first box is ticked.	ሁሉም ግዴታ መስኮች ሲሞሉና የመጀመሪያው ሳጥን ሲመረጥ አዝራሩ ይሠራል።
+ui-97e2e9fd57	Need help?	እርዳታ ይፈልጋሉ?
+ui-08e64c6d8f	and we will reply. Please never email passwords or identity documents.	ይጻፉ፤ እንመልስልዎታለን። እባክዎ የይለፍ ቃሎችን ወይም የመታወቂያ ሰነዶችን በኢሜይል በጭራሽ አይላኩ።
+ui-541878e17b	Ewket Kids · Free practice and family support ·	Ewket Kids · ነፃ ልምምድና የቤተሰብ ድጋፍ ·
+ui-ec7c829b39	Privacy notice	የግላዊነት ማስታወቂያ
+ui-9d784d9c83	Listen to the lesson	ትምህርቱን አዳምጥ
+ui-2f43d1d58e	PICTURE LAB	የሥዕል ቤተ ሙከራ
+ui-811b7a1fa2	Explore with pictures. This activity does not change your practice score. Tap or use the keyboard; dragging is not needed.	በሥዕሎች አስስ። ይህ እንቅስቃሴ የልምምድ ውጤትህን አይቀይርም። ነካ አድርግ ወይም የቁልፍ ሰሌዳ ተጠቀም፤ መጎተት አያስፈልግም።
+ui-78e8774fec	Picture choices	የሥዕል ምርጫዎች
+ui-c23cf3a0ec	You found it! 	አገኘኸው! 
+ui-1fa76219b4	Let’s look at the clues again. 	ፍንጮቹን እንደገና እንመልከት። 
+ui-f84ba945eb	Your picture order	የሥዕሎችህ ቅደም ተከተል
+ui-d2a4ac8c2c	Choose a picture	ሥዕል ምረጥ
+ui-668a1d2c74	Choose the next picture	ቀጣዩን ሥዕል ምረጥ
+ui-e07f42c535	Check picture order	የሥዕሎቹን ቅደም ተከተል አረጋግጥ
+ui-868b9b6204	Undo last picture	የመጨረሻውን ሥዕል መልስ
+ui-b6fffc5ab7	Start again	እንደገና ጀምር
+ui-4af38d7fab	Your pictures tell the story in order! 	ሥዕሎችህ ታሪኩን በቅደም ተከተል ይናገራሉ! 
+ui-ec6cacced3	Try another order. 	ሌላ ቅደም ተከተል ሞክር። 
+ui-879f0da8a3	Decrease {0}	{0} ቀንስ
+ui-ddee25bd30	Increase {0}	{0} ጨምር
+ui-55663de177	Tap to count	ለመቁጠር ነካ አድርግ
+ui-7d40d583e4	Count again	እንደገና ቁጠር
+ui-1c6c8712dd	Check the shaded amount	የተቀባውን መጠን አረጋግጥ
+ui-6a7fac73c2	You matched the amount! 	መጠኑን አስተካክለሃል! 
+ui-a13fd25c7a	Try shading a different number of parts. 	የተለየ ቁጥር ያላቸውን ክፍሎች ቀብተህ ሞክር። 
+ui-4a20ce29fe	Check unit price	የአንዱን ዋጋ አረጋግጥ
+ui-8a065872e4	That is the price for one! 	የአንዱ ዋጋ ይሄ ነው! 
+ui-3348b655f2	Divide the total by the number of notebooks. 	ጠቅላላውን በደብተሮቹ ብዛት አካፍል። 
+ui-1adeb67afb	Choose a process to explore its meaning.	ትርጉሙን ለማወቅ አንድ ሂደት ምረጥ።
+ui-707b05b2fc	Tens	አሥሮች
+ui-da4d52c554	Ones	አንዶች
+ui-ae9629f4eb	Groups	ቡድኖች
+ui-cf5224c61f	Objects per group	በአንድ ቡድን ያሉ ዕቃዎች
+ui-171a0606f7	Group	ቡድን
+ui-3b8974bb36	The lesson in Amharic	ትምህርቱ በአማርኛ
+ui-6d31a531cc	Heritage language lesson. Not part of Ohio’s school standards.	የቅርስ ቋንቋ ትምህርት። የኦሃዮ የትምህርት ቤት መለኪያዎች አካል አይደለም።
+ui-824c7f01d0	Thank you. Saving progress and linking devices are turned on.	እናመሰግናለን። እድገትን ማስቀመጥና መሣሪያዎችን ማገናኘት ተከፍተዋል።
+ui-0bc06c4b72	{0}’s information was deleted. Student number {1} is retired and will never be reused.	የ{0} መረጃ ተሰርዟል። የተማሪ ቁጥር {1} ተዘግቷል፤ ዳግመኛም ጥቅም ላይ አይውልም።
+ui-3bdf8cb28b	Your account and all of your children’s information were deleted.	መለያዎና የልጆችዎ መረጃ በሙሉ ተሰርዘዋል።
+ui-d55c0bcf3b	We updated our Privacy Notice	የግላዊነት ማስታወቂያችንን አዘምነናል
+ui-c772c44785	Version 3 explains what we do now. Please read it and agree to keep saving your children’s progress.	ስሪት 3 አሁን የምናደርገውን ያብራራል። የልጆችዎን እድገት ማስቀመጥ ለመቀጠል እባክዎ አንብበው ይስማሙ።
+ui-b2420898f0	Progress from lessons and quizzes is saved to your account when you sign in on a device or link one.	በአንድ መሣሪያ ላይ ሲገቡ ወይም መሣሪያ ሲያገናኙ የትምህርቶችና የፈተናዎች እድገት በመለያዎ ላይ ይቀመጣል።
+ui-4b4b46e86b	It lists every service that stores or carries your information.	መረጃዎን የሚያስቀምጡ ወይም የሚያስተላልፉ አገልግሎቶችን ሁሉ ይዘረዝራል።
+ui-e8165b26d2	You can delete a child’s information, or your whole account, yourself on this page.	የልጅን መረጃ ወይም መለያዎን በሙሉ በዚህ ገጽ ላይ ራስዎ መሰረዝ ይችላሉ።
+ui-59a2bde479	It says how long we keep each kind of information.	እያንዳንዱን ዓይነት መረጃ ለምን ያህል ጊዜ እንደምናቆይ ይናገራል።
+ui-016427a1b8	Until you agree, nothing new is saved to your account. Your children can still use every lesson.	እስኪስማሙ ድረስ በመለያዎ ላይ አዲስ ነገር አይቀመጥም። ልጆችዎ ግን ሁሉንም ትምህርቶች መጠቀም ይችላሉ።
+ui-3bb4fe7bf0	Read the Privacy Notice	የግላዊነት ማስታወቂያውን ያንብቡ
+ui-d65388ef6e	I agree to version 3	በስሪት 3 እስማማለሁ
+ui-f90c1895ca	Delete this child’s information	የዚህን ልጅ መረጃ ሰርዝ
+ui-cffce2f46b	This permanently deletes the name, nickname, grade, age, saved progress, quizzes and linked devices. The student number is retired. This cannot be undone.	ይህ ስሙን፣ ቅጽል ስሙን፣ ክፍሉን፣ ዕድሜውን፣ የተቀመጠውን እድገት፣ ፈተናዎችንና የተገናኙ መሣሪያዎችን እስከመጨረሻው ይሰርዛል። የተማሪ ቁጥሩ ይዘጋል። ይህ ሊቀለበስ አይችልም።
+ui-c88b6fab25	Type {0} to confirm	ለማረጋገጥ {0} ብለው ይጻፉ
+ui-e63b5153bd	Delete permanently	እስከመጨረሻው ሰርዝ
+ui-2ae3a01904	Delete my account	መለያዬን ሰርዝ
+ui-618d2390fa	This permanently deletes your parent account and all of your children’s information, progress and linked devices. Student numbers are retired. This cannot be undone.	ይህ የወላጅ መለያዎንና የልጆችዎን መረጃ፣ እድገትና የተገናኙ መሣሪያዎች በሙሉ እስከመጨረሻው ይሰርዛል። የተማሪ ቁጥሮቹ ይዘጋሉ። ይህ ሊቀለበስ አይችልም።
+ui-04859fe1e4	Type your email address to confirm	ለማረጋገጥ የኢሜይል አድራሻዎን ይጻፉ
+ui-9254b25351	Delete my account permanently	መለያዬን እስከመጨረሻው ሰርዝ
+goal-8752f13b34	Count objects one at a time up to five.	ዕቃዎችን አንድ በአንድ እስከ አምስት ቁጠር።

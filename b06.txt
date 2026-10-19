@@ -1,0 +1,50 @@
+expl-8752f13b34	Touch each object once as you count. The last number tells how many objects there are. More means a bigger group; fewer means a smaller group.	ስትቆጥር እያንዳንዱን ዕቃ አንድ ጊዜ ብቻ ንካ። የመጨረሻው ቁጥር ስንት ዕቃዎች እንዳሉ ይነግረናል። «ብዙ» ማለት ትልቅ ቡድን፣ «ጥቂት» ማለት ደግሞ ትንሽ ቡድን ማለት ነው።
+goal-81be2c59d8	Combine two groups to make ten.	አሥር ለመሥራት ሁለት ቡድኖችን አጣምር።
+expl-81be2c59d8	Adding puts groups together. Ten can be split into two smaller groups in many ways. Use fingers or drawings to see the parts.	መደመር ቡድኖችን አንድ ላይ ያደርጋል። አሥር በብዙ መንገዶች ወደ ሁለት ትናንሽ ቡድኖች ሊከፈል ይችላል። ክፍሎቹን ለማየት ጣቶችህን ወይም ሥዕሎችን ተጠቀም።
+goal-e5101a94f2	Read two-digit numbers as tens and ones.	ባለ ሁለት አኃዝ ቁጥሮችን በአሥሮችና በአንዶች አንብብ።
+expl-e5101a94f2	A group of ten ones is one ten. In 24, the 2 means two tens and the 4 means four ones.	አሥር አንዶች አንድ ላይ አንድ አሥር ይሆናሉ። በ24 ውስጥ 2 ሁለት አሥሮችን፣ 4 ደግሞ አራት አንዶችን ያሳያል።
+goal-f329a2325f	Add two-digit numbers when ones make a new ten.	አንዶቹ አዲስ አሥር ሲሠሩ ባለ ሁለት አኃዝ ቁጥሮችን ደምር።
+expl-f329a2325f	Add the ones first. If there are ten or more ones, exchange ten ones for one ten. Then add all the tens.	መጀመሪያ አንዶቹን ደምር። አሥር ወይም ከዚያ በላይ አንዶች ካሉ አሥር አንዶችን በአንድ አሥር ለውጥ። ከዚያም ሁሉንም አሥሮች ደምር።
+goal-9be266668e	Represent multiplication as equal groups.	ማባዛትን በእኩል ቡድኖች አሳይ።
+expl-9be266668e	Multiplication counts equal groups efficiently. In 4 × 3, we can think of four groups with three in each group.	ማባዛት እኩል ቡድኖችን በፍጥነት ይቆጥራል። 4 × 3 ማለት እያንዳንዳቸው ሦስት የያዙ አራት ቡድኖች ብለን ልናስበው እንችላለን።
+goal-736f6583fa	Find fractions that name the same amount.	ተመሳሳይ መጠንን የሚያሳዩ ክፍልፋዮችን ፈልግ።
+expl-736f6583fa	A fraction describes equal parts of a whole. Multiply the numerator and denominator by the same positive whole number to make an equivalent fraction.	ክፍልፋይ የአንድን ሙሉ እኩል ክፍሎች ይገልጻል። ተመጣጣኝ ክፍልፋይ ለመሥራት ላዕሉንና ታህቱን በአንድ ዓይነት አዎንታዊ ሙሉ ቁጥር አባዛ።
+goal-70c5c4d8e8	Use a common denominator to add fractions.	ክፍልፋዮችን ለመደመር የጋራ ታህት ተጠቀም።
+expl-70c5c4d8e8	Before adding fractions with different denominators, rename them with the same denominator. Then add the numerators and keep that denominator.	የተለያዩ ታህቶች ያሏቸውን ክፍልፋዮች ከመደመርህ በፊት በአንድ ዓይነት ታህት እንደገና ሰይማቸው። ከዚያም ላዕሎቹን ደምር፤ ታህቱን ግን እንዳለ ተው።
+goal-e42bb81d78	Describe a ratio and calculate a rate per one.	ምጣኔን ግለጽ፤ የአንዱን መጠን አስላ።
+expl-e42bb81d78	A ratio compares two quantities. A unit rate tells how much for one unit. Keep the order and units clear.	ምጣኔ ሁለት መጠኖችን ያወዳድራል። የአንድ መለኪያ ምጣኔ ለአንድ መለኪያ ምን ያህል እንደሆነ ይነግራል። ቅደም ተከተሉንና መለኪያዎቹን ግልጽ አድርግ።
+goal-7fdcd89bbb	Hear words that end with the same sound.	በተመሳሳይ ድምፅ የሚጨርሱ ቃላትን አዳምጥ።
+expl-7fdcd89bbb	Rhyming words share an ending sound. Listen first; you do not need to read the words yet. Ask a grown-up to read the choices aloud.	ቤት የሚመቱ ቃላት በተመሳሳይ ድምፅ ይጨርሳሉ። መጀመሪያ አዳምጥ፤ ቃላቱን ገና ማንበብ አያስፈልግህም። አዋቂ ሰው ምርጫዎቹን ጮክ ብሎ እንዲያነብልህ ጠይቅ።
+goal-42231f1590	Blend individual sounds into a word.	የተለያዩ ድምፆችን አጣምረህ ቃል ሥራ።
+expl-42231f1590	Letters can represent sounds. Say each sound slowly, then slide the sounds together. Start with simple consonant-vowel-consonant words.	ፊደላት ድምፆችን ሊወክሉ ይችላሉ። እያንዳንዱን ድምፅ ቀስ ብለህ ተናገር፤ ከዚያም ድምፆቹን አንድ ላይ አንሸራተህ አጣምር። እንደ cat ባሉ ቀላል ባለ ሦስት ድምፅ የእንግሊዝኛ ቃላት ጀምር።
+goal-74d3bfb0d9	Find details stated in a short story.	በአጭር ታሪክ ውስጥ የተገለጹ ዝርዝሮችን ፈልግ።
+expl-74d3bfb0d9	Read the story, then look back for the answer. A detail is a specific piece of information.	ታሪኩን አንብብ፤ ከዚያም መልሱን ለማግኘት ወደ ኋላ ተመልከት። ዝርዝር ማለት አንድ የተወሰነ መረጃ ነው።
+goal-41bdd9257b	Retell events in their order.	ክስተቶችን በቅደም ተከተላቸው እንደገና ተናገር።
+expl-41bdd9257b	First, next, and finally help us describe a sequence. Find what happened before and after each event.	«መጀመሪያ»፣ «ቀጥሎ» እና «በመጨረሻ» የሚሉት ቃላት ቅደም ተከተልን ለመግለጽ ይረዱናል። ከእያንዳንዱ ክስተት በፊትና በኋላ ምን እንደሆነ ፈልግ።
+goal-a2b20c7c0f	Combine story clues with what you know.	የታሪኩን ፍንጮች ከምታውቀው ጋር አጣምር።
+expl-a2b20c7c0f	An inference is a reasonable conclusion using clues. It is not a random guess. Explain the clue that supports your idea.	ግምታዊ ድምዳሜ ፍንጮችን ተጠቅሞ የሚደረስበት ምክንያታዊ መደምደሚያ ነው። በዘፈቀደ የሚደረግ ግምት አይደለም። ሐሳብህን የሚደግፈውን ፍንጭ አስረዳ።
+goal-29292594ee	Identify the central point and supporting details.	ዋናውን ሐሳብና ደጋፊ ዝርዝሮችን ለይ።
+expl-29292594ee	The main idea tells what a passage is mostly about. Supporting details explain or show that idea.	ዋናው ሐሳብ ምንባቡ በአብዛኛው ስለ ምን እንደሆነ ይነግራል። ደጋፊ ዝርዝሮች ያንን ሐሳብ ያብራራሉ ወይም ያሳያሉ።
+goal-9501bdd0cb	Use reasons and evidence for a claim.	ለአንድ አቋም ምክንያቶችንና ማስረጃዎችን ተጠቀም።
+expl-9501bdd0cb	An opinion is a viewpoint. A strong argument states a claim, gives relevant reasons, and uses evidence. Evidence can be a specific example or fact.	አስተያየት አመለካከት ነው። ጠንካራ ክርክር አቋምን ይገልጻል፣ አግባብ ያላቸውን ምክንያቶች ይሰጣል፣ ማስረጃንም ይጠቀማል። ማስረጃ የተወሰነ ምሳሌ ወይም እውነታ ሊሆን ይችላል።
+goal-c15ece1a7e	Ask who created a source and what supports its claims.	አንድን ምንጭ ማን እንደፈጠረውና አባባሎቹን ምን እንደሚደግፍ ጠይቅ።
+expl-c15ece1a7e	Check the author or organization, purpose, date, evidence, and whether other reliable sources agree. A polished page or popular post is not proof.	ደራሲውን ወይም ድርጅቱን፣ ዓላማውን፣ ቀኑን፣ ማስረጃውንና ሌሎች ታማኝ ምንጮች ይስማሙ እንደሆነ አረጋግጥ። ያማረ ገጽ ወይም ተወዳጅ ልጥፍ ማስረጃ አይደለም።
+goal-a60abbd1f8	Describe objects by looking, listening, and touching safely.	ዕቃዎችን በማየት፣ በማዳመጥና በጥንቃቄ በመንካት ግለጽ።
+expl-a60abbd1f8	We can observe with our senses. A grown-up should choose safe objects. Never taste unknown things or touch something hot, sharp, or unsafe.	በስሜት ሕዋሶቻችን መመልከት እንችላለን። ደኅንነታቸው የተጠበቀ ዕቃዎችን አዋቂ ሰው ይምረጥ። የማታውቀውን ነገር በፍጹም አትቅመስ፤ ትኩስ፣ ስለታም ወይም አደገኛ ነገር አትንካ።
+goal-76f480f32d	Identify basic needs of most plants.	የአብዛኞቹ እፅዋት መሠረታዊ ፍላጎቶችን ለይ።
+expl-76f480f32d	Most plants need light, water, air, and space to grow. Soil can provide support and nutrients. Different plants need different amounts of water and light.	አብዛኞቹ እፅዋት ለማደግ ብርሃን፣ ውሃ፣ አየርና ቦታ ያስፈልጋቸዋል። አፈር ድጋፍና ንጥረ ምግብ ሊሰጥ ይችላል። የተለያዩ እፅዋት የተለያየ መጠን ያለው ውሃና ብርሃን ያስፈልጋቸዋል።
+goal-efcc45ac95	Compare a solid with a liquid.	ጠጣርን ከፈሳሽ ጋር አወዳድር።
+expl-efcc45ac95	A solid usually keeps its shape. A liquid flows and takes the shape of its container. Both take up space.	ጠጣር ብዙውን ጊዜ ቅርጹን ይጠብቃል። ፈሳሽ ይፈሳል፤ የዕቃውንም ቅርጽ ይይዛል። ሁለቱም ቦታ ይይዛሉ።
+goal-107699b2a6	Connect rows and columns to equal groups.	ረድፎችንና ዓምዶችን ከእኩል ቡድኖች ጋር አገናኝ።
+expl-107699b2a6	An array arranges objects in equal rows and columns. Count the rows and the number in each row. Multiply to find the total. Turning the array changes its orientation, but not the number of objects.	ድርድር ዕቃዎችን በእኩል ረድፎችና ዓምዶች ያስቀምጣል። ረድፎቹንና በእያንዳንዱ ረድፍ ያሉትን ቁጠር። ድምሩን ለማግኘት አባዛ። ድርድሩን ማዞር አቀማመጡን ይቀይራል እንጂ የዕቃዎቹን ብዛት አይቀይርም።
+goal-8647c6881d	Use multiplication to check equal sharing.	እኩል ማካፈልን ለማረጋገጥ ማባዛትን ተጠቀም።
+expl-8647c6881d	Division can answer how many are in each equal group. If 12 counters are shared among 3 groups, each group gets 4. Check by multiplying the number of groups by the number in each group.	ማካፈል በእያንዳንዱ እኩል ቡድን ውስጥ ስንት እንዳለ ይመልሳል። 12 ቆጣሪዎች ለ3 ቡድኖች ሲካፈሉ እያንዳንዱ ቡድን 4 ያገኛል። የቡድኖቹን ብዛት በእያንዳንዱ ቡድን ባለው ቁጥር በማባዛት አረጋግጥ።
+goal-3bf97123b5	Measure a rectangle by counting equal square units.	እኩል የካሬ መለኪያዎችን በመቁጠር አራት ማዕዘንን ለካ።
+expl-3bf97123b5	Area measures the space inside a flat shape. Cover it with equal squares without gaps or overlaps. For a rectangle with whole-number side lengths, multiply its length by its width. Count square units, not just the border.	ስፋት በጠፍጣፋ ቅርጽ ውስጥ ያለውን ቦታ ይለካል። ክፍተት ወይም መደራረብ ሳይኖር በእኩል ካሬዎች ሸፍነው። ሙሉ ቁጥር ጎኖች ያሉትን አራት ማዕዘን ርዝመቱን በወርዱ አባዛ። ጠርዙን ብቻ ሳይሆን የካሬ መለኪያዎቹን ቁጠር።
+goal-629b1d4114	Retell important events in the order they happened.	አስፈላጊ ክስተቶችን በተፈጸሙበት ቅደም ተከተል እንደገና ተናገር።
+expl-629b1d4114	A sequence is the order of events. Words such as first, next, and finally help, but you can also use clues about what must happen before something else. A retelling keeps the important events in order.	ቅደም ተከተል የክስተቶች ተራ ነው። እንደ first፣ next እና finally ያሉ ቃላት ይረዳሉ፤ ነገር ግን ከሌላ ነገር በፊት መሆን ያለበትን የሚያሳዩ ፍንጮችንም መጠቀም ትችላለህ። እንደገና መናገር አስፈላጊ ክስተቶችን በቅደም ተከተል ይይዛል።
+goal-2f7f839454	Identify an event and what happened because of it.	አንድን ክስተትና በእሱ ምክንያት የተፈጸመውን ለይ።
+expl-2f7f839454	A cause explains why something happens. An effect is what happens as a result. Look for connections supported by the text. Two events happening near each other do not always mean one caused the other.	ምክንያት አንድ ነገር ለምን እንደሚሆን ያስረዳል። ውጤት በዚህ ምክንያት የሚሆነው ነገር ነው። ጽሑፉ የሚደግፋቸውን ግንኙነቶች ፈልግ። ሁለት ክስተቶች ተቀራርበው መፈጸማቸው ሁልጊዜ አንዱ ሌላውን አመጣ ማለት አይደለም።
+goal-09936d77fd	Explain an answer with evidence from a passage.	መልስን ከምንባብ በተገኘ ማስረጃ አስረዳ።
+expl-09936d77fd	A strong reading answer includes your idea and a detail that supports it. Look back at the passage. You can explain the evidence in your own words. Do not add details that the author did not give.	ጠንካራ የንባብ መልስ ሐሳብህንና የሚደግፈውን ዝርዝር ይይዛል። ምንባቡን ደግመህ ተመልከት። ማስረጃውን በራስህ ቃላት ማስረዳት ትችላለህ። ደራሲው ያልሰጣቸውን ዝርዝሮች አትጨምር።
+goal-67964dd8a9	Group safe objects by color, shape, or size.	ደኅንነታቸው የተጠበቀ ዕቃዎችን በቀለም፣ በቅርጽ ወይም በመጠን ቡድን አድርግ።
