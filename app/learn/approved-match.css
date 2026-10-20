@@ -92,3 +92,13 @@
 .continue-art .audited-diagram,.continue-art svg[data-lesson-art]{max-height:none;width:100%;height:auto}
 .approved-match .continue-art{mask-image:none}
 .continue-art .audited-diagram>rect{fill:transparent}
+/* A quiet illustrated frame for the owner's approved Welcome composition. */
+.approved-match.home-mode{position:relative;isolation:isolate;overflow-x:clip;background-image:radial-gradient(ellipse 180px 230px at 0 25%,#f0e7f680,transparent 100%),radial-gradient(ellipse 190px 260px at 100% 67%,#fff0c780,transparent 100%)}
+.approved-match.home-mode main,.approved-match.home-mode .learn-header,.approved-match.home-mode .learn-footer{max-width:1520px}
+.approved-match.home-mode main{position:static}
+.welcome-edges{position:absolute;inset:116px 0 75px;z-index:-1;pointer-events:none;user-select:none;overflow:hidden}
+.welcome-edge{position:absolute;top:0;height:100%;width:clamp(26px,calc((100vw - 1520px)/2 - 28px),145px);opacity:.72}
+.welcome-edge-left{left:5px}.welcome-edge-right{right:5px}
+@media(min-width:1600px){.welcome-edge-left{left:24px}.welcome-edge-right{right:24px}}
+@media(max-width:900px){.welcome-edges{display:none}.approved-match.home-mode{background-image:none}}
+@media print{.welcome-edges{display:none}}

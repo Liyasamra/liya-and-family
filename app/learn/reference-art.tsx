@@ -9,5 +9,5 @@ const regions = {
 } as const;
 export default function ReferenceArt({name,className='',label}:{name:keyof typeof regions;className?:string;label?:string}){
  const [x,y,w,h]=regions[name];
- return <svg className={`reference-art ${className}`} viewBox={`${x} ${y} ${w} ${h}`} role={label?'img':undefined} aria-label={label} aria-hidden={label?undefined:true} preserveAspectRatio="xMidYMid meet"><image href="approved-design-art.webp" width="1536" height="1024"/></svg>;
+ return <svg className={`reference-art ${className}`} viewBox={`${x} ${y} ${w} ${h}`} role={label?'img':undefined} aria-label={label} aria-hidden={label?undefined:true} preserveAspectRatio="xMidYMid meet"><svg x={x} y={y} width={w} height={h} viewBox={`${x} ${y} ${w} ${h}`} overflow="hidden"><image href="approved-design-art.webp" width="1536" height="1024"/></svg></svg>;
 }
