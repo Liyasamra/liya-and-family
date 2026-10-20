@@ -1,0 +1,2 @@
+import diagrams from '@/lib/audited-diagrams.json';
+export default function AuditedDiagram({id,className=''}:{id:string;className?:string}){const d=(diagrams as Record<string,{label:string;body:string}>)[id];if(!d)return null;return <svg className={`audited-diagram ${className}`} data-lesson-art={id} viewBox="0 0 260 124" role="img" aria-label={d.label}><rect x="0" y="0" width="260" height="124" rx="16" fill="#fff8eb"/><g dangerouslySetInnerHTML={{__html:d.body}}/></svg>;}

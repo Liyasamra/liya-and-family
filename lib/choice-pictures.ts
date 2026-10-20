@@ -92,3 +92,27 @@ const grade12Pictures: Record<string, ChoicePictures> = {
  "2-social-2": { 8: { prompt: "water" } },
 };
 for (const [id, m] of Object.entries(grade12Pictures)) choicePictures[id] = { ...(choicePictures[id] || {}), ...m };
+
+// Literal replacements from the image audit. Questions, option order and scoring are unchanged.
+const accuratePictures:Record<string,ChoicePictures>={
+ 'pre-reading-4':{3:{choices:['cat','fix:truck','moon']}},
+ 'pre-writing':{4:{choices:['spoon','fix:crayon','shoe']}},
+ 'pre-writing-4':{1:{choices:['fix:ball-to-cloud','fix:puppy-plays-ball','fix:puppy-moon-flight']},3:{choices:['fix:seed-in-soil','fix:pick-flower','fix:smell-flower']},7:{choices:['fix:rainbow-after-rain','fix:clouds-before-rain','fix:drying-puddles']}},
+ 'k-reading':{1:{choices:['sun','fix:sat','sip']}},
+ '1-reading':{1:{choices:['fix:park','store','school']}},
+ '1-science':{0:{choices:['fix:wooden-block','water','fix:orange-juice']},3:{choices:['spoon','fix:milk','rock']},6:{prompt:'fix:ice'},8:{choices:['rain','fix:orange-juice','fix:wooden-spoon']}},
+ '1-science-sun':{0:{choices:['sun','moon','fix:table-lamp']},9:{choices:['sun','fix:framed-mirror','moon']}},
+ '1-science-motion':{2:{choices:['fix:straight-ball-path','fix:circular-ball-path','fix:back-forth-ball-path']},3:{choices:['fix:circular-rabbit-path','fix:zigzag-rabbit-path','fix:straight-rabbit-path']},5:{choices:['pull','push','fix:spin']},6:{choices:['eye','fix:kick','sound']}},
+ '2-science-air':{3:{choices:['tree','fix:ground','fix:cloud']}},
+ '1-writing':{3:{choices:['fix:singing-child','dots:blue','fix:teacher']},8:{choices:['apple','jump','fix:mother']},9:{choices:['fix:reading-child','run','book']}},
+ '1-writing-2':{0:{choices:['fix:swim','goldfish','dots:blue']}},
+ 'pre-social':{4:{choices:['car','fix:family-meal','ball']}},
+ 'pre-social-4':{0:{choices:['fix:firefighter','fix:baker','fix:pilot']},1:{choices:['fix:dentist','fix:mail-carrier','fix:farmer']},2:{choices:['fix:bus-driver','fix:painter','fix:doctor']},3:{choices:['fix:teacher','fix:chef','fix:firefighter']},4:{choices:['fix:doctor','fix:bus-driver','fix:librarian']},5:{choices:['fix:mail-carrier','fix:pilot','fix:farmer']}},
+ 'k-social':{1:{choices:['fix:shouting-child','fix:standing-on-chair','fix:raised-hand-child']},7:{choices:['dog','sand','fix:wash-hands']}},
+ 'k-social-2':{8:{choices:['fix:covered-wagon','fix:car-and-bus','fix:steamship']}},
+ 'k-social-3':{2:{choices:['fix:road','mountain','water']},8:{choices:['sand','fix:falling-snow','water']}},
+ 'k-social-4':{0:{choices:['toys','water','fix:balloon']},6:{choices:['toys','lunch','fix:movie-ticket']},9:{choices:['fix:toys-and-candy','fix:food-and-water','fix:stickers-and-games']}},
+ '1-social-3':{1:{choices:['shoes','apple','fix:mechanic']}},
+ '2-math-3':{1:{prompt:'fix:nickel'},3:{prompt:'fix:dime'},4:{prompt:'fix:quarter'}},
+};
+for(const [id,questions] of Object.entries(accuratePictures))for(const [q,pictures] of Object.entries(questions))choicePictures[id][Number(q)]={...choicePictures[id][Number(q)],...pictures};

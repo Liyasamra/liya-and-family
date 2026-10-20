@@ -1,4 +1,5 @@
 "use client";
+import AuditIcon, {hasAuditIcon} from "./audit-icons";
 // Hand-drawn soft-3D pictures for answer choices. Every picture is an SVG in a 100x100 box.
 // Shading: each colour gets a top-light gradient, a soft white highlight and a gentle drop shadow.
 import { useId, type ReactNode } from "react";
@@ -58,9 +59,9 @@ export const pictures: Record<string, Draw> = {
   red: g => <g><circle cx="50" cy="50" r="30" fill={g("#f0564a")} />{shine(40, 38, 9, 5)}</g>,
   blue: g => <g><circle cx="50" cy="50" r="30" fill={g("#5b8fd6")} />{shine(40, 38, 9, 5)}</g>,
   circle: g => <g><circle cx="50" cy="50" r="32" fill={g("#5fb0e6")} />{shine(40, 36, 10, 6)}</g>,
-  square: g => <g><rect x="20" y="20" width="60" height="60" rx="6" fill={g("#ff8a7a")} />{shine(36, 32, 10, 5)}</g>,
+  square: g => <g><rect x="20" y="20" width="60" height="60" fill={g("#ff8a7a")} />{shine(36, 32, 10, 5)}</g>,
   triangle: g => <g><path d="M50 14L86 80H14z" fill={g("#6dbb6a")} strokeLinejoin="round" stroke={"#6dbb6a"} strokeWidth="6" />{shine(46, 46, 5, 9)}</g>,
-  "square-turned": g => <g><rect x="24" y="24" width="52" height="52" rx="6" fill={g("#ff8a7a")} transform="rotate(45 50 50)" />{shine(44, 36, 8, 4)}</g>,
+  "square-turned": g => <g><rect x="24" y="24" width="52" height="52" fill={g("#ff8a7a")} transform="rotate(45 50 50)" />{shine(44, 36, 8, 4)}</g>,
   clap: g => <g><path d="M46 84q-14-2-18-14L18 40q-2-6 3-8t8 4l6 14L26 22q-2-6 3-8t8 4l9 24" fill={g(SKIN)} /><path d="M54 84q14-2 18-14l10-30q2-6-3-8t-8 4l-6 14L74 22q2-6-3-8t-8 4l-9 24" fill={g(mix(SKIN, [255, 255, 255], 0.12))} /><g stroke="#ffcf3f" strokeWidth="4" strokeLinecap="round"><path d="M50 10v10M36 14l4 8M64 14l-4 8" /></g></g>,
   jump: g => <g>{kidHead(g, 50, 20, 10)}<path d="M50 32v22" stroke={"#6dbb6a"} strokeWidth="13" strokeLinecap="round" /><path d="M46 36l-16-14M54 36l16-14" stroke={SKIN} strokeWidth="6" strokeLinecap="round" /><path d="M46 54l-12 12M54 54l12 12" stroke={"#5b8fd6"} strokeWidth="8" strokeLinecap="round" /><ellipse cx="50" cy="90" rx="20" ry="4" fill="#d9cdea" /><g stroke="#c9b8e8" strokeWidth="3" strokeLinecap="round"><path d="M22 78l-6 4M78 78l6 4" /></g></g>,
   tap: g => <g><rect x="12" y="62" width="76" height="12" rx="6" fill={g("#c9915f")} /><path d="M40 60V30q0-6 6-6t6 6v14q2-6 8-4t6 8v12" fill={g(SKIN)} stroke={SKIN} strokeWidth="2" strokeLinejoin="round" /><path d="M34 60q2-14 18-14h14q4 0 4 6v8z" fill={g(SKIN)} /><g stroke="#ffcf3f" strokeWidth="3.5" strokeLinecap="round"><path d="M30 52l-8-4M28 62h-10M74 50l8-4" /></g></g>,
@@ -87,7 +88,7 @@ export const pictures: Record<string, Draw> = {
   storm: g => <g>{cloudShape(g, "#5f6474", 0, -14)}<path d="M52 52l-12 20h10l-6 18l18-24H52l8-14z" fill={g("#ffcf3f")} /><g stroke="#8fb8ec" strokeWidth="3" strokeLinecap="round"><path d="M26 58l-4 10M78 58l-4 10" /></g></g>,
   window: g => <g><rect x="14" y="14" width="72" height="72" rx="8" fill={g("#f3dcc2")} /><rect x="22" y="22" width="56" height="56" rx="4" fill={g("#a9dcf7")} />{cloudShape(g, "#ffffff", 2, 6, .7)}<path d="M50 22v56M22 50h56" stroke={"#f3dcc2"} strokeWidth="6" /><g fill="#5fb0e6"><path d="M34 60q-3 5 0 7q3-2 0-7zM64 62q-3 5 0 7q3-2 0-7z" /></g></g>,
   push: g => <g>{kidHead(g, 28, 24, 10)}<path d="M30 36q4 14 2 26" stroke={"#ff8a7a"} strokeWidth="13" strokeLinecap="round" fill="none" /><path d="M32 42l22 6" stroke={SKIN} strokeWidth="6" strokeLinecap="round" /><path d="M32 62l-8 24M32 62l10 22" stroke={"#5b8fd6"} strokeWidth="8" strokeLinecap="round" /><g transform="translate(46 32) scale(.52)">{pictures["toy-car"](g, "")}</g><path d="M60 82h22l-6-5M82 82l-6 5" stroke="#7d67b2" strokeWidth="3" fill="none" strokeLinecap="round" /></g>,
-  pull: g => <g>{kidHead(g, 74, 24, 10)}<path d="M72 36q-4 14-2 26" stroke={"#6dbb6a"} strokeWidth="13" strokeLinecap="round" fill="none" /><path d="M68 44L44 58" stroke={SKIN} strokeWidth="5" strokeLinecap="round" /><path d="M70 62l8 24M70 62l-10 22" stroke={"#5b8fd6"} strokeWidth="8" strokeLinecap="round" /><path d="M44 58L30 62" stroke={INK} strokeWidth="2" /><rect x="6" y="56" width="30" height="16" rx="3" fill={g("#f0564a")} /><circle cx="12" cy="76" r="5" fill={INK} /><circle cx="30" cy="76" r="5" fill={INK} /><path d="M40 88h22l-6-5M62 88l-6 5" stroke="#7d67b2" strokeWidth="3" fill="none" strokeLinecap="round" transform="rotate(180 51 88)" /></g>,
+  pull: g => <g>{kidHead(g, 74, 24, 10)}<path d="M72 36q-4 14-2 26" stroke={"#6dbb6a"} strokeWidth="13" strokeLinecap="round" fill="none" /><path d="M68 44L44 58" stroke={SKIN} strokeWidth="5" strokeLinecap="round" /><path d="M70 62l8 24M70 62l-10 22" stroke={"#5b8fd6"} strokeWidth="8" strokeLinecap="round" /><path d="M44 58L30 62" stroke={INK} strokeWidth="2" /><rect x="6" y="56" width="30" height="16" rx="3" fill={g("#f0564a")} /><circle cx="12" cy="76" r="5" fill={INK} /><circle cx="30" cy="76" r="5" fill={INK} /><path d="M40 88h22l-6-5M62 88l-6 5" stroke="#7d67b2" strokeWidth="3" fill="none" strokeLinecap="round" /></g>,
   wagon: g => <g><rect x="16" y="44" width="56" height="24" rx="5" fill={g("#f0564a")} /><circle cx="28" cy="74" r="9" fill={INK} /><circle cx="60" cy="74" r="9" fill={INK} /><path d="M72 50l18-18" stroke={INK} strokeWidth="4" strokeLinecap="round" /></g>,
   paint: g => <g><path d="M50 14q36 0 38 30q1 16-14 14q-10-1-8 10q2 14-16 16q-36 2-38-34q0-36 38-36z" fill={g("#f6e3b4")} />{[[30, 34, "#f0564a"], [48, 26, "#ffcf3f"], [66, 32, "#6dbb6a"], [28, 56, "#5b8fd6"]].map(([x, y, c]) => <circle key={String(c)} cx={x} cy={y} r="8" fill={g(String(c))} />)}<circle cx="56" cy="62" r="6" fill="#fff8ef" /></g>,
   boy: g => <g>{kidHead(g, 50, 22, 13)}<path d="M50 38v26" stroke={"#5fb0e6"} strokeWidth="22" strokeLinecap="round" /><path d="M40 44l-12 14M60 44l12 14" stroke={SKIN} strokeWidth="6" strokeLinecap="round" /><path d="M44 66v22M56 66v22" stroke={"#3d4a6b"} strokeWidth="8" strokeLinecap="round" /></g>,
@@ -147,12 +148,13 @@ function Dots({ list, g }: { list: string[]; g: Paint }) {
   return <g>{list.map((c, i) => <g key={i}><circle cx={x0 + i * gap} cy="50" r="13" fill={g(COLORS[c] || "#a995d6")} /><ellipse cx={x0 + i * gap - 3} cy="45" rx="4" ry="2.5" fill="#fff" opacity=".45" /></g>)}</g>;
 }
 
-export function hasPicture(key: string) { return key.startsWith("n:") || key.startsWith("l:") || key.startsWith("dots:") || key in pictures; }
+export function hasPicture(key: string) { return (key.startsWith("fix:")&&hasAuditIcon(key.slice(4))) || key.startsWith("n:") || key.startsWith("l:") || key.startsWith("dots:") || key in pictures; }
 
 export default function Pic({ name, label, className = "choice-pic" }: { name: string; label?: string; className?: string }) {
   const u = useId().replace(/[^a-zA-Z0-9]/g, "");
   const reg = new Map<string, string>();
   const g: Paint = c => { const id = `${u}g${c.slice(1)}`; reg.set(id, c); return `url(#${id})`; };
+  if(name.startsWith("fix:"))return <AuditIcon name={name.slice(4)} label={label} className={className}/>;
   let body: ReactNode = null;
   if (name.startsWith("n:")) body = Counters({ n: Math.max(0, Math.min(10, Number(name.slice(2)) || 0)), g });
   else if (name.startsWith("l:")) body = Letter({ ch: name.slice(2, 3), g });

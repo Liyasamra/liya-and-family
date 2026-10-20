@@ -1,5 +1,7 @@
+import AuditIcon from "./audit-icons";
 import type { Picture } from "@/lib/visual-learning";
 export default function PictureArt({picture,variant=0}:{picture:Picture;variant?:number}){
+ if(["vapor","mountain","plain"].includes(picture))return <AuditIcon name={picture} className="picture-art"/>;
  let drawing;
  const tree=<><path d="M79 103V49" stroke="#845d36" strokeWidth="13"/><circle cx="56" cy="48" r="28" fill="#77a66a"/><circle cx="97" cy="48" r="30" fill="#94b987"/><circle cx="77" cy="28" r="24" fill="#598653"/></>;
  const plant=<><path d="M80 92V35" stroke="#598653" strokeWidth="6"/><path d="M79 65Q32 68 42 38Q72 32 79 65M81 50Q124 52 119 23Q91 20 81 50" fill="#77a66a"/><path d="M46 89h68l-9 25H55z" fill="#b9784a"/></>;
