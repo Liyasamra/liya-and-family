@@ -11,8 +11,8 @@ assert.ok([...d.querySelectorAll('a')].some(a=>a.textContent==='Register your li
 for(let i=0;i<50&&!d.querySelector('.lesson-card');i++)await delay();
 assert.ok(d.querySelectorAll('.lesson-card').length>0,'lessons after Start learning');
 assert.equal(d.querySelector('.welcome-copy'),null);
-assert.ok([...d.querySelectorAll('button')].some(b=>b.textContent.trim()==='⌂Home'));
-[...d.querySelectorAll('button')].find(b=>b.textContent.trim()==='⌂Home').click();await delay();
+assert.ok([...d.querySelectorAll('button')].some(b=>b.getAttribute('aria-label')==='Home'));
+[...d.querySelectorAll('button')].find(b=>b.getAttribute('aria-label')==='Home').click();await delay();
 assert.ok(d.querySelector('.welcome-copy'),'Home returns to opening page');
 [...d.querySelectorAll('.welcome-subject')].find(b=>b.textContent.includes('Science')).click();
 for(let i=0;i<50&&!d.querySelector('.lesson-card');i++)await delay();
