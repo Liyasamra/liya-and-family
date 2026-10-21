@@ -102,3 +102,9 @@
 @media(min-width:1600px){.welcome-edge-left{left:24px}.welcome-edge-right{right:24px}}
 @media(max-width:900px){.welcome-edges{display:none}.approved-match.home-mode{background-image:none}}
 @media print{.welcome-edges{display:none}}
+
+/* Photographic Welcome hero; show the full frame on every screen. */
+.approved-match .welcome-photo{margin:20px 0 20px 18px;min-width:0;align-self:center}
+.approved-match .welcome-photo .welcome-art{display:block;width:100%;height:auto;max-height:none;aspect-ratio:3/2;object-fit:contain;mask-image:none;border-radius:22px}
+.approved-match .welcome-photo figcaption{font-size:11px;line-height:1.5;color:#6b5875;text-align:right;margin-top:5px}
+@media(max-width:620px){.approved-match .welcome-photo{margin:8px 0 14px;width:100%}.approved-match .welcome-photo .welcome-art{position:static;width:100%;height:auto;max-height:none;aspect-ratio:3/2}}

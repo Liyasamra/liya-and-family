@@ -44,3 +44,5 @@ for(const target of ["learning-together.webp","docs/learning-together.webp"])cpS
 
 for(const target of ["approved-design-art.webp","docs/approved-design-art.webp"])cpSync("public/approved-design-art.webp",target);
 for(const target of ["learning-center.html","docs/learning-center.html"])writeFileSync(target,html.replace(/<div id="root">[\s\S]*?<\/div><script>\(function/,'<div id="root"></div><script>(function'));
+
+for(const target of ["welcome-children-photo.webp","docs/welcome-children-photo.webp"])cpSync("public/welcome-children-photo.webp",target);
