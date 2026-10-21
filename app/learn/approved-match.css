@@ -103,8 +103,8 @@
 @media(max-width:900px){.welcome-edges{display:none}.approved-match.home-mode{background-image:none}}
 @media print{.welcome-edges{display:none}}
 
-/* Photographic Welcome hero; show the full frame on every screen. */
-.approved-match .welcome-photo{margin:20px 0 20px 18px;min-width:0;align-self:center}
-.approved-match .welcome-photo .welcome-art{display:block;width:100%;height:auto;max-height:none;aspect-ratio:3/2;object-fit:contain;mask-image:none;border-radius:22px}
-.approved-match .welcome-photo figcaption{font-size:11px;line-height:1.5;color:#6b5875;text-align:right;margin-top:5px}
-@media(max-width:620px){.approved-match .welcome-photo{margin:8px 0 14px;width:100%}.approved-match .welcome-photo .welcome-art{position:static;width:100%;height:auto;max-height:none;aspect-ratio:3/2}}
+/* Feather the photographic scene into the same warm canvas as the Welcome copy. */
+.approved-match .welcome-photo{margin:12px 0 12px 0;min-width:0;align-self:center}
+.approved-match .welcome-photo .welcome-art{display:block;width:100%;height:auto;max-height:none;aspect-ratio:3/2;object-fit:contain;border-radius:0;filter:saturate(.88);mask-image:linear-gradient(to right,transparent,#000 8%,#000 95%,transparent),linear-gradient(to bottom,transparent,#000 4%,#000 87%,transparent);mask-composite:intersect}
+.approved-match .welcome-photo figcaption{font-size:11px;line-height:1.5;color:#6b5875;text-align:right;margin:0 6% 0 0}
+@media(max-width:620px){.approved-match .welcome-photo{margin:4px 0 14px;width:100%}.approved-match .welcome-photo .welcome-art{position:static;width:100%;height:auto;max-height:none;aspect-ratio:3/2;mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent),linear-gradient(to bottom,transparent,#000 3%,#000 90%,transparent)}}
