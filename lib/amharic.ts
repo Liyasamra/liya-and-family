@@ -3,6 +3,8 @@
 // Word choices used everywhere: lesson ትምህርት, level ደረጃ, step እርምጃ, practice ልምምድ, quiz ፈተና, parent ወላጅ,
 // grown-up አዋቂ, device መሣሪያ, account መለያ, sign in መግባት, nickname ቅጽል ስም, student number የተማሪ ቁጥር.
 export const am: Record<string, string> = {
+ "AI-generated image": "በሰው ሰራሽ አስተውሎት የተፈጠረ ምስል",
+ "Three children writing, counting blocks, and exploring a plant. The center girl wears Ethiopian traditional dress.": "ሦስት ልጆች ሲጽፉ፣ ኩቦችን ሲቆጥሩ እና ተክል ሲመረምሩ። መሃል ያለችው ልጅ የኢትዮጵያ ባህላዊ ልብስ ለብሳለች።",
  // Subjects, levels and days (from lesson data)
  "Math": "ሒሳብ", "Reading": "ንባብ", "Writing": "ጽሕፈት", "Science": "ሳይንስ", "Social Studies": "ማኅበራዊ ጥናት", "Amharic": "አማርኛ",
  "Preschool": "ቅድመ መደበኛ", "Kindergarten": "ኬጂ", "Grade 1": "1ኛ ክፍል", "Grade 2": "2ኛ ክፍል", "Grade 3": "3ኛ ክፍል", "Grade 4": "4ኛ ክፍል", "Grade 5": "5ኛ ክፍል", "Grade 6": "6ኛ ክፍል",
