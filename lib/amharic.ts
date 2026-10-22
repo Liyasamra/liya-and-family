@@ -219,7 +219,7 @@ export const am: Record<string, string> = {
  "No devices linked. Link your child’s tablet or computer so lessons save to your account without you signing in there.": "የተገናኘ መሣሪያ የለም። እዚያ መግባት ሳያስፈልግዎ ትምህርቶች በመለያዎ ላይ እንዲቀመጡ የልጅዎን ታብሌት ወይም ኮምፒውተር ያገናኙ።",
  "On your child’s device, open": "በልጅዎ መሣሪያ ላይ", ", tap": "ን ይክፈቱ፣", ", then": "ን ይጫኑ፣ ከዚያም", ", and type:": "ን ተጭነው ይህን ይጻፉ፦",
  "Works once, until": "አንድ ጊዜ ብቻ ይሠራል፣ እስከ፦", "New code": "አዲስ ኮድ", "Practice checks": "የልምምድ ፈተናዎች", "{0} saved · Latest:": "{0} ተቀምጠዋል · የመጨረሻው፦", "on": "፣ ቀን",
- "Sign-out failed. Close this tab to finish signing out.": "መውጣት አልተሳካም። ለመውጣት ይህን ትር ይዝጉ።", "You are signed out.": "ወጥተዋል።", "Free lessons": "ነፃ ትምህርቶች", "Sign out": "ውጣ",
+ "Sign-out failed. Close this tab to finish signing out.": "መውጣት አልተሳካም። ለመውጣት ይህን ትር ይዝጉ።", "You are signed out.": "ወጥተዋል።", "Free lessons": "ነፃ ትምህርቶች", "Sign out": "ውጣ", "Admin": "አስተዳዳሪ",
  "FOR PARENTS AND GUARDIANS": "ለወላጆችና ለአሳዳጊዎች", "{0}’s page": "የ{0} ገጽ", "Welcome back": "እንኳን ደህና መጡ", "Signed in as": "የገቡት በዚህ ኢሜይል ነው፦",
  "Register your child and keep your family’s Ewket Kids details in one place.": "ልጅዎን ያስመዝግቡ፤ የቤተሰብዎን የEwket Kids መረጃ በአንድ ቦታ ያስቀምጡ።", "Sign in to open the student page for": "የዚህን ተማሪ ገጽ ለመክፈት ይግቡ፦",
  "Create a parent account": "የወላጅ መለያ ይፍጠሩ", "Reset your password": "የይለፍ ቃልዎን ይቀይሩ", "Choose a new password": "አዲስ የይለፍ ቃል ይምረጡ", "Sign in": "ግባ",

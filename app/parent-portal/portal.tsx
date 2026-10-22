@@ -10,6 +10,8 @@ import {validSaved,type Learner} from "@/lib/learning-storage";
 import {buildCheckItems,buildSyncItems,summarize,type CheckItem,type SavedRow} from "@/lib/progress-sync";
 import "../learn/learning-fonts.css";
 import "../learn/learning.css";
+// Shows the Admin link only to these parent accounts (SHA-256 of the lowercase email, so the address is not in the public page). The link grants no access: admin.html still needs an administrator account plus its authenticator code.
+const ORGANIZER_LINK_HASHES=["2d37de390cdc3f9ad539f478b9c842a29ad80b3b4d340e7a8cad32cd0f8c0a88"];
 type Student={student_uuid:string;student_id:string;real_name?:string;public_recognition_consent?:boolean;nickname:string;grade:string;age_years:number;age_recorded_at:string};
 function friendlyAuthError(e:unknown){const m=(e instanceof Error?e.message:String(e||"")).toLowerCase();
  if(m.includes("invalid login"))return t("That email and password do not match. Check for typos, or use Forgot password below.");
@@ -28,7 +30,7 @@ export default function ParentPortal(){
  const [registrationState,setRegistrationState]=useState<"loading"|"ready"|"unavailable">("loading");
  const [requestedId,setRequestedId]=useState(""),[recordsLoaded,setRecordsLoaded]=useState(false);
  const client=useRef<SupabaseClient|null>(null),requestId=useRef<string|null>(null);
- const [user,setUser]=useState<User|null>(null),[students,setStudents]=useState<Student[]>([]),[open,setOpen]=useState(false),[busy,setBusy]=useState(false),[message,setMessage]=useState("Connecting to the private registry…"),[mode,setMode]=useState("signin");
+ const [user,setUser]=useState<User|null>(null),[organizerEmail,setOrganizerEmail]=useState(""),[students,setStudents]=useState<Student[]>([]),[open,setOpen]=useState(false),[busy,setBusy]=useState(false),[message,setMessage]=useState("Connecting to the private registry…"),[mode,setMode]=useState("signin");
  const [email,setEmail]=useState(""),[password,setPassword]=useState(""),[name,setName]=useState(""),[nickname,setNickname]=useState(""),[grade,setGrade]=useState(""),[age,setAge]=useState(""),[acknowledged,setAcknowledged]=useState(false),[recognition,setRecognition]=useState(false),[adding,setAdding]=useState(false),[showPw,setShowPw]=useState(false),[authError,setAuthError]=useState("");
  const [devices,setDevices]=useState<Record<string,{id:string;created_at:string;last_used_at:string|null}[]>>({}),[linkCodes,setLinkCodes]=useState<Record<string,{code:string;until:string}>>({}),[progress,setProgress]=useState<Record<string,SavedRow[]>>({}),[checks,setChecks]=useState<Record<string,CheckItem[]>>({}),[progressState,setProgressState]=useState<"idle"|"loading"|"ready"|"unavailable">("idle"),[syncNote,setSyncNote]=useState("");
  // Saves this device's lesson results for linked children, then loads what the account holds from every device.
@@ -76,9 +78,11 @@ export default function ParentPortal(){
  const selected=requestedId?students.find(s=>s.student_id===requestedId):null;
  const visibleStudents=requestedId?(selected?[selected]:[]):students;
  async function signOut(){setBusy(true);const result=await client.current?.auth.signOut();if(result?.error){setMessage(t("Sign-out failed. Close this tab to finish signing out."));}else{setUser(null);setStudents([]);setRecordsLoaded(false);sessionStorage.removeItem("ewket-requested-student");setRequestedId("");sessionStorage.removeItem("ewket-parent-session");setMode("signin");setMessage(t("You are signed out."));}setBusy(false);}
+ const userEmail=user?.email?.trim().toLowerCase()??"",organizer=!!userEmail&&organizerEmail===userEmail;
+ useEffect(()=>{let live=true;if(!userEmail||!globalThis.crypto?.subtle)return;void crypto.subtle.digest("SHA-256",new TextEncoder().encode(userEmail)).then(b=>{const hex=Array.from(new Uint8Array(b),x=>x.toString(16).padStart(2,"0")).join("");if(live&&ORGANIZER_LINK_HASHES.includes(hex))setOrganizerEmail(userEmail);}).catch(()=>{});return()=>{live=false;};},[userEmail]);
  const showForm=open&&(students.length===0?recordsLoaded:adding)&&students.length<4;
  const switchMode=(m:string)=>{setMode(m);setPassword("");setMessage("");setAuthError("");};
- return <div className="learning-site"><header className="learn-header"><div className="brand-row"><a className="learn-brand" href="./index.html">✿ Ewket Kids</a><LangSwitch lang={lang}/></div><nav className="portal-nav"><a href="./index.html">{t("Free lessons")}</a>{user&&mode!=="new-password"&&<button type="button" className="learn-btn outline small" disabled={busy} onClick={()=>void signOut()}>{t("Sign out")}</button>}</nav></header><main className="portal">
+ return <div className="learning-site"><header className="learn-header"><div className="brand-row"><a className="learn-brand" href="./index.html">✿ Ewket Kids</a><LangSwitch lang={lang}/></div><nav className="portal-nav"><a href="./index.html">{t("Free lessons")}</a>{user&&organizer&&mode!=="new-password"&&<a href="./admin.html">{t("Admin")}</a>}{user&&mode!=="new-password"&&<button type="button" className="learn-btn outline small" disabled={busy} onClick={()=>void signOut()}>{t("Sign out")}</button>}</nav></header><main className="portal">
  <p className="learn-eyebrow">{t("FOR PARENTS AND GUARDIANS")}</p><h1>{selected?t("{0}’s page",selected.nickname):user&&mode!=="new-password"?t("Welcome back"):t("Parent portal")}</h1><p className="portal-sub">{user&&mode!=="new-password"?<>{t("Signed in as")}{' '}<strong>{user.email}</strong></>:t("Register your child and keep your family’s Ewket Kids details in one place.")}</p>
  {!user&&requestedId&&<p className="fine-print">{t("Sign in to open the student page for")}{' '}{requestedId}.</p>}
  {syncNote&&user&&<p className="portal-notice saved-note" role="status">{syncNote}</p>}{message&&<p className="portal-notice" role="status" aria-live="polite">{message}</p>}
