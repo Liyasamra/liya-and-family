@@ -1,0 +1,25 @@
+name: Learning quality
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  learning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci --ignore-scripts
+      - run: npm run test:learning
+      - run: npm run build:pages
+      - run: node tests/phase-one.cjs
+      - run: node tests/visual-learning.cjs
+      - run: npm install --no-save --package-lock=false playwright@1.62.1
+      - run: npx playwright install --with-deps chromium --only-shell
+      - run: node tests/immediate-improvements.cjs
+        env:
+          HH_OUTPUT_DIR: test-results

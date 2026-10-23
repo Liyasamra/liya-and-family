@@ -108,3 +108,8 @@
 .approved-match .welcome-photo .welcome-art{display:block;width:100%;height:auto;max-height:none;aspect-ratio:3/2;object-fit:contain;border-radius:0;filter:saturate(.88);mask-image:linear-gradient(to right,transparent,#000 8%,#000 95%,transparent),linear-gradient(to bottom,transparent,#000 4%,#000 87%,transparent);mask-composite:intersect}
 .approved-match .welcome-photo figcaption{font-size:11px;line-height:1.5;color:#6b5875;text-align:right;margin:0 6% 0 0}
 @media(max-width:620px){.approved-match .welcome-photo{margin:4px 0 14px;width:100%}.approved-match .welcome-photo .welcome-art{position:static;width:100%;height:auto;max-height:none;aspect-ratio:3/2;mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent),linear-gradient(to bottom,transparent,#000 3%,#000 90%,transparent)}}
+
+/* Clear account guidance and the sixth subject. */
+.account-help{font-size:.95rem;line-height:1.6;max-width:38rem}.welcome-subject.amharic{background:#eee5f6}.welcome-subject.amharic>.ui-icon{width:64px;height:64px;margin:auto}.sidebar-parent-tools label{display:flex;gap:.5rem;align-items:flex-start}.sidebar-parent-tools p{font-size:.85rem;line-height:1.5}.sidebar-parent-tools input{flex:none;width:18px;height:18px}
+
+.approved-match .sidebar-parent-tools label{display:flex;grid-template-columns:none;align-items:flex-start;width:100%;min-width:0;gap:8px;padding:8px;font-size:14px}.approved-match .sidebar-parent-tools label span{min-width:0;overflow-wrap:anywhere}.approved-match .sidebar-parent-tools input[type=checkbox]{width:18px;min-width:18px;max-width:18px;height:18px;margin:4px 0;flex:0 0 18px}.approved-match .sidebar-parent-tools p{padding:0 8px;overflow-wrap:anywhere;max-width:100%}

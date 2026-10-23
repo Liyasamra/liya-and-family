@@ -49,7 +49,7 @@ const feedback=()=>lab().querySelector('.visual-feedback')?.textContent||'';
  // Picture exploration is separate from scored practice.
  const stored=JSON.parse(dom.window.localStorage.getItem('liya-family-learning-v2'));
  assert.equal(stored.learners[0].attempts.length,0);assert.equal(Object.keys(stored.learners[0].progress).length,0);
- await open('3-math');click('Listen to the lesson');await delay();assert.equal(spoken.length,1);assert.ok(spoken[0].text.includes('Equal groups and multiplication'));assert.equal(spoken[0].voice.localService,true);assert.equal(spoken[0].rate,.85);click('Stop reading');await delay();assert.equal(doc.querySelector('.read-aloud').textContent.includes('Reading stopped'),true);
+ spoken.length=0;await open('3-math');click('Listen to the lesson');await delay();assert.equal(spoken.length,1);assert.ok(spoken[0].text.includes('Equal groups and multiplication'));assert.equal(spoken[0].voice.localService,true);assert.equal(spoken[0].rate,.85);click('Stop reading');await delay();assert.equal(doc.querySelector('.read-aloud').textContent.includes('Reading stopped'),true);
  click('Listen to the lesson');await delay();const before=cancelled;click('Close lesson');await delay();assert.ok(cancelled>before);assert.equal(spoken[1].onend,null);
  await open('pre-reading');click('Listen to the lesson');await delay();spoken.at(-1).onerror();await delay();assert.match(doc.querySelector('.read-aloud').textContent,/Audio is unavailable/);dom.window.close();
  dom=create(false);doc=dom.window.document;await delay();await open('pre-math');assert.ok(doc.querySelector('.read-aloud button').disabled);assert.match(doc.querySelector('.read-aloud').textContent,/browser speech support/);dom.window.close();
